@@ -1,0 +1,206 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+<sourceFile name="">
+<directive functionLabel="" functionName="fft_core" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="fft_core" label="">
+<pragma name="UNROLL">
+<option name="complete" positionalBoolean="type" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft_core" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="INLINE">
+<option name="off" positionalBoolean="1" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="return"/>
+<option name="core" value="Vivado_FFT"/>
+<option name="metadata" value="&quot;parameterizable&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="INTERFACE">
+<option name="ap_fifo" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="config_ch"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="INTERFACE">
+<option name="ap_fifo" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="status"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="INTERFACE">
+<option name="ap_fifo" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="xn"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="INTERFACE">
+<option name="ap_fifo" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="xk"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="DATA_PACK">
+<option name="variable" positionalBoolean="4" value="xn"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="DATA_PACK">
+<option name="variable" positionalBoolean="4" value="xk"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="INLINE">
+<option name="off" positionalBoolean="1" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="return"/>
+<option name="core" value="Vivado_FFT"/>
+<option name="metadata" value="&quot;parameterizable&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="INTERFACE">
+<option name="ap_fifo" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="config_ch"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="INTERFACE">
+<option name="ap_fifo" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="status"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="INTERFACE">
+<option name="ap_fifo" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="xn"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="INTERFACE">
+<option name="ap_fifo" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="xk"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="DATA_PACK">
+<option name="variable" positionalBoolean="4" value="xn"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="DATA_PACK">
+<option name="variable" positionalBoolean="4" value="xk"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="ARRAY_RESHAPE">
+<option name="variable" positionalBoolean="4" value="xn"/>
+<option name="dim" value="1"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="ARRAY_RESHAPE">
+<option name="variable" positionalBoolean="4" value="xk"/>
+<option name="dim" value="1"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="INLINE">
+<option name="off" positionalBoolean="1" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="return"/>
+<option name="core" value="Vivado_FFT"/>
+<option name="metadata" value="&quot;parameterizable&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="INTERFACE">
+<option name="ap_fifo" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="config_ch"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="INTERFACE">
+<option name="ap_fifo" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="status"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="INTERFACE">
+<option name="ap_fifo" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="xn"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="INTERFACE">
+<option name="ap_fifo" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="xk"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="DATA_PACK">
+<option name="variable" positionalBoolean="4" value="config_ch"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="DATA_PACK">
+<option name="variable" positionalBoolean="4" value="xn"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="fft" label="">
+<pragma name="DATA_PACK">
+<option name="variable" positionalBoolean="4" value="xk"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="mfcc" label="">
+<pragma name="INTERFACE">
+<option name="ap_hs" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="direction"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="mfcc" label="">
+<pragma name="INTERFACE">
+<option name="ap_fifo" positionalBoolean="mode" value=""/>
+<option name="depth" value="1"/>
+<option name="port" positionalBoolean="4" value="ovflo"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="mfcc" label="">
+<pragma name="INTERFACE">
+<option name="ap_fifo" positionalBoolean="mode" value=""/>
+<option name="depth" value="FFT_LENGTH"/>
+<option name="port" positionalBoolean="4" value="xn,xk"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="mfcc" label="">
+<pragma name="INTERFACE">
+<option name="ap_fifo" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="fft_config"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="mfcc" label="">
+<pragma name="DATA_PACK">
+<option name="variable" positionalBoolean="4" value="xn"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="mfcc" label="">
+<pragma name="DATA_PACK">
+<option name="variable" positionalBoolean="4" value="xk"/>
+</pragma>
+</directive>
+</sourceFile>
+</AutoPilot:ProjectResources>

@@ -1,0 +1,247 @@
+
+
+================================================================
+== Vivado HLS Report for 'dut'
+================================================================
+* Date:           Sat Dec 10 16:18:25 2016
+
+* Version:        2016.2 (Build 1577090 on Thu Jun 02 16:59:10 MDT 2016)
+* Project:        mfcc.prj
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      8.75|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +---------+---------+---------+---------+---------+
+    |      Latency      |      Interval     | Pipeline|
+    |   min   |   max   |   min   |   max   |   Type  |
+    +---------+---------+---------+---------+---------+
+    |  3753783|  3832463|  3753784|  3832464|   none  |
+    +---------+---------+---------+---------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+--------+--------+----------+-----------+-----------+-------+----------+
+        |          |     Latency     | Iteration|  Initiation Interval  |  Trip |          |
+        | Loop Name|   min  |   max  |  Latency |  achieved |   target  | Count | Pipelined|
+        +----------+--------+--------+----------+-----------+-----------+-------+----------+
+        |- Loop 1  |  112896|  112896|         9|          -|          -|  12544|    no    |
+        +----------+--------+--------+----------+-----------+-----------+-------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 11
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / (!exitcond)
+	11  / (exitcond)
+3 --> 
+	4  / true
+4 --> 
+	5  / true
+5 --> 
+	6  / true
+6 --> 
+	7  / true
+7 --> 
+	8  / true
+8 --> 
+	9  / true
+9 --> 
+	10  / true
+10 --> 
+	2  / true
+11 --> 
+* FSM state operations: 
+
+ <State 1>: 1.57ns
+ST_1: stg_12 [1/1] 0.00ns
+:0  call void (...)* @_ssdm_op_SpecInterface(i32* %strm_out_V_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: stg_13 [1/1] 0.00ns
+:1  call void (...)* @_ssdm_op_SpecInterface(i32* %strm_in_V_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: stg_14 [1/1] 0.00ns
+:2  call void (...)* @_ssdm_op_SpecBitsMap(i32* %strm_in_V_V), !map !87
+
+ST_1: stg_15 [1/1] 0.00ns
+:3  call void (...)* @_ssdm_op_SpecBitsMap(i32* %strm_out_V_V), !map !93
+
+ST_1: stg_16 [1/1] 0.00ns
+:4  call void (...)* @_ssdm_op_SpecTopModule([4 x i8]* @dut_str) nounwind
+
+ST_1: sound_in [1/1] 0.00ns
+:5  %sound_in = alloca [12544 x float], align 16
+
+ST_1: stg_18 [1/1] 1.57ns
+:6  br label %1
+
+
+ <State 2>: 4.38ns
+ST_2: i [1/1] 0.00ns
+:0  %i = phi i14 [ 0, %0 ], [ %i_8, %2 ]
+
+ST_2: exitcond [1/1] 2.21ns
+:1  %exitcond = icmp eq i14 %i, -3840
+
+ST_2: empty [1/1] 0.00ns
+:2  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 12544, i64 12544, i64 12544)
+
+ST_2: i_8 [1/1] 1.96ns
+:3  %i_8 = add i14 %i, 1
+
+ST_2: stg_23 [1/1] 0.00ns
+:4  br i1 %exitcond, label %3, label %2
+
+ST_2: tmp_V_1 [1/1] 4.38ns
+:0  %tmp_V_1 = call i32 @_ssdm_op_Read.ap_fifo.volatile.i32P(i32* %strm_in_V_V)
+
+ST_2: val_assign [2/2] 0.00ns
+:0  %val_assign = call fastcc i1 @dut_mfcc([12544 x float]* %sound_in)
+
+
+ <State 3>: 4.38ns
+ST_3: tmp_V_2 [1/1] 4.38ns
+:1  %tmp_V_2 = call i32 @_ssdm_op_Read.ap_fifo.volatile.i32P(i32* %strm_in_V_V)
+
+
+ <State 4>: 6.41ns
+ST_4: p_Result_s [1/1] 0.00ns
+:2  %p_Result_s = call i64 @_ssdm_op_BitConcatenate.i64.i32.i32(i32 %tmp_V_2, i32 %tmp_V_1)
+
+ST_4: tmp_s [6/6] 6.41ns
+:3  %tmp_s = uitofp i64 %p_Result_s to float
+
+
+ <State 5>: 6.41ns
+ST_5: tmp_s [5/6] 6.41ns
+:3  %tmp_s = uitofp i64 %p_Result_s to float
+
+
+ <State 6>: 6.41ns
+ST_6: tmp_s [4/6] 6.41ns
+:3  %tmp_s = uitofp i64 %p_Result_s to float
+
+
+ <State 7>: 6.41ns
+ST_7: tmp_s [3/6] 6.41ns
+:3  %tmp_s = uitofp i64 %p_Result_s to float
+
+
+ <State 8>: 6.41ns
+ST_8: tmp_s [2/6] 6.41ns
+:3  %tmp_s = uitofp i64 %p_Result_s to float
+
+
+ <State 9>: 6.41ns
+ST_9: tmp_s [1/6] 6.41ns
+:3  %tmp_s = uitofp i64 %p_Result_s to float
+
+
+ <State 10>: 2.71ns
+ST_10: tmp_63 [1/1] 0.00ns
+:4  %tmp_63 = zext i14 %i to i64
+
+ST_10: sound_in_addr [1/1] 0.00ns
+:5  %sound_in_addr = getelementptr inbounds [12544 x float]* %sound_in, i64 0, i64 %tmp_63
+
+ST_10: stg_36 [1/1] 2.71ns
+:6  store float %tmp_s, float* %sound_in_addr, align 4
+
+ST_10: stg_37 [1/1] 0.00ns
+:7  br label %1
+
+
+ <State 11>: 8.26ns
+ST_11: val_assign [1/2] 3.89ns
+:0  %val_assign = call fastcc i1 @dut_mfcc([12544 x float]* %sound_in)
+
+ST_11: tmp_V [1/1] 0.00ns
+:1  %tmp_V = zext i1 %val_assign to i32
+
+ST_11: stg_40 [1/1] 4.38ns
+:2  call void @_ssdm_op_Write.ap_fifo.volatile.i32P(i32* %strm_out_V_V, i32 %tmp_V)
+
+ST_11: stg_41 [1/1] 0.00ns
+:3  ret void
+
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ No timing violations. 
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A
