@@ -1,14 +1,14 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
--------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
-| Date         : Sat Dec 10 18:09:11 2016
-| Host         : en-ec-ph314-19.ece.cornell.edu running 64-bit Red Hat Enterprise Linux Server release 7.2 (Maipo)
+| Date         : Sun Dec 11 11:33:58 2016
+| Host         : en-ec-ecelinux-02.coecis.cornell.edu running 64-bit Red Hat Enterprise Linux Server release 7.2 (Maipo)
 | Command      : report_io -file xillydemo_io_placed.rpt
 | Design       : xillydemo
 | Device       : xc7z020
 | Speed File   : -1
 | Package      : clg484
--------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
 
 IO Information
 

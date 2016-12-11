@@ -1,6 +1,6 @@
 # This script segment is generated automatically by AutoPilot
 
-set id 38
+set id 39
 set name dut_uitofp_64ns_32_6
 set corename simcore_uitofp
 set op uitofp
@@ -71,7 +71,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 39 \
+    id 40 \
     name strm_in_V_V \
     type fifo \
     dir I \
@@ -86,7 +86,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 40 \
+    id 41 \
     name strm_out_V_V \
     type fifo \
     dir O \

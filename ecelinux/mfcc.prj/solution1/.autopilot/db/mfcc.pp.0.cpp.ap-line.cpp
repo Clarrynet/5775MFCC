@@ -43384,22 +43384,28 @@ void dut(
     in_digit(31, 0) = input_lo;
     in_digit(63, 32) = input_hi;
 #pragma empty_line
-    sound_in[i] = (float)in_digit;
+    sound_in[i] = (((float)in_digit)/100000.0f)-1.0f;
   // ------------------------------------------------------
   // Call mfcc 
   // ------------------------------------------------------
 #pragma empty_line
-  //for (int i = 1; i<12544; i++){
-   // sound_in[i] = input_data[i];
   }
-#pragma empty_line
+  /*
+  printf("%f ", (sound_in[12541]));
+  printf("\n");
+  printf("%f ", (sound_in[12542]));
+  printf("\n");
+  printf("%f ", (sound_in[12543]));
+  printf("\n");
+  */
   classify = mfcc(sound_in);
-#pragma empty_line
+  int classify_to_int = classify;
   // ------------------------------------------------------
   // Output processing
   // ------------------------------------------------------
   // Write out the number
   strm_out.write( classify );
+  strm_out.write( in_digit );
 #pragma empty_line
 }
 #pragma empty_line
@@ -43408,7 +43414,7 @@ using namespace std;
 #pragma empty_line
 #pragma empty_line
 #pragma empty_line
-int mfcc(const float sound_file[32768])
+int mfcc(const float sound_file[12544])
 {
   //THIS IS THE FREQUENCY OF THE INPUT SAMPLE
   //MAY HAVE TO SET THIS
@@ -43435,6 +43441,7 @@ int mfcc(const float sound_file[32768])
     }
     //printf("\n");
   }
+#pragma empty_line
   //Fill each FFT array 
   for (int i = 0; i<n; i++){
     for (int j = 0; j<nbFrame; j++){
@@ -43480,7 +43487,7 @@ int mfcc(const float sound_file[32768])
   //OuterLoop: once per frame
   for (int frame =0; frame<nbFrame; frame++){
     for (int i = 0; i<129; i++){
-       z2[i] = ((xk_output[frame][i].real()*xk_output[frame][i].real()) + (xk_output[frame][i].imag()*xk_output[frame][i].imag()));
+       z2[i] = ((M[i][frame]*M[i][frame]));// + (xk_output[frame][i].imag()*xk_output[frame][i].imag()));    
     }
 #pragma empty_line
     for (int j = 0; j<melfb_h; j++){

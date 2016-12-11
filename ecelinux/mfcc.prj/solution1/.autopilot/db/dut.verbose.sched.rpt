@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'dut'
 ================================================================
-* Date:           Sat Dec 10 16:18:25 2016
+* Date:           Sun Dec 11 11:07:46 2016
 
 * Version:        2016.2 (Build 1577090 on Thu Jun 02 16:59:10 MDT 2016)
 * Project:        mfcc.prj
@@ -29,7 +29,7 @@
     |      Latency      |      Interval     | Pipeline|
     |   min   |   max   |   min   |   max   |   Type  |
     +---------+---------+---------+---------+---------+
-    |  3753783|  3832463|  3753784|  3832464|   none  |
+    |  3979282|  4057962|  3979283|  4057963|   none  |
     +---------+---------+---------+---------+---------+
 
     + Detail: 
@@ -41,7 +41,7 @@
         |          |     Latency     | Iteration|  Initiation Interval  |  Trip |          |
         | Loop Name|   min  |   max  |  Latency |  achieved |   target  | Count | Pipelined|
         +----------+--------+--------+----------+-----------+-----------+-------+----------+
-        |- Loop 1  |  112896|  112896|         9|          -|          -|  12544|    no    |
+        |- Loop 1  |  376320|  376320|        30|          -|          -|  12544|    no    |
         +----------+--------+--------+----------+-----------+-----------+-------+----------+
 
 ============================================================
@@ -70,7 +70,7 @@ IsGatedGlobalClock: 0
 ============================================================
 + Verbose Summary: Schedule
 ============================================================
-* Number of FSM states: 11
+* Number of FSM states: 33
 * Pipeline: 0
 * Dataflow Pipeline: 0
 
@@ -79,7 +79,7 @@ IsGatedGlobalClock: 0
 	2  / true
 2 --> 
 	3  / (!exitcond)
-	11  / (exitcond)
+	32  / (exitcond)
 3 --> 
 	4  / true
 4 --> 
@@ -95,64 +95,111 @@ IsGatedGlobalClock: 0
 9 --> 
 	10  / true
 10 --> 
-	2  / true
+	11  / true
 11 --> 
+	12  / true
+12 --> 
+	13  / true
+13 --> 
+	14  / true
+14 --> 
+	15  / true
+15 --> 
+	16  / true
+16 --> 
+	17  / true
+17 --> 
+	18  / true
+18 --> 
+	19  / true
+19 --> 
+	20  / true
+20 --> 
+	21  / true
+21 --> 
+	22  / true
+22 --> 
+	23  / true
+23 --> 
+	24  / true
+24 --> 
+	25  / true
+25 --> 
+	26  / true
+26 --> 
+	27  / true
+27 --> 
+	28  / true
+28 --> 
+	29  / true
+29 --> 
+	30  / true
+30 --> 
+	31  / true
+31 --> 
+	2  / true
+32 --> 
+	33  / true
+33 --> 
 * FSM state operations: 
 
  <State 1>: 1.57ns
-ST_1: stg_12 [1/1] 0.00ns
+ST_1: stg_34 [1/1] 0.00ns
 :0  call void (...)* @_ssdm_op_SpecInterface(i32* %strm_out_V_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
 
-ST_1: stg_13 [1/1] 0.00ns
+ST_1: stg_35 [1/1] 0.00ns
 :1  call void (...)* @_ssdm_op_SpecInterface(i32* %strm_in_V_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
 
-ST_1: stg_14 [1/1] 0.00ns
-:2  call void (...)* @_ssdm_op_SpecBitsMap(i32* %strm_in_V_V), !map !87
+ST_1: stg_36 [1/1] 0.00ns
+:2  call void (...)* @_ssdm_op_SpecBitsMap(i32* %strm_in_V_V), !map !89
 
-ST_1: stg_15 [1/1] 0.00ns
-:3  call void (...)* @_ssdm_op_SpecBitsMap(i32* %strm_out_V_V), !map !93
+ST_1: stg_37 [1/1] 0.00ns
+:3  call void (...)* @_ssdm_op_SpecBitsMap(i32* %strm_out_V_V), !map !95
 
-ST_1: stg_16 [1/1] 0.00ns
+ST_1: stg_38 [1/1] 0.00ns
 :4  call void (...)* @_ssdm_op_SpecTopModule([4 x i8]* @dut_str) nounwind
 
 ST_1: sound_in [1/1] 0.00ns
 :5  %sound_in = alloca [12544 x float], align 16
 
-ST_1: stg_18 [1/1] 1.57ns
+ST_1: stg_40 [1/1] 1.57ns
 :6  br label %1
 
 
  <State 2>: 4.38ns
+ST_2: tmp_V_1 [1/1] 0.00ns
+:0  %tmp_V_1 = phi i32 [ undef, %0 ], [ %tmp_V_2, %2 ]
+
 ST_2: i [1/1] 0.00ns
-:0  %i = phi i14 [ 0, %0 ], [ %i_8, %2 ]
+:1  %i = phi i14 [ 0, %0 ], [ %i_8, %2 ]
 
 ST_2: exitcond [1/1] 2.21ns
-:1  %exitcond = icmp eq i14 %i, -3840
+:2  %exitcond = icmp eq i14 %i, -3840
 
 ST_2: empty [1/1] 0.00ns
-:2  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 12544, i64 12544, i64 12544)
+:3  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 12544, i64 12544, i64 12544)
 
 ST_2: i_8 [1/1] 1.96ns
-:3  %i_8 = add i14 %i, 1
+:4  %i_8 = add i14 %i, 1
 
-ST_2: stg_23 [1/1] 0.00ns
-:4  br i1 %exitcond, label %3, label %2
+ST_2: stg_46 [1/1] 0.00ns
+:5  br i1 %exitcond, label %3, label %2
 
-ST_2: tmp_V_1 [1/1] 4.38ns
-:0  %tmp_V_1 = call i32 @_ssdm_op_Read.ap_fifo.volatile.i32P(i32* %strm_in_V_V)
+ST_2: tmp_V_2 [1/1] 4.38ns
+:0  %tmp_V_2 = call i32 @_ssdm_op_Read.ap_fifo.volatile.i32P(i32* %strm_in_V_V)
 
 ST_2: val_assign [2/2] 0.00ns
 :0  %val_assign = call fastcc i1 @dut_mfcc([12544 x float]* %sound_in)
 
 
  <State 3>: 4.38ns
-ST_3: tmp_V_2 [1/1] 4.38ns
-:1  %tmp_V_2 = call i32 @_ssdm_op_Read.ap_fifo.volatile.i32P(i32* %strm_in_V_V)
+ST_3: tmp_V_3 [1/1] 4.38ns
+:1  %tmp_V_3 = call i32 @_ssdm_op_Read.ap_fifo.volatile.i32P(i32* %strm_in_V_V)
 
 
  <State 4>: 6.41ns
 ST_4: p_Result_s [1/1] 0.00ns
-:2  %p_Result_s = call i64 @_ssdm_op_BitConcatenate.i64.i32.i32(i32 %tmp_V_2, i32 %tmp_V_1)
+:2  %p_Result_s = call i64 @_ssdm_op_BitConcatenate.i64.i32.i32(i32 %tmp_V_3, i32 %tmp_V_2)
 
 ST_4: tmp_s [6/6] 6.41ns
 :3  %tmp_s = uitofp i64 %p_Result_s to float
@@ -183,32 +230,142 @@ ST_9: tmp_s [1/6] 6.41ns
 :3  %tmp_s = uitofp i64 %p_Result_s to float
 
 
- <State 10>: 2.71ns
-ST_10: tmp_63 [1/1] 0.00ns
-:4  %tmp_63 = zext i14 %i to i64
-
-ST_10: sound_in_addr [1/1] 0.00ns
-:5  %sound_in_addr = getelementptr inbounds [12544 x float]* %sound_in, i64 0, i64 %tmp_63
-
-ST_10: stg_36 [1/1] 2.71ns
-:6  store float %tmp_s, float* %sound_in_addr, align 4
-
-ST_10: stg_37 [1/1] 0.00ns
-:7  br label %1
+ <State 10>: 6.08ns
+ST_10: tmp_61 [16/16] 6.08ns
+:4  %tmp_61 = fdiv float %tmp_s, 1.000000e+05
 
 
- <State 11>: 8.26ns
-ST_11: val_assign [1/2] 3.89ns
+ <State 11>: 6.08ns
+ST_11: tmp_61 [15/16] 6.08ns
+:4  %tmp_61 = fdiv float %tmp_s, 1.000000e+05
+
+
+ <State 12>: 6.08ns
+ST_12: tmp_61 [14/16] 6.08ns
+:4  %tmp_61 = fdiv float %tmp_s, 1.000000e+05
+
+
+ <State 13>: 6.08ns
+ST_13: tmp_61 [13/16] 6.08ns
+:4  %tmp_61 = fdiv float %tmp_s, 1.000000e+05
+
+
+ <State 14>: 6.08ns
+ST_14: tmp_61 [12/16] 6.08ns
+:4  %tmp_61 = fdiv float %tmp_s, 1.000000e+05
+
+
+ <State 15>: 6.08ns
+ST_15: tmp_61 [11/16] 6.08ns
+:4  %tmp_61 = fdiv float %tmp_s, 1.000000e+05
+
+
+ <State 16>: 6.08ns
+ST_16: tmp_61 [10/16] 6.08ns
+:4  %tmp_61 = fdiv float %tmp_s, 1.000000e+05
+
+
+ <State 17>: 6.08ns
+ST_17: tmp_61 [9/16] 6.08ns
+:4  %tmp_61 = fdiv float %tmp_s, 1.000000e+05
+
+
+ <State 18>: 6.08ns
+ST_18: tmp_61 [8/16] 6.08ns
+:4  %tmp_61 = fdiv float %tmp_s, 1.000000e+05
+
+
+ <State 19>: 6.08ns
+ST_19: tmp_61 [7/16] 6.08ns
+:4  %tmp_61 = fdiv float %tmp_s, 1.000000e+05
+
+
+ <State 20>: 6.08ns
+ST_20: tmp_61 [6/16] 6.08ns
+:4  %tmp_61 = fdiv float %tmp_s, 1.000000e+05
+
+
+ <State 21>: 6.08ns
+ST_21: tmp_61 [5/16] 6.08ns
+:4  %tmp_61 = fdiv float %tmp_s, 1.000000e+05
+
+
+ <State 22>: 6.08ns
+ST_22: tmp_61 [4/16] 6.08ns
+:4  %tmp_61 = fdiv float %tmp_s, 1.000000e+05
+
+
+ <State 23>: 6.08ns
+ST_23: tmp_61 [3/16] 6.08ns
+:4  %tmp_61 = fdiv float %tmp_s, 1.000000e+05
+
+
+ <State 24>: 6.08ns
+ST_24: tmp_61 [2/16] 6.08ns
+:4  %tmp_61 = fdiv float %tmp_s, 1.000000e+05
+
+
+ <State 25>: 6.08ns
+ST_25: tmp_61 [1/16] 6.08ns
+:4  %tmp_61 = fdiv float %tmp_s, 1.000000e+05
+
+
+ <State 26>: 7.26ns
+ST_26: tmp_62 [5/5] 7.26ns
+:5  %tmp_62 = fadd float %tmp_61, -1.000000e+00
+
+
+ <State 27>: 7.26ns
+ST_27: tmp_62 [4/5] 7.26ns
+:5  %tmp_62 = fadd float %tmp_61, -1.000000e+00
+
+
+ <State 28>: 7.26ns
+ST_28: tmp_62 [3/5] 7.26ns
+:5  %tmp_62 = fadd float %tmp_61, -1.000000e+00
+
+
+ <State 29>: 7.26ns
+ST_29: tmp_62 [2/5] 7.26ns
+:5  %tmp_62 = fadd float %tmp_61, -1.000000e+00
+
+
+ <State 30>: 7.26ns
+ST_30: tmp_62 [1/5] 7.26ns
+:5  %tmp_62 = fadd float %tmp_61, -1.000000e+00
+
+
+ <State 31>: 2.71ns
+ST_31: tmp_63 [1/1] 0.00ns
+:6  %tmp_63 = zext i14 %i to i64
+
+ST_31: sound_in_addr [1/1] 0.00ns
+:7  %sound_in_addr = getelementptr inbounds [12544 x float]* %sound_in, i64 0, i64 %tmp_63
+
+ST_31: stg_80 [1/1] 2.71ns
+:8  store float %tmp_62, float* %sound_in_addr, align 4
+
+ST_31: stg_81 [1/1] 0.00ns
+:9  br label %1
+
+
+ <State 32>: 8.26ns
+ST_32: val_assign [1/2] 3.89ns
 :0  %val_assign = call fastcc i1 @dut_mfcc([12544 x float]* %sound_in)
 
-ST_11: tmp_V [1/1] 0.00ns
+ST_32: tmp_V [1/1] 0.00ns
 :1  %tmp_V = zext i1 %val_assign to i32
 
-ST_11: stg_40 [1/1] 4.38ns
+ST_32: stg_84 [1/1] 4.38ns
 :2  call void @_ssdm_op_Write.ap_fifo.volatile.i32P(i32* %strm_out_V_V, i32 %tmp_V)
 
-ST_11: stg_41 [1/1] 0.00ns
-:3  ret void
+
+ <State 33>: 4.38ns
+ST_33: stg_85 [1/1] 4.38ns
+:3  call void @_ssdm_op_Write.ap_fifo.volatile.i32P(i32* %strm_out_V_V, i32 %tmp_V_1)
+
+ST_33: stg_86 [1/1] 0.00ns
+:4  ret void
 
 
 
@@ -239,6 +396,28 @@ N/A
 	State 9
 	State 10
 	State 11
+	State 12
+	State 13
+	State 14
+	State 15
+	State 16
+	State 17
+	State 18
+	State 19
+	State 20
+	State 21
+	State 22
+	State 23
+	State 24
+	State 25
+	State 26
+	State 27
+	State 28
+	State 29
+	State 30
+	State 31
+	State 32
+	State 33
 
 
 ============================================================

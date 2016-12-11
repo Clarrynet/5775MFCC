@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'dut_sinf_or_cosf'
 ================================================================
-* Date:           Sat Dec 10 16:18:26 2016
+* Date:           Sun Dec 11 11:07:48 2016
 
 * Version:        2016.2 (Build 1577090 on Thu Jun 02 16:59:10 MDT 2016)
 * Project:        mfcc.prj
@@ -85,8 +85,8 @@
     +------------------------------+---------------------------+-----------+
     |           Instance           |           Module          | Expression|
     +------------------------------+---------------------------+-----------+
-    |dut_mul_mul_17ns_15s_32_1_U7  |dut_mul_mul_17ns_15s_32_1  |  i0 * i1  |
-    |dut_mul_mul_23s_17ns_40_1_U8  |dut_mul_mul_23s_17ns_40_1  |  i0 * i1  |
+    |dut_mul_mul_17ns_15s_32_1_U8  |dut_mul_mul_17ns_15s_32_1  |  i0 * i1  |
+    |dut_mul_mul_23s_17ns_40_1_U7  |dut_mul_mul_23s_17ns_40_1  |  i0 * i1  |
     +------------------------------+---------------------------+-----------+
 
     * Memory: 
@@ -118,7 +118,7 @@
     |Ex_V_fu_482_p2                |     -    |      0|  0|    8|           8|           8|
     |p_Val2_i_fu_378_p2            |     -    |      0|  0|   49|           1|          49|
     |r_V_1_fu_778_p2               |     -    |      0|  0|    9|           1|           9|
-    |tmp_89_i_fu_507_p2            |     -    |      0|  0|    9|           1|           9|
+    |tmp_87_i_fu_507_p2            |     -    |      0|  0|    9|           1|           9|
     |or_cond_fu_867_p2             |    and   |      0|  0|    1|           1|           1|
     |sel_tmp3_fu_617_p2            |    and   |      0|  0|    1|           1|           1|
     |sel_tmp6_demorgan_fu_894_p2   |    and   |      0|  0|    1|           1|           1|
@@ -138,7 +138,7 @@
     |tmp_8_fu_857_p2               |   icmp   |      0|  0|    3|           8|           1|
     |tmp_9_fu_862_p2               |   icmp   |      0|  0|    8|          23|           1|
     |tmp_i_fu_873_p2               |   icmp   |      0|  0|    3|           8|           2|
-    |tmp_91_i_fu_532_p2            |   lshr   |      0|  0|   85|          31|          31|
+    |tmp_89_i_fu_532_p2            |   lshr   |      0|  0|   85|          31|          31|
     |or_cond1_fu_845_p2            |    or    |      0|  0|    1|           1|           1|
     |p_Result_11_fu_851_p2         |    or    |      0|  0|    1|           1|           1|
     |sel_tmp2_fu_595_p2            |    or    |      0|  0|    1|           1|           1|
@@ -155,7 +155,7 @@
     |sh_assign_fu_513_p3           |  select  |      0|  0|    9|           1|           9|
     |storemerge_i_fu_407_p3        |  select  |      0|  0|    8|           1|           8|
     |p_Val2_15_fu_455_p2           |    shl   |      0|  0|  144|          49|          49|
-    |tmp_93_i_fu_542_p2            |    shl   |      0|  0|   88|          32|          32|
+    |tmp_91_i_fu_542_p2            |    shl   |      0|  0|   88|          32|          32|
     |sel_tmp6_fu_900_p2            |    xor   |      0|  0|    2|           1|           2|
     +------------------------------+----------+-------+---+-----+------------+------------+
     |Total                         |          |      1|  0|  768|         367|         550|
@@ -317,11 +317,11 @@ ST_2: p_Val2_10 [1/2] 2.39ns
 ST_2: p_Val2_11 [1/1] 0.00ns
 ._crit_edge_ifconv:12  %p_Val2_11 = call i49 @_ssdm_op_PartSelect.i49.i95.i32.i32(i95 %p_Val2_10, i32 19, i32 67)
 
-ST_2: tmp_83_i [1/1] 0.00ns
-._crit_edge_ifconv:13  %tmp_83_i = call i3 @_ssdm_op_PartSelect.i3.i95.i32.i32(i95 %p_Val2_10, i32 68, i32 70) nounwind
+ST_2: tmp_81_i [1/1] 0.00ns
+._crit_edge_ifconv:13  %tmp_81_i = call i3 @_ssdm_op_PartSelect.i3.i95.i32.i32(i95 %p_Val2_10, i32 68, i32 70) nounwind
 
 ST_2: p_Val2_23 [1/1] 1.37ns
-._crit_edge_ifconv:14  %p_Val2_23 = select i1 %closepath, i3 0, i3 %tmp_83_i
+._crit_edge_ifconv:14  %p_Val2_23 = select i1 %closepath, i3 0, i3 %tmp_81_i
 
 ST_2: tmp [1/1] 0.00ns
 ._crit_edge_ifconv:15  %tmp = trunc i3 %p_Val2_23 to i1
@@ -358,11 +358,11 @@ ST_3: val_assign [1/1] 3.21ns
 ST_3: Mx_zeros_V [1/1] 0.00ns
 ._crit_edge_ifconv:23  %Mx_zeros_V = trunc i32 %val_assign to i5
 
-ST_3: tmp_84_i [1/1] 0.00ns
-._crit_edge_ifconv:24  %tmp_84_i = zext i5 %Mx_zeros_V to i49
+ST_3: tmp_82_i [1/1] 0.00ns
+._crit_edge_ifconv:24  %tmp_82_i = zext i5 %Mx_zeros_V to i49
 
 ST_3: p_Val2_15 [1/1] 3.56ns
-._crit_edge_ifconv:25  %p_Val2_15 = shl i49 %p_Val2_13, %tmp_84_i
+._crit_edge_ifconv:25  %p_Val2_15 = shl i49 %p_Val2_13, %tmp_82_i
 
 ST_3: p_Val2_16 [1/1] 0.00ns
 ._crit_edge_ifconv:26  %p_Val2_16 = call i31 @_ssdm_op_PartSelect.i31.i49.i32.i32(i49 %p_Val2_15, i32 18, i32 48)
@@ -370,31 +370,31 @@ ST_3: p_Val2_16 [1/1] 0.00ns
 ST_3: tmp_12 [1/1] 0.00ns
 ._crit_edge_ifconv:27  %tmp_12 = call i1 @_ssdm_op_BitSelect.i1.i49.i32(i49 %p_Val2_15, i32 17)
 
-ST_3: tmp_87_i [1/1] 0.00ns (grouped into LUT with out node Ex_V)
-._crit_edge_ifconv:30  %tmp_87_i = zext i5 %Mx_zeros_V to i8
+ST_3: tmp_85_i [1/1] 0.00ns (grouped into LUT with out node Ex_V)
+._crit_edge_ifconv:30  %tmp_85_i = zext i5 %Mx_zeros_V to i8
 
 ST_3: Ex_V [1/1] 1.72ns (out node of the LUT)
-._crit_edge_ifconv:31  %Ex_V = sub i8 %storemerge_i, %tmp_87_i
+._crit_edge_ifconv:31  %Ex_V = sub i8 %storemerge_i, %tmp_85_i
 
 ST_3: isNeg [1/1] 0.00ns
 ._crit_edge_ifconv:33  %isNeg = call i1 @_ssdm_op_BitSelect.i1.i8.i32(i8 %Ex_V, i32 7)
 
 
  <State 4>: 8.35ns
-ST_4: tmp_86_i [1/1] 0.00ns
-._crit_edge_ifconv:28  %tmp_86_i = zext i1 %tmp_12 to i31
+ST_4: tmp_84_i [1/1] 0.00ns
+._crit_edge_ifconv:28  %tmp_84_i = zext i1 %tmp_12 to i31
 
 ST_4: p_Val2_24 [1/1] 2.44ns
-._crit_edge_ifconv:29  %p_Val2_24 = add i31 %p_Val2_16, %tmp_86_i
+._crit_edge_ifconv:29  %p_Val2_24 = add i31 %p_Val2_16, %tmp_84_i
 
 ST_4: sh_i_cast [1/1] 0.00ns
 ._crit_edge_ifconv:32  %sh_i_cast = sext i8 %Ex_V to i9
 
-ST_4: tmp_89_i [1/1] 1.72ns
-._crit_edge_ifconv:34  %tmp_89_i = sub i9 0, %sh_i_cast
+ST_4: tmp_87_i [1/1] 1.72ns
+._crit_edge_ifconv:34  %tmp_87_i = sub i9 0, %sh_i_cast
 
 ST_4: sh_assign [1/1] 1.37ns
-._crit_edge_ifconv:35  %sh_assign = select i1 %isNeg, i9 %tmp_89_i, i9 %sh_i_cast
+._crit_edge_ifconv:35  %sh_assign = select i1 %isNeg, i9 %tmp_87_i, i9 %sh_i_cast
 
 ST_4: sh_assign_1_i_cast1 [1/1] 0.00ns (grouped into LUT with out node p_Val2_0_i234_in_i)
 ._crit_edge_ifconv:36  %sh_assign_1_i_cast1 = sext i9 %sh_assign to i32
@@ -402,23 +402,23 @@ ST_4: sh_assign_1_i_cast1 [1/1] 0.00ns (grouped into LUT with out node p_Val2_0_
 ST_4: sh_assign_1_i_cast [1/1] 0.00ns (grouped into LUT with out node p_Val2_0_i234_in_i)
 ._crit_edge_ifconv:37  %sh_assign_1_i_cast = sext i9 %sh_assign to i31
 
-ST_4: tmp_90_i [1/1] 0.00ns (grouped into LUT with out node p_Val2_0_i234_in_i)
-._crit_edge_ifconv:38  %tmp_90_i = zext i31 %p_Val2_24 to i32
+ST_4: tmp_88_i [1/1] 0.00ns (grouped into LUT with out node p_Val2_0_i234_in_i)
+._crit_edge_ifconv:38  %tmp_88_i = zext i31 %p_Val2_24 to i32
+
+ST_4: tmp_89_i [1/1] 0.00ns (grouped into LUT with out node p_Val2_0_i234_in_i)
+._crit_edge_ifconv:39  %tmp_89_i = lshr i31 %p_Val2_24, %sh_assign_1_i_cast
+
+ST_4: tmp_89_i_cast [1/1] 0.00ns (grouped into LUT with out node p_Val2_0_i234_in_i)
+._crit_edge_ifconv:40  %tmp_89_i_cast = zext i31 %tmp_89_i to i32
 
 ST_4: tmp_91_i [1/1] 0.00ns (grouped into LUT with out node p_Val2_0_i234_in_i)
-._crit_edge_ifconv:39  %tmp_91_i = lshr i31 %p_Val2_24, %sh_assign_1_i_cast
-
-ST_4: tmp_91_i_cast [1/1] 0.00ns (grouped into LUT with out node p_Val2_0_i234_in_i)
-._crit_edge_ifconv:40  %tmp_91_i_cast = zext i31 %tmp_91_i to i32
-
-ST_4: tmp_93_i [1/1] 0.00ns (grouped into LUT with out node p_Val2_0_i234_in_i)
-._crit_edge_ifconv:41  %tmp_93_i = shl i32 %tmp_90_i, %sh_assign_1_i_cast1
+._crit_edge_ifconv:41  %tmp_91_i = shl i32 %tmp_88_i, %sh_assign_1_i_cast1
 
 ST_4: p_Val2_0_i234_in_i [1/1] 2.80ns (out node of the LUT)
-._crit_edge_ifconv:42  %p_Val2_0_i234_in_i = select i1 %isNeg, i32 %tmp_91_i_cast, i32 %tmp_93_i
+._crit_edge_ifconv:42  %p_Val2_0_i234_in_i = select i1 %isNeg, i32 %tmp_89_i_cast, i32 %tmp_91_i
 
-ST_4: p_Result_s_48 [1/1] 0.00ns
-._crit_edge_ifconv:43  %p_Result_s_48 = call i7 @_ssdm_op_PartSelect.i7.i32.i32.i32(i32 %p_Val2_0_i234_in_i, i32 24, i32 30)
+ST_4: p_Result_s_46 [1/1] 0.00ns
+._crit_edge_ifconv:43  %p_Result_s_46 = call i7 @_ssdm_op_PartSelect.i7.i32.i32.i32(i32 %p_Val2_0_i234_in_i, i32 24, i32 30)
 
 ST_4: p_Val2_3 [1/1] 0.00ns
 ._crit_edge_ifconv:44  %p_Val2_3 = call i17 @_ssdm_op_PartSelect.i17.i32.i32.i32(i32 %p_Val2_0_i234_in_i, i32 7, i32 23)
@@ -460,7 +460,7 @@ ST_4: sin_basis [1/1] 1.37ns (out node of the LUT)
 ._crit_edge_ifconv:59  %sin_basis = or i1 %tmp8, %sel_tmp4
 
 ST_4: p_Result_15 [1/1] 0.00ns
-._crit_edge_ifconv:60  %p_Result_15 = call i8 @_ssdm_op_BitConcatenate.i8.i1.i7(i1 %sin_basis, i7 %p_Result_s_48)
+._crit_edge_ifconv:60  %p_Result_15 = call i8 @_ssdm_op_BitConcatenate.i8.i1.i7(i1 %sin_basis, i7 %p_Result_s_46)
 
 ST_4: tmp_2 [1/1] 0.00ns
 ._crit_edge_ifconv:63  %tmp_2 = zext i8 %p_Result_15 to i64
@@ -543,11 +543,11 @@ ST_7: tmp_6 [1/1] 0.00ns
 ST_7: p_Val2_9 [1/1] 1.97ns
 ._crit_edge_ifconv:81  %p_Val2_9 = add nsw i32 %tmp_5, %tmp_6
 
-ST_7: tmp_76_cast [1/1] 0.00ns
-._crit_edge_ifconv:82  %tmp_76_cast = sext i16 %tmp_4 to i32
+ST_7: tmp_74_cast [1/1] 0.00ns
+._crit_edge_ifconv:82  %tmp_74_cast = sext i16 %tmp_4 to i32
 
 ST_7: r_V [1/1] 1.97ns
-._crit_edge_ifconv:83  %r_V = add i32 %p_Val2_9, %tmp_76_cast
+._crit_edge_ifconv:83  %r_V = add i32 %p_Val2_9, %tmp_74_cast
 
 
  <State 8>: 7.45ns
@@ -827,7 +827,7 @@ loc_V_1               (trunc         ) [ 000111111111111]
 closepath             (icmp          ) [ 000100000000000]
 p_Val2_10             (call          ) [ 000000000000000]
 p_Val2_11             (partselect    ) [ 000000000000000]
-tmp_83_i              (partselect    ) [ 000000000000000]
+tmp_81_i              (partselect    ) [ 000000000000000]
 p_Val2_23             (select        ) [ 000111111111111]
 tmp                   (trunc         ) [ 000000000000000]
 p_Val2_i              (sub           ) [ 000000000000000]
@@ -840,26 +840,26 @@ p_Result_13           (partselect    ) [ 000000000000000]
 p_Result_14           (bitconcatenate) [ 000000000000000]
 val_assign            (cttz          ) [ 000000000000000]
 Mx_zeros_V            (trunc         ) [ 000000000000000]
-tmp_84_i              (zext          ) [ 000000000000000]
+tmp_82_i              (zext          ) [ 000000000000000]
 p_Val2_15             (shl           ) [ 000000000000000]
 p_Val2_16             (partselect    ) [ 000010000000000]
 tmp_12                (bitselect     ) [ 000010000000000]
-tmp_87_i              (zext          ) [ 000000000000000]
+tmp_85_i              (zext          ) [ 000000000000000]
 Ex_V                  (sub           ) [ 000011111111110]
 isNeg                 (bitselect     ) [ 000010000000000]
-tmp_86_i              (zext          ) [ 000000000000000]
+tmp_84_i              (zext          ) [ 000000000000000]
 p_Val2_24             (add           ) [ 000001111000000]
 sh_i_cast             (sext          ) [ 000000000000000]
-tmp_89_i              (sub           ) [ 000000000000000]
+tmp_87_i              (sub           ) [ 000000000000000]
 sh_assign             (select        ) [ 000000000000000]
 sh_assign_1_i_cast1   (sext          ) [ 000000000000000]
 sh_assign_1_i_cast    (sext          ) [ 000000000000000]
-tmp_90_i              (zext          ) [ 000000000000000]
-tmp_91_i              (lshr          ) [ 000000000000000]
-tmp_91_i_cast         (zext          ) [ 000000000000000]
-tmp_93_i              (shl           ) [ 000000000000000]
+tmp_88_i              (zext          ) [ 000000000000000]
+tmp_89_i              (lshr          ) [ 000000000000000]
+tmp_89_i_cast         (zext          ) [ 000000000000000]
+tmp_91_i              (shl           ) [ 000000000000000]
 p_Val2_0_i234_in_i    (select        ) [ 000000000000000]
-p_Result_s_48         (partselect    ) [ 000000000000000]
+p_Result_s_46         (partselect    ) [ 000000000000000]
 p_Val2_3              (partselect    ) [ 000001100000000]
 tmp_s                 (partselect    ) [ 000001000000000]
 sel_tmp               (icmp          ) [ 000000000000000]
@@ -896,7 +896,7 @@ p_Val2_8              (bitconcatenate) [ 000000000000000]
 tmp_5                 (sext          ) [ 000000000000000]
 tmp_6                 (sext          ) [ 000000000000000]
 p_Val2_9              (add           ) [ 000000000000000]
-tmp_76_cast           (sext          ) [ 000000000000000]
+tmp_74_cast           (sext          ) [ 000000000000000]
 r_V                   (add           ) [ 000000001000000]
 Mx_V_ret_s            (select        ) [ 000000000000000]
 OP1_V_2_cast          (sext          ) [ 000000000111110]
@@ -2063,7 +2063,7 @@ stg_168               (ret           ) [ 000000000000000]
 </bind>
 </comp>
 
-<comp id="356" class="1004" name="tmp_83_i_fu_356">
+<comp id="356" class="1004" name="tmp_81_i_fu_356">
 <pin_list>
 <pin id="357" dir="0" index="0" bw="3" slack="0"/>
 <pin id="358" dir="0" index="1" bw="95" slack="0"/>
@@ -2073,7 +2073,7 @@ stg_168               (ret           ) [ 000000000000000]
 </pin_list>
 <bind>
 <opcode="partselect(1002) " fcode="partselect"/>
-<opset="tmp_83_i/2 "/>
+<opset="tmp_81_i/2 "/>
 </bind>
 </comp>
 
@@ -2229,14 +2229,14 @@ stg_168               (ret           ) [ 000000000000000]
 </bind>
 </comp>
 
-<comp id="451" class="1004" name="tmp_84_i_fu_451">
+<comp id="451" class="1004" name="tmp_82_i_fu_451">
 <pin_list>
 <pin id="452" dir="0" index="0" bw="5" slack="0"/>
 <pin id="453" dir="1" index="1" bw="49" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="tmp_84_i/3 "/>
+<opset="tmp_82_i/3 "/>
 </bind>
 </comp>
 
@@ -2279,14 +2279,14 @@ stg_168               (ret           ) [ 000000000000000]
 </bind>
 </comp>
 
-<comp id="478" class="1004" name="tmp_87_i_fu_478">
+<comp id="478" class="1004" name="tmp_85_i_fu_478">
 <pin_list>
 <pin id="479" dir="0" index="0" bw="5" slack="0"/>
 <pin id="480" dir="1" index="1" bw="8" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="tmp_87_i/3 "/>
+<opset="tmp_85_i/3 "/>
 </bind>
 </comp>
 
@@ -2315,14 +2315,14 @@ stg_168               (ret           ) [ 000000000000000]
 </bind>
 </comp>
 
-<comp id="496" class="1004" name="tmp_86_i_fu_496">
+<comp id="496" class="1004" name="tmp_84_i_fu_496">
 <pin_list>
 <pin id="497" dir="0" index="0" bw="1" slack="1"/>
 <pin id="498" dir="1" index="1" bw="31" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="tmp_86_i/4 "/>
+<opset="tmp_84_i/4 "/>
 </bind>
 </comp>
 
@@ -2349,7 +2349,7 @@ stg_168               (ret           ) [ 000000000000000]
 </bind>
 </comp>
 
-<comp id="507" class="1004" name="tmp_89_i_fu_507">
+<comp id="507" class="1004" name="tmp_87_i_fu_507">
 <pin_list>
 <pin id="508" dir="0" index="0" bw="1" slack="0"/>
 <pin id="509" dir="0" index="1" bw="8" slack="0"/>
@@ -2357,7 +2357,7 @@ stg_168               (ret           ) [ 000000000000000]
 </pin_list>
 <bind>
 <opcode="sub(10) " fcode="sub"/>
-<opset="tmp_89_i/4 "/>
+<opset="tmp_87_i/4 "/>
 </bind>
 </comp>
 
@@ -2396,18 +2396,18 @@ stg_168               (ret           ) [ 000000000000000]
 </bind>
 </comp>
 
-<comp id="528" class="1004" name="tmp_90_i_fu_528">
+<comp id="528" class="1004" name="tmp_88_i_fu_528">
 <pin_list>
 <pin id="529" dir="0" index="0" bw="31" slack="0"/>
 <pin id="530" dir="1" index="1" bw="32" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="tmp_90_i/4 "/>
+<opset="tmp_88_i/4 "/>
 </bind>
 </comp>
 
-<comp id="532" class="1004" name="tmp_91_i_fu_532">
+<comp id="532" class="1004" name="tmp_89_i_fu_532">
 <pin_list>
 <pin id="533" dir="0" index="0" bw="31" slack="0"/>
 <pin id="534" dir="0" index="1" bw="9" slack="0"/>
@@ -2415,22 +2415,22 @@ stg_168               (ret           ) [ 000000000000000]
 </pin_list>
 <bind>
 <opcode="lshr(21) " fcode="lshr"/>
-<opset="tmp_91_i/4 "/>
+<opset="tmp_89_i/4 "/>
 </bind>
 </comp>
 
-<comp id="538" class="1004" name="tmp_91_i_cast_fu_538">
+<comp id="538" class="1004" name="tmp_89_i_cast_fu_538">
 <pin_list>
 <pin id="539" dir="0" index="0" bw="31" slack="0"/>
 <pin id="540" dir="1" index="1" bw="32" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="tmp_91_i_cast/4 "/>
+<opset="tmp_89_i_cast/4 "/>
 </bind>
 </comp>
 
-<comp id="542" class="1004" name="tmp_93_i_fu_542">
+<comp id="542" class="1004" name="tmp_91_i_fu_542">
 <pin_list>
 <pin id="543" dir="0" index="0" bw="31" slack="0"/>
 <pin id="544" dir="0" index="1" bw="9" slack="0"/>
@@ -2438,7 +2438,7 @@ stg_168               (ret           ) [ 000000000000000]
 </pin_list>
 <bind>
 <opcode="shl(20) " fcode="shl"/>
-<opset="tmp_93_i/4 "/>
+<opset="tmp_91_i/4 "/>
 </bind>
 </comp>
 
@@ -2455,7 +2455,7 @@ stg_168               (ret           ) [ 000000000000000]
 </bind>
 </comp>
 
-<comp id="555" class="1004" name="p_Result_s_48_fu_555">
+<comp id="555" class="1004" name="p_Result_s_46_fu_555">
 <pin_list>
 <pin id="556" dir="0" index="0" bw="7" slack="0"/>
 <pin id="557" dir="0" index="1" bw="32" slack="0"/>
@@ -2465,7 +2465,7 @@ stg_168               (ret           ) [ 000000000000000]
 </pin_list>
 <bind>
 <opcode="partselect(1002) " fcode="partselect"/>
-<opset="p_Result_s_48/4 "/>
+<opset="p_Result_s_46/4 "/>
 </bind>
 </comp>
 
@@ -2809,14 +2809,14 @@ stg_168               (ret           ) [ 000000000000000]
 </bind>
 </comp>
 
-<comp id="729" class="1004" name="tmp_76_cast_fu_729">
+<comp id="729" class="1004" name="tmp_74_cast_fu_729">
 <pin_list>
 <pin id="730" dir="0" index="0" bw="16" slack="1"/>
 <pin id="731" dir="1" index="1" bw="32" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="tmp_76_cast/7 "/>
+<opset="tmp_74_cast/7 "/>
 </bind>
 </comp>
 
@@ -3223,27 +3223,27 @@ stg_168               (ret           ) [ 000000000000000]
 </bind>
 </comp>
 
-<comp id="934" class="1007" name="p_Val2_7_fu_934">
+<comp id="934" class="1007" name="p_Val2_6_fu_934">
 <pin_list>
-<pin id="935" dir="0" index="0" bw="17" slack="0"/>
-<pin id="936" dir="0" index="1" bw="15" slack="0"/>
-<pin id="937" dir="1" index="2" bw="32" slack="0"/>
-</pin_list>
-<bind>
-<opcode="mul(12) " fcode="mul"/>
-<opset="p_Val2_7/6 "/>
-</bind>
-</comp>
-
-<comp id="941" class="1007" name="p_Val2_6_fu_941">
-<pin_list>
-<pin id="942" dir="0" index="0" bw="23" slack="0"/>
-<pin id="943" dir="0" index="1" bw="17" slack="0"/>
-<pin id="944" dir="1" index="2" bw="40" slack="0"/>
+<pin id="935" dir="0" index="0" bw="23" slack="0"/>
+<pin id="936" dir="0" index="1" bw="17" slack="0"/>
+<pin id="937" dir="1" index="2" bw="40" slack="0"/>
 </pin_list>
 <bind>
 <opcode="mul(12) " fcode="mul"/>
 <opset="p_Val2_6/6 "/>
+</bind>
+</comp>
+
+<comp id="941" class="1007" name="p_Val2_7_fu_941">
+<pin_list>
+<pin id="942" dir="0" index="0" bw="17" slack="0"/>
+<pin id="943" dir="0" index="1" bw="15" slack="0"/>
+<pin id="944" dir="1" index="2" bw="32" slack="0"/>
+</pin_list>
+<bind>
+<opcode="mul(12) " fcode="mul"/>
+<opset="p_Val2_7/6 "/>
 </bind>
 </comp>
 
@@ -4004,17 +4004,17 @@ stg_168               (ret           ) [ 000000000000000]
 
 <net id="933"><net_src comp="890" pin="1"/><net_sink comp="926" pin=2"/></net>
 
-<net id="938"><net_src comp="694" pin="1"/><net_sink comp="934" pin=0"/></net>
+<net id="938"><net_src comp="682" pin="1"/><net_sink comp="934" pin=0"/></net>
 
-<net id="939"><net_src comp="697" pin="1"/><net_sink comp="934" pin=1"/></net>
+<net id="939"><net_src comp="679" pin="1"/><net_sink comp="934" pin=1"/></net>
 
-<net id="940"><net_src comp="934" pin="2"/><net_sink comp="700" pin=1"/></net>
+<net id="940"><net_src comp="934" pin="2"/><net_sink comp="685" pin=1"/></net>
 
-<net id="945"><net_src comp="682" pin="1"/><net_sink comp="941" pin=0"/></net>
+<net id="945"><net_src comp="694" pin="1"/><net_sink comp="941" pin=0"/></net>
 
-<net id="946"><net_src comp="679" pin="1"/><net_sink comp="941" pin=1"/></net>
+<net id="946"><net_src comp="697" pin="1"/><net_sink comp="941" pin=1"/></net>
 
-<net id="947"><net_src comp="941" pin="2"/><net_sink comp="685" pin=1"/></net>
+<net id="947"><net_src comp="941" pin="2"/><net_sink comp="700" pin=1"/></net>
 
 <net id="951"><net_src comp="318" pin="3"/><net_sink comp="948" pin=0"/></net>
 
@@ -4185,7 +4185,7 @@ stg_168               (ret           ) [ 000000000000000]
 		loc_V_1 : 1
 		closepath : 2
 		p_Val2_11 : 1
-		tmp_83_i : 1
+		tmp_81_i : 1
 		p_Val2_23 : 3
 		tmp : 4
 		p_Val2_i : 2
@@ -4197,25 +4197,25 @@ stg_168               (ret           ) [ 000000000000000]
 		p_Result_14 : 2
 		val_assign : 3
 		Mx_zeros_V : 4
-		tmp_84_i : 5
+		tmp_82_i : 5
 		p_Val2_15 : 6
 		p_Val2_16 : 7
 		tmp_12 : 7
-		tmp_87_i : 5
+		tmp_85_i : 5
 		Ex_V : 6
 		isNeg : 7
 	State 4
 		p_Val2_24 : 1
-		tmp_89_i : 1
+		tmp_87_i : 1
 		sh_assign : 2
 		sh_assign_1_i_cast1 : 3
 		sh_assign_1_i_cast : 3
-		tmp_90_i : 2
+		tmp_88_i : 2
+		tmp_89_i : 4
+		tmp_89_i_cast : 5
 		tmp_91_i : 4
-		tmp_91_i_cast : 5
-		tmp_93_i : 4
 		p_Val2_0_i234_in_i : 6
-		p_Result_s_48 : 7
+		p_Result_s_46 : 7
 		p_Val2_3 : 7
 		tmp_s : 7
 		sel_tmp2 : 1
@@ -4299,7 +4299,7 @@ stg_168               (ret           ) [ 000000000000000]
 |          |      grp_dut_my_to_float_31_1_s_fu_287     |    0    |    0    |  4.713  |   462   |   642   |
 |----------|--------------------------------------------|---------|---------|---------|---------|---------|
 |    shl   |              p_Val2_15_fu_455              |    0    |    0    |    0    |    0    |   144   |
-|          |               tmp_93_i_fu_542              |    0    |    0    |    0    |    0    |    85   |
+|          |               tmp_91_i_fu_542              |    0    |    0    |    0    |    0    |    85   |
 |----------|--------------------------------------------|---------|---------|---------|---------|---------|
 |          |              p_Val2_23_fu_366              |    0    |    0    |    0    |    0    |    3    |
 |          |              p_Val2_13_fu_384              |    0    |    0    |    0    |    0    |    49   |
@@ -4311,7 +4311,7 @@ stg_168               (ret           ) [ 000000000000000]
 |          |               sel_tmp8_fu_912              |    0    |    0    |    0    |    0    |    32   |
 |          |                 p_s_fu_926                 |    0    |    0    |    0    |    0    |    32   |
 |----------|--------------------------------------------|---------|---------|---------|---------|---------|
-|   lshr   |               tmp_91_i_fu_532              |    0    |    0    |    0    |    0    |    85   |
+|   lshr   |               tmp_89_i_fu_532              |    0    |    0    |    0    |    0    |    85   |
 |----------|--------------------------------------------|---------|---------|---------|---------|---------|
 |          |                 grp_fu_293                 |    0    |    0    |    0    |    0    |    3    |
 |          |                 p_i_fu_402                 |    0    |    0    |    0    |    0    |    8    |
@@ -4323,7 +4323,7 @@ stg_168               (ret           ) [ 000000000000000]
 |----------|--------------------------------------------|---------|---------|---------|---------|---------|
 |          |               p_Val2_i_fu_378              |    0    |    0    |    0    |    0    |    49   |
 |    sub   |                 Ex_V_fu_482                |    0    |    0    |    0    |    0    |    8    |
-|          |               tmp_89_i_fu_507              |    0    |    0    |    0    |    0    |    8    |
+|          |               tmp_87_i_fu_507              |    0    |    0    |    0    |    0    |    8    |
 |          |                r_V_1_fu_778                |    0    |    0    |    0    |    0    |    8    |
 |----------|--------------------------------------------|---------|---------|---------|---------|---------|
 |   cttz   |              val_assign_fu_439             |    0    |    0    |    0    |    0    |    48   |
@@ -4344,8 +4344,8 @@ stg_168               (ret           ) [ 000000000000000]
 |----------|--------------------------------------------|---------|---------|---------|---------|---------|
 |          |               p_Val2_4_fu_663              |    0    |    1    |    0    |    0    |    0    |
 |    mul   |                 grp_fu_751                 |    0    |    4    |    0    |    0    |    0    |
-|          |               p_Val2_7_fu_934              |    0    |    1    |    0    |    0    |    0    |
-|          |               p_Val2_6_fu_941              |    0    |    1    |    0    |    0    |    0    |
+|          |               p_Val2_6_fu_934              |    0    |    1    |    0    |    0    |    0    |
+|          |               p_Val2_7_fu_941              |    0    |    1    |    0    |    0    |    0    |
 |----------|--------------------------------------------|---------|---------|---------|---------|---------|
 |          |               sel_tmp2_fu_595              |    0    |    0    |    0    |    0    |    1    |
 |          |                 tmp8_fu_633                |    0    |    0    |    0    |    0    |    1    |
@@ -4367,11 +4367,11 @@ stg_168               (ret           ) [ 000000000000000]
 |          |                 grp_fu_298                 |    0    |    0    |    0    |    0    |    0    |
 |          |                loc_V_fu_326                |    0    |    0    |    0    |    0    |    0    |
 |          |              p_Val2_11_fu_346              |    0    |    0    |    0    |    0    |    0    |
-|          |               tmp_83_i_fu_356              |    0    |    0    |    0    |    0    |    0    |
+|          |               tmp_81_i_fu_356              |    0    |    0    |    0    |    0    |    0    |
 |          |            p_Result_i3_i_fu_392            |    0    |    0    |    0    |    0    |    0    |
 |          |             p_Result_13_fu_421             |    0    |    0    |    0    |    0    |    0    |
 |          |              p_Val2_16_fu_460              |    0    |    0    |    0    |    0    |    0    |
-|partselect|            p_Result_s_48_fu_555            |    0    |    0    |    0    |    0    |    0    |
+|partselect|            p_Result_s_46_fu_555            |    0    |    0    |    0    |    0    |    0    |
 |          |               p_Val2_3_fu_565              |    0    |    0    |    0    |    0    |    0    |
 |          |                tmp_s_fu_575                |    0    |    0    |    0    |    0    |    0    |
 |          |                tmp_1_fu_669                |    0    |    0    |    0    |    0    |    0    |
@@ -4398,11 +4398,11 @@ stg_168               (ret           ) [ 000000000000000]
 |          |             p_Result_17_fu_797             |    0    |    0    |    0    |    0    |    0    |
 |          |             p_Result_18_fu_882             |    0    |    0    |    0    |    0    |    0    |
 |----------|--------------------------------------------|---------|---------|---------|---------|---------|
-|          |               tmp_84_i_fu_451              |    0    |    0    |    0    |    0    |    0    |
-|          |               tmp_87_i_fu_478              |    0    |    0    |    0    |    0    |    0    |
-|          |               tmp_86_i_fu_496              |    0    |    0    |    0    |    0    |    0    |
-|          |               tmp_90_i_fu_528              |    0    |    0    |    0    |    0    |    0    |
-|   zext   |            tmp_91_i_cast_fu_538            |    0    |    0    |    0    |    0    |    0    |
+|          |               tmp_82_i_fu_451              |    0    |    0    |    0    |    0    |    0    |
+|          |               tmp_85_i_fu_478              |    0    |    0    |    0    |    0    |    0    |
+|          |               tmp_84_i_fu_496              |    0    |    0    |    0    |    0    |    0    |
+|          |               tmp_88_i_fu_528              |    0    |    0    |    0    |    0    |    0    |
+|   zext   |            tmp_89_i_cast_fu_538            |    0    |    0    |    0    |    0    |    0    |
 |          |                tmp_2_fu_653                |    0    |    0    |    0    |    0    |    0    |
 |          |               OP1_V_3_fu_660               |    0    |    0    |    0    |    0    |    0    |
 |          |                OP1_V_fu_679                |    0    |    0    |    0    |    0    |    0    |
@@ -4416,7 +4416,7 @@ stg_168               (ret           ) [ 000000000000000]
 |   sext   |               OP2_V_2_fu_697               |    0    |    0    |    0    |    0    |    0    |
 |          |                tmp_5_fu_716                |    0    |    0    |    0    |    0    |    0    |
 |          |                tmp_6_fu_720                |    0    |    0    |    0    |    0    |    0    |
-|          |             tmp_76_cast_fu_729             |    0    |    0    |    0    |    0    |    0    |
+|          |             tmp_74_cast_fu_729             |    0    |    0    |    0    |    0    |    0    |
 |          |             OP1_V_2_cast_fu_744            |    0    |    0    |    0    |    0    |    0    |
 |          |                rhs_V_fu_774                |    0    |    0    |    0    |    0    |    0    |
 |----------|--------------------------------------------|---------|---------|---------|---------|---------|

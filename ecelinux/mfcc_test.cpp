@@ -2,7 +2,7 @@
 // testbench.cpp
 //=========================================================================
 // @brief: testbench for k-nearest-neighbor sound recongnition application
-
+#include <inttypes.h>
 #include <stdio.h>
 #include <iostream>
 #include <fstream>
@@ -28,6 +28,8 @@ int main()
   //Store input from sound file
   const int N = 12544;
   bit64_t inputs[N];
+  bit32_t hanging_2;
+  bit32_t hanging_3;
   
   if ( myfile.is_open() ) {
     int error = 0;
@@ -41,7 +43,14 @@ int main()
           strtoul(line.substr(line.find(",") + 1,
                               line.length()).c_str(), NULL, 10);
       for (int i = 0; i<N; i++){
-        inputs[i] = input_data[i];
+        inputs[i] = (input_data[i]+1)*100000;
+        /*
+        int test = inputs[i];
+        printf("%f", input_data[i]);
+        printf("  ");
+        printf("%d ", test);
+        printf("\n");
+        */
         bit32_t input_lo = inputs[i].range(31,0);
         bit32_t input_hi = inputs[i].range(63,32);
 
@@ -53,8 +62,10 @@ int main()
       
       // Call design under test (DUT)
       dut(mfcc_in, mfcc_out);
-
-      bit32_t interpreted_digit = mfcc_out.read();
+      bit32_t interpreted_digit =0;
+      interpreted_digit = mfcc_out.read();
+      hanging_2 = mfcc_out.read();
+     // hanging_3 = mfcc_out.read();
       
       // Print result messages to console
       num_test_insts++;
@@ -77,8 +88,8 @@ int main()
       
       std::cout << std::endl;
       outfile << std::endl;
-    }   
-    
+    }
+    std::cout << "Hanging 2 " << (double)hanging_2 << "\n";  
     // Report overall error out of all testing instances
     std::cout << "Overall Error Rate = " << std::setprecision(3)
               << ( (double)error / num_test_insts ) * 100

@@ -235,10 +235,10 @@
 
 <node id="19" bw="3" op_0_bw="3" op_1_bw="95" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-._crit_edge_ifconv:13  %tmp_83_i = call i3 @_ssdm_op_PartSelect.i3.i95.i32.i32(i95 %p_Val2_10, i32 68, i32 70) nounwind
+._crit_edge_ifconv:13  %tmp_81_i = call i3 @_ssdm_op_PartSelect.i3.i95.i32.i32(i95 %p_Val2_10, i32 68, i32 70) nounwind
 
 ]]></node>
-<StgValue><ssdm name="tmp_83_i"/></StgValue>
+<StgValue><ssdm name="tmp_81_i"/></StgValue>
 </operation>
 
 <operation id="25" st_id="2" stage="1" lat="1">
@@ -250,7 +250,7 @@
 
 <node id="20" bw="3" op_0_bw="1" op_1_bw="3" op_2_bw="3">
 <![CDATA[
-._crit_edge_ifconv:14  %p_Val2_23 = select i1 %closepath, i3 0, i3 %tmp_83_i
+._crit_edge_ifconv:14  %p_Val2_23 = select i1 %closepath, i3 0, i3 %tmp_81_i
 
 ]]></node>
 <StgValue><ssdm name="p_Val2_23"/></StgValue>
@@ -434,10 +434,10 @@
 
 <node id="30" bw="49" op_0_bw="5">
 <![CDATA[
-._crit_edge_ifconv:24  %tmp_84_i = zext i5 %Mx_zeros_V to i49
+._crit_edge_ifconv:24  %tmp_82_i = zext i5 %Mx_zeros_V to i49
 
 ]]></node>
-<StgValue><ssdm name="tmp_84_i"/></StgValue>
+<StgValue><ssdm name="tmp_82_i"/></StgValue>
 </operation>
 
 <operation id="38" st_id="3" stage="1" lat="1">
@@ -449,7 +449,7 @@
 
 <node id="31" bw="49" op_0_bw="49" op_1_bw="49">
 <![CDATA[
-._crit_edge_ifconv:25  %p_Val2_15 = shl i49 %p_Val2_13, %tmp_84_i
+._crit_edge_ifconv:25  %p_Val2_15 = shl i49 %p_Val2_13, %tmp_82_i
 
 ]]></node>
 <StgValue><ssdm name="p_Val2_15"/></StgValue>
@@ -494,10 +494,10 @@
 
 <node id="36" bw="8" op_0_bw="5">
 <![CDATA[
-._crit_edge_ifconv:30  %tmp_87_i = zext i5 %Mx_zeros_V to i8
+._crit_edge_ifconv:30  %tmp_85_i = zext i5 %Mx_zeros_V to i8
 
 ]]></node>
-<StgValue><ssdm name="tmp_87_i"/></StgValue>
+<StgValue><ssdm name="tmp_85_i"/></StgValue>
 </operation>
 
 <operation id="42" st_id="3" stage="1" lat="1">
@@ -509,7 +509,7 @@
 
 <node id="37" bw="8" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-._crit_edge_ifconv:31  %Ex_V = sub i8 %storemerge_i, %tmp_87_i
+._crit_edge_ifconv:31  %Ex_V = sub i8 %storemerge_i, %tmp_85_i
 
 ]]></node>
 <StgValue><ssdm name="Ex_V"/></StgValue>
@@ -542,10 +542,10 @@
 
 <node id="34" bw="31" op_0_bw="1">
 <![CDATA[
-._crit_edge_ifconv:28  %tmp_86_i = zext i1 %tmp_12 to i31
+._crit_edge_ifconv:28  %tmp_84_i = zext i1 %tmp_12 to i31
 
 ]]></node>
-<StgValue><ssdm name="tmp_86_i"/></StgValue>
+<StgValue><ssdm name="tmp_84_i"/></StgValue>
 </operation>
 
 <operation id="45" st_id="4" stage="1" lat="1">
@@ -557,7 +557,7 @@
 
 <node id="35" bw="31" op_0_bw="31" op_1_bw="31">
 <![CDATA[
-._crit_edge_ifconv:29  %p_Val2_24 = add i31 %p_Val2_16, %tmp_86_i
+._crit_edge_ifconv:29  %p_Val2_24 = add i31 %p_Val2_16, %tmp_84_i
 
 ]]></node>
 <StgValue><ssdm name="p_Val2_24"/></StgValue>
@@ -588,10 +588,10 @@
 
 <node id="40" bw="9" op_0_bw="9" op_1_bw="9">
 <![CDATA[
-._crit_edge_ifconv:34  %tmp_89_i = sub i9 0, %sh_i_cast
+._crit_edge_ifconv:34  %tmp_87_i = sub i9 0, %sh_i_cast
 
 ]]></node>
-<StgValue><ssdm name="tmp_89_i"/></StgValue>
+<StgValue><ssdm name="tmp_87_i"/></StgValue>
 </operation>
 
 <operation id="48" st_id="4" stage="1" lat="1">
@@ -603,7 +603,7 @@
 
 <node id="41" bw="9" op_0_bw="1" op_1_bw="9" op_2_bw="9">
 <![CDATA[
-._crit_edge_ifconv:35  %sh_assign = select i1 %isNeg, i9 %tmp_89_i, i9 %sh_i_cast
+._crit_edge_ifconv:35  %sh_assign = select i1 %isNeg, i9 %tmp_87_i, i9 %sh_i_cast
 
 ]]></node>
 <StgValue><ssdm name="sh_assign"/></StgValue>
@@ -651,10 +651,10 @@
 
 <node id="44" bw="32" op_0_bw="31">
 <![CDATA[
-._crit_edge_ifconv:38  %tmp_90_i = zext i31 %p_Val2_24 to i32
+._crit_edge_ifconv:38  %tmp_88_i = zext i31 %p_Val2_24 to i32
 
 ]]></node>
-<StgValue><ssdm name="tmp_90_i"/></StgValue>
+<StgValue><ssdm name="tmp_88_i"/></StgValue>
 </operation>
 
 <operation id="52" st_id="4" stage="1" lat="1">
@@ -667,10 +667,10 @@
 
 <node id="45" bw="31" op_0_bw="31" op_1_bw="31">
 <![CDATA[
-._crit_edge_ifconv:39  %tmp_91_i = lshr i31 %p_Val2_24, %sh_assign_1_i_cast
+._crit_edge_ifconv:39  %tmp_89_i = lshr i31 %p_Val2_24, %sh_assign_1_i_cast
 
 ]]></node>
-<StgValue><ssdm name="tmp_91_i"/></StgValue>
+<StgValue><ssdm name="tmp_89_i"/></StgValue>
 </operation>
 
 <operation id="53" st_id="4" stage="1" lat="1">
@@ -683,10 +683,10 @@
 
 <node id="46" bw="32" op_0_bw="31">
 <![CDATA[
-._crit_edge_ifconv:40  %tmp_91_i_cast = zext i31 %tmp_91_i to i32
+._crit_edge_ifconv:40  %tmp_89_i_cast = zext i31 %tmp_89_i to i32
 
 ]]></node>
-<StgValue><ssdm name="tmp_91_i_cast"/></StgValue>
+<StgValue><ssdm name="tmp_89_i_cast"/></StgValue>
 </operation>
 
 <operation id="54" st_id="4" stage="1" lat="1">
@@ -699,10 +699,10 @@
 
 <node id="47" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
-._crit_edge_ifconv:41  %tmp_93_i = shl i32 %tmp_90_i, %sh_assign_1_i_cast1
+._crit_edge_ifconv:41  %tmp_91_i = shl i32 %tmp_88_i, %sh_assign_1_i_cast1
 
 ]]></node>
-<StgValue><ssdm name="tmp_93_i"/></StgValue>
+<StgValue><ssdm name="tmp_91_i"/></StgValue>
 </operation>
 
 <operation id="55" st_id="4" stage="1" lat="1">
@@ -714,7 +714,7 @@
 
 <node id="48" bw="32" op_0_bw="1" op_1_bw="32" op_2_bw="32">
 <![CDATA[
-._crit_edge_ifconv:42  %p_Val2_0_i234_in_i = select i1 %isNeg, i32 %tmp_91_i_cast, i32 %tmp_93_i
+._crit_edge_ifconv:42  %p_Val2_0_i234_in_i = select i1 %isNeg, i32 %tmp_89_i_cast, i32 %tmp_91_i
 
 ]]></node>
 <StgValue><ssdm name="p_Val2_0_i234_in_i"/></StgValue>
@@ -729,10 +729,10 @@
 
 <node id="49" bw="7" op_0_bw="7" op_1_bw="32" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-._crit_edge_ifconv:43  %p_Result_s_48 = call i7 @_ssdm_op_PartSelect.i7.i32.i32.i32(i32 %p_Val2_0_i234_in_i, i32 24, i32 30)
+._crit_edge_ifconv:43  %p_Result_s_46 = call i7 @_ssdm_op_PartSelect.i7.i32.i32.i32(i32 %p_Val2_0_i234_in_i, i32 24, i32 30)
 
 ]]></node>
-<StgValue><ssdm name="p_Result_s_48"/></StgValue>
+<StgValue><ssdm name="p_Result_s_46"/></StgValue>
 </operation>
 
 <operation id="57" st_id="4" stage="1" lat="1">
@@ -939,7 +939,7 @@
 
 <node id="66" bw="8" op_0_bw="8" op_1_bw="1" op_2_bw="7">
 <![CDATA[
-._crit_edge_ifconv:60  %p_Result_15 = call i8 @_ssdm_op_BitConcatenate.i8.i1.i7(i1 %sin_basis, i7 %p_Result_s_48)
+._crit_edge_ifconv:60  %p_Result_15 = call i8 @_ssdm_op_BitConcatenate.i8.i1.i7(i1 %sin_basis, i7 %p_Result_s_46)
 
 ]]></node>
 <StgValue><ssdm name="p_Result_15"/></StgValue>
@@ -1338,10 +1338,10 @@
 
 <node id="88" bw="32" op_0_bw="16">
 <![CDATA[
-._crit_edge_ifconv:82  %tmp_76_cast = sext i16 %tmp_4 to i32
+._crit_edge_ifconv:82  %tmp_74_cast = sext i16 %tmp_4 to i32
 
 ]]></node>
-<StgValue><ssdm name="tmp_76_cast"/></StgValue>
+<StgValue><ssdm name="tmp_74_cast"/></StgValue>
 </operation>
 
 <operation id="97" st_id="7" stage="1" lat="1">
@@ -1353,7 +1353,7 @@
 
 <node id="89" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
-._crit_edge_ifconv:83  %r_V = add i32 %p_Val2_9, %tmp_76_cast
+._crit_edge_ifconv:83  %r_V = add i32 %p_Val2_9, %tmp_74_cast
 
 ]]></node>
 <StgValue><ssdm name="r_V"/></StgValue>

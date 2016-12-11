@@ -527,7 +527,7 @@
             <Obj>
               <type>0</type>
               <id>19</id>
-              <name>tmp_83_i</name>
+              <name>tmp_81_i</name>
               <fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</fileName>
               <fileDirectory>../../../../../../wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
               <lineNumber>269</lineNumber>
@@ -558,7 +558,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_83_i_fu_356_p4</rtlName>
+              <rtlName>tmp_81_i_fu_356_p4</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>3</bitwidth>
@@ -1110,7 +1110,7 @@
             <Obj>
               <type>0</type>
               <id>30</id>
-              <name>tmp_84_i</name>
+              <name>tmp_82_i</name>
               <fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</fileName>
               <fileDirectory>../../../../../../wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
               <lineNumber>284</lineNumber>
@@ -1141,7 +1141,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_84_i_fu_451_p1</rtlName>
+              <rtlName>tmp_82_i_fu_451_p1</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>49</bitwidth>
@@ -1308,7 +1308,7 @@
             <Obj>
               <type>0</type>
               <id>34</id>
-              <name>tmp_86_i</name>
+              <name>tmp_84_i</name>
               <fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</fileName>
               <fileDirectory>../../../../../../wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
               <lineNumber>284</lineNumber>
@@ -1339,7 +1339,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_86_i_fu_496_p1</rtlName>
+              <rtlName>tmp_84_i_fu_496_p1</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>31</bitwidth>
@@ -1405,7 +1405,7 @@
             <Obj>
               <type>0</type>
               <id>36</id>
-              <name>tmp_87_i</name>
+              <name>tmp_85_i</name>
               <fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</fileName>
               <fileDirectory>../../../../../../wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
               <lineNumber>285</lineNumber>
@@ -1436,7 +1436,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_87_i_fu_478_p1</rtlName>
+              <rtlName>tmp_85_i_fu_478_p1</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -1600,7 +1600,7 @@
             <Obj>
               <type>0</type>
               <id>40</id>
-              <name>tmp_89_i</name>
+              <name>tmp_87_i</name>
               <fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</fileName>
               <fileDirectory>../../../../../../wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
               <lineNumber>287</lineNumber>
@@ -1631,7 +1631,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_89_i_fu_507_p2</rtlName>
+              <rtlName>tmp_87_i_fu_507_p2</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>9</bitwidth>
@@ -1795,7 +1795,7 @@
             <Obj>
               <type>0</type>
               <id>44</id>
-              <name>tmp_90_i</name>
+              <name>tmp_88_i</name>
               <fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</fileName>
               <fileDirectory>../../../../../../wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
               <lineNumber>287</lineNumber>
@@ -1826,7 +1826,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_90_i_fu_528_p1</rtlName>
+              <rtlName>tmp_88_i_fu_528_p1</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -1843,6 +1843,103 @@
             <Obj>
               <type>0</type>
               <id>45</id>
+              <name>tmp_89_i</name>
+              <fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</fileName>
+              <fileDirectory>../../../../../../wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
+              <lineNumber>287</lineNumber>
+              <contextFuncName>range_redux_payne_hanek_hotbm&amp;lt;20, float, 31, 31&amp;gt;</contextFuncName>
+              <inlineStackInfo>
+                <count>1</count>
+                <item_version>0</item_version>
+                <item>
+                  <first>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</first>
+                  <second>
+                    <count>2</count>
+                    <item_version>0</item_version>
+                    <item>
+                      <first>
+                        <first>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</first>
+                        <second>range_redux_payne_hanek_hotbm&amp;lt;20, float, 31, 31&amp;gt;</second>
+                      </first>
+                      <second>287</second>
+                    </item>
+                    <item>
+                      <first>
+                        <first>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</first>
+                        <second>sinf_or_cosf</second>
+                      </first>
+                      <second>573</second>
+                    </item>
+                  </second>
+                </item>
+              </inlineStackInfo>
+              <originalName/>
+              <rtlName>tmp_89_i_fu_532_p2</rtlName>
+              <coreName/>
+            </Obj>
+            <bitwidth>31</bitwidth>
+          </Value>
+          <oprand_edges>
+            <count>2</count>
+            <item_version>0</item_version>
+            <item>288</item>
+            <item>289</item>
+          </oprand_edges>
+          <opcode>lshr</opcode>
+        </item>
+        <item class_id_reference="9" object_id="_39">
+          <Value>
+            <Obj>
+              <type>0</type>
+              <id>46</id>
+              <name>tmp_89_i_cast</name>
+              <fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</fileName>
+              <fileDirectory>../../../../../../wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
+              <lineNumber>287</lineNumber>
+              <contextFuncName>range_redux_payne_hanek_hotbm&amp;lt;20, float, 31, 31&amp;gt;</contextFuncName>
+              <inlineStackInfo>
+                <count>1</count>
+                <item_version>0</item_version>
+                <item>
+                  <first>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</first>
+                  <second>
+                    <count>2</count>
+                    <item_version>0</item_version>
+                    <item>
+                      <first>
+                        <first>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</first>
+                        <second>range_redux_payne_hanek_hotbm&amp;lt;20, float, 31, 31&amp;gt;</second>
+                      </first>
+                      <second>287</second>
+                    </item>
+                    <item>
+                      <first>
+                        <first>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</first>
+                        <second>sinf_or_cosf</second>
+                      </first>
+                      <second>573</second>
+                    </item>
+                  </second>
+                </item>
+              </inlineStackInfo>
+              <originalName/>
+              <rtlName>tmp_89_i_cast_fu_538_p1</rtlName>
+              <coreName/>
+            </Obj>
+            <bitwidth>32</bitwidth>
+          </Value>
+          <oprand_edges>
+            <count>1</count>
+            <item_version>0</item_version>
+            <item>290</item>
+          </oprand_edges>
+          <opcode>zext</opcode>
+        </item>
+        <item class_id_reference="9" object_id="_40">
+          <Value>
+            <Obj>
+              <type>0</type>
+              <id>47</id>
               <name>tmp_91_i</name>
               <fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</fileName>
               <fileDirectory>../../../../../../wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
@@ -1874,104 +1971,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_91_i_fu_532_p2</rtlName>
-              <coreName/>
-            </Obj>
-            <bitwidth>31</bitwidth>
-          </Value>
-          <oprand_edges>
-            <count>2</count>
-            <item_version>0</item_version>
-            <item>288</item>
-            <item>289</item>
-          </oprand_edges>
-          <opcode>lshr</opcode>
-        </item>
-        <item class_id_reference="9" object_id="_39">
-          <Value>
-            <Obj>
-              <type>0</type>
-              <id>46</id>
-              <name>tmp_91_i_cast</name>
-              <fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</fileName>
-              <fileDirectory>../../../../../../wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
-              <lineNumber>287</lineNumber>
-              <contextFuncName>range_redux_payne_hanek_hotbm&amp;lt;20, float, 31, 31&amp;gt;</contextFuncName>
-              <inlineStackInfo>
-                <count>1</count>
-                <item_version>0</item_version>
-                <item>
-                  <first>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</first>
-                  <second>
-                    <count>2</count>
-                    <item_version>0</item_version>
-                    <item>
-                      <first>
-                        <first>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</first>
-                        <second>range_redux_payne_hanek_hotbm&amp;lt;20, float, 31, 31&amp;gt;</second>
-                      </first>
-                      <second>287</second>
-                    </item>
-                    <item>
-                      <first>
-                        <first>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</first>
-                        <second>sinf_or_cosf</second>
-                      </first>
-                      <second>573</second>
-                    </item>
-                  </second>
-                </item>
-              </inlineStackInfo>
-              <originalName/>
-              <rtlName>tmp_91_i_cast_fu_538_p1</rtlName>
-              <coreName/>
-            </Obj>
-            <bitwidth>32</bitwidth>
-          </Value>
-          <oprand_edges>
-            <count>1</count>
-            <item_version>0</item_version>
-            <item>290</item>
-          </oprand_edges>
-          <opcode>zext</opcode>
-        </item>
-        <item class_id_reference="9" object_id="_40">
-          <Value>
-            <Obj>
-              <type>0</type>
-              <id>47</id>
-              <name>tmp_93_i</name>
-              <fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</fileName>
-              <fileDirectory>../../../../../../wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
-              <lineNumber>287</lineNumber>
-              <contextFuncName>range_redux_payne_hanek_hotbm&amp;lt;20, float, 31, 31&amp;gt;</contextFuncName>
-              <inlineStackInfo>
-                <count>1</count>
-                <item_version>0</item_version>
-                <item>
-                  <first>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</first>
-                  <second>
-                    <count>2</count>
-                    <item_version>0</item_version>
-                    <item>
-                      <first>
-                        <first>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</first>
-                        <second>range_redux_payne_hanek_hotbm&amp;lt;20, float, 31, 31&amp;gt;</second>
-                      </first>
-                      <second>287</second>
-                    </item>
-                    <item>
-                      <first>
-                        <first>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</first>
-                        <second>sinf_or_cosf</second>
-                      </first>
-                      <second>573</second>
-                    </item>
-                  </second>
-                </item>
-              </inlineStackInfo>
-              <originalName/>
-              <rtlName>tmp_93_i_fu_542_p2</rtlName>
+              <rtlName>tmp_91_i_fu_542_p2</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -2039,7 +2039,7 @@
             <Obj>
               <type>0</type>
               <id>49</id>
-              <name>p_Result_s_48</name>
+              <name>p_Result_s_46</name>
               <fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</fileName>
               <fileDirectory>../../../../../../wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
               <lineNumber>576</lineNumber>
@@ -2063,7 +2063,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>p_Result_s_48_fu_555_p4</rtlName>
+              <rtlName>p_Result_s_46_fu_555_p4</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>7</bitwidth>
@@ -3081,7 +3081,7 @@
                 </item>
               </inlineStackInfo>
               <originalName>OP1.V</originalName>
-              <rtlName>p_Val2_6_fu_941_p10</rtlName>
+              <rtlName>p_Val2_6_fu_934_p10</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>40</bitwidth>
@@ -3247,7 +3247,7 @@
                 </item>
               </inlineStackInfo>
               <originalName>__Val2__</originalName>
-              <rtlName>dut_mul_mul_23s_17ns_40_1_U8</rtlName>
+              <rtlName>dut_mul_mul_23s_17ns_40_1_U7</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>40</bitwidth>
@@ -3333,7 +3333,7 @@
                 </item>
               </inlineStackInfo>
               <originalName>OP1.V</originalName>
-              <rtlName>p_Val2_7_fu_934_p00</rtlName>
+              <rtlName>p_Val2_7_fu_941_p00</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -3499,7 +3499,7 @@
                 </item>
               </inlineStackInfo>
               <originalName>__Val2__</originalName>
-              <rtlName>dut_mul_mul_17ns_15s_32_1_U7</rtlName>
+              <rtlName>dut_mul_mul_17ns_15s_32_1_U8</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -3685,7 +3685,7 @@
             <Obj>
               <type>0</type>
               <id>88</id>
-              <name>tmp_76_cast</name>
+              <name>tmp_74_cast</name>
               <fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h</fileName>
               <fileDirectory>../../../../../../wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
               <lineNumber>606</lineNumber>
@@ -3709,7 +3709,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_76_cast_fu_729_p1</rtlName>
+              <rtlName>tmp_74_cast_fu_729_p1</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -12637,7 +12637,7 @@
           </second>
         </item>
         <item>
-          <first>tmp_89_i_fu_507_p2 ( - ) </first>
+          <first>tmp_87_i_fu_507_p2 ( - ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -12656,6 +12656,29 @@
             <item>
               <first>LUT</first>
               <second>9</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>tmp_89_i_fu_532_p2 ( lshr ) </first>
+          <second>
+            <count>4</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0P0)</first>
+              <second>31</second>
+            </item>
+            <item>
+              <first>(1P1)</first>
+              <second>31</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>85</second>
             </item>
           </second>
         </item>
@@ -12683,30 +12706,7 @@
           </second>
         </item>
         <item>
-          <first>tmp_91_i_fu_532_p2 ( lshr ) </first>
-          <second>
-            <count>4</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>31</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>31</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>85</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>tmp_93_i_fu_542_p2 ( shl ) </first>
+          <first>tmp_91_i_fu_542_p2 ( shl ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -13882,11 +13882,19 @@
           </second>
         </item>
         <item>
-          <first>tmp_89_i_fu_507_p2 ( - ) </first>
+          <first>tmp_87_i_fu_507_p2 ( - ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
             <item>40</item>
+          </second>
+        </item>
+        <item>
+          <first>tmp_89_i_fu_532_p2 ( lshr ) </first>
+          <second>
+            <count>1</count>
+            <item_version>0</item_version>
+            <item>45</item>
           </second>
         </item>
         <item>
@@ -13898,15 +13906,7 @@
           </second>
         </item>
         <item>
-          <first>tmp_91_i_fu_532_p2 ( lshr ) </first>
-          <second>
-            <count>1</count>
-            <item_version>0</item_version>
-            <item>45</item>
-          </second>
-        </item>
-        <item>
-          <first>tmp_93_i_fu_542_p2 ( shl ) </first>
+          <first>tmp_91_i_fu_542_p2 ( shl ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -16057,7 +16057,7 @@
         <second>
           <count>1</count>
           <item_version>0</item_version>
-          <item>83</item>
+          <item>77</item>
         </second>
       </item>
       <item>
@@ -16065,7 +16065,7 @@
         <second>
           <count>1</count>
           <item_version>0</item_version>
-          <item>77</item>
+          <item>83</item>
         </second>
       </item>
     </dp_fu_nodes>
@@ -16388,7 +16388,7 @@
         </second>
       </item>
       <item>
-        <first>p_Result_s_48_fu_555</first>
+        <first>p_Result_s_46_fu_555</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -16492,7 +16492,7 @@
         </second>
       </item>
       <item>
-        <first>p_Val2_6_fu_941</first>
+        <first>p_Val2_6_fu_934</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -16500,7 +16500,7 @@
         </second>
       </item>
       <item>
-        <first>p_Val2_7_fu_934</first>
+        <first>p_Val2_7_fu_941</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -16812,7 +16812,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_76_cast_fu_729</first>
+        <first>tmp_74_cast_fu_729</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -16828,7 +16828,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_83_i_fu_356</first>
+        <first>tmp_81_i_fu_356</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -16836,7 +16836,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_84_i_fu_451</first>
+        <first>tmp_82_i_fu_451</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -16844,7 +16844,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_86_i_fu_496</first>
+        <first>tmp_84_i_fu_496</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -16852,7 +16852,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_87_i_fu_478</first>
+        <first>tmp_85_i_fu_478</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -16860,11 +16860,35 @@
         </second>
       </item>
       <item>
-        <first>tmp_89_i_fu_507</first>
+        <first>tmp_87_i_fu_507</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
           <item>40</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_88_i_fu_528</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>44</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_89_i_cast_fu_538</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>46</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_89_i_fu_532</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>45</item>
         </second>
       </item>
       <item>
@@ -16876,31 +16900,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_90_i_fu_528</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>44</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_91_i_cast_fu_538</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>46</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_91_i_fu_532</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>45</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_93_i_fu_542</first>
+        <first>tmp_91_i_fu_542</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>

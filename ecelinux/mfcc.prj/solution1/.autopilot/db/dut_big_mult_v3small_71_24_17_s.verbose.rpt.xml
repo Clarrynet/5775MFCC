@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'dut_big_mult_v3small_71_24_17_s'" level="0">
-<item name = "Date">Sat Dec 10 16:18:26 2016
+<item name = "Date">Sun Dec 11 11:07:47 2016
 </item>
 <item name = "Version">2016.2 (Build 1577090 on Thu Jun 02 16:59:10 MDT 2016)</item>
 <item name = "Project">mfcc.prj</item>
@@ -88,24 +88,24 @@
 <column name="tmp_65_fu_179_p2">+, 0, 0, 3, 3, 2</column>
 <column name="tmp_67_fu_210_p2">+, 0, 0, 40, 40, 40</column>
 <column name="tmp_s_fu_227_p2">+, 0, 0, 3, 3, 1</column>
-<column name="tmp_74_fu_288_p2">-, 0, 0, 7, 7, 7</column>
-<column name="tmp_78_fu_318_p2">-, 0, 0, 7, 7, 7</column>
+<column name="tmp_43_fu_288_p2">-, 0, 0, 7, 7, 7</column>
+<column name="tmp_47_fu_318_p2">-, 0, 0, 7, 7, 7</column>
 <column name="p_demorgan_fu_372_p2">and, 0, 0, 136, 95, 95</column>
-<column name="tmp_88_fu_384_p2">and, 0, 0, 136, 95, 95</column>
-<column name="tmp_89_fu_390_p2">and, 0, 0, 136, 95, 95</column>
+<column name="tmp_57_fu_384_p2">and, 0, 0, 136, 95, 95</column>
+<column name="tmp_58_fu_390_p2">and, 0, 0, 136, 95, 95</column>
 <column name="exitcond13_fu_156_p2">icmp, 0, 0, 2, 3, 3</column>
 <column name="exitcond14_fu_168_p2">icmp, 0, 0, 2, 3, 3</column>
 <column name="exitcond_fu_221_p2">icmp, 0, 0, 2, 3, 4</column>
-<column name="tmp_72_fu_278_p2">icmp, 0, 0, 11, 32, 32</column>
-<column name="tmp_86_fu_366_p2">lshr, 0, 0, 295, 2, 95</column>
+<column name="tmp_41_fu_278_p2">icmp, 0, 0, 11, 32, 32</column>
+<column name="tmp_55_fu_366_p2">lshr, 0, 0, 295, 2, 95</column>
 <column name="p_Result_22_fu_396_p2">or, 0, 0, 136, 95, 95</column>
-<column name="tmp_75_fu_294_p3">select, 0, 0, 7, 1, 7</column>
-<column name="tmp_76_fu_302_p3">select, 0, 0, 7, 1, 7</column>
-<column name="tmp_77_fu_310_p3">select, 0, 0, 7, 1, 7</column>
-<column name="tmp_84_fu_352_p3">select, 0, 0, 95, 1, 95</column>
-<column name="tmp_82_fu_336_p2">shl, 0, 0, 295, 95, 95</column>
-<column name="tmp_85_fu_360_p2">shl, 0, 0, 295, 2, 95</column>
-<column name="tmp_87_fu_378_p2">xor, 0, 0, 136, 95, 2</column>
+<column name="tmp_44_fu_294_p3">select, 0, 0, 7, 1, 7</column>
+<column name="tmp_45_fu_302_p3">select, 0, 0, 7, 1, 7</column>
+<column name="tmp_46_fu_310_p3">select, 0, 0, 7, 1, 7</column>
+<column name="tmp_53_fu_352_p3">select, 0, 0, 95, 1, 95</column>
+<column name="tmp_51_fu_336_p2">shl, 0, 0, 295, 95, 95</column>
+<column name="tmp_54_fu_360_p2">shl, 0, 0, 295, 2, 95</column>
+<column name="tmp_56_fu_378_p2">xor, 0, 0, 136, 95, 2</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">

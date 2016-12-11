@@ -10,7 +10,7 @@ use ieee.std_logic_1164.all;
 
 entity dut_fdiv_32ns_32ns_32_16 is
     generic (
-        ID         : integer := 26;
+        ID         : integer := 25;
         NUM_STAGE  : integer := 16;
         din0_WIDTH : integer := 32;
         din1_WIDTH : integer := 32;

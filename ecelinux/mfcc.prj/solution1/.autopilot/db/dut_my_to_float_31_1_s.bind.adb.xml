@@ -455,10 +455,10 @@
 
 <node id="32" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-.preheader3:4  %empty_49 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 1, i64 2, i64 1)
+.preheader3:4  %empty_47 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 1, i64 2, i64 1)
 
 ]]></node>
-<StgValue><ssdm name="empty_49"/></StgValue>
+<StgValue><ssdm name="empty_47"/></StgValue>
 </operation>
 
 <operation id="32" st_id="3" stage="1" lat="1">
@@ -1144,13 +1144,13 @@ _ifconv:13  br i1 %tmp_16, label %.preheader3, label %.loopexit_ifconv
 </dataflow>
 <dataflow id="163" from="stg_162" to="tmp_23" fromId="162" toId="30">
 </dataflow>
-<dataflow id="164" from="_ssdm_op_SpecLoopTripCount" to="empty_49" fromId="122" toId="31">
+<dataflow id="164" from="_ssdm_op_SpecLoopTripCount" to="empty_47" fromId="122" toId="31">
 </dataflow>
-<dataflow id="166" from="stg_165" to="empty_49" fromId="165" toId="31">
+<dataflow id="166" from="stg_165" to="empty_47" fromId="165" toId="31">
 </dataflow>
-<dataflow id="167" from="stg_124" to="empty_49" fromId="124" toId="31">
+<dataflow id="167" from="stg_124" to="empty_47" fromId="124" toId="31">
 </dataflow>
-<dataflow id="168" from="stg_165" to="empty_49" fromId="165" toId="31">
+<dataflow id="168" from="stg_165" to="empty_47" fromId="165" toId="31">
 </dataflow>
 <dataflow id="169" from="i2" to="i_1" fromId="29" toId="32">
 </dataflow>

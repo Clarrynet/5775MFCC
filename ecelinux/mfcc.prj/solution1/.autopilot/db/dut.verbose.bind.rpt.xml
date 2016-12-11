@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'dut'" level="0">
-<item name = "Date">Sat Dec 10 16:18:25 2016
+<item name = "Date">Sun Dec 11 11:07:46 2016
 </item>
 <item name = "Version">2016.2 (Build 1577090 on Thu Jun 02 16:59:10 MDT 2016)</item>
 <item name = "Project">mfcc.prj</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">3753783, 3832463, 3753784, 3832464, none</column>
+<column name="">3979282, 4057962, 3979283, 4057963, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- Loop 1">112896, 112896, 9, -, -, 12544, no</column>
+<column name="- Loop 1">376320, 376320, 30, -, -, 12544, no</column>
 </table>
 </item>
 </section>

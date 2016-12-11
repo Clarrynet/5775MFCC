@@ -14,8 +14,8 @@
 #include "dut_big_mult_v3small_71_24_17_s.h"
 #include "dut_my_to_float_31_1_s.h"
 #include "dut_mul_32s_31ns_62_6.h"
-#include "dut_mul_mul_17ns_15s_32_1.h"
 #include "dut_mul_mul_23s_17ns_40_1.h"
+#include "dut_mul_mul_17ns_15s_32_1.h"
 #include "dut_sinf_or_cosf_hls_sin_cos_K0_V.h"
 #include "dut_sinf_or_cosf_hls_sin_cos_K1_V.h"
 #include "dut_sinf_or_cosf_hls_sin_cos_K2_V.h"
@@ -49,8 +49,8 @@ struct dut_sinf_or_cosf : public sc_module {
     dut_big_mult_v3small_71_24_17_s* grp_dut_big_mult_v3small_71_24_17_s_fu_281;
     dut_my_to_float_31_1_s* grp_dut_my_to_float_31_1_s_fu_287;
     dut_mul_32s_31ns_62_6<1,6,32,31,62>* dut_mul_32s_31ns_62_6_U6;
-    dut_mul_mul_17ns_15s_32_1<1,1,17,15,32>* dut_mul_mul_17ns_15s_32_1_U7;
-    dut_mul_mul_23s_17ns_40_1<1,1,23,17,40>* dut_mul_mul_23s_17ns_40_1_U8;
+    dut_mul_mul_23s_17ns_40_1<1,1,23,17,40>* dut_mul_mul_23s_17ns_40_1_U7;
+    dut_mul_mul_17ns_15s_32_1<1,1,17,15,32>* dut_mul_mul_17ns_15s_32_1_U8;
     sc_signal< sc_lv<14> > ap_CS_fsm;
     sc_signal< sc_logic > ap_sig_cseq_ST_st1_fsm_0;
     sc_signal< bool > ap_sig_31;
@@ -136,7 +136,7 @@ struct dut_sinf_or_cosf : public sc_module {
     sc_signal< sc_lv<3> > grp_fu_293_p2;
     sc_signal< sc_lv<2> > grp_fu_298_p4;
     sc_signal< sc_lv<32> > p_Val2_21_fu_314_p1;
-    sc_signal< sc_lv<3> > tmp_83_i_fu_356_p4;
+    sc_signal< sc_lv<3> > tmp_81_i_fu_356_p4;
     sc_signal< sc_lv<49> > p_Val2_11_fu_346_p4;
     sc_signal< sc_lv<1> > tmp_fu_374_p1;
     sc_signal< sc_lv<49> > p_Val2_i_fu_378_p2;
@@ -146,20 +146,20 @@ struct dut_sinf_or_cosf : public sc_module {
     sc_signal< sc_lv<32> > p_Result_14_fu_431_p3;
     sc_signal< sc_lv<32> > val_assign_fu_439_p3;
     sc_signal< sc_lv<5> > Mx_zeros_V_fu_447_p1;
-    sc_signal< sc_lv<49> > tmp_84_i_fu_451_p1;
+    sc_signal< sc_lv<49> > tmp_82_i_fu_451_p1;
     sc_signal< sc_lv<49> > p_Val2_15_fu_455_p2;
     sc_signal< sc_lv<8> > storemerge_i_fu_407_p3;
-    sc_signal< sc_lv<8> > tmp_87_i_fu_478_p1;
-    sc_signal< sc_lv<31> > tmp_86_i_fu_496_p1;
+    sc_signal< sc_lv<8> > tmp_85_i_fu_478_p1;
+    sc_signal< sc_lv<31> > tmp_84_i_fu_496_p1;
     sc_signal< sc_lv<9> > sh_i_cast_fu_504_p1;
-    sc_signal< sc_lv<9> > tmp_89_i_fu_507_p2;
+    sc_signal< sc_lv<9> > tmp_87_i_fu_507_p2;
     sc_signal< sc_lv<9> > sh_assign_fu_513_p3;
     sc_signal< sc_lv<31> > sh_assign_1_i_cast_fu_524_p1;
-    sc_signal< sc_lv<31> > tmp_91_i_fu_532_p2;
-    sc_signal< sc_lv<32> > tmp_90_i_fu_528_p1;
+    sc_signal< sc_lv<31> > tmp_89_i_fu_532_p2;
+    sc_signal< sc_lv<32> > tmp_88_i_fu_528_p1;
     sc_signal< sc_lv<32> > sh_assign_1_i_cast1_fu_520_p1;
-    sc_signal< sc_lv<32> > tmp_91_i_cast_fu_538_p1;
-    sc_signal< sc_lv<32> > tmp_93_i_fu_542_p2;
+    sc_signal< sc_lv<32> > tmp_89_i_cast_fu_538_p1;
+    sc_signal< sc_lv<32> > tmp_91_i_fu_542_p2;
     sc_signal< sc_lv<32> > p_Val2_0_i234_in_i_fu_548_p3;
     sc_signal< sc_lv<1> > sel_tmp1_fu_590_p2;
     sc_signal< sc_lv<1> > sel_tmp_fu_585_p2;
@@ -171,19 +171,19 @@ struct dut_sinf_or_cosf : public sc_module {
     sc_signal< sc_lv<1> > sel_tmp5_fu_628_p2;
     sc_signal< sc_lv<1> > tmp8_fu_633_p2;
     sc_signal< sc_lv<1> > sel_tmp4_fu_623_p2;
-    sc_signal< sc_lv<7> > p_Result_s_48_fu_555_p4;
+    sc_signal< sc_lv<7> > p_Result_s_46_fu_555_p4;
     sc_signal< sc_lv<8> > p_Result_15_fu_645_p3;
     sc_signal< sc_lv<9> > p_Val2_4_fu_663_p0;
     sc_signal< sc_lv<18> > OP1_V_3_fu_660_p1;
     sc_signal< sc_lv<9> > p_Val2_4_fu_663_p1;
     sc_signal< sc_lv<18> > p_Val2_4_fu_663_p2;
-    sc_signal< sc_lv<40> > p_Val2_6_fu_941_p2;
-    sc_signal< sc_lv<32> > p_Val2_7_fu_934_p2;
+    sc_signal< sc_lv<40> > p_Val2_6_fu_934_p2;
+    sc_signal< sc_lv<32> > p_Val2_7_fu_941_p2;
     sc_signal< sc_lv<31> > p_Val2_8_fu_709_p3;
     sc_signal< sc_lv<32> > tmp_5_fu_716_p1;
     sc_signal< sc_lv<32> > tmp_6_fu_720_p1;
     sc_signal< sc_lv<32> > p_Val2_9_fu_723_p2;
-    sc_signal< sc_lv<32> > tmp_76_cast_fu_729_p1;
+    sc_signal< sc_lv<32> > tmp_74_cast_fu_729_p1;
     sc_signal< sc_lv<31> > Mx_V_ret_s_fu_738_p3;
     sc_signal< sc_lv<31> > grp_fu_751_p1;
     sc_signal< sc_lv<62> > grp_fu_751_p2;
@@ -209,14 +209,14 @@ struct dut_sinf_or_cosf : public sc_module {
     sc_signal< sc_lv<1> > tmp_10_fu_920_p2;
     sc_signal< sc_lv<32> > sel_tmp8_fu_912_p3;
     sc_signal< sc_lv<32> > ret_i_i_fu_890_p1;
-    sc_signal< sc_lv<17> > p_Val2_7_fu_934_p0;
-    sc_signal< sc_lv<17> > p_Val2_6_fu_941_p1;
+    sc_signal< sc_lv<17> > p_Val2_6_fu_934_p1;
+    sc_signal< sc_lv<17> > p_Val2_7_fu_941_p0;
     sc_signal< sc_lv<32> > p_s_fu_926_p3;
     sc_signal< sc_lv<32> > ap_return_preg;
     sc_signal< sc_lv<14> > ap_NS_fsm;
     sc_signal< sc_lv<62> > grp_fu_751_p10;
-    sc_signal< sc_lv<40> > p_Val2_6_fu_941_p10;
-    sc_signal< sc_lv<32> > p_Val2_7_fu_934_p00;
+    sc_signal< sc_lv<40> > p_Val2_6_fu_934_p10;
+    sc_signal< sc_lv<32> > p_Val2_7_fu_941_p00;
     static const sc_logic ap_const_logic_1;
     static const sc_logic ap_const_logic_0;
     static const sc_lv<14> ap_ST_st1_fsm_0;
@@ -356,7 +356,7 @@ struct dut_sinf_or_cosf : public sc_module {
     void thread_p_Result_16_fu_789_p3();
     void thread_p_Result_17_fu_797_p3();
     void thread_p_Result_18_fu_882_p3();
-    void thread_p_Result_s_48_fu_555_p4();
+    void thread_p_Result_s_46_fu_555_p4();
     void thread_p_Val2_0_i234_in_i_fu_548_p3();
     void thread_p_Val2_11_fu_346_p4();
     void thread_p_Val2_13_fu_384_p3();
@@ -368,10 +368,10 @@ struct dut_sinf_or_cosf : public sc_module {
     void thread_p_Val2_4_fu_663_p0();
     void thread_p_Val2_4_fu_663_p1();
     void thread_p_Val2_4_fu_663_p2();
-    void thread_p_Val2_6_fu_941_p1();
-    void thread_p_Val2_6_fu_941_p10();
-    void thread_p_Val2_7_fu_934_p0();
-    void thread_p_Val2_7_fu_934_p00();
+    void thread_p_Val2_6_fu_934_p1();
+    void thread_p_Val2_6_fu_934_p10();
+    void thread_p_Val2_7_fu_941_p0();
+    void thread_p_Val2_7_fu_941_p00();
     void thread_p_Val2_8_fu_709_p3();
     void thread_p_Val2_9_fu_723_p2();
     void thread_p_Val2_i_fu_378_p2();
@@ -406,18 +406,18 @@ struct dut_sinf_or_cosf : public sc_module {
     void thread_tmp_2_fu_653_p1();
     void thread_tmp_5_fu_716_p1();
     void thread_tmp_6_fu_720_p1();
-    void thread_tmp_76_cast_fu_729_p1();
+    void thread_tmp_74_cast_fu_729_p1();
     void thread_tmp_7_phi_fu_225_p36();
-    void thread_tmp_83_i_fu_356_p4();
-    void thread_tmp_84_i_fu_451_p1();
-    void thread_tmp_86_i_fu_496_p1();
-    void thread_tmp_87_i_fu_478_p1();
-    void thread_tmp_89_i_fu_507_p2();
+    void thread_tmp_81_i_fu_356_p4();
+    void thread_tmp_82_i_fu_451_p1();
+    void thread_tmp_84_i_fu_496_p1();
+    void thread_tmp_85_i_fu_478_p1();
+    void thread_tmp_87_i_fu_507_p2();
+    void thread_tmp_88_i_fu_528_p1();
+    void thread_tmp_89_i_cast_fu_538_p1();
+    void thread_tmp_89_i_fu_532_p2();
     void thread_tmp_8_fu_857_p2();
-    void thread_tmp_90_i_fu_528_p1();
-    void thread_tmp_91_i_cast_fu_538_p1();
-    void thread_tmp_91_i_fu_532_p2();
-    void thread_tmp_93_i_fu_542_p2();
+    void thread_tmp_91_i_fu_542_p2();
     void thread_tmp_9_fu_862_p2();
     void thread_tmp_fu_374_p1();
     void thread_tmp_i_fu_873_p2();

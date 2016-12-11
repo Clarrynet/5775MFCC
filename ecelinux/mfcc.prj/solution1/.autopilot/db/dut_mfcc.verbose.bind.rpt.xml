@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'dut_mfcc'" level="0">
-<item name = "Date">Sat Dec 10 16:18:25 2016
+<item name = "Date">Sun Dec 11 11:07:46 2016
 </item>
 <item name = "Version">2016.2 (Build 1577090 on Thu Jun 02 16:59:10 MDT 2016)</item>
 <item name = "Project">mfcc.prj</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">3640885, 3719565, 3640885, 3719565, none</column>
+<column name="">3602959, 3681639, 3602959, 3681639, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -44,8 +44,8 @@
 <column name="- Loop 5">93198, 93198, 1902, -, -, 49, no</column>
 <column name=" + Loop 5.1">512, 512, 2, -, -, 256, no</column>
 <column name=" + Loop 5.2">512, 512, 2, -, -, 256, no</column>
-<column name="- Loop 6">3181227, 3259627, 64923 ~ 66523, -, -, 49, no</column>
-<column name=" + Loop 6.1">1419, 1419, 11, -, -, 129, no</column>
+<column name="- Loop 6">3143301, 3221701, 64149 ~ 65749, -, -, 49, no</column>
+<column name=" + Loop 6.1">645, 645, 5, -, -, 129, no</column>
 <column name=" + Loop 6.2">26100, 26100, 1305, -, -, 20, no</column>
 <column name="  ++ Loop 6.2.1">1290, 1290, 10, -, -, 129, no</column>
 <column name=" + Loop 6.3">37400, 39000, 1870 ~ 1950, -, -, 20, no</column>

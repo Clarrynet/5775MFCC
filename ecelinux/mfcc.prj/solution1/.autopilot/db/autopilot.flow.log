@@ -1,150 +1,150 @@
-@I [HLS-0] Workspace /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1 opened at Sat Dec 10 16:16:35 EST 2016
-@I [HLS-100] Command 'open_solution' returned 0; elapsed 0.06Total elapsed time: 2.286 sec.
+@I [HLS-0] Workspace /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1 opened at Sun Dec 11 11:05:10 EST 2016
+@I [HLS-100] Command 'open_solution' returned 0; elapsed 0.02Total elapsed time: 2.223 sec.
 @I [HLS-100] Command "set_part xc7z020clg484-1 "
 @I [HLS-100] Command "add_library xilinx/zynq/zynq:xc7z020:clg484:-1 "
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 2.295 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 2.231 sec.
 @I [HLS-100] Command "license_isbetapart xc7z020 "
-@I [HLS-100] Command 'license_isbetapart' returned 1; elapsed 0.01Total elapsed time: 2.308 sec.
+@I [HLS-100] Command 'license_isbetapart' returned 1; elapsed 0.01Total elapsed time: 2.243 sec.
 @I [HLS-100] Command "open_platform DefaultPlatform "
-@I [HLS-100] Command 'open_platform' returned 0; elapsed 0Total elapsed time: 2.311 sec.
+@I [HLS-100] Command 'open_platform' returned 0; elapsed 0Total elapsed time: 2.246 sec.
 @I [HLS-100] Command "import_lib /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/zynq/zynq "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/xilinx.lib "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/xilinx_interface.lib "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/plb46.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.334 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.260 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/fsl.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.338 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.263 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/axi4.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.342 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.266 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/maxi.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.347 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.269 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/saxilite.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.351 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.351 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.272 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.272 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/dsp48.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.356 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.275 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/ip/xfft.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.362 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.279 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/ip/dds_compiler.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.367 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.282 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/ip/xfir.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.371 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.372 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.285 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 2.287 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/xilinx_old.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.378 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.292 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/xilinx_vivado.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.383 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 2.295 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/xilinx.hlp "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/target_info.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.397 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.306 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/xilinx_interface.hlp "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/maxi.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.406 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.312 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/saxilite.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.410 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.410 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.315 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.315 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/dsp48.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.415 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.416 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.318 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.319 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/zynq/dsp48e1.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.420 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.322 sec.
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 2.420 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 2.322 sec.
 @I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 2.420 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 2.322 sec.
 @I [HLS-100] Command "config_chip_info -quiet -speed medium "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 2.421 sec.
-@I [HLS-100] Command 'import_lib' returned 0; elapsed 0.02Total elapsed time: 2.422 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 2.322 sec.
+@I [HLS-100] Command 'import_lib' returned 0; elapsed 0.02Total elapsed time: 2.324 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/zynq/zynq.gen "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/virtex.gen "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/xilinx.gen "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/plb46.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.440 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.337 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/fsl.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.444 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.340 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/axi4.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.450 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.345 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/nativeAXI4.gen "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/saxilite.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.461 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.354 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/maxi.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.02Total elapsed time: 2.470 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.02Total elapsed time: 2.470 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.364 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.364 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/scripts/xilinxcoregen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.481 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 2.376 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/XilEDKCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 2.490 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 2.387 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/ip/util.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.495 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.391 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/ip/xfir.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.498 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.394 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/ip/xfft.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.06Total elapsed time: 2.559 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.1Total elapsed time: 2.492 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/ip/dds_compiler.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.566 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.09Total elapsed time: 2.566 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 2.498 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.14Total elapsed time: 2.498 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/dsp48.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.572 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.09Total elapsed time: 2.572 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.09Total elapsed time: 2.572 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.503 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.14Total elapsed time: 2.503 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.14Total elapsed time: 2.503 sec.
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 2.578 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 2.508 sec.
 @I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 2.578 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 2.508 sec.
 @I [HLS-100] Command "config_chip_info -quiet -speed slow "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 2.578 sec.
-@I [HLS-100] Command 'add_library' returned 0; elapsed 0.12Total elapsed time: 2.584 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 2.508 sec.
+@I [HLS-100] Command 'add_library' returned 0; elapsed 0.17Total elapsed time: 2.513 sec.
 @I [HLS-100] Command "add_library xilinx/zynq/zynq_fpv6 "
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 2.587 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 2.515 sec.
 @I [HLS-100] Command "open_platform DefaultPlatform "
-@I [HLS-100] Command 'open_platform' returned 0; elapsed 0Total elapsed time: 2.588 sec.
+@I [HLS-100] Command 'open_platform' returned 0; elapsed 0Total elapsed time: 2.515 sec.
 @I [HLS-100] Command "import_lib /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/zynq/zynq_fpv6 "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/xilinx_fpv7.lib "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/xilinx_hp.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.606 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 2.607 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.526 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.529 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/xilinx_fpv.hlp "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/xilinx.hlp "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/target_info.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.627 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.545 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/xilinx_interface.hlp "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/maxi.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 2.634 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.549 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/saxilite.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.638 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 2.638 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.551 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.551 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/dsp48.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.641 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 2.642 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 2.642 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.554 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.555 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.555 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/zynq/zynq_hp.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.647 sec.
-@I [HLS-100] Command 'import_lib' returned 0; elapsed 0.03Total elapsed time: 2.650 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.559 sec.
+@I [HLS-100] Command 'import_lib' returned 0; elapsed 0.02Total elapsed time: 2.563 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/zynq/zynq_fpv6.gen "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/xilinx_fpv6.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.660 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.660 sec.
-@I [HLS-100] Command 'add_library' returned 0; elapsed 0.03Total elapsed time: 2.666 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.570 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 2.570 sec.
+@I [HLS-100] Command 'add_library' returned 0; elapsed 0.02Total elapsed time: 2.574 sec.
 @I [HLS-10] Setting target device to 'xc7z020clg484-1'
-@I [HLS-100] Command 'set_part' returned 0; elapsed 0.16Total elapsed time: 2.666 sec.
+@I [HLS-100] Command 'set_part' returned 0; elapsed 0.19Total elapsed time: 2.574 sec.
 @I [HLS-100] Command "create_clock -period 10 "
 @I [HLS-100] Command "config_clock -quiet -name default -period 10 -default=false "
 @I [SYN-201] Setting up clock 'default' with a period of 10ns.
-@I [HLS-100] Command 'config_clock' returned 0; elapsed 0Total elapsed time: 2.675 sec.
-@I [HLS-100] Command 'create_clock' returned 0; elapsed 0Total elapsed time: 2.675 sec.
+@I [HLS-100] Command 'config_clock' returned 0; elapsed 0Total elapsed time: 2.581 sec.
+@I [HLS-100] Command 'create_clock' returned 0; elapsed 0Total elapsed time: 2.581 sec.
 @I [HLS-100] Command "set_directive_inline -off mfcc "
 @I [HLS-0] Setting directive 'INLINE' off=positionBoolean1 
-@I [HLS-100] Command 'set_directive_inline' returned 0; elapsed 0Total elapsed time: 2.679 sec.
+@I [HLS-100] Command 'set_directive_inline' returned 0; elapsed 0Total elapsed time: 2.585 sec.
 @I [HLS-100] Command "set_directive_inline -off knn "
 @I [HLS-0] Setting directive 'INLINE' off=positionBoolean1 
 @I [HLS-0] Setting directive 'INLINE' off=positionBoolean1 
-@I [HLS-100] Command 'set_directive_inline' returned 0; elapsed 0Total elapsed time: 2.683 sec.
+@I [HLS-100] Command 'set_directive_inline' returned 0; elapsed 0Total elapsed time: 2.588 sec.
 @I [HLS-100] Command "config_dataflow -default_channel fifo -fifo_depth 1 "
 @I [XFORM-701] Set default FIFO size in dataflow to 1.
 @I [XFORM-701] Set the default channel type in dataflow to FIFO.
-@I [HLS-100] Command 'config_dataflow' returned 0; elapsed 0Total elapsed time: 2.689 sec.
+@I [HLS-100] Command 'config_dataflow' returned 0; elapsed 0Total elapsed time: 2.593 sec.
 @I [HLS-100] Command "csynth_design "
 @I [HLS-100] Command "elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -lm=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 "
 @I [HLS-10] Analyzing design file 'mfcc.cpp' ... 
@@ -154,8 +154,8 @@
 Checking before pre-process: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/tools/gcc" -hls    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit   -I "/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/tools/systemc/include" -I "/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/include" -I "/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/include/ap_sysc" -fexceptions -I "/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/autopilot" -include etc/autopilot_ssdm_op.h "mfcc.cpp"  -o "/home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.pp.00.o"
 
 @I [HLS-100] Command "is_encrypted /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.pp.00.o "
-@I [HLS-100] Command 'is_encrypted' returned 0; elapsed 0Total elapsed time: 4.318 sec.
-@I [HLS-0] Syntax Checker time: 1 seconds per iteration
+@I [HLS-100] Command 'is_encrypted' returned 0; elapsed 0Total elapsed time: 4.927 sec.
+@I [HLS-0] Syntax Checker time: 2 seconds per iteration
 @I [HLS-0] 
 Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/tools/gcc" -hls -fno-exceptions  -D__llvm__  -CC -E "mfcc.cpp"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/autopilot" -I "/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h  -o "/home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.pp.0.cpp"
 
@@ -163,7 +163,7 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-0] Setting directive 'INLINE' off=positionBoolean1 
 @I [HLS-0] Setting directive 'INLINE' off=positionBoolean1 
 @I [HLS-100] Command "list_core -type functional_unit "
-@I [HLS-100] Command 'list_core' returned 0; elapsed 0Total elapsed time: 4.846 sec.
+@I [HLS-100] Command 'list_core' returned 0; elapsed 0Total elapsed time: 5.451 sec.
 @I [HLS-0] Marker-Pragma convertor: /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.pp.0.cpp /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.pp.0.cpp.ap-line.cpp /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.pp.0.cpp.ap-line.cpp.CXX 1
 @I [HLS-0] 
 Source processor: exec /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/tps/lnx64/jre/bin/java -Xmx512m -classpath   "/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lib/classes/autopilot.sourceprocessor.jar:/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lib/classes/org.eclipse.cdt.core_5.3.0.xilinx_patch.jar:/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lib/classes/org.eclipse.core.runtime_3.7.0.v20110110.jar:/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lib/classes/org.eclipse.equinox.common_3.6.0.v20110523.jar:/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lib/classes/com.ibm.icu_4.4.2.v20110208.jar:/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lib/classes/jargs.jar:/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/tools/eclipse/plugins/org.eclipse.emf.common_2.10.1.v20150123-0348.jar:/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/tools/eclipse/plugins/org.eclipse.emf.ecore_2.10.2.v20150123-0348.jar:/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/tools/eclipse/plugins/org.eclipse.emf.ecore.xmi_2.10.2.v20150123-0348.jar:/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/tools/eclipse/plugins/com.autoesl.autopilot.ui.directiveFileModel_1.0.0.jar:/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/tools/eclipse/plugins/com.autoesl.autopilot.ui.common_1.0.0.jar"  autopilot.sourceprocessor.CParser  "/home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.pp.0.cpp.ap-line.cpp"  -m "dut" -o "/home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.pp.0.cpp.ap-cdt.cpp" --pp --directive /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/solution1.directive --source /home/drl224/ece5775/final/ecelinux/mfcc.cpp --error /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db --funcunit "AddSub AddSub_DSP AddSubnS DAddSub_fulldsp DAddSub_nodsp DDiv DExp_fulldsp DExp_meddsp DExp_nodsp DLog_fulldsp DLog_meddsp DLog_nodsp DMul_fulldsp DMul_maxdsp DMul_meddsp DMul_nodsp DRSqrt DRecip DSqrt DivnS FAddSub_fulldsp FAddSub_nodsp FDiv FExp_fulldsp FExp_meddsp FExp_nodsp FLog_fulldsp FLog_meddsp FLog_nodsp FMul_fulldsp FMul_maxdsp FMul_meddsp FMul_nodsp FRSqrt_fulldsp FRSqrt_nodsp FRecip_fulldsp FRecip_nodsp FSqrt HAddSub_nodsp HDiv HMul_fulldsp HMul_maxdsp HMul_nodsp HSqrt Mul Mul2S Mul3S Mul4S Mul5S Mul6S Mul_LUT MulnS MuxnS" --ve --vetcl /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db --ca --es --gf --pd --p2d /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db --sd --scff /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/.systemc_flag --ad
@@ -178,28 +178,28 @@ Error:Syntax error in source:)
  *__first = __tmp;
 @I [HLS-0] Marker-Pragma convertor: /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.pp.0.cpp.ap-cdt.cpp /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.pragma.0.cpp /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.pragma.0.cpp.ap-line.CXX 0
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/pragma.status.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 12.359 sec.
-@I [HLS-0] CDT processor time: 7 seconds per iteration
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 15.505 sec.
+@I [HLS-0] CDT processor time: 10 seconds per iteration
 @I [HLS-0] Pragma handling time: 0 seconds per iteration
 @I [HLS-0] 
 Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/tools/gcc" -hls -fno-exceptions  -D__llvm__  -CC -E "/home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.pragma.1.cpp"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/autopilot" -I "/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h  -o "/home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.pragma.2.cpp"
 
 @I [HLS-0] exec clang -fno-limit-debug-info -gcc-toolchain /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/tools/gcc -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions  -D__llvm__  -w  "/home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.pragma.2.cpp"    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/autopilot" -I "/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -g -o "/home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.g.bc"
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/ve_warning.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 14.791 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 19.122 sec.
 @I [HLS-10] Validating synthesis directives ...
 @0 [HLS-0] Validating synthesis directives ...
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/pragma.status.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 14.795 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 19.125 sec.
 @I [HLS-0] Linking all ...
 @I [HLS-0] exec llvm-ld  "/home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.bc"  -disable-opt  -L/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/lib -lm_basic -o "/home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.o.pre"
-@I [HLS-0] Link time: 4 seconds per iteration
+@I [HLS-0] Link time: 6 seconds per iteration
 @I [HLS-0] Linking all ...
 @I [HLS-0] exec llvm-ld  "/home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/mfcc.g.bc"  -disable-opt  -L/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/lib -lm_basic -o "/home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.g.pre"
-@I [HLS-0] Link time: 4 seconds per iteration
+@I [HLS-0] Link time: 6 seconds per iteration
 @I [HLS-100] Command "opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 "
 @I [HLS-100] Command "cleanup_all_models "
-@I [HLS-100] Command 'cleanup_all_models' returned 0; elapsed 0Total elapsed time: 24.535 sec.
+@I [HLS-100] Command 'cleanup_all_models' returned 0; elapsed 0Total elapsed time: 32.326 sec.
 @I [HLS-10] Starting code transformations ...
 @0 [HLS-0] Starting code transformations ...
 @I [HLS-0] std xform: transform -hls -share-std-xform -always-inline -promote-dbg-pointer  -interface-preproc  -scalarrepl -mem2reg -keep-read-access -instcombine -dce  -promote-dbg-pointer  -bitop-raise  -indvars -loop-simplify -xunroll  -constprop -instcombine -simplifycfg -indvars  -simplifycfg -dce -globaldce  -basicaa  -simplifycfg -mem2reg -globalopt  -global-constprop -deadargelim -instcombine -simplifycfg  -prune-eh -simplifycfg  -scalarrepl -instcombine -reassociate -licm  -simplifycfg -loop-simplify -indvars -instcombine  -simplifycfg -mem2reg -loop-simplify -indvars -instcombine  -gvn -gvn -instcombine -adce  -break-crit-edges  -simplifycfg -loop-delete  -global-array-opt -dce -dse -adce  -find-syn-modules -top dut  -deadargelim  -mem2reg -instcombine -dce  -presyn-prepare -auto-rom-infer  -interface-preproc  -syn-check -check-rec-only  -find-region -simplifycfg -func-extr -function-inline  -globaldce -mem2reg -instcombine -dce   -gvn -globaldce -adce -adse  -constprop -instcombine -bit-constprop  -instcombine -dce -simplifycfg -bitop-raise  -simplifycfg -dce -loop-delete -reassociate  -globalopt -global-privatize -mem2reg -dce  -global-constprop -pointer-simplify -constprop -dce  -func-inst -deadargelim  -promote-dbg-pointer  -norm-name   /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.g.0.bc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.g.1.bc -f  -phase std-opt
@@ -212,9 +212,9 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [XFORM-603] Inlining function 'ap_fixed_base<31, 1, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator<<' into 'hls::hotbm::my_to_float<31, 1>' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:156).
 @I [XFORM-603] Inlining function 'ap_fixed_base<78, 55, false, (ap_q_mode)5, (ap_o_mode)3, 0>::operator<<' into 'hls::cast_IEEE754<int, float>' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h:371).
 @I [XFORM-603] Inlining function 'ap_fixed_base<1, 33, false, (ap_q_mode)5, (ap_o_mode)0, 0>::overflow_adjust' into 'ap_fixed_base<1, 33, false, (ap_q_mode)5, (ap_o_mode)0, 0>::ap_fixed_base<55, 55, false, (ap_q_mode)5, (ap_o_mode)3, 0>' ().
-@I [HLS-0] Std xform time: 14 seconds per iteration
+@I [HLS-0] Std xform time: 24 seconds per iteration
 @I [HLS-100] Command "is_encrypted /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.g.1.bc "
-@I [HLS-100] Command 'is_encrypted' returned 0; elapsed 0Total elapsed time: 46.27 sec.
+@I [HLS-100] Command 'is_encrypted' returned 0; elapsed 0Total elapsed time: 64.833 sec.
 @I [HLS-10] Checking synthesizability ...
 @0 [HLS-0] Checking synthesizability ...
 @I [HLS-0] syn check 1/2: transform -hls -syn-check -check-rec-only -disaggr -scalarrepl -norm-name -dce  -mem2reg -instcombine  -function-uniquify -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce  -array-normalize -instcombine -dce  -array-seg-normalize -instcombine -dce  -array-flatten -instcombine -dce  -array-burst -dce  -deadargelim -promote-global-argument  -simplifycfg -mem2reg -globaldce -resolve-double-ptr  -dce -deadargelim -dce -instcombine  -function-inline -globaldce -dce  -doublePtrSimplify -doublePtrElim -dce  -doublePtrSimplify -promote-dbg-pointer  -dce -scalarrepl -dse -adse -instcombine  -ptrLegalization  -simplifycfg -dce -instcombine  -pointer-simplify -ptrArgReplace -dce -instcombine   -disaggr -scalarrepl -norm-name -dce  -mem2reg -instcombine -ptrLegalization   -simplifycfg -deadargelim  -instcombine -dce -inst-simplify  -function-uniquify -directive-preproc -mem2reg -dse -dce  -globaldce    /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.g.1.bc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.g.2.prechk.bc -f
@@ -244,12 +244,12 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [XFORM-602] Inlining function 'fp_struct<float>::expv' into 'hls::cast_IEEE754<int, float>' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h:371) automatically.
 @I [XFORM-602] Inlining function 'fp_struct<float>::__signbit' into 'hls::cast_IEEE754<int, float>' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h:383) automatically.
 @I [XFORM-602] Inlining function 'hls::cast_IEEE754<int, float>' into '__hls_fptosi_float_i32' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/lib_floatconversion.cpp:39) automatically.
-@I [XFORM-602] Inlining function 'std::abs' into 'knn' (mfcc.cpp:192) automatically.
-@I [XFORM-602] Inlining function '__hls_fptosi_float_i32' into 'knn' (mfcc.cpp:198) automatically.
-@I [XFORM-602] Inlining function 'std::log' into 'mfcc' (mfcc.cpp:132) automatically.
-@I [XFORM-602] Inlining function 'std::sqrt' into 'mfcc' (mfcc.cpp:138) automatically.
-@I [XFORM-602] Inlining function 'std::cos' into 'mfcc' (mfcc.cpp:143) automatically.
-@I [HLS-0] Syn check 1/2 time: 9 seconds per iteration
+@I [XFORM-602] Inlining function 'std::abs' into 'knn' (mfcc.cpp:199) automatically.
+@I [XFORM-602] Inlining function '__hls_fptosi_float_i32' into 'knn' (mfcc.cpp:205) automatically.
+@I [XFORM-602] Inlining function 'std::log' into 'mfcc' (mfcc.cpp:139) automatically.
+@I [XFORM-602] Inlining function 'std::sqrt' into 'mfcc' (mfcc.cpp:145) automatically.
+@I [XFORM-602] Inlining function 'std::cos' into 'mfcc' (mfcc.cpp:150) automatically.
+@I [HLS-0] Syn check 1/2 time: 14 seconds per iteration
 @I [HLS-0] syn check 2/2: transform -syn-check   /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.g.2.prechk.bc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.g.2.bc -f  -phase syn-check
 @W [SYNCHK-23] /wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:135: variable-indexed range selection may cause suboptimal QoR.
 @E [SYNCHK-41] mfcc.cpp:28: unsafe type casting from type 'ap_uint<64>' to type 'float'.
@@ -258,11 +258,11 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-0] Compiler optimizing ...
 @I [HLS-0] Share syncheck's 1.bc for syn flow: copy /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.g.1.bc to /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.o.1.bc
 @I [HLS-0] presyn 1: transform -hls -tmp /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db -type-info  -function-uniquify -directive-preproc -mem2reg -dse -dce  -disaggr -scalarrepl -norm-name -deadargelim  -mem2reg -instcombine -dce -auto-rom-infer -dce -function-uniquify  -resource-proc  -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine  -clib-intrinsic-prepare -dce  -func-buffer -dce -array-normalize  -func-legal -instcombine -gvn -constprop -dce   -ptrArgReplace -mem2reg -instcombine -dce  -array-seg-normalize -deadargelim  -instcombine -dce  -pointer-simplify -dce  -port-alignment -dce  -interface-preproc  -data-pack -instcombine -dce   -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn  -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce  -loop-simplify -indvars -instcombine  -gvn -loop-simplify -mem2reg -dce -simplifycfg  -find-region -instcombine  -auto-loop-pipeline  -inst-simplify  -interface-preproc  -indvars -auto-loop-unroll -loop-simplify -loop-bound -xunroll  -constprop -instcombine -simplifycfg -indvars  -simplifycfg -dce -globaldce  -attach-range  -gvn -inst-simplify  -constprop -simplifycfg -dce  -pointer-simplify -dce  -globalopt -constprop -dce  -array-promote -constprop -instcombine -dce  -ptrArgReplace -mem2reg  -instcombine -simplifycfg -dce  -auto-par -instcombine -dce  -array-transform-check  -array-reshape -instcombine -simplifycfg -dce  -ptrArgReplace -deadargelim -mem2reg  -instcombine -simplifycfg -dce   -indvars -loop-simplify -loop-bound -xunroll  -constprop -instcombine -simplifycfg -indvars  -simplifycfg -dce -globaldce  -duplicate-dataflow-processes -globaldce  -array-partition -instcombine -simplifycfg -dce  -ptrArgReplace -global-constprop -deadargelim -mem2reg  -func-legal -instcombine -dce -global-constprop -deadargelim -mem2reg  -instcombine -simplifycfg -dce   -globalopt -constprop -dce  -array-promote -constprop -instcombine -dce  -ptrArgReplace -mem2reg  -instcombine -simplifycfg -dce   -mem-intrinsic-preproc -dce  -global-privatize  -mem2reg -globaldce  -promote-global-argument  -ptrArgReplace -mem2reg -instcombine -dce  -globalopt -mergereturn -simplify-global-access -mem2reg -dce  -pointer-simplify -dce  -functionattrs  -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn  -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce  -inst-simplify -dce -norm-name  -function-inline -globaldce  -func-inst -constprop -instcombine -simplifycfg -dce  -func-legal -dce   -loop-bound  -arraycheck -bitwidthmin -on-by-dataflow  -loop-delete -instcombine -simplifycfg  -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments  -loop-stream -instcombine -simplifycfg -dce -globaldce  -stream-intrinsic-preproc -dce  -check-ap-stream -loop-simplify -eliminate-keepreads  -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse  -check-dataflow-syntax  -legalize-stream-variable -legalize-global -legalize-global-1  -extract-subproc -dce -dead-channel-elimination  -canonicalize-gep -globaldce -dce -gvn -deadargelim  -scalar-propagation -deadargelim -globaldce -mem2reg  -check-dataflow-channels -function-stream -annotate-dataflow-channels -dce -globaldce  -prop-fifo-spec -internal-stream-gen  -canonicalize-gep -globaldce -dce -gvn -deadargelim   -mergereturn -indvars -loop-simplify -instcombine  -array-stream -instcombine -simplifycfg -dce  -bundle-memfifo-ops -deadargelim    -function-uniquify -directive-preproc -mem2reg -dse -dce  -group-axi-access    -licm -simplifycfg -dce -loop-delete  -norm-name  /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.o.1.bc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.o.1.tmp.bc -f
-@W [XFORM-1103] Ignored data pack directive on non-struct variable 'fft_config.data.V' (mfcc.cpp:93).
-@W [XFORM-1102] Ignored multiple data pack pragma for variable 'xn' (mfcc.cpp:89).
-@I [XFORM-1101] Packing variable 'xn' (mfcc.cpp:89) into a 64-bit variable.
-@W [XFORM-1102] Ignored multiple data pack pragma for variable 'xk' (mfcc.cpp:90).
-@I [XFORM-1101] Packing variable 'xk' (mfcc.cpp:90) into a 64-bit variable.
+@W [XFORM-1103] Ignored data pack directive on non-struct variable 'fft_config.data.V' (mfcc.cpp:100).
+@W [XFORM-1102] Ignored multiple data pack pragma for variable 'xn' (mfcc.cpp:96).
+@I [XFORM-1101] Packing variable 'xn' (mfcc.cpp:96) into a 64-bit variable.
+@W [XFORM-1102] Ignored multiple data pack pragma for variable 'xk' (mfcc.cpp:97).
+@I [XFORM-1101] Packing variable 'xk' (mfcc.cpp:97) into a 64-bit variable.
 @I [XFORM-502] Unrolling small iteration loop 'Loop-1' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:133) in function 'hls::hotbm::my_to_float<31, 1>' automatically.
 @I [XFORM-501] Unrolling loop 'Loop-1' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:133) in function 'hls::hotbm::my_to_float<31, 1>' completely.
 @I [XFORM-102] Automatically partitioning small array 'out_bits.V' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:132) completely based on array size.
@@ -298,14 +298,14 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [XFORM-602] Inlining function 'fp_struct<float>::expv' into 'hls::cast_IEEE754<int, float>' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h:371) automatically.
 @I [XFORM-602] Inlining function 'fp_struct<float>::__signbit' into 'hls::cast_IEEE754<int, float>' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h:383) automatically.
 @I [XFORM-602] Inlining function 'hls::cast_IEEE754<int, float>' into '__hls_fptosi_float_i32' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/lib_floatconversion.cpp:39) automatically.
-@I [XFORM-602] Inlining function 'std::abs' into 'knn' (mfcc.cpp:192) automatically.
-@I [XFORM-602] Inlining function '__hls_fptosi_float_i32' into 'knn' (mfcc.cpp:198) automatically.
-@I [XFORM-602] Inlining function 'std::log' into 'mfcc' (mfcc.cpp:132) automatically.
-@I [XFORM-602] Inlining function 'std::sqrt' into 'mfcc' (mfcc.cpp:138) automatically.
-@I [XFORM-602] Inlining function 'std::cos' into 'mfcc' (mfcc.cpp:143) automatically.
-@I [HLS-0] Presyn 1 time: 11 seconds per iteration
+@I [XFORM-602] Inlining function 'std::abs' into 'knn' (mfcc.cpp:199) automatically.
+@I [XFORM-602] Inlining function '__hls_fptosi_float_i32' into 'knn' (mfcc.cpp:205) automatically.
+@I [XFORM-602] Inlining function 'std::log' into 'mfcc' (mfcc.cpp:139) automatically.
+@I [XFORM-602] Inlining function 'std::sqrt' into 'mfcc' (mfcc.cpp:145) automatically.
+@I [XFORM-602] Inlining function 'std::cos' into 'mfcc' (mfcc.cpp:150) automatically.
+@I [HLS-0] Presyn 1 time: 17 seconds per iteration
 @I [HLS-0] presyn 2: transform -hls -keep-callgraph -scalarrepl -mem2reg  -port-alignment -attach-range -dce  -pipe-mux-gen  -indvars -loop-bound  -inst-simplify -instcombine -dce  -merge-array-access -mem2reg -dce  -clean-region -mergereturn -if-conv  -instcombine -dce -constprop  -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn  -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce  -scalarrepl -mem2reg  -global-constprop -deadargelim -deadargelim  -instcombine -dce -simplifycfg    -ptrArgReplace -mem2reg -function-inline  -globaldce -mem2reg -instcombine -dce -expr-balance  -instcombine -dce  -bitwidthmin  -interface-preproc -directive-preproc  -inst-rectify -instcombine -dce  -functionattrs  -constprop -instcombine -bit-constprop  -simplify-global-access  -globalopt -globaldce  -inst-simplify -instcombine -elimdeaddata -dce  -loop-delete -simplifycfg -loop-simplify -auto-burst   -norm-name /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.o.1.tmp.bc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.o.2.bc -f  -phase presyn
-@I [XFORM-401] Performing if-conversion on hyperblock from (mfcc.cpp:197:9) to (mfcc.cpp:199:7) in function 'knn'... converting 4 basic blocks.
+@I [XFORM-401] Performing if-conversion on hyperblock from (mfcc.cpp:204:9) to (mfcc.cpp:206:7) in function 'knn'... converting 4 basic blocks.
 @I [XFORM-401] Performing if-conversion on hyperblock from (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:536:20) to (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:631:5) in function 'hls::hotbm::sinf_or_cosf'... converting 9 basic blocks.
 @I [XFORM-401] Performing if-conversion on hyperblock from (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:631:57) to (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:645:1) in function 'hls::hotbm::sinf_or_cosf'... converting 4 basic blocks.
 @I [XFORM-401] Performing if-conversion on hyperblock from (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:215:7) to (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:297:1) in function 'hls::hotbm::range_redux_payne_hanek_hotbm<20, float, 31, 31>'... converting 8 basic blocks.
@@ -313,21 +313,21 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [XFORM-401] Performing if-conversion on hyperblock from (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:164:30) to (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:174:1) in function 'hls::hotbm::my_to_float<31, 1>'... converting 3 basic blocks.
 @I [XFORM-401] Performing if-conversion on hyperblock from (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_big_mult.h:261:51) to (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_big_mult.h:260:24) in function 'hls::big_mult_v3small<71, 24, 17>'... converting 3 basic blocks.
 @I [XFORM-602] Inlining function 'hls::hotbm::range_redux_payne_hanek_hotbm<20, float, 31, 31>' into 'hls::hotbm::sinf_or_cosf' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:573) automatically.
-@I [HLS-0] Presyn 2 time: 1 seconds per iteration
+@I [HLS-0] Presyn 2 time: 2 seconds per iteration
 @I [HLS-100] Command "is_encrypted /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.o.2.bc "
-@I [HLS-100] Command 'is_encrypted' returned 0; elapsed 0Total elapsed time: 78.646 sec.
+@I [HLS-100] Command 'is_encrypted' returned 0; elapsed 0Total elapsed time: 110.650 sec.
 @I [HLS-0] build ssdm: transform -hls  -function-uniquify -auto-function-inline -globaldce  -ptrArgReplace -mem2reg -instcombine -dce  -reset-lda  -loop-simplify -indvars -licm -loop-dep  -loop-bound -licm -loop-simplify -flattenloopnest  -array-flatten -gvn -instcombine -dce  -array-map -dce -func-legal  -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify   -array-burst -promote-global-argument -dce  -axi4-lower -array-seg-normalize  -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn  -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm  -inst-simplify -dce  -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine  -dce   -deadargelim -doublePtrSimplify  -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer  -dce -scalarrepl -mem2reg -disaggr -norm-name -mem2reg  -instcombine  -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine  -loop-rot -constprop -cfgopt -simplifycfg -loop-simplify -indvars -pointer-simplify -dce -loop-bound  -loop-simplify -loop-preproc  -constprop -global-constprop -gvn -mem2reg -instcombine -dce  -loop-merge -dce  -bitwidthmin  -deadargelim -dce  -scalar-propagation -deadargelim -globaldce -mem2reg  -interface-preproc -interface-gen  -deadargelim -directive-preproc -inst-simplify -dce  -gvn -mem2reg -instcombine -dce -adse  -loop-bound  -instcombine -cfgopt -simplifycfg -loop-simplify  -clean-region -io-protocol  -find-region -mem2reg  -bitop-raise  -inst-simplify -inst-rectify -instcombine -adce -deadargelim  -loop-simplify -phi-opt -bitop-raise  -cfgopt -simplifycfg -strip-dead-prototypes  -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline  -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa  -inst-simplify -simplifycfg   -mergereturn -inst-simplify -inst-rectify  -dce -bitop-lower  -loop-rewind -pointer-simplify -dce -cfgopt  -read-loop-dep -dce -bitwidth -norm-name -legalize    -cdfg-build  /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.o.2.bc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.o.3.bc -f  -phase build-ssdm
-@W [XFORM-631] Renaming function 'hls::fft<config1>' (/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/autopilot/hls_fft.h:984) into fft<config1>.
 @W [XFORM-631] Renaming function 'hls::big_mult_v3small<71, 24, 17>' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_big_mult.h:258:26) into big_mult_v3small<71, 24, 17>.
-@W [XFORM-631] Renaming function 'hls::hotbm::my_to_float<31, 1>' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:118) into my_to_float<31, 1>.
 @W [XFORM-631] Renaming function 'hls::hotbm::sinf_or_cosf' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:536) into sinf_or_cosf.
-@I [HLS-0] Build ssdm time: 24 seconds per iteration
+@W [XFORM-631] Renaming function 'hls::hotbm::my_to_float<31, 1>' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:118) into my_to_float<31, 1>.
+@W [XFORM-631] Renaming function 'hls::fft<config1>' (/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/autopilot/hls_fft.h:984) into fft<config1>.
+@I [HLS-0] Build ssdm time: 37 seconds per iteration
 @I [HLS-100] Command "is_encrypted /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.o.3.bc "
-@I [HLS-100] Command 'is_encrypted' returned 0; elapsed 0Total elapsed time: 106.352 sec.
+@I [HLS-100] Command 'is_encrypted' returned 0; elapsed 0Total elapsed time: 152.226 sec.
 @I [HLS-0] Finish building internal data model.
-@I [HLS-100] Command 'opt_and_import_c' returned 0; elapsed 59.03Total elapsed time: 109.240 sec.
-@I [HLS-111] Elapsed time: 60.57 seconds; current memory usage: 671 MB.
-@I [HLS-100] Command 'elaborate' returned 0; elapsed 60.03Total elapsed time: 109.249 sec.
+@I [HLS-100] Command 'opt_and_import_c' returned 0; elapsed 94.5Total elapsed time: 155.428 sec.
+@I [HLS-111] Elapsed time: 96.56 seconds; current memory usage: 671 MB.
+@I [HLS-100] Command 'elaborate' returned 0; elapsed 96.06Total elapsed time: 155.441 sec.
 @I [HLS-100] Command "autosyn "
 @I [HLS-10] Starting hardware synthesis ...
 @0 [HLS-0] Starting hardware synthesis ...
@@ -338,111 +338,111 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @W [SYN-103] Legalizing function name 'fft<config1>' to 'fft_config1_s'.
 @W [SYN-103] Legalizing function name 'dut_big_mult_v3small<71, 24, 17>' to 'dut_big_mult_v3small_71_24_17_s'.
 @W [SYN-103] Legalizing function name 'dut_my_to_float<31, 1>' to 'dut_my_to_float_31_1_s'.
-@I [HLS-100] Command 'ap_set_top_model' returned 0; elapsed 0Total elapsed time: 109.251 sec.
+@I [HLS-100] Command 'ap_set_top_model' returned 0; elapsed 0Total elapsed time: 155.442 sec.
 @I [HLS-100] Command "get_model_list dut -filter all-wo-channel -topdown "
-@I [HLS-100] Command 'get_model_list' returned 0; elapsed 0Total elapsed time: 109.251 sec.
+@I [HLS-100] Command 'get_model_list' returned 0; elapsed 0Total elapsed time: 155.442 sec.
 @I [HLS-100] Command "preproc_iomode -model dut "
-@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 109.251 sec.
+@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 155.443 sec.
 @I [HLS-100] Command "preproc_iomode -model dut_mfcc "
-@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 109.251 sec.
+@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 155.443 sec.
 @I [HLS-100] Command "preproc_iomode -model dut_knn "
-@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 109.251 sec.
+@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 155.443 sec.
 @I [HLS-100] Command "preproc_iomode -model dut_sinf_or_cosf "
-@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 109.252 sec.
+@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 155.444 sec.
 @I [HLS-100] Command "preproc_iomode -model dut_my_to_float<31, 1> "
-@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 109.252 sec.
+@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 155.444 sec.
 @I [HLS-100] Command "preproc_iomode -model dut_big_mult_v3small<71, 24, 17> "
-@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 109.252 sec.
+@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 155.444 sec.
 @I [HLS-100] Command "preproc_iomode -model fft<config1> "
-@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 109.252 sec.
+@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 155.444 sec.
 @I [HLS-100] Command "get_model_list dut -filter all-wo-channel "
-@I [HLS-100] Command 'get_model_list' returned 0; elapsed 0Total elapsed time: 109.252 sec.
+@I [HLS-100] Command 'get_model_list' returned 0; elapsed 0Total elapsed time: 155.445 sec.
 @I [HLS-0] Model list for configure: fft<config1> {dut_big_mult_v3small<71, 24, 17>} {dut_my_to_float<31, 1>} dut_sinf_or_cosf dut_knn dut_mfcc dut
 @I [HLS-0] Configuring Module : fft<config1> ...
 @I [HLS-100] Command "set_default_model fft<config1> "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.252 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.445 sec.
 @I [HLS-100] Command "apply_spec_resource_limit fft<config1> "
-@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 109.252 sec.
+@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 155.445 sec.
 @I [HLS-0] Configuring Module : dut_big_mult_v3small<71, 24, 17> ...
 @I [HLS-100] Command "set_default_model dut_big_mult_v3small<71, 24, 17> "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.252 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.445 sec.
 @I [HLS-100] Command "apply_spec_resource_limit dut_big_mult_v3small<71, 24, 17> "
-@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 109.252 sec.
+@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 155.446 sec.
 @I [HLS-0] Configuring Module : dut_my_to_float<31, 1> ...
 @I [HLS-100] Command "set_default_model dut_my_to_float<31, 1> "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.253 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.446 sec.
 @I [HLS-100] Command "apply_spec_resource_limit dut_my_to_float<31, 1> "
-@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 109.253 sec.
+@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 155.446 sec.
 @I [HLS-0] Configuring Module : dut_sinf_or_cosf ...
 @I [HLS-100] Command "set_default_model dut_sinf_or_cosf "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.253 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.446 sec.
 @I [HLS-100] Command "apply_spec_resource_limit dut_sinf_or_cosf "
-@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 109.253 sec.
+@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 155.446 sec.
 @I [HLS-0] Configuring Module : dut_knn ...
 @I [HLS-100] Command "set_default_model dut_knn "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.253 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.446 sec.
 @I [HLS-100] Command "apply_spec_resource_limit dut_knn "
-@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 109.253 sec.
+@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 155.446 sec.
 @I [HLS-0] Configuring Module : dut_mfcc ...
 @I [HLS-100] Command "set_default_model dut_mfcc "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.253 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.446 sec.
 @I [HLS-100] Command "apply_spec_resource_limit dut_mfcc "
-@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 109.253 sec.
+@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 155.447 sec.
 @I [HLS-0] Configuring Module : dut ...
 @I [HLS-100] Command "set_default_model dut "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.253 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.447 sec.
 @I [HLS-100] Command "apply_spec_resource_limit dut "
-@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 109.253 sec.
+@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 155.447 sec.
 @I [HLS-0] Model list for preprocess: fft<config1> {dut_big_mult_v3small<71, 24, 17>} {dut_my_to_float<31, 1>} dut_sinf_or_cosf dut_knn dut_mfcc dut
 @I [HLS-0] Preprocessing Module: fft<config1> ...
 @I [HLS-100] Command "set_default_model fft<config1> "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.253 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.447 sec.
 @I [HLS-100] Command "cdfg_preprocess -model fft<config1> "
-@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0Total elapsed time: 109.253 sec.
+@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0Total elapsed time: 155.447 sec.
 @I [HLS-100] Command "rtl_gen_preprocess fft<config1> "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 109.254 sec.
+@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 155.448 sec.
 @I [HLS-0] Preprocessing Module: dut_big_mult_v3small<71, 24, 17> ...
 @I [HLS-100] Command "set_default_model dut_big_mult_v3small<71, 24, 17> "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.254 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.449 sec.
 @I [HLS-100] Command "cdfg_preprocess -model dut_big_mult_v3small<71, 24, 17> "
-@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0Total elapsed time: 109.255 sec.
+@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0Total elapsed time: 155.449 sec.
 @I [HLS-100] Command "rtl_gen_preprocess dut_big_mult_v3small<71, 24, 17> "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 109.255 sec.
+@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 155.450 sec.
 @I [HLS-0] Preprocessing Module: dut_my_to_float<31, 1> ...
 @I [HLS-100] Command "set_default_model dut_my_to_float<31, 1> "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.255 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.450 sec.
 @I [HLS-100] Command "cdfg_preprocess -model dut_my_to_float<31, 1> "
-@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0Total elapsed time: 109.255 sec.
+@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0Total elapsed time: 155.451 sec.
 @I [HLS-100] Command "rtl_gen_preprocess dut_my_to_float<31, 1> "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0.01Total elapsed time: 109.256 sec.
+@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 155.451 sec.
 @I [HLS-0] Preprocessing Module: dut_sinf_or_cosf ...
 @I [HLS-100] Command "set_default_model dut_sinf_or_cosf "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.256 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.452 sec.
 @I [HLS-100] Command "cdfg_preprocess -model dut_sinf_or_cosf "
-@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0Total elapsed time: 109.257 sec.
+@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0.01Total elapsed time: 155.453 sec.
 @I [HLS-100] Command "rtl_gen_preprocess dut_sinf_or_cosf "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 109.257 sec.
+@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 155.454 sec.
 @I [HLS-0] Preprocessing Module: dut_knn ...
 @I [HLS-100] Command "set_default_model dut_knn "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.257 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.454 sec.
 @I [HLS-100] Command "cdfg_preprocess -model dut_knn "
-@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0Total elapsed time: 109.258 sec.
+@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0Total elapsed time: 155.456 sec.
 @I [HLS-100] Command "rtl_gen_preprocess dut_knn "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 109.258 sec.
+@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 155.457 sec.
 @I [HLS-0] Preprocessing Module: dut_mfcc ...
 @I [HLS-100] Command "set_default_model dut_mfcc "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.258 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.457 sec.
 @I [HLS-100] Command "cdfg_preprocess -model dut_mfcc "
-@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0Total elapsed time: 109.260 sec.
+@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0Total elapsed time: 155.459 sec.
 @I [HLS-100] Command "rtl_gen_preprocess dut_mfcc "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 109.260 sec.
+@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 155.460 sec.
 @I [HLS-0] Preprocessing Module: dut ...
 @I [HLS-100] Command "set_default_model dut "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.260 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.460 sec.
 @I [HLS-100] Command "cdfg_preprocess -model dut "
-@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0Total elapsed time: 109.260 sec.
+@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0Total elapsed time: 155.460 sec.
 @I [HLS-100] Command "rtl_gen_preprocess dut "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 109.261 sec.
+@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 155.461 sec.
 @I [HLS-0] Model list for synthesis: fft<config1> {dut_big_mult_v3small<71, 24, 17>} {dut_my_to_float<31, 1>} dut_sinf_or_cosf dut_knn dut_mfcc dut
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
@@ -451,15 +451,15 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "set_default_model fft<config1> "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.262 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.462 sec.
 @I [HLS-100] Command "schedule -model fft<config1> "
 @I [SCHED-11] Skip scheduling the IP block.
-@I [HLS-100] Command 'schedule' returned 0; elapsed 0Total elapsed time: 109.269 sec.
+@I [HLS-100] Command 'schedule' returned 0; elapsed 0.01Total elapsed time: 155.493 sec.
 @I [HLS-111] Elapsed time: 0.02 seconds; current memory usage: 671 MB.
 @I [HLS-100] Command "report -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/fft_config1_s.verbose.sched.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0Total elapsed time: 109.286 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 155.506 sec.
 @I [HLS-100] Command "db_write -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/fft_config1_s.sched.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.01Total elapsed time: 109.307 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0Total elapsed time: 155.512 sec.
 @I [HLS-0] Finish scheduling fft<config1>.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
@@ -468,7 +468,7 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "set_default_model fft<config1> "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.312 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.516 sec.
 @I [HLS-100] Command "bind -model fft<config1> "
 @I [BIND-110] clear=
 @I [BIND-110] debug=
@@ -503,12 +503,12 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding ...
 @I [BIND-100] Finished micro-architecture generation.
-@I [HLS-100] Command 'bind' returned 0; elapsed 0Total elapsed time: 109.313 sec.
-@I [HLS-111] Elapsed time: 0.02 seconds; current memory usage: 671 MB.
+@I [HLS-100] Command 'bind' returned 0; elapsed 0Total elapsed time: 155.517 sec.
+@I [HLS-111] Elapsed time: 0.01 seconds; current memory usage: 671 MB.
 @I [HLS-100] Command "report -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/fft_config1_s.verbose.bind.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0Total elapsed time: 109.331 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0Total elapsed time: 155.528 sec.
 @I [HLS-100] Command "db_write -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/fft_config1_s.bind.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0Total elapsed time: 109.352 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0Total elapsed time: 155.535 sec.
 @I [HLS-0] Finish binding fft<config1>.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
@@ -517,16 +517,16 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "set_default_model dut_big_mult_v3small<71, 24, 17> "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.353 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.535 sec.
 @I [HLS-100] Command "schedule -model dut_big_mult_v3small<71, 24, 17> "
 @I [SCHED-11] Starting scheduling ...
 @I [SCHED-11] Finished scheduling.
-@I [HLS-100] Command 'schedule' returned 0; elapsed 0.03Total elapsed time: 109.382 sec.
-@I [HLS-111] Elapsed time: 0.04 seconds; current memory usage: 672 MB.
+@I [HLS-100] Command 'schedule' returned 0; elapsed 0.04Total elapsed time: 155.571 sec.
+@I [HLS-111] Elapsed time: 0.05 seconds; current memory usage: 672 MB.
 @I [HLS-100] Command "report -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_big_mult_v3small_71_24_17_s.verbose.sched.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.02Total elapsed time: 109.427 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.02Total elapsed time: 155.608 sec.
 @I [HLS-100] Command "db_write -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_big_mult_v3small_71_24_17_s.sched.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.03Total elapsed time: 109.489 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.03Total elapsed time: 155.665 sec.
 @I [HLS-0] Finish scheduling dut_big_mult_v3small<71, 24, 17>.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
@@ -535,7 +535,7 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "set_default_model dut_big_mult_v3small<71, 24, 17> "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.491 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.666 sec.
 @I [HLS-100] Command "bind -model dut_big_mult_v3small<71, 24, 17> "
 @I [BIND-110] clear=
 @I [BIND-110] debug=
@@ -570,12 +570,12 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding ...
 @I [BIND-100] Finished micro-architecture generation.
-@I [HLS-100] Command 'bind' returned 0; elapsed 0.01Total elapsed time: 109.501 sec.
-@I [HLS-111] Elapsed time: 0.07 seconds; current memory usage: 672 MB.
+@I [HLS-100] Command 'bind' returned 0; elapsed 0.01Total elapsed time: 155.679 sec.
+@I [HLS-111] Elapsed time: 0.06 seconds; current memory usage: 672 MB.
 @I [HLS-100] Command "report -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_big_mult_v3small_71_24_17_s.verbose.bind.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.03Total elapsed time: 109.558 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.05Total elapsed time: 155.741 sec.
 @I [HLS-100] Command "db_write -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_big_mult_v3small_71_24_17_s.bind.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.02Total elapsed time: 109.618 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.03Total elapsed time: 155.798 sec.
 @I [HLS-0] Finish binding dut_big_mult_v3small<71, 24, 17>.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
@@ -584,16 +584,16 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "set_default_model dut_my_to_float<31, 1> "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.619 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.798 sec.
 @I [HLS-100] Command "schedule -model dut_my_to_float<31, 1> "
 @I [SCHED-11] Starting scheduling ...
 @I [SCHED-11] Finished scheduling.
-@I [HLS-100] Command 'schedule' returned 0; elapsed 0.02Total elapsed time: 109.640 sec.
-@I [HLS-111] Elapsed time: 0.08 seconds; current memory usage: 672 MB.
+@I [HLS-100] Command 'schedule' returned 0; elapsed 0.02Total elapsed time: 155.824 sec.
+@I [HLS-111] Elapsed time: 0.11 seconds; current memory usage: 672 MB.
 @I [HLS-100] Command "report -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_my_to_float_31_1_s.verbose.sched.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.02Total elapsed time: 109.679 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 155.856 sec.
 @I [HLS-100] Command "db_write -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_my_to_float_31_1_s.sched.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.02Total elapsed time: 109.721 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.03Total elapsed time: 155.895 sec.
 @I [HLS-0] Finish scheduling dut_my_to_float<31, 1>.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
@@ -602,7 +602,7 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "set_default_model dut_my_to_float<31, 1> "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.722 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.896 sec.
 @I [HLS-100] Command "bind -model dut_my_to_float<31, 1> "
 @I [BIND-110] clear=
 @I [BIND-110] debug=
@@ -637,12 +637,12 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding ...
 @I [BIND-100] Finished micro-architecture generation.
-@I [HLS-100] Command 'bind' returned 0; elapsed 0.01Total elapsed time: 109.732 sec.
-@I [HLS-111] Elapsed time: 0.06 seconds; current memory usage: 673 MB.
+@I [HLS-100] Command 'bind' returned 0; elapsed 0.01Total elapsed time: 155.903 sec.
+@I [HLS-111] Elapsed time: 0.06 seconds; current memory usage: 672 MB.
 @I [HLS-100] Command "report -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_my_to_float_31_1_s.verbose.bind.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.03Total elapsed time: 109.786 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.02Total elapsed time: 155.950 sec.
 @I [HLS-100] Command "db_write -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_my_to_float_31_1_s.bind.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.02Total elapsed time: 109.837 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.03Total elapsed time: 155.996 sec.
 @I [HLS-0] Finish binding dut_my_to_float<31, 1>.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
@@ -651,16 +651,16 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "set_default_model dut_sinf_or_cosf "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 109.837 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 155.996 sec.
 @I [HLS-100] Command "schedule -model dut_sinf_or_cosf "
 @I [SCHED-11] Starting scheduling ...
 @I [SCHED-11] Finished scheduling.
-@I [HLS-100] Command 'schedule' returned 0; elapsed 0.08Total elapsed time: 109.933 sec.
-@I [HLS-111] Elapsed time: 0.14 seconds; current memory usage: 673 MB.
+@I [HLS-100] Command 'schedule' returned 0; elapsed 0.1Total elapsed time: 156.104 sec.
+@I [HLS-111] Elapsed time: 0.15 seconds; current memory usage: 673 MB.
 @I [HLS-100] Command "report -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_sinf_or_cosf.verbose.sched.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.04Total elapsed time: 110.4 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.05Total elapsed time: 156.168 sec.
 @I [HLS-100] Command "db_write -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_sinf_or_cosf.sched.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.05Total elapsed time: 110.101 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.06Total elapsed time: 156.268 sec.
 @I [HLS-0] Finish scheduling dut_sinf_or_cosf.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
@@ -669,7 +669,7 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "set_default_model dut_sinf_or_cosf "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 110.102 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 156.268 sec.
 @I [HLS-100] Command "bind -model dut_sinf_or_cosf "
 @I [BIND-110] clear=
 @I [BIND-110] debug=
@@ -704,12 +704,12 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding ...
 @I [BIND-100] Finished micro-architecture generation.
-@I [HLS-100] Command 'bind' returned 0; elapsed 0.03Total elapsed time: 110.134 sec.
-@I [HLS-111] Elapsed time: 0.13 seconds; current memory usage: 674 MB.
+@I [HLS-100] Command 'bind' returned 0; elapsed 0.05Total elapsed time: 156.316 sec.
+@I [HLS-111] Elapsed time: 0.17 seconds; current memory usage: 674 MB.
 @I [HLS-100] Command "report -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_sinf_or_cosf.verbose.bind.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.09Total elapsed time: 110.272 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.12Total elapsed time: 156.467 sec.
 @I [HLS-100] Command "db_write -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_sinf_or_cosf.bind.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.04Total elapsed time: 110.369 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.07Total elapsed time: 156.582 sec.
 @I [HLS-0] Finish binding dut_sinf_or_cosf.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
@@ -718,16 +718,16 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "set_default_model dut_knn "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 110.370 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 156.583 sec.
 @I [HLS-100] Command "schedule -model dut_knn "
 @I [SCHED-11] Starting scheduling ...
 @I [SCHED-11] Finished scheduling.
-@I [HLS-100] Command 'schedule' returned 0; elapsed 0.06Total elapsed time: 110.437 sec.
-@I [HLS-111] Elapsed time: 0.2 seconds; current memory usage: 675 MB.
+@I [HLS-100] Command 'schedule' returned 0; elapsed 0.07Total elapsed time: 156.661 sec.
+@I [HLS-111] Elapsed time: 0.26 seconds; current memory usage: 675 MB.
 @I [HLS-100] Command "report -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_knn.verbose.sched.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.06Total elapsed time: 110.520 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.08Total elapsed time: 156.748 sec.
 @I [HLS-100] Command "db_write -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_knn.sched.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.06Total elapsed time: 110.635 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.07Total elapsed time: 156.880 sec.
 @I [HLS-0] Finish scheduling dut_knn.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
@@ -736,7 +736,7 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "set_default_model dut_knn "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 110.635 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 156.881 sec.
 @I [HLS-100] Command "bind -model dut_knn "
 @I [BIND-110] clear=
 @I [BIND-110] debug=
@@ -771,12 +771,12 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding ...
 @I [BIND-100] Finished micro-architecture generation.
-@I [HLS-100] Command 'bind' returned 0; elapsed 0.02Total elapsed time: 110.656 sec.
-@I [HLS-111] Elapsed time: 0.15 seconds; current memory usage: 676 MB.
+@I [HLS-100] Command 'bind' returned 0; elapsed 0.02Total elapsed time: 156.908 sec.
+@I [HLS-111] Elapsed time: 0.19 seconds; current memory usage: 676 MB.
 @I [HLS-100] Command "report -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_knn.verbose.bind.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.09Total elapsed time: 110.781 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.11Total elapsed time: 157.54 sec.
 @I [HLS-100] Command "db_write -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_knn.bind.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.06Total elapsed time: 110.905 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.08Total elapsed time: 157.206 sec.
 @I [HLS-0] Finish binding dut_knn.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
@@ -785,16 +785,16 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "set_default_model dut_mfcc "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 110.906 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 157.207 sec.
 @I [HLS-100] Command "schedule -model dut_mfcc "
 @I [SCHED-11] Starting scheduling ...
 @I [SCHED-11] Finished scheduling.
-@I [HLS-100] Command 'schedule' returned 0; elapsed 0.14Total elapsed time: 111.48 sec.
-@I [HLS-111] Elapsed time: 0.3 seconds; current memory usage: 677 MB.
+@I [HLS-100] Command 'schedule' returned 0; elapsed 0.18Total elapsed time: 157.385 sec.
+@I [HLS-111] Elapsed time: 0.38 seconds; current memory usage: 677 MB.
 @I [HLS-100] Command "report -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_mfcc.verbose.sched.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.09Total elapsed time: 111.154 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.1Total elapsed time: 157.507 sec.
 @I [HLS-100] Command "db_write -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_mfcc.sched.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.07Total elapsed time: 111.288 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.1Total elapsed time: 157.675 sec.
 @I [HLS-0] Finish scheduling dut_mfcc.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
@@ -803,7 +803,7 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "set_default_model dut_mfcc "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 111.289 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 157.676 sec.
 @I [HLS-100] Command "bind -model dut_mfcc "
 @I [BIND-110] clear=
 @I [BIND-110] debug=
@@ -838,12 +838,12 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding ...
 @I [BIND-100] Finished micro-architecture generation.
-@I [HLS-100] Command 'bind' returned 0; elapsed 0.14Total elapsed time: 111.429 sec.
-@I [HLS-111] Elapsed time: 0.3 seconds; current memory usage: 679 MB.
+@I [HLS-100] Command 'bind' returned 0; elapsed 0.19Total elapsed time: 157.859 sec.
+@I [HLS-111] Elapsed time: 0.4 seconds; current memory usage: 679 MB.
 @I [HLS-100] Command "report -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_mfcc.verbose.bind.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.23Total elapsed time: 111.683 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.32Total elapsed time: 158.211 sec.
 @I [HLS-100] Command "db_write -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_mfcc.bind.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.08Total elapsed time: 111.855 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.12Total elapsed time: 158.406 sec.
 @I [HLS-0] Finish binding dut_mfcc.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
@@ -852,16 +852,16 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "set_default_model dut "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 111.856 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 158.406 sec.
 @I [HLS-100] Command "schedule -model dut "
 @I [SCHED-11] Starting scheduling ...
 @I [SCHED-11] Finished scheduling.
-@I [HLS-100] Command 'schedule' returned 0; elapsed 0.05Total elapsed time: 111.916 sec.
-@I [HLS-111] Elapsed time: 0.37 seconds; current memory usage: 679 MB.
+@I [HLS-100] Command 'schedule' returned 0; elapsed 0.09Total elapsed time: 158.497 sec.
+@I [HLS-111] Elapsed time: 0.53 seconds; current memory usage: 679 MB.
 @I [HLS-100] Command "report -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.verbose.sched.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 111.937 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.02Total elapsed time: 158.527 sec.
 @I [HLS-100] Command "db_write -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.sched.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.01Total elapsed time: 111.972 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.02Total elapsed time: 158.560 sec.
 @I [HLS-0] Finish scheduling dut.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
@@ -870,7 +870,7 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "set_default_model dut "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 111.973 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 158.560 sec.
 @I [HLS-100] Command "bind -model dut "
 @I [BIND-110] clear=
 @I [BIND-110] debug=
@@ -905,30 +905,30 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding ...
 @I [BIND-100] Finished micro-architecture generation.
-@I [HLS-100] Command 'bind' returned 0; elapsed 0.06Total elapsed time: 112.37 sec.
-@I [HLS-111] Elapsed time: 0.09 seconds; current memory usage: 680 MB.
+@I [HLS-100] Command 'bind' returned 0; elapsed 0.09Total elapsed time: 158.650 sec.
+@I [HLS-111] Elapsed time: 0.13 seconds; current memory usage: 679 MB.
 @I [HLS-100] Command "report -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.verbose.bind.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.17Total elapsed time: 112.217 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.25Total elapsed time: 158.919 sec.
 @I [HLS-100] Command "db_write -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.bind.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.01Total elapsed time: 112.240 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.02Total elapsed time: 158.956 sec.
 @I [HLS-0] Finish binding dut.
 @I [HLS-100] Command "get_model_list dut -filter all-wo-channel "
-@I [HLS-100] Command 'get_model_list' returned 0; elapsed 0Total elapsed time: 112.240 sec.
+@I [HLS-100] Command 'get_model_list' returned 0; elapsed 0Total elapsed time: 158.956 sec.
 @I [HLS-0] Preprocessing for RTLGen ...
 @I [HLS-100] Command "rtl_gen_preprocess fft<config1> "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 112.241 sec.
+@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 158.957 sec.
 @I [HLS-100] Command "rtl_gen_preprocess dut_big_mult_v3small<71, 24, 17> "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 112.241 sec.
+@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0.01Total elapsed time: 158.958 sec.
 @I [HLS-100] Command "rtl_gen_preprocess dut_my_to_float<31, 1> "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 112.242 sec.
+@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 158.958 sec.
 @I [HLS-100] Command "rtl_gen_preprocess dut_sinf_or_cosf "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 112.242 sec.
+@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 158.959 sec.
 @I [HLS-100] Command "rtl_gen_preprocess dut_knn "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 112.242 sec.
+@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 158.960 sec.
 @I [HLS-100] Command "rtl_gen_preprocess dut_mfcc "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 112.243 sec.
+@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 158.961 sec.
 @I [HLS-100] Command "rtl_gen_preprocess dut "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 112.243 sec.
+@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 158.962 sec.
 @I [HLS-0] Model list for RTL generation: fft<config1> {dut_big_mult_v3small<71, 24, 17>} {dut_my_to_float<31, 1>} dut_sinf_or_cosf dut_knn dut_mfcc dut
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
@@ -938,26 +938,26 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "create_rtl_model fft<config1> -vendor xilinx -mg_file /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/fft_config1_s.compgen.tcl "
 @I [RTGEN-100] Finished creating RTL model for 'fft_config1_s'.
-@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0Total elapsed time: 112.257 sec.
-@I [HLS-111] Elapsed time: 0.19 seconds; current memory usage: 680 MB.
+@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0Total elapsed time: 158.972 sec.
+@I [HLS-111] Elapsed time: 0.28 seconds; current memory usage: 680 MB.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 112.269 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 158.980 sec.
 @I [HLS-100] Command "gen_rtl fft<config1> -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/systemc/fft_config1_s -synmodules fft<config1> {dut_big_mult_v3small<71, 24, 17>} {dut_my_to_float<31, 1>} dut_sinf_or_cosf dut_knn dut_mfcc dut "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 112.269 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 158.980 sec.
 @I [HLS-100] Command "gen_rtl fft<config1> -style xilinx -f -lang vhdl -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/vhdl/fft_config1_s "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 112.269 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 158.980 sec.
 @I [HLS-100] Command "gen_rtl fft<config1> -style xilinx -f -lang vlog -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/verilog/fft_config1_s "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 112.269 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 158.981 sec.
 @I [HLS-100] Command "gen_tb_info fft<config1> -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/fft_config1_s -p /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db "
-@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0.02Total elapsed time: 112.301 sec.
+@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0.02Total elapsed time: 159.8 sec.
 @I [HLS-100] Command "report -model fft<config1> -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/report/fft_config1_s_csynth.rpt -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 112.321 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.02Total elapsed time: 159.31 sec.
 @I [HLS-100] Command "report -model fft<config1> -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/report/fft_config1_s_csynth.xml -f -x "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.02Total elapsed time: 112.347 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 159.53 sec.
 @I [HLS-100] Command "report -model fft<config1> -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/fft_config1_s.verbose.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 112.375 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 159.85 sec.
 @I [HLS-100] Command "db_write -model fft<config1> -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/fft_config1_s.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.01Total elapsed time: 112.395 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.01Total elapsed time: 159.109 sec.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'dut_big_mult_v3small_71_24_17_s' 
@@ -966,26 +966,26 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "create_rtl_model dut_big_mult_v3small<71, 24, 17> -vendor xilinx -mg_file /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_big_mult_v3small_71_24_17_s.compgen.tcl "
 @I [RTGEN-100] Finished creating RTL model for 'dut_big_mult_v3small_71_24_17_s'.
-@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0.01Total elapsed time: 112.417 sec.
-@I [HLS-111] Elapsed time: 0.09 seconds; current memory usage: 680 MB.
+@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0.02Total elapsed time: 159.136 sec.
+@I [HLS-111] Elapsed time: 0.11 seconds; current memory usage: 680 MB.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 112.425 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 159.141 sec.
 @I [HLS-100] Command "gen_rtl dut_big_mult_v3small<71, 24, 17> -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/systemc/dut_big_mult_v3small_71_24_17_s -synmodules fft<config1> {dut_big_mult_v3small<71, 24, 17>} {dut_my_to_float<31, 1>} dut_sinf_or_cosf dut_knn dut_mfcc dut "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 112.435 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.01Total elapsed time: 159.151 sec.
 @I [HLS-100] Command "gen_rtl dut_big_mult_v3small<71, 24, 17> -style xilinx -f -lang vhdl -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/vhdl/dut_big_mult_v3small_71_24_17_s "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.01Total elapsed time: 112.452 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 159.157 sec.
 @I [HLS-100] Command "gen_rtl dut_big_mult_v3small<71, 24, 17> -style xilinx -f -lang vlog -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/verilog/dut_big_mult_v3small_71_24_17_s "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 112.462 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 159.163 sec.
 @I [HLS-100] Command "gen_tb_info dut_big_mult_v3small<71, 24, 17> -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_big_mult_v3small_71_24_17_s -p /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db "
-@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0.01Total elapsed time: 112.480 sec.
+@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0.01Total elapsed time: 159.181 sec.
 @I [HLS-100] Command "report -model dut_big_mult_v3small<71, 24, 17> -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/report/dut_big_mult_v3small_71_24_17_s_csynth.rpt -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 112.493 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 159.195 sec.
 @I [HLS-100] Command "report -model dut_big_mult_v3small<71, 24, 17> -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/report/dut_big_mult_v3small_71_24_17_s_csynth.xml -f -x "
-@I [HLS-100] Command 'report' returned 0; elapsed 0Total elapsed time: 112.512 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 159.206 sec.
 @I [HLS-100] Command "report -model dut_big_mult_v3small<71, 24, 17> -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_big_mult_v3small_71_24_17_s.verbose.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.04Total elapsed time: 112.564 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.05Total elapsed time: 159.275 sec.
 @I [HLS-100] Command "db_write -model dut_big_mult_v3small<71, 24, 17> -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_big_mult_v3small_71_24_17_s.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.02Total elapsed time: 112.622 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.04Total elapsed time: 159.343 sec.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'dut_my_to_float_31_1_s' 
@@ -994,26 +994,26 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "create_rtl_model dut_my_to_float<31, 1> -vendor xilinx -mg_file /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_my_to_float_31_1_s.compgen.tcl "
 @I [RTGEN-100] Finished creating RTL model for 'dut_my_to_float_31_1_s'.
-@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0.01Total elapsed time: 112.684 sec.
-@I [HLS-111] Elapsed time: 0.12 seconds; current memory usage: 682 MB.
+@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0.01Total elapsed time: 159.413 sec.
+@I [HLS-111] Elapsed time: 0.17 seconds; current memory usage: 682 MB.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 112.691 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 159.419 sec.
 @I [HLS-100] Command "gen_rtl dut_my_to_float<31, 1> -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/systemc/dut_my_to_float_31_1_s -synmodules fft<config1> {dut_big_mult_v3small<71, 24, 17>} {dut_my_to_float<31, 1>} dut_sinf_or_cosf dut_knn dut_mfcc dut "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 112.700 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 159.427 sec.
 @I [HLS-100] Command "gen_rtl dut_my_to_float<31, 1> -style xilinx -f -lang vhdl -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/vhdl/dut_my_to_float_31_1_s "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 112.711 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 159.432 sec.
 @I [HLS-100] Command "gen_rtl dut_my_to_float<31, 1> -style xilinx -f -lang vlog -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/verilog/dut_my_to_float_31_1_s "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 112.726 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 159.438 sec.
 @I [HLS-100] Command "gen_tb_info dut_my_to_float<31, 1> -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_my_to_float_31_1_s -p /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db "
-@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0Total elapsed time: 112.740 sec.
+@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0Total elapsed time: 159.451 sec.
 @I [HLS-100] Command "report -model dut_my_to_float<31, 1> -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/report/dut_my_to_float_31_1_s_csynth.rpt -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0Total elapsed time: 112.749 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 159.462 sec.
 @I [HLS-100] Command "report -model dut_my_to_float<31, 1> -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/report/dut_my_to_float_31_1_s_csynth.xml -f -x "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 112.768 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0Total elapsed time: 159.470 sec.
 @I [HLS-100] Command "report -model dut_my_to_float<31, 1> -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_my_to_float_31_1_s.verbose.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.02Total elapsed time: 112.808 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.04Total elapsed time: 159.518 sec.
 @I [HLS-100] Command "db_write -model dut_my_to_float<31, 1> -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_my_to_float_31_1_s.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.02Total elapsed time: 112.854 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.02Total elapsed time: 159.570 sec.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'dut_sinf_or_cosf' 
@@ -1025,26 +1025,26 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [RTGEN-100] Generating core module 'dut_mul_mul_17ns_15s_32_1': 1 instance(s).
 @I [RTGEN-100] Generating core module 'dut_mul_mul_23s_17ns_40_1': 1 instance(s).
 @I [RTGEN-100] Finished creating RTL model for 'dut_sinf_or_cosf'.
-@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0.04Total elapsed time: 112.956 sec.
-@I [HLS-111] Elapsed time: 0.13 seconds; current memory usage: 684 MB.
+@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0.05Total elapsed time: 159.668 sec.
+@I [HLS-111] Elapsed time: 0.15 seconds; current memory usage: 684 MB.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 112.966 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 159.674 sec.
 @I [HLS-100] Command "gen_rtl dut_sinf_or_cosf -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/systemc/dut_sinf_or_cosf -synmodules fft<config1> {dut_big_mult_v3small<71, 24, 17>} {dut_my_to_float<31, 1>} dut_sinf_or_cosf dut_knn dut_mfcc dut "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 112.982 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 159.691 sec.
 @I [HLS-100] Command "gen_rtl dut_sinf_or_cosf -style xilinx -f -lang vhdl -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/vhdl/dut_sinf_or_cosf "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 113.2 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 159.701 sec.
 @I [HLS-100] Command "gen_rtl dut_sinf_or_cosf -style xilinx -f -lang vlog -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/verilog/dut_sinf_or_cosf "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.01Total elapsed time: 113.12 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 159.709 sec.
 @I [HLS-100] Command "gen_tb_info dut_sinf_or_cosf -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_sinf_or_cosf -p /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db "
-@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0.01Total elapsed time: 113.48 sec.
+@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0.02Total elapsed time: 159.739 sec.
 @I [HLS-100] Command "report -model dut_sinf_or_cosf -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/report/dut_sinf_or_cosf_csynth.rpt -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.02Total elapsed time: 113.70 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.02Total elapsed time: 159.767 sec.
 @I [HLS-100] Command "report -model dut_sinf_or_cosf -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/report/dut_sinf_or_cosf_csynth.xml -f -x "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 113.87 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.02Total elapsed time: 159.791 sec.
 @I [HLS-100] Command "report -model dut_sinf_or_cosf -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_sinf_or_cosf.verbose.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.09Total elapsed time: 113.201 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.15Total elapsed time: 159.960 sec.
 @I [HLS-100] Command "db_write -model dut_sinf_or_cosf -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_sinf_or_cosf.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.05Total elapsed time: 113.315 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.08Total elapsed time: 160.104 sec.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'dut_knn' 
@@ -1057,26 +1057,26 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [RTGEN-100] Generating core module 'dut_sitofp_32ns_32_6': 1 instance(s).
 @I [RTGEN-100] Generating core module 'dut_uitofp_32ns_32_6': 1 instance(s).
 @I [RTGEN-100] Finished creating RTL model for 'dut_knn'.
-@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0.04Total elapsed time: 113.476 sec.
-@I [HLS-111] Elapsed time: 0.27 seconds; current memory usage: 687 MB.
+@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0.06Total elapsed time: 160.288 sec.
+@I [HLS-111] Elapsed time: 0.42 seconds; current memory usage: 687 MB.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 113.484 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 160.295 sec.
 @I [HLS-100] Command "gen_rtl dut_knn -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/systemc/dut_knn -synmodules fft<config1> {dut_big_mult_v3small<71, 24, 17>} {dut_my_to_float<31, 1>} dut_sinf_or_cosf dut_knn dut_mfcc dut "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 113.507 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 160.314 sec.
 @I [HLS-100] Command "gen_rtl dut_knn -style xilinx -f -lang vhdl -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/vhdl/dut_knn "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 113.521 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 160.327 sec.
 @I [HLS-100] Command "gen_rtl dut_knn -style xilinx -f -lang vlog -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/verilog/dut_knn "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 113.531 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.01Total elapsed time: 160.337 sec.
 @I [HLS-100] Command "gen_tb_info dut_knn -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_knn -p /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db "
-@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0.02Total elapsed time: 113.565 sec.
+@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0.01Total elapsed time: 160.365 sec.
 @I [HLS-100] Command "report -model dut_knn -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/report/dut_knn_csynth.rpt -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 113.596 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.04Total elapsed time: 160.396 sec.
 @I [HLS-100] Command "report -model dut_knn -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/report/dut_knn_csynth.xml -f -x "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 113.613 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 160.419 sec.
 @I [HLS-100] Command "report -model dut_knn -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_knn.verbose.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.09Total elapsed time: 113.732 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.14Total elapsed time: 160.592 sec.
 @I [HLS-100] Command "db_write -model dut_knn -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_knn.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.07Total elapsed time: 113.879 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.11Total elapsed time: 160.772 sec.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'dut_mfcc' 
@@ -1087,29 +1087,29 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [RTGEN-100] Generating core module 'dut_fadd_32ns_32ns_32_5_full_dsp': 1 instance(s).
 @I [RTGEN-100] Generating core module 'dut_fdiv_32ns_32ns_32_16': 1 instance(s).
 @I [RTGEN-100] Generating core module 'dut_flog_32ns_32ns_32_13_full_dsp': 1 instance(s).
-@I [RTGEN-100] Generating core module 'dut_fmul_32ns_32ns_32_4_max_dsp': 2 instance(s).
+@I [RTGEN-100] Generating core module 'dut_fmul_32ns_32ns_32_4_max_dsp': 1 instance(s).
 @I [RTGEN-100] Generating core module 'dut_sitofp_32ns_32_6': 1 instance(s).
 @I [RTGEN-100] Finished creating RTL model for 'dut_mfcc'.
-@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0.09Total elapsed time: 114.108 sec.
-@I [HLS-111] Elapsed time: 0.34 seconds; current memory usage: 693 MB.
+@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0.11Total elapsed time: 161.28 sec.
+@I [HLS-111] Elapsed time: 0.48 seconds; current memory usage: 692 MB.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 114.114 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 161.33 sec.
 @I [HLS-100] Command "gen_rtl dut_mfcc -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/systemc/dut_mfcc -synmodules fft<config1> {dut_big_mult_v3small<71, 24, 17>} {dut_my_to_float<31, 1>} dut_sinf_or_cosf dut_knn dut_mfcc dut "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 114.147 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.01Total elapsed time: 161.62 sec.
 @I [HLS-100] Command "gen_rtl dut_mfcc -style xilinx -f -lang vhdl -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/vhdl/dut_mfcc "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.01Total elapsed time: 114.170 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 161.84 sec.
 @I [HLS-100] Command "gen_rtl dut_mfcc -style xilinx -f -lang vlog -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/verilog/dut_mfcc "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 114.189 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.01Total elapsed time: 161.101 sec.
 @I [HLS-100] Command "gen_tb_info dut_mfcc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_mfcc -p /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db "
-@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0.03Total elapsed time: 114.217 sec.
+@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0.02Total elapsed time: 161.132 sec.
 @I [HLS-100] Command "report -model dut_mfcc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/report/dut_mfcc_csynth.rpt -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 114.241 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.03Total elapsed time: 161.164 sec.
 @I [HLS-100] Command "report -model dut_mfcc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/report/dut_mfcc_csynth.xml -f -x "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.02Total elapsed time: 114.259 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.02Total elapsed time: 161.188 sec.
 @I [HLS-100] Command "report -model dut_mfcc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_mfcc.verbose.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.21Total elapsed time: 114.510 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.35Total elapsed time: 161.567 sec.
 @I [HLS-100] Command "db_write -model dut_mfcc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_mfcc.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.09Total elapsed time: 114.712 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.14Total elapsed time: 161.799 sec.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'dut' 
@@ -1120,69 +1120,71 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [RTGEN-500] Setting interface mode on port 'dut/strm_in_V_V' to 'ap_fifo'.
 @I [RTGEN-500] Setting interface mode on port 'dut/strm_out_V_V' to 'ap_fifo'.
 @I [RTGEN-500] Setting interface mode on function 'dut' to 'ap_ctrl_hs'.
+@I [RTGEN-100] Generating core module 'dut_fadd_32ns_32ns_32_5_full_dsp': 1 instance(s).
+@I [RTGEN-100] Generating core module 'dut_fdiv_32ns_32ns_32_16': 1 instance(s).
 @I [RTGEN-100] Generating core module 'dut_uitofp_64ns_32_6': 1 instance(s).
 @I [RTGEN-100] Finished creating RTL model for 'dut'.
-@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0.01Total elapsed time: 114.857 sec.
-@I [HLS-111] Elapsed time: 0.43 seconds; current memory usage: 697 MB.
+@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0.02Total elapsed time: 161.966 sec.
+@I [HLS-111] Elapsed time: 0.65 seconds; current memory usage: 697 MB.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 114.862 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 161.971 sec.
 @I [HLS-100] Command "gen_rtl dut -istop -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/systemc/dut -synmodules fft<config1> {dut_big_mult_v3small<71, 24, 17>} {dut_my_to_float<31, 1>} dut_sinf_or_cosf dut_knn dut_mfcc dut "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 114.869 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.01Total elapsed time: 161.981 sec.
 @I [HLS-100] Command "gen_rtl dut -istop -style xilinx -f -lang vhdl -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/vhdl/dut "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 114.878 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.01Total elapsed time: 161.997 sec.
 @I [HLS-100] Command "gen_rtl dut -istop -style xilinx -f -lang vlog -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/verilog/dut "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.01Total elapsed time: 114.886 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 162.7 sec.
 @I [HLS-100] Command "export_constraint_db -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.constraint.tcl -f -tool general "
-@I [HLS-100] Command 'export_constraint_db' returned 0; elapsed 0Total elapsed time: 114.894 sec.
+@I [HLS-100] Command 'export_constraint_db' returned 0; elapsed 0Total elapsed time: 162.10 sec.
 @I [HLS-100] Command "report -model dut -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.design.xml -verbose -f -dv "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.12Total elapsed time: 115.21 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.18Total elapsed time: 162.202 sec.
 @I [HLS-100] Command "report -model dut -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.sdaccel.xml -verbose -f -sdaccel "
-@I [HLS-100] Command 'report' returned 0; elapsed 0Total elapsed time: 115.32 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.02Total elapsed time: 162.221 sec.
 @I [HLS-100] Command "gen_tb_info dut -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut -p /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db "
-@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0.01Total elapsed time: 115.61 sec.
+@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0Total elapsed time: 162.241 sec.
 @I [HLS-100] Command "report -model dut -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/report/dut_csynth.rpt -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0Total elapsed time: 115.69 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 162.253 sec.
 @I [HLS-100] Command "report -model dut -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/syn/report/dut_csynth.xml -f -x "
-@I [HLS-100] Command 'report' returned 0; elapsed 0Total elapsed time: 115.76 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0Total elapsed time: 162.261 sec.
 @I [HLS-100] Command "report -model dut -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.verbose.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.15Total elapsed time: 115.235 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.26Total elapsed time: 162.531 sec.
 @I [HLS-100] Command "db_write -model dut -o /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.01Total elapsed time: 115.263 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.03Total elapsed time: 162.575 sec.
 @I [HLS-100] Command "sc_get_clocks dut "
-@I [HLS-100] Command 'sc_get_clocks' returned 0; elapsed 0Total elapsed time: 115.284 sec.
+@I [HLS-100] Command 'sc_get_clocks' returned 0; elapsed 0Total elapsed time: 162.600 sec.
 @I [HLS-100] Command "sc_get_portdomain dut "
-@I [HLS-100] Command 'sc_get_portdomain' returned 0; elapsed 0Total elapsed time: 115.284 sec.
+@I [HLS-100] Command 'sc_get_portdomain' returned 0; elapsed 0Total elapsed time: 162.600 sec.
 @I [HLS-0] Model list for RTL component generation: fft<config1> {dut_big_mult_v3small<71, 24, 17>} {dut_my_to_float<31, 1>} dut_sinf_or_cosf dut_knn dut_mfcc dut
 @I [HLS-0] Handling components in module [fft_config1_s] ... 
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/fft_config1_s.compgen.tcl "
 @I [HLS-0] Found component fft_config1_s.
 @I [HLS-0] Append model fft_config1_s
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.294 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.608 sec.
 @I [HLS-0] Handling components in module [dut_big_mult_v3small_71_24_17_s] ... 
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_big_mult_v3small_71_24_17_s.compgen.tcl "
 @I [HLS-0] Found component dut_big_mult_v3small_71_24_17_s_pp_V.
 @I [HLS-0] Append model dut_big_mult_v3small_71_24_17_s_pp_V
 @I [HLS-0] Found component dut_big_mult_v3small_71_24_17_s_pps_V.
 @I [HLS-0] Append model dut_big_mult_v3small_71_24_17_s_pps_V
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 115.297 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.612 sec.
 @I [HLS-0] Handling components in module [dut_my_to_float_31_1_s] ... 
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_my_to_float_31_1_s.compgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.300 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.615 sec.
 @I [HLS-0] Handling components in module [dut_sinf_or_cosf] ... 
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_sinf_or_cosf.compgen.tcl "
 @I [HLS-0] Found component dut_mul_32s_31ns_62_6.
 @I [HLS-0] Append model dut_mul_32s_31ns_62_6
-@I [HLS-0] Found component dut_mul_mul_17ns_15s_32_1.
-@I [HLS-0] Append model dut_mul_mul_17ns_15s_32_1
 @I [HLS-0] Found component dut_mul_mul_23s_17ns_40_1.
 @I [HLS-0] Append model dut_mul_mul_23s_17ns_40_1
+@I [HLS-0] Found component dut_mul_mul_17ns_15s_32_1.
+@I [HLS-0] Append model dut_mul_mul_17ns_15s_32_1
 @I [HLS-0] Found component dut_sinf_or_cosf_hls_sin_cos_K0_V.
 @I [HLS-0] Append model dut_sinf_or_cosf_hls_sin_cos_K0_V
 @I [HLS-0] Found component dut_sinf_or_cosf_hls_sin_cos_K1_V.
 @I [HLS-0] Append model dut_sinf_or_cosf_hls_sin_cos_K1_V
 @I [HLS-0] Found component dut_sinf_or_cosf_hls_sin_cos_K2_V.
 @I [HLS-0] Append model dut_sinf_or_cosf_hls_sin_cos_K2_V
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.314 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.618 sec.
 @I [HLS-0] Handling components in module [dut_knn] ... 
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_knn.compgen.tcl "
 @I [HLS-0] Found component dut_fsub_32ns_32ns_32_5_full_dsp.
@@ -1203,7 +1205,7 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-0] Append model dut_knn_min_distance
 @I [HLS-0] Found component dut_knn_distance.
 @I [HLS-0] Append model dut_knn_distance
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.319 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.622 sec.
 @I [HLS-0] Handling components in module [dut_mfcc] ... 
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_mfcc.compgen.tcl "
 @I [HLS-0] Found component dut_fadd_32ns_32ns_32_5_full_dsp.
@@ -1230,12 +1232,12 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-0] Append model dut_mfcc_z
 @I [HLS-0] Found component dut_mfcc_z2.
 @I [HLS-0] Append model dut_mfcc_z2
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.324 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.627 sec.
 @I [HLS-0] Handling components in module [dut] ... 
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.compgen.tcl "
 @I [HLS-0] Found component dut_uitofp_64ns_32_6.
 @I [HLS-0] Append model dut_uitofp_64ns_32_6
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.328 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 162.629 sec.
 @I [HLS-0] Append model fft_config1_s
 @I [HLS-0] Append model dut_big_mult_v3small_71_24_17_s
 @I [HLS-0] Append model dut_my_to_float_31_1_s
@@ -1244,13 +1246,13 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-0] Append model dut_mfcc
 @I [HLS-0] Append model dut
 @I [HLS-0] Generating RTL model list ...
-@I [HLS-0] All models in this session: fft_config1_s dut_big_mult_v3small_71_24_17_s_pp_V dut_big_mult_v3small_71_24_17_s_pps_V dut_mul_32s_31ns_62_6 dut_mul_mul_17ns_15s_32_1 dut_mul_mul_23s_17ns_40_1 dut_sinf_or_cosf_hls_sin_cos_K0_V dut_sinf_or_cosf_hls_sin_cos_K1_V dut_sinf_or_cosf_hls_sin_cos_K2_V dut_fsub_32ns_32ns_32_5_full_dsp dut_uitofp_32ns_32_6 dut_sitofp_32ns_32_6 dut_fcmp_32ns_32ns_1_1 dut_knn_training_data_V dut_knn_training_data2 dut_knn_training_instance dut_knn_min_distance dut_knn_distance dut_fadd_32ns_32ns_32_5_full_dsp dut_fmul_32ns_32ns_32_4_max_dsp dut_fdiv_32ns_32ns_32_16 dut_flog_32ns_32ns_32_13_full_dsp dut_mfcc_hamming dut_mfcc_xn_input_M_real dut_mfcc_melfb dut_mfcc_xn dut_mfcc_xk dut_mfcc_M dut_mfcc_z dut_mfcc_z2 dut_uitofp_64ns_32_6 fft_config1_s dut_big_mult_v3small_71_24_17_s dut_my_to_float_31_1_s dut_sinf_or_cosf dut_knn dut_mfcc dut
+@I [HLS-0] All models in this session: fft_config1_s dut_big_mult_v3small_71_24_17_s_pp_V dut_big_mult_v3small_71_24_17_s_pps_V dut_mul_32s_31ns_62_6 dut_mul_mul_23s_17ns_40_1 dut_mul_mul_17ns_15s_32_1 dut_sinf_or_cosf_hls_sin_cos_K0_V dut_sinf_or_cosf_hls_sin_cos_K1_V dut_sinf_or_cosf_hls_sin_cos_K2_V dut_fsub_32ns_32ns_32_5_full_dsp dut_uitofp_32ns_32_6 dut_sitofp_32ns_32_6 dut_fcmp_32ns_32ns_1_1 dut_knn_training_data_V dut_knn_training_data2 dut_knn_training_instance dut_knn_min_distance dut_knn_distance dut_fadd_32ns_32ns_32_5_full_dsp dut_fmul_32ns_32ns_32_4_max_dsp dut_fdiv_32ns_32ns_32_16 dut_flog_32ns_32ns_32_13_full_dsp dut_mfcc_hamming dut_mfcc_xn_input_M_real dut_mfcc_melfb dut_mfcc_xn dut_mfcc_xk dut_mfcc_M dut_mfcc_z dut_mfcc_z2 dut_uitofp_64ns_32_6 fft_config1_s dut_big_mult_v3small_71_24_17_s dut_my_to_float_31_1_s dut_sinf_or_cosf dut_knn dut_mfcc dut
 @I [HLS-0] To file: write model fft_config1_s
 @I [HLS-0] To file: write model dut_big_mult_v3small_71_24_17_s_pp_V
 @I [HLS-0] To file: write model dut_big_mult_v3small_71_24_17_s_pps_V
 @I [HLS-0] To file: write model dut_mul_32s_31ns_62_6
-@I [HLS-0] To file: write model dut_mul_mul_17ns_15s_32_1
 @I [HLS-0] To file: write model dut_mul_mul_23s_17ns_40_1
+@I [HLS-0] To file: write model dut_mul_mul_17ns_15s_32_1
 @I [HLS-0] To file: write model dut_sinf_or_cosf_hls_sin_cos_K0_V
 @I [HLS-0] To file: write model dut_sinf_or_cosf_hls_sin_cos_K1_V
 @I [HLS-0] To file: write model dut_sinf_or_cosf_hls_sin_cos_K2_V
@@ -1290,88 +1292,88 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [HLS-0] CAS Generation done.
 @I [HLS-0] CBC Generation done.
 @I [HLS-100] Command "export_ssdm /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/a.export.ll "
-@I [HLS-100] Command 'export_ssdm' returned 0; elapsed 0.01Total elapsed time: 115.368 sec.
+@I [HLS-100] Command 'export_ssdm' returned 0; elapsed 0.01Total elapsed time: 162.666 sec.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.380 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.674 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/generic/autopilot/common.gen "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/generic/autopilot/APCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.394 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.394 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.683 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.684 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/generic/autopilot/op.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.399 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.687 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/generic/autopilot/op_simcore.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.405 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 162.691 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/generic/autopilot/interface.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.409 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.694 sec.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.413 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.696 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/zynq/zynq.gen "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/virtex.gen "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/xilinx.gen "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/plb46.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.435 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.711 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/fsl.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 115.440 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.714 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/axi4.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.446 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.719 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/nativeAXI4.gen "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/saxilite.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.458 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.729 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/maxi.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 115.466 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 115.467 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 162.739 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 162.739 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/scripts/xilinxcoregen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.478 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 162.752 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/interface/XilEDKCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 115.487 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 162.762 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/ip/util.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.494 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.767 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/ip/xfir.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 115.500 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.770 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/ip/xfft.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.05Total elapsed time: 115.557 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.09Total elapsed time: 162.863 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/ip/dds_compiler.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.564 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.09Total elapsed time: 115.564 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 162.869 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.13Total elapsed time: 162.870 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/dsp48.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.570 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.09Total elapsed time: 115.570 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.09Total elapsed time: 115.570 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.875 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.13Total elapsed time: 162.875 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.13Total elapsed time: 162.875 sec.
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/zynq/zynq_fpv6.gen "
 @I [HLS-100] Command "source /opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/xilinx/common/xilinx_fpv6.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.580 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.581 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.882 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.882 sec.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.585 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.885 sec.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.589 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.888 sec.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.595 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.893 sec.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.600 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.895 sec.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/fft_config1_s.compgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.622 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 162.913 sec.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/fft_config1_s.compgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.652 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.932 sec.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_big_mult_v3small_71_24_17_s.compgen.tcl "
 @I [RTMG-279] Implementing memory 'dut_big_mult_v3small_71_24_17_s_pp_V_rom' using distributed ROMs.
 @I [RTMG-278] Implementing memory 'dut_big_mult_v3small_71_24_17_s_pps_V_ram' using distributed RAMs.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 115.728 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.02Total elapsed time: 162.994 sec.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_my_to_float_31_1_s.compgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 115.732 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 162.998 sec.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_sinf_or_cosf.compgen.tcl "
 @I [RTMG-282] Generating pipelined core: 'dut_mul_32s_31ns_62_6_MulnS_0'
 @I [RTMG-279] Implementing memory 'dut_sinf_or_cosf_hls_sin_cos_K0_V_rom' using distributed ROMs.
 @I [RTMG-279] Implementing memory 'dut_sinf_or_cosf_hls_sin_cos_K1_V_rom' using distributed ROMs.
 @I [RTMG-279] Implementing memory 'dut_sinf_or_cosf_hls_sin_cos_K2_V_rom' using distributed ROMs.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.09Total elapsed time: 116.176 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.1Total elapsed time: 163.308 sec.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_knn.compgen.tcl "
 @I [RTMG-279] Implementing memory 'dut_knn_training_data_V_rom' using auto ROMs.
 @I [RTMG-278] Implementing memory 'dut_knn_training_data2_ram' using block RAMs.
 @I [RTMG-278] Implementing memory 'dut_knn_training_instance_ram' using block RAMs.
 @I [RTMG-278] Implementing memory 'dut_knn_min_distance_ram' using distributed RAMs.
 @I [RTMG-278] Implementing memory 'dut_knn_distance_ram' using distributed RAMs.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.34Total elapsed time: 116.952 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.41Total elapsed time: 164.45 sec.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut_mfcc.compgen.tcl "
 @I [RTMG-279] Implementing memory 'dut_mfcc_hamming_rom' using auto ROMs.
 @I [RTMG-278] Implementing memory 'dut_mfcc_xn_input_M_real_ram' using block RAMs with power-on initialization.
@@ -1381,15 +1383,15 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "/opt/xili
 @I [RTMG-278] Implementing memory 'dut_mfcc_M_ram' using block RAMs.
 @I [RTMG-278] Implementing memory 'dut_mfcc_z_ram' using block RAMs.
 @I [RTMG-278] Implementing memory 'dut_mfcc_z2_ram' using block RAMs.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.2Total elapsed time: 117.756 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.24Total elapsed time: 164.667 sec.
 @I [HLS-100] Command "source /home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/.autopilot/db/dut.compgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 117.802 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 164.700 sec.
 @I [HLS-10] Finished generating all RTL models.
 @0 [HLS-0] Finished generating all RTL models.
 @I [SYSC-301] Generating SystemC RTL for dut.
 @I [VHDL-304] Generating VHDL RTL for dut.
 @I [VLOG-307] Generating Verilog RTL for dut.
-@I [HLS-100] Command 'autosyn' returned 0; elapsed 4.85Total elapsed time: 120.278 sec.
-@I [HLS-100] Command 'csynth_design' returned 0; elapsed 64.88Total elapsed time: 120.278 sec.
+@I [HLS-100] Command 'autosyn' returned 0; elapsed 6.36Total elapsed time: 166.651 sec.
+@I [HLS-100] Command 'csynth_design' returned 0; elapsed 102.42Total elapsed time: 166.651 sec.
 @I [HLS-100] Command "cleanup_all "
-@I [HLS-100] Command 'cleanup_all' returned 0; elapsed 0.05Total elapsed time: 120.318 sec.
+@I [HLS-100] Command 'cleanup_all' returned 0; elapsed 0.05Total elapsed time: 166.701 sec.

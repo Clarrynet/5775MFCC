@@ -54,7 +54,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file xillybus_lite.edif ...
-ngc2edif: Total memory usage is 104128 kilobytes
+ngc2edif: Total memory usage is 104124 kilobytes
 
 Release 14.7 - ngc2edif P_INT.20160526 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
@@ -78,5 +78,5 @@ WARNING:NetListWriters:306 - Signal bus
    signals.
   finished :Prep
 Writing EDIF netlist file xillyvga_core.edif ...
-ngc2edif: Total memory usage is 106448 kilobytes
+ngc2edif: Total memory usage is 106456 kilobytes
 

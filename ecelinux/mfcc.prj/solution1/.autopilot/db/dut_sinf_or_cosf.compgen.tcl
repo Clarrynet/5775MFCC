@@ -68,19 +68,19 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_multicycle_mul, che
 
 
 set id 7
-set name dut_mul_mul_17ns_15s_32_1
+set name dut_mul_mul_23s_17ns_40_1
 set corename simcore_mul
 set op mul
 set stage_num 1
 set max_latency -1
 set registered_input 1
-set in0_width 17
-set in0_signed 0
-set in1_width 15
-set in1_signed 1
-set out_width 32
+set in0_width 23
+set in0_signed 1
+set in1_width 17
+set in1_signed 0
+set out_width 40
 set exp i0*i1
-set arg_lists {i0 {17 0 +} i1 {15 1 +} p {32 1 +} }
+set arg_lists {i0 {23 1 +} i1 {17 0 +} p {40 1 +} }
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mul] == "ap_gen_simcore_mul"} {
 eval "ap_gen_simcore_mul { \
@@ -141,19 +141,19 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_dsp48, check your p
 
 
 set id 8
-set name dut_mul_mul_23s_17ns_40_1
+set name dut_mul_mul_17ns_15s_32_1
 set corename simcore_mul
 set op mul
 set stage_num 1
 set max_latency -1
 set registered_input 1
-set in0_width 23
-set in0_signed 1
-set in1_width 17
-set in1_signed 0
-set out_width 40
+set in0_width 17
+set in0_signed 0
+set in1_width 15
+set in1_signed 1
+set out_width 32
 set exp i0*i1
-set arg_lists {i0 {23 1 +} i1 {17 0 +} p {40 1 +} }
+set arg_lists {i0 {17 0 +} i1 {15 1 +} p {32 1 +} }
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mul] == "ap_gen_simcore_mul"} {
 eval "ap_gen_simcore_mul { \

@@ -65,8 +65,8 @@ set RtlHierarchyInfo {[
 		"WaitState" : [],
 		"SubBlockPort" : []},
 	{"Level" : "1", "Path" : "`AUTOTB_DUT_INST.dut_mul_32s_31ns_62_6_U6", "Parent" : "0", "Child" : []},
-	{"Level" : "1", "Path" : "`AUTOTB_DUT_INST.dut_mul_mul_17ns_15s_32_1_U7", "Parent" : "0", "Child" : []},
-	{"Level" : "1", "Path" : "`AUTOTB_DUT_INST.dut_mul_mul_23s_17ns_40_1_U8", "Parent" : "0", "Child" : []}]}
+	{"Level" : "1", "Path" : "`AUTOTB_DUT_INST.dut_mul_mul_23s_17ns_40_1_U7", "Parent" : "0", "Child" : []},
+	{"Level" : "1", "Path" : "`AUTOTB_DUT_INST.dut_mul_mul_17ns_15s_32_1_U8", "Parent" : "0", "Child" : []}]}
 
 set PerformanceInfo {[
 	{"Name" : "Latency", "Min" : "43", "Max" : "47"}
