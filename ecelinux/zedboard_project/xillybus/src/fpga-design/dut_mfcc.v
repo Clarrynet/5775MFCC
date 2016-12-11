@@ -791,7 +791,7 @@ fft_config1_s grp_fft_config1_s_fu_667(
     .ap_done(grp_fft_config1_s_fu_667_ap_done),
     .ap_idle(grp_fft_config1_s_fu_667_ap_idle),
     .ap_ready(grp_fft_config1_s_fu_667_ap_ready),
-    .xn_address0(grp_fft_config1_s_fu_667_xn_address0),
+    /*.xn_address0(grp_fft_config1_s_fu_667_xn_address0),
     .xn_ce0(grp_fft_config1_s_fu_667_xn_ce0),
     .xn_we0(grp_fft_config1_s_fu_667_xn_we0),
     .xn_d0(grp_fft_config1_s_fu_667_xn_d0),
@@ -810,7 +810,7 @@ fft_config1_s grp_fft_config1_s_fu_667(
     .xk_ce1(grp_fft_config1_s_fu_667_xk_ce1),
     .xk_we1(grp_fft_config1_s_fu_667_xk_we1),
     .xk_d1(grp_fft_config1_s_fu_667_xk_d1),
-    .xk_q1(ap_const_lv64_0),
+    .xk_q1(ap_const_lv64_0),*/
     .status_data_V_din(grp_fft_config1_s_fu_667_status_data_V_din),
     .status_data_V_full_n(1'b1),
     .status_data_V_write(grp_fft_config1_s_fu_667_status_data_V_write),
