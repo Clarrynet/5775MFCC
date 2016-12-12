@@ -3,7 +3,7 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-entity dut_mul_mul_23s_17ns_40_1_DSP48_0 is
+entity dut_mul_mul_23s_17ns_40_1_DSP48_1 is
 port (
     a: in std_logic_vector(23 - 1 downto 0);
     b: in std_logic_vector(17 - 1 downto 0);
@@ -11,7 +11,7 @@ port (
 
 end entity;
 
-architecture behav of dut_mul_mul_23s_17ns_40_1_DSP48_0 is
+architecture behav of dut_mul_mul_23s_17ns_40_1_DSP48_1 is
     signal a_cvt: signed(23 - 1 downto 0);
     signal b_cvt: unsigned(17 - 1 downto 0);
     signal p_cvt: signed(40 - 1 downto 0);
@@ -42,7 +42,7 @@ entity dut_mul_mul_23s_17ns_40_1 is
 end entity;
 
 architecture arch of dut_mul_mul_23s_17ns_40_1 is
-    component dut_mul_mul_23s_17ns_40_1_DSP48_0 is
+    component dut_mul_mul_23s_17ns_40_1_DSP48_1 is
         port (
             a : IN STD_LOGIC_VECTOR;
             b : IN STD_LOGIC_VECTOR;
@@ -52,7 +52,7 @@ architecture arch of dut_mul_mul_23s_17ns_40_1 is
 
 
 begin
-    dut_mul_mul_23s_17ns_40_1_DSP48_0_U :  component dut_mul_mul_23s_17ns_40_1_DSP48_0
+    dut_mul_mul_23s_17ns_40_1_DSP48_1_U :  component dut_mul_mul_23s_17ns_40_1_DSP48_1
     port map (
         a => din0,
         b => din1,

@@ -10,7 +10,7 @@ use ieee.std_logic_1164.all;
 
 entity dut_flog_32ns_32ns_32_13_full_dsp is
     generic (
-        ID         : integer := 27;
+        ID         : integer := 29;
         NUM_STAGE  : integer := 13;
         din0_WIDTH : integer := 32;
         din1_WIDTH : integer := 32;

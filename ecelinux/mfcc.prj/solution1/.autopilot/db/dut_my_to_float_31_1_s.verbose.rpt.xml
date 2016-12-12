@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'dut_my_to_float_31_1_s'" level="0">
-<item name = "Date">Sun Dec 11 11:07:47 2016
+<item name = "Date">Sun Dec 11 21:30:31 2016
 </item>
 <item name = "Version">2016.2 (Build 1577090 on Thu Jun 02 16:59:10 MDT 2016)</item>
 <item name = "Project">mfcc.prj</item>
@@ -131,7 +131,7 @@
 <column name="sh_assign_reg_463">32, 0, 32, 0</column>
 <column name="shift_1_reg_158">32, 0, 32, 0</column>
 <column name="shift_reg_125">32, 0, 32, 0</column>
-<column name="tmp_23_reg_454">1, 0, 1, 0</column>
+<column name="tmp_25_reg_454">1, 0, 1, 0</column>
 </table>
 </item>
 </section>

@@ -5,19 +5,26 @@
   Copyright (C) 1986-2016 Xilinx, Inc. All Rights Reserved.
 ================================================================
 INFO: [HLS 200-10] Running '/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/bin/unwrapped/lnx64.o/vivado_hls'
-INFO: [HLS 200-10] For user 'drl224' on host 'en-ec-ecelinux-02.coecis.cornell.edu' (Linux_x86_64 version 3.10.0-327.36.3.el7.x86_64) on Sun Dec 11 11:05:09 EST 2016
+INFO: [HLS 200-10] For user 'drl224' on host 'en-ec-ph314-07.ece.cornell.edu' (Linux_x86_64 version 3.10.0-327.36.3.el7.x86_64) on Sun Dec 11 21:29:15 EST 2016
 INFO: [HLS 200-10] On os "Red Hat Enterprise Linux Server release 7.2 (Maipo)"
 INFO: [HLS 200-10] In directory '/home/drl224/ece5775/final/ecelinux'
-INFO: [HLS 200-10] Opening and resetting project '/home/drl224/ece5775/final/ecelinux/mfcc.prj'.
+INFO: [HLS 200-10] Creating and opening project '/home/drl224/ece5775/final/ecelinux/mfcc.prj'.
 INFO: [HLS 200-10] Adding design file 'mfcc.cpp' to the project
 INFO: [HLS 200-10] Adding test bench file 'mfcc_test.cpp' to the project
 INFO: [HLS 200-10] Adding test bench file 'data' to the project
-INFO: [HLS 200-10] Opening and resetting solution '/home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1'.
+INFO: [HLS 200-10] Creating and opening solution '/home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1'.
 INFO: [HLS 200-10] Cleaning up the solution database.
 INFO: [HLS 200-10] Setting target device to 'xc7z020clg484-1'
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 INFO: [XFORM 203-701] Set default FIFO size in dataflow to 1.
 INFO: [XFORM 203-701] Set the default channel type in dataflow to FIFO.
+   Compiling ../../../../mfcc_test.cpp in debug mode
+   Compiling ../../../../mfcc.cpp in debug mode
+   Generating csim.exe
+#1: 	TestInstance=0x3041060800 	Interpreted=0x1 	Expected=1
+Hanging 2 1
+Overall Error Rate = 0%
+INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [HLS 200-10] Analyzing design file 'mfcc.cpp' ... 
 INFO: [HLS 200-10] Validating synthesis directives ...
 INFO: [HLS 200-10] Starting code transformations ...
@@ -57,19 +64,13 @@ INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::mantissa' into 'hls::
 INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::expv' into 'hls::cast_IEEE754<int, float>' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h:371) automatically.
 INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::__signbit' into 'hls::cast_IEEE754<int, float>' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h:383) automatically.
 INFO: [XFORM 203-602] Inlining function 'hls::cast_IEEE754<int, float>' into '__hls_fptosi_float_i32' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/lib_floatconversion.cpp:39) automatically.
-INFO: [XFORM 203-602] Inlining function 'std::abs' into 'knn' (mfcc.cpp:199) automatically.
-INFO: [XFORM 203-602] Inlining function '__hls_fptosi_float_i32' into 'knn' (mfcc.cpp:205) automatically.
-INFO: [XFORM 203-602] Inlining function 'std::log' into 'mfcc' (mfcc.cpp:139) automatically.
-INFO: [XFORM 203-602] Inlining function 'std::sqrt' into 'mfcc' (mfcc.cpp:145) automatically.
-INFO: [XFORM 203-602] Inlining function 'std::cos' into 'mfcc' (mfcc.cpp:150) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::abs' into 'knn' (mfcc.cpp:189) automatically.
+INFO: [XFORM 203-602] Inlining function '__hls_fptosi_float_i32' into 'knn' (mfcc.cpp:195) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::log' into 'mel_into_dct' (mfcc.cpp:130) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::sqrt' into 'mel_into_dct' (mfcc.cpp:136) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::cos' into 'mel_into_dct' (mfcc.cpp:141) automatically.
 WARNING: [SYNCHK 200-23] /wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:135: variable-indexed range selection may cause suboptimal QoR.
-CRITICAL WARNING: [SYNCHK 200-41] mfcc.cpp:28: unsafe type casting from type 'ap_uint<64>' to type 'float'.
-INFO: [SYNCHK 200-10] 0 error(s), 2 warning(s).
-WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'fft_config.data.V' (mfcc.cpp:100).
-WARNING: [XFORM 203-1102] Ignored multiple data pack pragma for variable 'xn' (mfcc.cpp:96).
-INFO: [XFORM 203-1101] Packing variable 'xn' (mfcc.cpp:96) into a 64-bit variable.
-WARNING: [XFORM 203-1102] Ignored multiple data pack pragma for variable 'xk' (mfcc.cpp:97).
-INFO: [XFORM 203-1101] Packing variable 'xk' (mfcc.cpp:97) into a 64-bit variable.
+INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
 INFO: [XFORM 203-502] Unrolling small iteration loop 'Loop-1' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:133) in function 'hls::hotbm::my_to_float<31, 1>' automatically.
 INFO: [XFORM 203-501] Unrolling loop 'Loop-1' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:133) in function 'hls::hotbm::my_to_float<31, 1>' completely.
 INFO: [XFORM 203-102] Automatically partitioning small array 'out_bits.V' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:132) completely based on array size.
@@ -105,12 +106,12 @@ INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::mantissa' into 'hls::
 INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::expv' into 'hls::cast_IEEE754<int, float>' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h:371) automatically.
 INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::__signbit' into 'hls::cast_IEEE754<int, float>' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h:383) automatically.
 INFO: [XFORM 203-602] Inlining function 'hls::cast_IEEE754<int, float>' into '__hls_fptosi_float_i32' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/lib_floatconversion.cpp:39) automatically.
-INFO: [XFORM 203-602] Inlining function 'std::abs' into 'knn' (mfcc.cpp:199) automatically.
-INFO: [XFORM 203-602] Inlining function '__hls_fptosi_float_i32' into 'knn' (mfcc.cpp:205) automatically.
-INFO: [XFORM 203-602] Inlining function 'std::log' into 'mfcc' (mfcc.cpp:139) automatically.
-INFO: [XFORM 203-602] Inlining function 'std::sqrt' into 'mfcc' (mfcc.cpp:145) automatically.
-INFO: [XFORM 203-602] Inlining function 'std::cos' into 'mfcc' (mfcc.cpp:150) automatically.
-INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (mfcc.cpp:204:9) to (mfcc.cpp:206:7) in function 'knn'... converting 4 basic blocks.
+INFO: [XFORM 203-602] Inlining function 'std::abs' into 'knn' (mfcc.cpp:189) automatically.
+INFO: [XFORM 203-602] Inlining function '__hls_fptosi_float_i32' into 'knn' (mfcc.cpp:195) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::log' into 'mel_into_dct' (mfcc.cpp:130) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::sqrt' into 'mel_into_dct' (mfcc.cpp:136) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::cos' into 'mel_into_dct' (mfcc.cpp:141) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (mfcc.cpp:194:9) to (mfcc.cpp:196:7) in function 'knn'... converting 4 basic blocks.
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:536:20) to (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:631:5) in function 'hls::hotbm::sinf_or_cosf'... converting 9 basic blocks.
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:631:57) to (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:645:1) in function 'hls::hotbm::sinf_or_cosf'... converting 4 basic blocks.
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:215:7) to (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:297:1) in function 'hls::hotbm::range_redux_payne_hanek_hotbm<20, float, 31, 31>'... converting 8 basic blocks.
@@ -118,36 +119,20 @@ INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (/wrk/2016.2/con
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:164:30) to (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:174:1) in function 'hls::hotbm::my_to_float<31, 1>'... converting 3 basic blocks.
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_big_mult.h:261:51) to (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_big_mult.h:260:24) in function 'hls::big_mult_v3small<71, 24, 17>'... converting 3 basic blocks.
 INFO: [XFORM 203-602] Inlining function 'hls::hotbm::range_redux_payne_hanek_hotbm<20, float, 31, 31>' into 'hls::hotbm::sinf_or_cosf' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:573) automatically.
-WARNING: [XFORM 203-631] Renaming function 'hls::big_mult_v3small<71, 24, 17>' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_big_mult.h:258:26) into big_mult_v3small<71, 24, 17>.
 WARNING: [XFORM 203-631] Renaming function 'hls::hotbm::sinf_or_cosf' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:536) into sinf_or_cosf.
+WARNING: [XFORM 203-631] Renaming function 'hls::big_mult_v3small<71, 24, 17>' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_big_mult.h:258:26) into big_mult_v3small<71, 24, 17>.
 WARNING: [XFORM 203-631] Renaming function 'hls::hotbm::my_to_float<31, 1>' (/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_hotbm.h:118) into my_to_float<31, 1>.
-WARNING: [XFORM 203-631] Renaming function 'hls::fft<config1>' (/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/common/technology/autopilot/hls_fft.h:984) into fft<config1>.
-INFO: [HLS 200-111] Elapsed time: 96.56 seconds; current memory usage: 671 MB.
+INFO: [HLS 200-111] Elapsed time: 20.84 seconds; current memory usage: 653 MB.
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'dut' ...
-WARNING: [SYN 201-103] Legalizing function name 'fft<config1>' to 'fft_config1_s'.
 WARNING: [SYN 201-103] Legalizing function name 'dut_big_mult_v3small<71, 24, 17>' to 'dut_big_mult_v3small_71_24_17_s'.
 WARNING: [SYN 201-103] Legalizing function name 'dut_my_to_float<31, 1>' to 'dut_my_to_float_31_1_s'.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Scheduling module 'fft_config1_s' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Skip scheduling the IP block.
-INFO: [HLS 200-111] Elapsed time: 0.02 seconds; current memory usage: 671 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Exploring micro-architecture for module 'fft_config1_s' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Elapsed time: 0.01 seconds; current memory usage: 671 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Scheduling module 'dut_big_mult_v3small_71_24_17_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Elapsed time: 0.05 seconds; current memory usage: 672 MB.
+INFO: [HLS 200-111] Elapsed time: 0.06 seconds; current memory usage: 654 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Exploring micro-architecture for module 'dut_big_mult_v3small_71_24_17_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -156,13 +141,13 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Elapsed time: 0.06 seconds; current memory usage: 672 MB.
+INFO: [HLS 200-111] Elapsed time: 0.08 seconds; current memory usage: 654 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Scheduling module 'dut_my_to_float_31_1_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Elapsed time: 0.11 seconds; current memory usage: 672 MB.
+INFO: [HLS 200-111] Elapsed time: 0.12 seconds; current memory usage: 654 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Exploring micro-architecture for module 'dut_my_to_float_31_1_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -171,13 +156,13 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Elapsed time: 0.06 seconds; current memory usage: 672 MB.
+INFO: [HLS 200-111] Elapsed time: 0.04 seconds; current memory usage: 654 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Scheduling module 'dut_sinf_or_cosf' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Elapsed time: 0.15 seconds; current memory usage: 673 MB.
+INFO: [HLS 200-111] Elapsed time: 0.12 seconds; current memory usage: 655 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Exploring micro-architecture for module 'dut_sinf_or_cosf' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -186,13 +171,13 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Elapsed time: 0.17 seconds; current memory usage: 674 MB.
+INFO: [HLS 200-111] Elapsed time: 0.12 seconds; current memory usage: 656 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Scheduling module 'dut_knn' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Elapsed time: 0.26 seconds; current memory usage: 675 MB.
+INFO: [HLS 200-111] Elapsed time: 0.19 seconds; current memory usage: 657 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Exploring micro-architecture for module 'dut_knn' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -201,28 +186,28 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Elapsed time: 0.19 seconds; current memory usage: 676 MB.
+INFO: [HLS 200-111] Elapsed time: 0.11 seconds; current memory usage: 658 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Scheduling module 'dut_mfcc' 
+INFO: [HLS 200-10] -- Scheduling module 'dut_mel_into_dct' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Elapsed time: 0.38 seconds; current memory usage: 677 MB.
+INFO: [HLS 200-111] Elapsed time: 0.18 seconds; current memory usage: 659 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Exploring micro-architecture for module 'dut_mfcc' 
+INFO: [HLS 200-10] -- Exploring micro-architecture for module 'dut_mel_into_dct' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Elapsed time: 0.4 seconds; current memory usage: 679 MB.
+INFO: [HLS 200-111] Elapsed time: 0.15 seconds; current memory usage: 659 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Scheduling module 'dut' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Elapsed time: 0.53 seconds; current memory usage: 679 MB.
+INFO: [HLS 200-111] Elapsed time: 0.25 seconds; current memory usage: 660 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Exploring micro-architecture for module 'dut' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -231,22 +216,18 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Elapsed time: 0.13 seconds; current memory usage: 679 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'fft_config1_s' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [RTGEN 206-100] Finished creating RTL model for 'fft_config1_s'.
-INFO: [HLS 200-111] Elapsed time: 0.28 seconds; current memory usage: 680 MB.
+INFO: [HLS 200-111] Elapsed time: 0.07 seconds; current memory usage: 660 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'dut_big_mult_v3small_71_24_17_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'dut_mul_41s_24ns_41_4': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dut_big_mult_v3small_71_24_17_s'.
-INFO: [HLS 200-111] Elapsed time: 0.11 seconds; current memory usage: 680 MB.
+INFO: [HLS 200-111] Elapsed time: 0.16 seconds; current memory usage: 661 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'dut_my_to_float_31_1_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dut_my_to_float_31_1_s'.
-INFO: [HLS 200-111] Elapsed time: 0.17 seconds; current memory usage: 682 MB.
+INFO: [HLS 200-111] Elapsed time: 0.2 seconds; current memory usage: 663 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'dut_sinf_or_cosf' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -254,7 +235,7 @@ INFO: [RTGEN 206-100] Generating core module 'dut_mul_32s_31ns_62_6': 1 instance
 INFO: [RTGEN 206-100] Generating core module 'dut_mul_mul_17ns_15s_32_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'dut_mul_mul_23s_17ns_40_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dut_sinf_or_cosf'.
-INFO: [HLS 200-111] Elapsed time: 0.15 seconds; current memory usage: 684 MB.
+INFO: [HLS 200-111] Elapsed time: 0.12 seconds; current memory usage: 665 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'dut_knn' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -263,31 +244,29 @@ INFO: [RTGEN 206-100] Generating core module 'dut_fsub_32ns_32ns_32_5_full_dsp':
 INFO: [RTGEN 206-100] Generating core module 'dut_sitofp_32ns_32_6': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'dut_uitofp_32ns_32_6': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dut_knn'.
-INFO: [HLS 200-111] Elapsed time: 0.42 seconds; current memory usage: 687 MB.
+INFO: [HLS 200-111] Elapsed time: 0.3 seconds; current memory usage: 669 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'dut_mfcc' 
+INFO: [HLS 200-10] -- Generating RTL for module 'dut_mel_into_dct' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Generating core module 'dut_fadd_32ns_32ns_32_5_full_dsp': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'dut_fdiv_32ns_32ns_32_16': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'dut_flog_32ns_32ns_32_13_full_dsp': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'dut_fmul_32ns_32ns_32_4_max_dsp': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'dut_sitofp_32ns_32_6': 1 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'dut_mfcc'.
-INFO: [HLS 200-111] Elapsed time: 0.48 seconds; current memory usage: 692 MB.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'dut_mel_into_dct'.
+INFO: [HLS 200-111] Elapsed time: 0.26 seconds; current memory usage: 673 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'dut' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-500] Setting interface mode on port 'dut/strm_in_V_V' to 'ap_fifo'.
 INFO: [RTGEN 206-500] Setting interface mode on port 'dut/strm_out_V_V' to 'ap_fifo'.
 INFO: [RTGEN 206-500] Setting interface mode on function 'dut' to 'ap_ctrl_hs'.
-INFO: [RTGEN 206-100] Generating core module 'dut_fadd_32ns_32ns_32_5_full_dsp': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'dut_fdiv_32ns_32ns_32_16': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'dut_uitofp_64ns_32_6': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dut'.
-INFO: [HLS 200-111] Elapsed time: 0.65 seconds; current memory usage: 697 MB.
-INFO: [RTMG 210-279] Implementing memory 'dut_big_mult_v3small_71_24_17_s_pp_V_rom' using distributed ROMs.
-INFO: [RTMG 210-278] Implementing memory 'dut_big_mult_v3small_71_24_17_s_pps_V_ram' using distributed RAMs.
+INFO: [HLS 200-111] Elapsed time: 0.26 seconds; current memory usage: 675 MB.
+INFO: [RTMG 210-282] Generating pipelined core: 'dut_mul_41s_24ns_41_4_Mul4S_0'
+INFO: [RTMG 210-278] Implementing memory 'dut_big_mult_v3small_71_24_17_s_pp_V_ram' using distributed RAMs.
 INFO: [RTMG 210-282] Generating pipelined core: 'dut_mul_32s_31ns_62_6_MulnS_0'
+INFO: [RTMG 210-279] Implementing memory 'dut_sinf_or_cosf_hls_ref_4oPi_table_100_V_rom' using distributed ROMs.
 INFO: [RTMG 210-279] Implementing memory 'dut_sinf_or_cosf_hls_sin_cos_K0_V_rom' using distributed ROMs.
 INFO: [RTMG 210-279] Implementing memory 'dut_sinf_or_cosf_hls_sin_cos_K1_V_rom' using distributed ROMs.
 INFO: [RTMG 210-279] Implementing memory 'dut_sinf_or_cosf_hls_sin_cos_K2_V_rom' using distributed ROMs.
@@ -296,16 +275,11 @@ INFO: [RTMG 210-278] Implementing memory 'dut_knn_training_data2_ram' using bloc
 INFO: [RTMG 210-278] Implementing memory 'dut_knn_training_instance_ram' using block RAMs.
 INFO: [RTMG 210-278] Implementing memory 'dut_knn_min_distance_ram' using distributed RAMs.
 INFO: [RTMG 210-278] Implementing memory 'dut_knn_distance_ram' using distributed RAMs.
-INFO: [RTMG 210-279] Implementing memory 'dut_mfcc_hamming_rom' using auto ROMs.
-INFO: [RTMG 210-278] Implementing memory 'dut_mfcc_xn_input_M_real_ram' using block RAMs with power-on initialization.
-INFO: [RTMG 210-279] Implementing memory 'dut_mfcc_melfb_rom' using auto ROMs.
-INFO: [RTMG 210-278] Implementing memory 'dut_mfcc_xn_ram' using block RAMs.
-INFO: [RTMG 210-278] Implementing memory 'dut_mfcc_xk_ram' using block RAMs.
-INFO: [RTMG 210-278] Implementing memory 'dut_mfcc_M_ram' using block RAMs.
-INFO: [RTMG 210-278] Implementing memory 'dut_mfcc_z_ram' using block RAMs.
-INFO: [RTMG 210-278] Implementing memory 'dut_mfcc_z2_ram' using block RAMs.
+INFO: [RTMG 210-279] Implementing memory 'dut_mel_into_dct_melfb_rom' using auto ROMs.
+INFO: [RTMG 210-278] Implementing memory 'dut_mel_into_dct_z_ram' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'dut_stage1_ram' using block RAMs.
 INFO: [HLS 200-10] Finished generating all RTL models.
 INFO: [SYSC 207-301] Generating SystemC RTL for dut.
 INFO: [VHDL 208-304] Generating VHDL RTL for dut.
 INFO: [VLOG 209-307] Generating Verilog RTL for dut.
-INFO: [HLS 200-112] Total elapsed time: 166.729 seconds; peak memory usage: 697 MB.
+INFO: [HLS 200-112] Total elapsed time: 83.831 seconds; peak memory usage: 675 MB.

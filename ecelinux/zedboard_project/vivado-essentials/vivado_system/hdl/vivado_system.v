@@ -1,8 +1,8 @@
 //Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
-//Date        : Sun Dec 11 11:21:50 2016
-//Host        : en-ec-ecelinux-02.coecis.cornell.edu running 64-bit Red Hat Enterprise Linux Server release 7.2 (Maipo)
+//Date        : Sun Dec 11 13:44:55 2016
+//Host        : en-ec-ecelinux-04.coecis.cornell.edu running 64-bit Red Hat Enterprise Linux Server release 7.2 (Maipo)
 //Command     : generate_target vivado_system.bd
 //Design      : vivado_system
 //Purpose     : IP block netlist
@@ -1590,7 +1590,7 @@ module s00_couplers_imp_WHIN6P
         .s_axi_wvalid(s00_couplers_to_auto_pc_WVALID));
 endmodule
 
-(* CORE_GENERATION_INFO = "vivado_system,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=vivado_system,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=17,numReposBlks=11,numNonXlnxBlks=3,numHierBlks=6,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=123,synth_mode=Global}" *) (* HW_HANDOFF = "vivado_system.hwdef" *) 
+(* CORE_GENERATION_INFO = "vivado_system,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=vivado_system,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=17,numReposBlks=11,numNonXlnxBlks=3,numHierBlks=6,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=126,synth_mode=Global}" *) (* HW_HANDOFF = "vivado_system.hwdef" *) 
 module vivado_system
    (DDR_addr,
     DDR_ba,

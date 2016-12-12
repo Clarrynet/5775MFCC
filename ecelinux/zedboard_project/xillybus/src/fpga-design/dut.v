@@ -7,7 +7,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="dut,hls_ip_2016_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=1,HLS_INPUT_PART=xc7z020clg484-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=8.750000,HLS_SYN_LAT=4018762,HLS_SYN_TPT=none,HLS_SYN_MEM=190,HLS_SYN_DSP=53,HLS_SYN_FF=20032,HLS_SYN_LUT=22920}" *)
+(* CORE_GENERATION_INFO="dut,hls_ip_2016_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=1,HLS_INPUT_PART=xc7z020clg484-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=8.750000,HLS_SYN_LAT=4056688,HLS_SYN_TPT=none,HLS_SYN_MEM=254,HLS_SYN_DSP=56,HLS_SYN_FF=20196,HLS_SYN_LUT=23266}" *)
 
 module dut (
         ap_clk,
@@ -101,7 +101,7 @@ reg    ap_sig_48;
 reg    strm_in_V_V_blk_n;
 reg    ap_sig_cseq_ST_st2_fsm_1;
 reg    ap_sig_69;
-wire   [0:0] exitcond_fu_153_p2;
+wire   [0:0] exitcond_fu_161_p2;
 reg    ap_sig_cseq_ST_st3_fsm_2;
 reg    ap_sig_80;
 reg    strm_out_V_V_blk_n;
@@ -109,54 +109,54 @@ reg    ap_sig_cseq_ST_st32_fsm_31;
 reg    ap_sig_89;
 reg    ap_sig_cseq_ST_st33_fsm_32;
 reg    ap_sig_96;
-wire   [13:0] i_8_fu_159_p2;
-reg   [13:0] i_8_reg_185;
+wire   [13:0] i_8_fu_167_p2;
+reg   [13:0] i_8_reg_193;
 reg    ap_sig_103;
-reg   [31:0] tmp_V_2_reg_190;
-reg   [31:0] tmp_V_3_reg_196;
+reg   [31:0] tmp_V_2_reg_198;
+reg   [31:0] tmp_V_3_reg_204;
 reg    ap_sig_cseq_ST_st4_fsm_3;
 reg    ap_sig_119;
-wire   [31:0] grp_fu_150_p1;
-reg   [31:0] tmp_s_reg_206;
+wire   [31:0] grp_fu_158_p1;
+reg   [31:0] tmp_s_reg_214;
 reg    ap_sig_cseq_ST_st9_fsm_8;
 reg    ap_sig_128;
-wire   [31:0] grp_fu_145_p2;
-reg   [31:0] tmp_61_reg_211;
+wire   [31:0] grp_fu_153_p2;
+reg   [31:0] tmp_63_reg_219;
 reg    ap_sig_cseq_ST_st25_fsm_24;
 reg    ap_sig_137;
-wire   [31:0] grp_fu_140_p2;
-reg   [31:0] tmp_62_reg_216;
+wire   [31:0] grp_fu_148_p2;
+reg   [31:0] tmp_64_reg_224;
 reg    ap_sig_cseq_ST_st30_fsm_29;
 reg    ap_sig_146;
 reg   [13:0] sound_in_address0;
 reg    sound_in_ce0;
 reg    sound_in_we0;
 wire   [31:0] sound_in_q0;
-wire    grp_dut_mfcc_fu_119_ap_start;
-wire    grp_dut_mfcc_fu_119_ap_done;
-wire    grp_dut_mfcc_fu_119_ap_idle;
-wire    grp_dut_mfcc_fu_119_ap_ready;
-wire   [13:0] grp_dut_mfcc_fu_119_sound_file_address0;
-wire    grp_dut_mfcc_fu_119_sound_file_ce0;
-wire   [0:0] grp_dut_mfcc_fu_119_ap_return;
-reg   [31:0] tmp_V_1_reg_94;
+wire    grp_dut_mfcc_fu_123_ap_start;
+wire    grp_dut_mfcc_fu_123_ap_done;
+wire    grp_dut_mfcc_fu_123_ap_idle;
+wire    grp_dut_mfcc_fu_123_ap_ready;
+wire   [13:0] grp_dut_mfcc_fu_123_sound_file_address0;
+wire    grp_dut_mfcc_fu_123_sound_file_ce0;
+wire   [0:0] grp_dut_mfcc_fu_123_ap_return;
+reg   [31:0] tmp_V_1_reg_98;
 reg    ap_sig_cseq_ST_st31_fsm_30;
 reg    ap_sig_175;
-reg   [13:0] i_reg_107;
-reg    ap_reg_grp_dut_mfcc_fu_119_ap_start;
-wire   [63:0] tmp_63_fu_172_p1;
-wire   [31:0] tmp_V_fu_177_p1;
+reg   [13:0] i_reg_111;
+reg    ap_reg_grp_dut_mfcc_fu_123_ap_start;
+wire   [63:0] tmp_65_fu_180_p1;
+wire   [31:0] tmp_V_fu_185_p1;
 reg    ap_sig_cseq_ST_st26_fsm_25;
-reg    ap_sig_279;
+reg    ap_sig_305;
 reg    ap_sig_cseq_ST_st10_fsm_9;
-reg    ap_sig_289;
-wire   [63:0] grp_fu_150_p0;
+reg    ap_sig_315;
+wire   [63:0] grp_fu_158_p0;
 reg   [32:0] ap_NS_fsm;
 
 // power-on initialization
 initial begin
 #0 ap_CS_fsm = 33'b1;
-#0 ap_reg_grp_dut_mfcc_fu_119_ap_start = 1'b0;
+#0 ap_reg_grp_dut_mfcc_fu_123_ap_start = 1'b0;
 end
 
 dut_mfcc_M #(
@@ -169,21 +169,21 @@ sound_in_U(
     .address0(sound_in_address0),
     .ce0(sound_in_ce0),
     .we0(sound_in_we0),
-    .d0(tmp_62_reg_216),
+    .d0(tmp_64_reg_224),
     .q0(sound_in_q0)
 );
 
-dut_mfcc grp_dut_mfcc_fu_119(
+dut_mfcc grp_dut_mfcc_fu_123(
     .ap_clk(ap_clk),
     .ap_rst(ap_rst),
-    .ap_start(grp_dut_mfcc_fu_119_ap_start),
-    .ap_done(grp_dut_mfcc_fu_119_ap_done),
-    .ap_idle(grp_dut_mfcc_fu_119_ap_idle),
-    .ap_ready(grp_dut_mfcc_fu_119_ap_ready),
-    .sound_file_address0(grp_dut_mfcc_fu_119_sound_file_address0),
-    .sound_file_ce0(grp_dut_mfcc_fu_119_sound_file_ce0),
+    .ap_start(grp_dut_mfcc_fu_123_ap_start),
+    .ap_done(grp_dut_mfcc_fu_123_ap_done),
+    .ap_idle(grp_dut_mfcc_fu_123_ap_idle),
+    .ap_ready(grp_dut_mfcc_fu_123_ap_ready),
+    .sound_file_address0(grp_dut_mfcc_fu_123_sound_file_address0),
+    .sound_file_ce0(grp_dut_mfcc_fu_123_sound_file_ce0),
     .sound_file_q0(sound_in_q0),
-    .ap_return(grp_dut_mfcc_fu_119_ap_return)
+    .ap_return(grp_dut_mfcc_fu_123_ap_return)
 );
 
 dut_fadd_32ns_32ns_32_5_full_dsp #(
@@ -192,13 +192,13 @@ dut_fadd_32ns_32ns_32_5_full_dsp #(
     .din0_WIDTH( 32 ),
     .din1_WIDTH( 32 ),
     .dout_WIDTH( 32 ))
-dut_fadd_32ns_32ns_32_5_full_dsp_U37(
+dut_fadd_32ns_32ns_32_5_full_dsp_U38(
     .clk(ap_clk),
     .reset(ap_rst),
-    .din0(tmp_61_reg_211),
+    .din0(tmp_63_reg_219),
     .din1(ap_const_lv32_BF800000),
     .ce(1'b1),
-    .dout(grp_fu_140_p2)
+    .dout(grp_fu_148_p2)
 );
 
 dut_fdiv_32ns_32ns_32_16 #(
@@ -207,13 +207,13 @@ dut_fdiv_32ns_32ns_32_16 #(
     .din0_WIDTH( 32 ),
     .din1_WIDTH( 32 ),
     .dout_WIDTH( 32 ))
-dut_fdiv_32ns_32ns_32_16_U38(
+dut_fdiv_32ns_32ns_32_16_U39(
     .clk(ap_clk),
     .reset(ap_rst),
-    .din0(tmp_s_reg_206),
+    .din0(tmp_s_reg_214),
     .din1(ap_const_lv32_47C35000),
     .ce(1'b1),
-    .dout(grp_fu_145_p2)
+    .dout(grp_fu_153_p2)
 );
 
 dut_uitofp_64ns_32_6 #(
@@ -221,12 +221,12 @@ dut_uitofp_64ns_32_6 #(
     .NUM_STAGE( 6 ),
     .din0_WIDTH( 64 ),
     .dout_WIDTH( 32 ))
-dut_uitofp_64ns_32_6_U39(
+dut_uitofp_64ns_32_6_U40(
     .clk(ap_clk),
     .reset(ap_rst),
-    .din0(grp_fu_150_p0),
+    .din0(grp_fu_158_p0),
     .ce(1'b1),
-    .dout(grp_fu_150_p1)
+    .dout(grp_fu_158_p1)
 );
 
 always @ (posedge ap_clk) begin
@@ -239,63 +239,63 @@ end
 
 always @ (posedge ap_clk) begin
     if (ap_rst == 1'b1) begin
-        ap_reg_grp_dut_mfcc_fu_119_ap_start <= 1'b0;
+        ap_reg_grp_dut_mfcc_fu_123_ap_start <= 1'b0;
     end else begin
-        if (((1'b1 == ap_sig_cseq_ST_st2_fsm_1) & ~ap_sig_103 & ~(exitcond_fu_153_p2 == 1'b0))) begin
-            ap_reg_grp_dut_mfcc_fu_119_ap_start <= 1'b1;
-        end else if ((1'b1 == grp_dut_mfcc_fu_119_ap_ready)) begin
-            ap_reg_grp_dut_mfcc_fu_119_ap_start <= 1'b0;
+        if (((1'b1 == ap_sig_cseq_ST_st2_fsm_1) & ~ap_sig_103 & ~(exitcond_fu_161_p2 == 1'b0))) begin
+            ap_reg_grp_dut_mfcc_fu_123_ap_start <= 1'b1;
+        end else if ((1'b1 == grp_dut_mfcc_fu_123_ap_ready)) begin
+            ap_reg_grp_dut_mfcc_fu_123_ap_start <= 1'b0;
         end
     end
 end
 
 always @ (posedge ap_clk) begin
     if ((1'b1 == ap_sig_cseq_ST_st31_fsm_30)) begin
-        i_reg_107 <= i_8_reg_185;
+        i_reg_111 <= i_8_reg_193;
     end else if (((1'b1 == ap_sig_cseq_ST_st1_fsm_0) & ~(ap_start == 1'b0))) begin
-        i_reg_107 <= ap_const_lv14_0;
+        i_reg_111 <= ap_const_lv14_0;
     end
 end
 
 always @ (posedge ap_clk) begin
     if (((1'b1 == ap_sig_cseq_ST_st2_fsm_1) & ~ap_sig_103)) begin
-        i_8_reg_185 <= i_8_fu_159_p2;
+        i_8_reg_193 <= i_8_fu_167_p2;
     end
 end
 
 always @ (posedge ap_clk) begin
     if ((1'b1 == ap_sig_cseq_ST_st25_fsm_24)) begin
-        tmp_61_reg_211 <= grp_fu_145_p2;
+        tmp_63_reg_219 <= grp_fu_153_p2;
     end
 end
 
 always @ (posedge ap_clk) begin
     if ((1'b1 == ap_sig_cseq_ST_st30_fsm_29)) begin
-        tmp_62_reg_216 <= grp_fu_140_p2;
+        tmp_64_reg_224 <= grp_fu_148_p2;
     end
 end
 
 always @ (posedge ap_clk) begin
     if ((1'b1 == ap_sig_cseq_ST_st31_fsm_30)) begin
-        tmp_V_1_reg_94 <= tmp_V_2_reg_190;
+        tmp_V_1_reg_98 <= tmp_V_2_reg_198;
     end
 end
 
 always @ (posedge ap_clk) begin
-    if (((1'b1 == ap_sig_cseq_ST_st2_fsm_1) & (exitcond_fu_153_p2 == 1'b0) & ~ap_sig_103)) begin
-        tmp_V_2_reg_190 <= strm_in_V_V_dout;
+    if (((1'b1 == ap_sig_cseq_ST_st2_fsm_1) & (exitcond_fu_161_p2 == 1'b0) & ~ap_sig_103)) begin
+        tmp_V_2_reg_198 <= strm_in_V_V_dout;
     end
 end
 
 always @ (posedge ap_clk) begin
     if (((1'b1 == ap_sig_cseq_ST_st3_fsm_2) & ~(strm_in_V_V_empty_n == 1'b0))) begin
-        tmp_V_3_reg_196 <= strm_in_V_V_dout;
+        tmp_V_3_reg_204 <= strm_in_V_V_dout;
     end
 end
 
 always @ (posedge ap_clk) begin
     if ((1'b1 == ap_sig_cseq_ST_st9_fsm_8)) begin
-        tmp_s_reg_206 <= grp_fu_150_p1;
+        tmp_s_reg_214 <= grp_fu_158_p1;
     end
 end
 
@@ -324,7 +324,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if (ap_sig_289) begin
+    if (ap_sig_315) begin
         ap_sig_cseq_ST_st10_fsm_9 = 1'b1;
     end else begin
         ap_sig_cseq_ST_st10_fsm_9 = 1'b0;
@@ -348,7 +348,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if (ap_sig_279) begin
+    if (ap_sig_305) begin
         ap_sig_cseq_ST_st26_fsm_25 = 1'b1;
     end else begin
         ap_sig_cseq_ST_st26_fsm_25 = 1'b0;
@@ -421,9 +421,9 @@ end
 
 always @ (*) begin
     if ((1'b1 == ap_sig_cseq_ST_st31_fsm_30)) begin
-        sound_in_address0 = tmp_63_fu_172_p1;
+        sound_in_address0 = tmp_65_fu_180_p1;
     end else if ((1'b1 == ap_sig_cseq_ST_st32_fsm_31)) begin
-        sound_in_address0 = grp_dut_mfcc_fu_119_sound_file_address0;
+        sound_in_address0 = grp_dut_mfcc_fu_123_sound_file_address0;
     end else begin
         sound_in_address0 = 'bx;
     end
@@ -433,7 +433,7 @@ always @ (*) begin
     if ((1'b1 == ap_sig_cseq_ST_st31_fsm_30)) begin
         sound_in_ce0 = 1'b1;
     end else if ((1'b1 == ap_sig_cseq_ST_st32_fsm_31)) begin
-        sound_in_ce0 = grp_dut_mfcc_fu_119_sound_file_ce0;
+        sound_in_ce0 = grp_dut_mfcc_fu_123_sound_file_ce0;
     end else begin
         sound_in_ce0 = 1'b0;
     end
@@ -448,7 +448,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if ((((1'b1 == ap_sig_cseq_ST_st2_fsm_1) & (exitcond_fu_153_p2 == 1'b0)) | (1'b1 == ap_sig_cseq_ST_st3_fsm_2))) begin
+    if ((((1'b1 == ap_sig_cseq_ST_st2_fsm_1) & (exitcond_fu_161_p2 == 1'b0)) | (1'b1 == ap_sig_cseq_ST_st3_fsm_2))) begin
         strm_in_V_V_blk_n = strm_in_V_V_empty_n;
     end else begin
         strm_in_V_V_blk_n = 1'b1;
@@ -456,7 +456,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if ((((1'b1 == ap_sig_cseq_ST_st2_fsm_1) & (exitcond_fu_153_p2 == 1'b0) & ~ap_sig_103) | ((1'b1 == ap_sig_cseq_ST_st3_fsm_2) & ~(strm_in_V_V_empty_n == 1'b0)))) begin
+    if ((((1'b1 == ap_sig_cseq_ST_st2_fsm_1) & (exitcond_fu_161_p2 == 1'b0) & ~ap_sig_103) | ((1'b1 == ap_sig_cseq_ST_st3_fsm_2) & ~(strm_in_V_V_empty_n == 1'b0)))) begin
         strm_in_V_V_read = 1'b1;
     end else begin
         strm_in_V_V_read = 1'b0;
@@ -473,16 +473,16 @@ end
 
 always @ (*) begin
     if (((1'b1 == ap_sig_cseq_ST_st33_fsm_32) & ~(strm_out_V_V_full_n == 1'b0))) begin
-        strm_out_V_V_din = tmp_V_1_reg_94;
-    end else if (((1'b1 == ap_sig_cseq_ST_st32_fsm_31) & ~((strm_out_V_V_full_n == 1'b0) | (1'b0 == grp_dut_mfcc_fu_119_ap_done)))) begin
-        strm_out_V_V_din = tmp_V_fu_177_p1;
+        strm_out_V_V_din = tmp_V_1_reg_98;
+    end else if (((1'b1 == ap_sig_cseq_ST_st32_fsm_31) & ~((strm_out_V_V_full_n == 1'b0) | (1'b0 == grp_dut_mfcc_fu_123_ap_done)))) begin
+        strm_out_V_V_din = tmp_V_fu_185_p1;
     end else begin
         strm_out_V_V_din = 'bx;
     end
 end
 
 always @ (*) begin
-    if ((((1'b1 == ap_sig_cseq_ST_st32_fsm_31) & ~((strm_out_V_V_full_n == 1'b0) | (1'b0 == grp_dut_mfcc_fu_119_ap_done))) | ((1'b1 == ap_sig_cseq_ST_st33_fsm_32) & ~(strm_out_V_V_full_n == 1'b0)))) begin
+    if ((((1'b1 == ap_sig_cseq_ST_st32_fsm_31) & ~((strm_out_V_V_full_n == 1'b0) | (1'b0 == grp_dut_mfcc_fu_123_ap_done))) | ((1'b1 == ap_sig_cseq_ST_st33_fsm_32) & ~(strm_out_V_V_full_n == 1'b0)))) begin
         strm_out_V_V_write = 1'b1;
     end else begin
         strm_out_V_V_write = 1'b0;
@@ -499,9 +499,9 @@ always @ (*) begin
             end
         end
         ap_ST_st2_fsm_1 : begin
-            if ((~ap_sig_103 & ~(exitcond_fu_153_p2 == 1'b0))) begin
+            if ((~ap_sig_103 & ~(exitcond_fu_161_p2 == 1'b0))) begin
                 ap_NS_fsm = ap_ST_st32_fsm_31;
-            end else if (((exitcond_fu_153_p2 == 1'b0) & ~ap_sig_103)) begin
+            end else if (((exitcond_fu_161_p2 == 1'b0) & ~ap_sig_103)) begin
                 ap_NS_fsm = ap_ST_st3_fsm_2;
             end else begin
                 ap_NS_fsm = ap_ST_st2_fsm_1;
@@ -599,7 +599,7 @@ always @ (*) begin
             ap_NS_fsm = ap_ST_st2_fsm_1;
         end
         ap_ST_st32_fsm_31 : begin
-            if (~((strm_out_V_V_full_n == 1'b0) | (1'b0 == grp_dut_mfcc_fu_119_ap_done))) begin
+            if (~((strm_out_V_V_full_n == 1'b0) | (1'b0 == grp_dut_mfcc_fu_123_ap_done))) begin
                 ap_NS_fsm = ap_ST_st33_fsm_32;
             end else begin
                 ap_NS_fsm = ap_ST_st32_fsm_31;
@@ -619,7 +619,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    ap_sig_103 = ((exitcond_fu_153_p2 == 1'b0) & (strm_in_V_V_empty_n == 1'b0));
+    ap_sig_103 = ((exitcond_fu_161_p2 == 1'b0) & (strm_in_V_V_empty_n == 1'b0));
 end
 
 always @ (*) begin
@@ -643,11 +643,11 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    ap_sig_279 = (1'b1 == ap_CS_fsm[ap_const_lv32_19]);
+    ap_sig_305 = (1'b1 == ap_CS_fsm[ap_const_lv32_19]);
 end
 
 always @ (*) begin
-    ap_sig_289 = (1'b1 == ap_CS_fsm[ap_const_lv32_9]);
+    ap_sig_315 = (1'b1 == ap_CS_fsm[ap_const_lv32_9]);
 end
 
 always @ (*) begin
@@ -670,16 +670,16 @@ always @ (*) begin
     ap_sig_96 = (1'b1 == ap_CS_fsm[ap_const_lv32_20]);
 end
 
-assign exitcond_fu_153_p2 = ((i_reg_107 == ap_const_lv14_3100) ? 1'b1 : 1'b0);
+assign exitcond_fu_161_p2 = ((i_reg_111 == ap_const_lv14_3100) ? 1'b1 : 1'b0);
 
-assign grp_dut_mfcc_fu_119_ap_start = ap_reg_grp_dut_mfcc_fu_119_ap_start;
+assign grp_dut_mfcc_fu_123_ap_start = ap_reg_grp_dut_mfcc_fu_123_ap_start;
 
-assign grp_fu_150_p0 = {{tmp_V_3_reg_196}, {tmp_V_2_reg_190}};
+assign grp_fu_158_p0 = {{tmp_V_3_reg_204}, {tmp_V_2_reg_198}};
 
-assign i_8_fu_159_p2 = (i_reg_107 + ap_const_lv14_1);
+assign i_8_fu_167_p2 = (i_reg_111 + ap_const_lv14_1);
 
-assign tmp_63_fu_172_p1 = i_reg_107;
+assign tmp_65_fu_180_p1 = i_reg_111;
 
-assign tmp_V_fu_177_p1 = grp_dut_mfcc_fu_119_ap_return;
+assign tmp_V_fu_185_p1 = grp_dut_mfcc_fu_123_ap_return;
 
 endmodule //dut

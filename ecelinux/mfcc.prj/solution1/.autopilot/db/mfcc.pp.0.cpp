@@ -39646,7 +39646,10 @@ const float melfb[2580] = {
 # 13 "./mfcc.h" 2
 
 
-
+typedef union {
+  int i;
+  float f;
+ }u;
 
 // The K_CONST value: number of nearest neighbors
 
@@ -39654,13 +39657,13 @@ const float melfb[2580] = {
 
 
 // Top function for digit recognition
-int mfcc( const float sound_file[12544]);
-
-int mfcc_wrapper( );
+void mfcc_fft( const float sound_file[12544], float output[49][129]);
 
 int knn(float input[20][49]);
 
 void dut( hls::stream<bit32_t> &strm_in, hls::stream<bit32_t> &strm_out);
+
+int mel_into_dct(float z2[49][129]);
 # 6 "mfcc.cpp" 2
 
 # 1 "./fft_top.h" 1
@@ -43370,51 +43373,30 @@ void fft_top(
 //----------------------------------------------------------
 // @param[in] : input - the testing instance
 // @return : the recognized digit (0~9)
-void dut(
-    hls::stream<bit32_t> &strm_in,
-    hls::stream<bit32_t> &strm_out
-)
-{
-  bit32_t classify =0;
-  float sound_in[12544];
-  bit64_t in_digit;
-  for (int i = 0; i<12544; i++){
-    bit32_t input_lo = strm_in.read();
-    bit32_t input_hi = strm_in.read();
-    in_digit(31, 0) = input_lo;
-    in_digit(63, 32) = input_hi;
 
-    sound_in[i] = (((float)in_digit)/100000.0f)-1.0f;
-  // ------------------------------------------------------
-  // Call mfcc 
-  // ------------------------------------------------------
-
-  }
-  /*
-  printf("%f ", (sound_in[12541]));
-  printf("\n");
-  printf("%f ", (sound_in[12542]));
-  printf("\n");
-  printf("%f ", (sound_in[12543]));
-  printf("\n");
-  */
-  classify = mfcc(sound_in);
-  int classify_to_int = classify;
-  // ------------------------------------------------------
-  // Output processing
-  // ------------------------------------------------------
-  // Write out the number
-  strm_out.write( classify );
-  strm_out.write( in_digit );
-
-}
 
 using namespace std;
 
+void dut( hls::stream<bit32_t> &strm_in, hls::stream<bit32_t> &strm_out ){
+  float stage1[49][129];
+  bit64_t in_digit;
+  for(int i =0; i<49; i++){
+    for(int j =0; j<129; j++){
+      bit32_t input_lo = strm_in.read();
+      bit32_t input_hi = strm_in.read();
+      in_digit(31, 0) = input_lo;
+      in_digit(63, 32) = input_hi;
+      u dat;
+      dat.i = in_digit;
+      stage1[i][j] = dat.f;
+    }
+  }
+  int output = mel_into_dct(stage1);
+  strm_out.write( output );
+  strm_out.write( 1 );
+}
 
-
-
-int mfcc(const float sound_file[12544])
+void mfcc_fft(const float sound_file[12544], float output[49][129])
 {
   //THIS IS THE FREQUENCY OF THE INPUT SAMPLE
   //MAY HAVE TO SET THIS
@@ -43437,9 +43419,7 @@ int mfcc(const float sound_file[12544])
   for (int i = 0; i<n; i++){
     for (int j = 0; j< nbFrame; j++){
       M[i][j] = sound_file[((j*m) +i)]*hamming[i];
-      //printf("%f ", M[i][j]);
     }
-    //printf("\n");
   }
 
   //Fill each FFT array 
@@ -43455,7 +43435,7 @@ int mfcc(const float sound_file[12544])
   cmpxDataIn xn[n];
   cmpxDataOut xk[n];
 
-//#pragma HLS dataflow
+  //#pragma HLS dataflow
   config_t fft_config;
   status_t fft_status;
 
@@ -43477,23 +43457,37 @@ int mfcc(const float sound_file[12544])
       xk_output[i][j] = xk[j];
   }
 
-
-  //Coefficient (melfb) Multiplication  
-  float z[melfb_h][nbFrame];
-  float z2[129];
-  //X is the output (MFCC)
-  float X[20][nbFrame];
-
   //OuterLoop: once per frame
   for (int frame =0; frame<nbFrame; frame++){
     for (int i = 0; i<129; i++){
-       z2[i] = ((M[i][frame]*M[i][frame]));// + (xk_output[frame][i].imag()*xk_output[frame][i].imag()));    
+       output[frame][i] = ((xk_output[frame][i].real()*xk_output[frame][i].real()) + (xk_output[frame][i].imag()*xk_output[frame][i].imag()));
     }
+  }
+}
 
+
+int mel_into_dct(float z2[49][129]){
+
+
+  int fs = 11025;
+  const int m = 100;
+  const int n = 256;
+  const int melfb_h = 20;
+  const int melfb_w = 129;
+  const int nbFrame = 49;
+  int l = 32768; //length of input data
+
+  //Coefficient (melfb) Multiplication  
+  float z[melfb_h][nbFrame];
+  //X is the output (MFCC)
+  float X[20][nbFrame];
+
+
+  for (int frame =0; frame<nbFrame; frame++){
     for (int j = 0; j<melfb_h; j++){
       float sum = 0;
       for (int x = 0; x<melfb_w; x++){
-         sum += melfb[x+ (j*melfb_w) ]*z2[x];
+         sum += melfb[x+ (j*melfb_w) ]*z2[frame][x];
       }
       z[j][frame] = log(sum);
     }
@@ -43511,23 +43505,22 @@ int mfcc(const float sound_file[12544])
       X[k][frame] = s * sum;
     }
   }
-
+/*
 //Print the MFCC Coeffs
   for (int i = 0; i< 20; i++){
     for (int j = 0; j< 5; j++){
-      //printf("%f ", X[i][j]);
+      printf("%f ", X[i][j]);
     }
-    //printf("\n");   
+    printf("\n");   
   }
+*/
   int output = knn(X);
-  //printf("%d ", output);
   return(output);
 }
 
 
 // KNN FUNCTION
-int knn( float input[20][49] )
-{
+int knn( float input[20][49] ){
   //#include "training_data.h"
   float training_data2[14][49*20+1];
   float training_instance[20][49*14];
@@ -43574,6 +43567,6 @@ int knn( float input[20][49] )
   else
     group_final=1;
   return group_final;
-  }
+}
 
 // XSIP watermark, do not delete 67d7842dbbe25473c3c32b93c0da8047785f30d78e8a024de1b57352245f9689

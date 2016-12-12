@@ -11,6 +11,7 @@
 #include "mfcc.h"
 //using namespace std;
 
+
 int main() 
 {
   // Output file that saves the test bench results
@@ -41,23 +42,23 @@ int main()
           strtoul( line.substr(0, line.find(",")).c_str(), NULL, 16);
       int input_value = 
           strtoul(line.substr(line.find(",") + 1,
-                              line.length()).c_str(), NULL, 10);
-      for (int i = 0; i<N; i++){
-        inputs[i] = (input_data[i]+1)*100000;
-        /*
-        int test = inputs[i];
-        printf("%f", input_data[i]);
-        printf("  ");
-        printf("%d ", test);
-        printf("\n");
-        */
-        bit32_t input_lo = inputs[i].range(31,0);
-        bit32_t input_hi = inputs[i].range(63,32);
+                              line.length()).c_str(), NULL, 10);  
 
-        //write words to device
-        mfcc_in.write( input_lo);
-        mfcc_in.write( input_hi);
-      }
+        
+        float stage1[49][129];
+        mfcc_fft(input_data, stage1);
+        for(int i =0; i<49; i++){
+          for(int j =0; j<129; j++){ 
+            u dat;
+            dat.f = stage1[i][j];
+            inputs[i] = dat.i;     
+            //write words to device 
+            bit32_t input_lo = inputs[i].range(31,0);
+            bit32_t input_hi = inputs[i].range(63,32);
+            mfcc_in.write( input_lo);
+            mfcc_in.write( input_hi);
+          }
+        }
 
       
       // Call design under test (DUT)

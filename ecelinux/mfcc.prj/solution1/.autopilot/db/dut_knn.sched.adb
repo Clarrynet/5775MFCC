@@ -50,7 +50,7 @@
 						<name>training_data2</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>173</lineNumber>
+						<lineNumber>163</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -65,7 +65,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>173</second>
+										<second>163</second>
 									</item>
 								</second>
 							</item>
@@ -91,7 +91,7 @@
 						<name>training_instance</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>174</lineNumber>
+						<lineNumber>164</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -106,7 +106,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>174</second>
+										<second>164</second>
 									</item>
 								</second>
 							</item>
@@ -132,7 +132,7 @@
 						<name>min_distance</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>176</lineNumber>
+						<lineNumber>166</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -147,7 +147,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>176</second>
+										<second>166</second>
 									</item>
 								</second>
 							</item>
@@ -173,7 +173,7 @@
 						<name>distance</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>167</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -188,7 +188,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>177</second>
+										<second>167</second>
 									</item>
 								</second>
 							</item>
@@ -214,7 +214,7 @@
 						<name>group</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>180</lineNumber>
+						<lineNumber>170</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -229,7 +229,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>180</second>
+										<second>170</second>
 									</item>
 								</second>
 							</item>
@@ -255,7 +255,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>181</lineNumber>
+						<lineNumber>171</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -270,7 +270,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>181</second>
+										<second>171</second>
 									</item>
 								</second>
 							</item>
@@ -497,10 +497,10 @@
 					<Obj>
 						<type>0</type>
 						<id>17</id>
-						<name>exitcond10</name>
+						<name>exitcond1</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>181</lineNumber>
+						<lineNumber>171</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -515,7 +515,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>181</second>
+										<second>171</second>
 									</item>
 								</second>
 							</item>
@@ -539,10 +539,10 @@
 					<Obj>
 						<type>0</type>
 						<id>19</id>
-						<name>j_6</name>
+						<name>j_2</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>181</lineNumber>
+						<lineNumber>171</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -557,7 +557,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>181</second>
+										<second>171</second>
 									</item>
 								</second>
 							</item>
@@ -584,7 +584,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>181</lineNumber>
+						<lineNumber>171</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -599,7 +599,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>181</second>
+										<second>171</second>
 									</item>
 								</second>
 							</item>
@@ -627,7 +627,7 @@
 						<name>tmp_s</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>187</lineNumber>
+						<lineNumber>177</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -642,7 +642,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>187</second>
+										<second>177</second>
 									</item>
 								</second>
 							</item>
@@ -666,10 +666,10 @@
 					<Obj>
 						<type>0</type>
 						<id>23</id>
-						<name>tmp_61_cast</name>
+						<name>tmp_40_cast</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>187</lineNumber>
+						<lineNumber>177</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -684,7 +684,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>187</second>
+										<second>177</second>
 									</item>
 								</second>
 							</item>
@@ -710,7 +710,7 @@
 						<name>training_data2_addr</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>187</lineNumber>
+						<lineNumber>177</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -725,7 +725,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>187</second>
+										<second>177</second>
 									</item>
 								</second>
 							</item>
@@ -753,7 +753,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>182</lineNumber>
+						<lineNumber>172</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -768,7 +768,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>182</second>
+										<second>172</second>
 									</item>
 								</second>
 							</item>
@@ -882,7 +882,7 @@
 						<name>i_cast_cast</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>182</lineNumber>
+						<lineNumber>172</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -897,7 +897,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>182</second>
+										<second>172</second>
 									</item>
 								</second>
 							</item>
@@ -923,7 +923,7 @@
 						<name>exitcond9</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>182</lineNumber>
+						<lineNumber>172</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -938,7 +938,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>182</second>
+										<second>172</second>
 									</item>
 								</second>
 							</item>
@@ -962,10 +962,10 @@
 					<Obj>
 						<type>0</type>
 						<id>33</id>
-						<name>i_6</name>
+						<name>i_2</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>182</lineNumber>
+						<lineNumber>172</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -980,7 +980,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>182</second>
+										<second>172</second>
 									</item>
 								</second>
 							</item>
@@ -1007,7 +1007,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>182</lineNumber>
+						<lineNumber>172</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1022,7 +1022,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>182</second>
+										<second>172</second>
 									</item>
 								</second>
 							</item>
@@ -1080,7 +1080,7 @@
 						<name>phi_mul</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>182</lineNumber>
+						<lineNumber>172</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1095,7 +1095,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>182</second>
+										<second>172</second>
 									</item>
 								</second>
 							</item>
@@ -1124,7 +1124,7 @@
 						<name>k_cast1</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>183</lineNumber>
+						<lineNumber>173</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1139,7 +1139,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>183</second>
+										<second>173</second>
 									</item>
 								</second>
 							</item>
@@ -1165,7 +1165,7 @@
 						<name>exitcond8</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>183</lineNumber>
+						<lineNumber>173</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1180,7 +1180,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>183</second>
+										<second>173</second>
 									</item>
 								</second>
 							</item>
@@ -1207,7 +1207,7 @@
 						<name>k_2</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>183</lineNumber>
+						<lineNumber>173</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1222,7 +1222,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>183</second>
+										<second>173</second>
 									</item>
 								</second>
 							</item>
@@ -1249,7 +1249,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>183</lineNumber>
+						<lineNumber>173</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1264,7 +1264,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>183</second>
+										<second>173</second>
 									</item>
 								</second>
 							</item>
@@ -1292,7 +1292,7 @@
 						<name>tmp1</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>184</lineNumber>
+						<lineNumber>174</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1307,7 +1307,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>184</second>
+										<second>174</second>
 									</item>
 								</second>
 							</item>
@@ -1334,7 +1334,7 @@
 						<name>tmp1_cast</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>184</lineNumber>
+						<lineNumber>174</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1349,7 +1349,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>184</second>
+										<second>174</second>
 									</item>
 								</second>
 							</item>
@@ -1372,10 +1372,10 @@
 					<Obj>
 						<type>0</type>
 						<id>46</id>
-						<name>tmp_44</name>
+						<name>tmp_23</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>184</lineNumber>
+						<lineNumber>174</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1390,7 +1390,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>184</second>
+										<second>174</second>
 									</item>
 								</second>
 							</item>
@@ -1414,10 +1414,10 @@
 					<Obj>
 						<type>0</type>
 						<id>47</id>
-						<name>tmp_45</name>
+						<name>tmp_24</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>184</lineNumber>
+						<lineNumber>174</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1432,7 +1432,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>184</second>
+										<second>174</second>
 									</item>
 								</second>
 							</item>
@@ -1458,7 +1458,7 @@
 						<name>training_data_V_addr</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>184</lineNumber>
+						<lineNumber>174</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1473,7 +1473,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>184</second>
+										<second>174</second>
 									</item>
 								</second>
 							</item>
@@ -1501,7 +1501,7 @@
 						<name>training_data_V_load</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>184</lineNumber>
+						<lineNumber>174</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1516,7 +1516,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>184</second>
+										<second>174</second>
 									</item>
 								</second>
 							</item>
@@ -1539,10 +1539,10 @@
 					<Obj>
 						<type>0</type>
 						<id>50</id>
-						<name>tmp_51</name>
+						<name>tmp_27</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>184</lineNumber>
+						<lineNumber>174</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1557,7 +1557,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>184</second>
+										<second>174</second>
 									</item>
 								</second>
 							</item>
@@ -1580,10 +1580,10 @@
 					<Obj>
 						<type>0</type>
 						<id>51</id>
-						<name>tmp_46</name>
+						<name>tmp_25</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>184</lineNumber>
+						<lineNumber>174</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1598,7 +1598,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>184</second>
+										<second>174</second>
 									</item>
 								</second>
 							</item>
@@ -1624,7 +1624,7 @@
 						<name>next_mul</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>182</lineNumber>
+						<lineNumber>172</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1639,7 +1639,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>182</second>
+										<second>172</second>
 									</item>
 								</second>
 							</item>
@@ -1663,10 +1663,10 @@
 					<Obj>
 						<type>0</type>
 						<id>53</id>
-						<name>tmp_50_cast</name>
+						<name>tmp_27_cast</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>184</lineNumber>
+						<lineNumber>174</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1681,7 +1681,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>184</second>
+										<second>174</second>
 									</item>
 								</second>
 							</item>
@@ -1704,10 +1704,10 @@
 					<Obj>
 						<type>0</type>
 						<id>54</id>
-						<name>tmp_52</name>
+						<name>tmp_30</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>184</lineNumber>
+						<lineNumber>174</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1722,7 +1722,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>184</second>
+										<second>174</second>
 									</item>
 								</second>
 							</item>
@@ -1746,10 +1746,10 @@
 					<Obj>
 						<type>0</type>
 						<id>55</id>
-						<name>tmp_66_cast</name>
+						<name>tmp_45_cast</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>184</lineNumber>
+						<lineNumber>174</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1764,7 +1764,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>184</second>
+										<second>174</second>
 									</item>
 								</second>
 							</item>
@@ -1790,7 +1790,7 @@
 						<name>training_data2_addr_1</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>184</lineNumber>
+						<lineNumber>174</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1805,7 +1805,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>184</second>
+										<second>174</second>
 									</item>
 								</second>
 							</item>
@@ -1833,7 +1833,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>184</lineNumber>
+						<lineNumber>174</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1848,7 +1848,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>184</second>
+										<second>174</second>
 									</item>
 								</second>
 							</item>
@@ -1875,7 +1875,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>183</lineNumber>
+						<lineNumber>173</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1890,7 +1890,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>183</second>
+										<second>173</second>
 									</item>
 								</second>
 							</item>
@@ -1916,7 +1916,7 @@
 						<name>tmp</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>187</lineNumber>
+						<lineNumber>177</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1931,7 +1931,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>187</second>
+										<second>177</second>
 									</item>
 								</second>
 							</item>
@@ -1957,10 +1957,10 @@
 					<Obj>
 						<type>0</type>
 						<id>61</id>
-						<name>tmp_39</name>
+						<name>tmp_18</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>187</lineNumber>
+						<lineNumber>177</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1975,7 +1975,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>187</second>
+										<second>177</second>
 									</item>
 								</second>
 							</item>
@@ -1998,10 +1998,10 @@
 					<Obj>
 						<type>0</type>
 						<id>62</id>
-						<name>tmp_40</name>
+						<name>tmp_19</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>187</lineNumber>
+						<lineNumber>177</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2016,7 +2016,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>187</second>
+										<second>177</second>
 									</item>
 								</second>
 							</item>
@@ -2042,7 +2042,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>187</lineNumber>
+						<lineNumber>177</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2057,7 +2057,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>187</second>
+										<second>177</second>
 									</item>
 								</second>
 							</item>
@@ -2084,7 +2084,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>181</lineNumber>
+						<lineNumber>171</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2099,7 +2099,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>181</second>
+										<second>171</second>
 									</item>
 								</second>
 							</item>
@@ -2152,7 +2152,7 @@
 					<Obj>
 						<type>0</type>
 						<id>67</id>
-						<name>phi_mul4</name>
+						<name>phi_mul2</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -2182,7 +2182,7 @@
 					<Obj>
 						<type>0</type>
 						<id>68</id>
-						<name>next_mul3</name>
+						<name>next_mul1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -2213,7 +2213,7 @@
 						<name>i1_cast_cast</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>189</lineNumber>
+						<lineNumber>179</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2228,7 +2228,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>189</second>
+										<second>179</second>
 									</item>
 								</second>
 							</item>
@@ -2254,7 +2254,7 @@
 						<name>exitcond7</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>189</lineNumber>
+						<lineNumber>179</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2269,7 +2269,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>189</second>
+										<second>179</second>
 									</item>
 								</second>
 							</item>
@@ -2293,10 +2293,10 @@
 					<Obj>
 						<type>0</type>
 						<id>72</id>
-						<name>i_5</name>
+						<name>i_1</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>189</lineNumber>
+						<lineNumber>179</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2311,7 +2311,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>189</second>
+										<second>179</second>
 									</item>
 								</second>
 							</item>
@@ -2338,7 +2338,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>189</lineNumber>
+						<lineNumber>179</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2353,7 +2353,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>189</second>
+										<second>179</second>
 									</item>
 								</second>
 							</item>
@@ -2408,7 +2408,7 @@
 					<Obj>
 						<type>0</type>
 						<id>76</id>
-						<name>phi_mul10</name>
+						<name>phi_mul8</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -2438,7 +2438,7 @@
 					<Obj>
 						<type>0</type>
 						<id>77</id>
-						<name>next_mul9</name>
+						<name>next_mul7</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -2469,7 +2469,7 @@
 						<name>j2_cast</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>190</lineNumber>
+						<lineNumber>180</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2484,7 +2484,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>190</second>
+										<second>180</second>
 									</item>
 								</second>
 							</item>
@@ -2510,7 +2510,7 @@
 						<name>exitcond6</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>190</lineNumber>
+						<lineNumber>180</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2525,7 +2525,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>190</second>
+										<second>180</second>
 									</item>
 								</second>
 							</item>
@@ -2549,10 +2549,10 @@
 					<Obj>
 						<type>0</type>
 						<id>81</id>
-						<name>j_7</name>
+						<name>j_3</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>190</lineNumber>
+						<lineNumber>180</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2567,7 +2567,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>190</second>
+										<second>180</second>
 									</item>
 								</second>
 							</item>
@@ -2594,7 +2594,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>190</lineNumber>
+						<lineNumber>180</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2609,7 +2609,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>190</second>
+										<second>180</second>
 									</item>
 								</second>
 							</item>
@@ -2667,7 +2667,7 @@
 						<name>phi_mul9</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>189</lineNumber>
+						<lineNumber>179</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2682,7 +2682,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>189</second>
+										<second>179</second>
 									</item>
 								</second>
 							</item>
@@ -2708,10 +2708,10 @@
 					<Obj>
 						<type>0</type>
 						<id>86</id>
-						<name>phi_mul11</name>
+						<name>phi_mul10</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>190</lineNumber>
+						<lineNumber>180</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2726,7 +2726,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>190</second>
+										<second>180</second>
 									</item>
 								</second>
 							</item>
@@ -2755,7 +2755,7 @@
 						<name>exitcond5</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>191</lineNumber>
+						<lineNumber>181</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2770,7 +2770,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>191</second>
+										<second>181</second>
 									</item>
 								</second>
 							</item>
@@ -2797,7 +2797,7 @@
 						<name>k_3</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>191</lineNumber>
+						<lineNumber>181</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2812,7 +2812,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>191</second>
+										<second>181</second>
 									</item>
 								</second>
 							</item>
@@ -2839,7 +2839,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>191</lineNumber>
+						<lineNumber>181</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2854,7 +2854,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>191</second>
+										<second>181</second>
 									</item>
 								</second>
 							</item>
@@ -2882,7 +2882,7 @@
 						<name>next_mul10</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>189</lineNumber>
+						<lineNumber>179</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2897,7 +2897,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>189</second>
+										<second>179</second>
 									</item>
 								</second>
 							</item>
@@ -2921,10 +2921,10 @@
 					<Obj>
 						<type>0</type>
 						<id>93</id>
-						<name>tmp_52_cast</name>
+						<name>tmp_31_cast</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>192</lineNumber>
+						<lineNumber>182</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2939,7 +2939,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>192</second>
+										<second>182</second>
 									</item>
 								</second>
 							</item>
@@ -2962,10 +2962,10 @@
 					<Obj>
 						<type>0</type>
 						<id>94</id>
-						<name>tmp_47</name>
+						<name>tmp_22</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>192</lineNumber>
+						<lineNumber>182</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2980,7 +2980,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>192</second>
+										<second>182</second>
 									</item>
 								</second>
 							</item>
@@ -3004,10 +3004,10 @@
 					<Obj>
 						<type>0</type>
 						<id>95</id>
-						<name>tmp_69_cast</name>
+						<name>tmp_48_cast</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>192</lineNumber>
+						<lineNumber>182</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3022,7 +3022,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>192</second>
+										<second>182</second>
 									</item>
 								</second>
 							</item>
@@ -3048,7 +3048,7 @@
 						<name>training_data2_addr_2</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>192</lineNumber>
+						<lineNumber>182</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3063,7 +3063,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>192</second>
+										<second>182</second>
 									</item>
 								</second>
 							</item>
@@ -3091,7 +3091,7 @@
 						<name>training_data2_load</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>192</lineNumber>
+						<lineNumber>182</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3106,7 +3106,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>192</second>
+										<second>182</second>
 									</item>
 								</second>
 							</item>
@@ -3129,10 +3129,10 @@
 					<Obj>
 						<type>0</type>
 						<id>98</id>
-						<name>next_mul12</name>
+						<name>next_mul11</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>190</lineNumber>
+						<lineNumber>180</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3147,7 +3147,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>190</second>
+										<second>180</second>
 									</item>
 								</second>
 							</item>
@@ -3171,10 +3171,10 @@
 					<Obj>
 						<type>0</type>
 						<id>99</id>
-						<name>tmp_54_cast</name>
+						<name>tmp_33_cast</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>192</lineNumber>
+						<lineNumber>182</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3189,7 +3189,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>192</second>
+										<second>182</second>
 									</item>
 								</second>
 							</item>
@@ -3212,10 +3212,10 @@
 					<Obj>
 						<type>0</type>
 						<id>100</id>
-						<name>tmp_50</name>
+						<name>tmp_26</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>192</lineNumber>
+						<lineNumber>182</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3230,7 +3230,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>192</second>
+										<second>182</second>
 									</item>
 								</second>
 							</item>
@@ -3254,10 +3254,10 @@
 					<Obj>
 						<type>0</type>
 						<id>101</id>
-						<name>tmp_70_cast</name>
+						<name>tmp_49_cast</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>192</lineNumber>
+						<lineNumber>182</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3272,7 +3272,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>192</second>
+										<second>182</second>
 									</item>
 								</second>
 							</item>
@@ -3298,7 +3298,7 @@
 						<name>training_instance_addr</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>192</lineNumber>
+						<lineNumber>182</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3313,7 +3313,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>192</second>
+										<second>182</second>
 									</item>
 								</second>
 							</item>
@@ -3341,7 +3341,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>192</lineNumber>
+						<lineNumber>182</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3356,7 +3356,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>192</second>
+										<second>182</second>
 									</item>
 								</second>
 							</item>
@@ -3383,7 +3383,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>191</lineNumber>
+						<lineNumber>181</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3398,7 +3398,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>191</second>
+										<second>181</second>
 									</item>
 								</second>
 							</item>
@@ -3511,7 +3511,7 @@
 					<Obj>
 						<type>0</type>
 						<id>109</id>
-						<name>phi_mul6</name>
+						<name>phi_mul4</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3541,7 +3541,7 @@
 					<Obj>
 						<type>0</type>
 						<id>110</id>
-						<name>phi_mul8</name>
+						<name>phi_mul6</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3571,7 +3571,7 @@
 					<Obj>
 						<type>0</type>
 						<id>111</id>
-						<name>next_mul5</name>
+						<name>next_mul3</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3599,7 +3599,7 @@
 					<Obj>
 						<type>0</type>
 						<id>112</id>
-						<name>next_mul7</name>
+						<name>next_mul5</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3630,7 +3630,7 @@
 						<name>exitcond4</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>196</lineNumber>
+						<lineNumber>186</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3645,7 +3645,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>196</second>
+										<second>186</second>
 									</item>
 								</second>
 							</item>
@@ -3669,10 +3669,10 @@
 					<Obj>
 						<type>0</type>
 						<id>115</id>
-						<name>i_7</name>
+						<name>i_3</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>196</lineNumber>
+						<lineNumber>186</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3687,7 +3687,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>196</second>
+										<second>186</second>
 									</item>
 								</second>
 							</item>
@@ -3714,7 +3714,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>196</lineNumber>
+						<lineNumber>186</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3729,7 +3729,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>196</second>
+										<second>186</second>
 									</item>
 								</second>
 							</item>
@@ -3754,10 +3754,10 @@
 					<Obj>
 						<type>0</type>
 						<id>118</id>
-						<name>tmp_42</name>
+						<name>tmp_21</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>199</lineNumber>
+						<lineNumber>189</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3772,7 +3772,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -3798,7 +3798,7 @@
 						<name>min_distance_addr</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>203</lineNumber>
+						<lineNumber>193</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3813,7 +3813,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>203</second>
+										<second>193</second>
 									</item>
 								</second>
 							</item>
@@ -3841,7 +3841,7 @@
 						<name>group_addr</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>205</lineNumber>
+						<lineNumber>195</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3856,7 +3856,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -3884,7 +3884,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>197</lineNumber>
+						<lineNumber>187</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3899,7 +3899,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>197</second>
+										<second>187</second>
 									</item>
 								</second>
 							</item>
@@ -3952,7 +3952,7 @@
 					<Obj>
 						<type>0</type>
 						<id>124</id>
-						<name>phi_mul12</name>
+						<name>phi_mul11</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3982,7 +3982,7 @@
 					<Obj>
 						<type>0</type>
 						<id>125</id>
-						<name>next_mul11</name>
+						<name>next_mul9</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -4013,7 +4013,7 @@
 						<name>j5_cast6</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>197</lineNumber>
+						<lineNumber>187</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4028,7 +4028,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>197</second>
+										<second>187</second>
 									</item>
 								</second>
 							</item>
@@ -4054,7 +4054,7 @@
 						<name>exitcond3</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>197</lineNumber>
+						<lineNumber>187</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4069,7 +4069,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>197</second>
+										<second>187</second>
 									</item>
 								</second>
 							</item>
@@ -4093,10 +4093,10 @@
 					<Obj>
 						<type>0</type>
 						<id>129</id>
-						<name>j_8</name>
+						<name>j_4</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>197</lineNumber>
+						<lineNumber>187</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4111,7 +4111,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>197</second>
+										<second>187</second>
 									</item>
 								</second>
 							</item>
@@ -4138,7 +4138,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>197</lineNumber>
+						<lineNumber>187</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4153,7 +4153,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>197</second>
+										<second>187</second>
 									</item>
 								</second>
 							</item>
@@ -4178,10 +4178,10 @@
 					<Obj>
 						<type>0</type>
 						<id>132</id>
-						<name>tmp_49</name>
+						<name>tmp_29</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>200</lineNumber>
+						<lineNumber>190</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4196,7 +4196,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>200</second>
+										<second>190</second>
 									</item>
 								</second>
 							</item>
@@ -4219,10 +4219,10 @@
 					<Obj>
 						<type>0</type>
 						<id>133</id>
-						<name>tmp_53</name>
+						<name>tmp_31</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>205</lineNumber>
+						<lineNumber>195</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4237,7 +4237,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -4261,10 +4261,10 @@
 					<Obj>
 						<type>0</type>
 						<id>134</id>
-						<name>tmp_68_cast</name>
+						<name>tmp_47_cast</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>205</lineNumber>
+						<lineNumber>195</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4279,7 +4279,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -4305,7 +4305,7 @@
 						<name>training_data2_addr_3</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>205</lineNumber>
+						<lineNumber>195</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4320,7 +4320,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -4348,7 +4348,7 @@
 						<name>distance_addr</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>200</lineNumber>
+						<lineNumber>190</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4363,7 +4363,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>200</second>
+										<second>190</second>
 									</item>
 								</second>
 							</item>
@@ -4391,7 +4391,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>198</lineNumber>
+						<lineNumber>188</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4406,7 +4406,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>198</second>
+										<second>188</second>
 									</item>
 								</second>
 							</item>
@@ -4459,10 +4459,10 @@
 					<Obj>
 						<type>0</type>
 						<id>140</id>
-						<name>phi_mul13</name>
+						<name>phi_mul12</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>197</lineNumber>
+						<lineNumber>187</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4477,7 +4477,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>197</second>
+										<second>187</second>
 									</item>
 								</second>
 							</item>
@@ -4506,7 +4506,7 @@
 						<name>exitcond</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>198</lineNumber>
+						<lineNumber>188</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4521,7 +4521,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>198</second>
+										<second>188</second>
 									</item>
 								</second>
 							</item>
@@ -4548,7 +4548,7 @@
 						<name>k_4</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>198</lineNumber>
+						<lineNumber>188</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4563,7 +4563,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>198</second>
+										<second>188</second>
 									</item>
 								</second>
 							</item>
@@ -4590,7 +4590,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>198</lineNumber>
+						<lineNumber>188</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4605,7 +4605,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>198</second>
+										<second>188</second>
 									</item>
 								</second>
 							</item>
@@ -4630,10 +4630,10 @@
 					<Obj>
 						<type>0</type>
 						<id>146</id>
-						<name>tmp_56_cast</name>
+						<name>tmp_35_cast</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>199</lineNumber>
+						<lineNumber>189</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4648,7 +4648,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -4671,10 +4671,10 @@
 					<Obj>
 						<type>0</type>
 						<id>147</id>
-						<name>tmp_55</name>
+						<name>tmp_33</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>199</lineNumber>
+						<lineNumber>189</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4689,7 +4689,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -4713,10 +4713,10 @@
 					<Obj>
 						<type>0</type>
 						<id>148</id>
-						<name>tmp_71_cast</name>
+						<name>tmp_50_cast</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>199</lineNumber>
+						<lineNumber>189</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4731,7 +4731,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -4757,7 +4757,7 @@
 						<name>input_addr</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>199</lineNumber>
+						<lineNumber>189</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4772,7 +4772,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -4800,7 +4800,7 @@
 						<name>input_load</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>199</lineNumber>
+						<lineNumber>189</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4815,7 +4815,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -4838,10 +4838,10 @@
 					<Obj>
 						<type>0</type>
 						<id>151</id>
-						<name>next_mul13</name>
+						<name>next_mul12</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>197</lineNumber>
+						<lineNumber>187</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4856,7 +4856,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>197</second>
+										<second>187</second>
 									</item>
 								</second>
 							</item>
@@ -4880,10 +4880,10 @@
 					<Obj>
 						<type>0</type>
 						<id>152</id>
-						<name>tmp_58_cast</name>
+						<name>tmp_37_cast</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>199</lineNumber>
+						<lineNumber>189</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4898,7 +4898,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -4921,10 +4921,10 @@
 					<Obj>
 						<type>0</type>
 						<id>153</id>
-						<name>tmp_56</name>
+						<name>tmp_34</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>199</lineNumber>
+						<lineNumber>189</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4939,7 +4939,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -4963,10 +4963,10 @@
 					<Obj>
 						<type>0</type>
 						<id>154</id>
-						<name>tmp_72_cast</name>
+						<name>tmp_51_cast</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>199</lineNumber>
+						<lineNumber>189</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -4981,7 +4981,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -5007,7 +5007,7 @@
 						<name>training_instance_addr_1</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>199</lineNumber>
+						<lineNumber>189</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5022,7 +5022,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -5050,7 +5050,7 @@
 						<name>training_instance_load</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>199</lineNumber>
+						<lineNumber>189</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5065,7 +5065,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -5091,7 +5091,7 @@
 						<name>p_x_assign</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>199</lineNumber>
+						<lineNumber>189</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5106,7 +5106,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -5155,7 +5155,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -5213,7 +5213,7 @@
 					<Obj>
 						<type>0</type>
 						<id>159</id>
-						<name>tmp_32</name>
+						<name>tmp_35</name>
 						<fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/utils/x_hls_utils.h</fileName>
 						<fileDirectory>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
 						<lineNumber>334</lineNumber>
@@ -5238,7 +5238,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -5310,7 +5310,7 @@
 					<Obj>
 						<type>0</type>
 						<id>160</id>
-						<name>tmp_33</name>
+						<name>tmp_36</name>
 						<fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/utils/x_hls_utils.h</fileName>
 						<fileDirectory>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
 						<lineNumber>309</lineNumber>
@@ -5335,7 +5335,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -5418,7 +5418,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -5517,7 +5517,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -5607,7 +5607,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -5693,7 +5693,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -5777,7 +5777,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -5861,7 +5861,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -5923,7 +5923,7 @@
 						<name>tmp_5</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>199</lineNumber>
+						<lineNumber>189</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5938,7 +5938,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -5965,7 +5965,7 @@
 						<name>tmp_6</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>199</lineNumber>
+						<lineNumber>189</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -5980,7 +5980,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -6007,7 +6007,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>199</lineNumber>
+						<lineNumber>189</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -6022,7 +6022,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>199</second>
+										<second>189</second>
 									</item>
 								</second>
 							</item>
@@ -6050,7 +6050,7 @@
 						<name>distance_load_1</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>200</lineNumber>
+						<lineNumber>190</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -6065,7 +6065,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>200</second>
+										<second>190</second>
 									</item>
 								</second>
 							</item>
@@ -6088,10 +6088,10 @@
 					<Obj>
 						<type>0</type>
 						<id>172</id>
-						<name>tmp_59</name>
+						<name>tmp_38</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>200</lineNumber>
+						<lineNumber>190</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -6106,7 +6106,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>200</second>
+										<second>190</second>
 									</item>
 								</second>
 							</item>
@@ -6133,7 +6133,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>200</lineNumber>
+						<lineNumber>190</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -6148,7 +6148,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>200</second>
+										<second>190</second>
 									</item>
 								</second>
 							</item>
@@ -6176,7 +6176,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>201</lineNumber>
+						<lineNumber>191</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -6191,7 +6191,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>201</second>
+										<second>191</second>
 									</item>
 								</second>
 							</item>
@@ -6217,7 +6217,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>198</lineNumber>
+						<lineNumber>188</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -6232,7 +6232,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>198</second>
+										<second>188</second>
 									</item>
 								</second>
 							</item>
@@ -6258,7 +6258,7 @@
 						<name>distance_load</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>203</lineNumber>
+						<lineNumber>193</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -6273,7 +6273,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>203</second>
+										<second>193</second>
 									</item>
 								</second>
 							</item>
@@ -6299,7 +6299,7 @@
 						<name>min_distance_load</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>203</lineNumber>
+						<lineNumber>193</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -6314,7 +6314,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>203</second>
+										<second>193</second>
 									</item>
 								</second>
 							</item>
@@ -6337,10 +6337,10 @@
 					<Obj>
 						<type>0</type>
 						<id>180</id>
-						<name>tmp_54</name>
+						<name>tmp_32</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>203</lineNumber>
+						<lineNumber>193</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -6355,7 +6355,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>203</second>
+										<second>193</second>
 									</item>
 								</second>
 							</item>
@@ -6382,7 +6382,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>203</lineNumber>
+						<lineNumber>193</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -6397,7 +6397,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>203</second>
+										<second>193</second>
 									</item>
 								</second>
 							</item>
@@ -6425,7 +6425,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>204</lineNumber>
+						<lineNumber>194</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -6440,7 +6440,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>204</second>
+										<second>194</second>
 									</item>
 								</second>
 							</item>
@@ -6468,7 +6468,7 @@
 						<name>training_data2_load_1</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>205</lineNumber>
+						<lineNumber>195</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -6483,7 +6483,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -6506,7 +6506,7 @@
 					<Obj>
 						<type>0</type>
 						<id>185</id>
-						<name>p_Val2_25</name>
+						<name>p_Val2_32</name>
 						<fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/utils/x_hls_utils.h</fileName>
 						<fileDirectory>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
 						<lineNumber>309</lineNumber>
@@ -6524,7 +6524,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -6575,7 +6575,7 @@
 					<Obj>
 						<type>0</type>
 						<id>186</id>
-						<name>p_Result_20</name>
+						<name>p_Result_22</name>
 						<fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/utils/x_hls_utils.h</fileName>
 						<fileDirectory>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
 						<lineNumber>315</lineNumber>
@@ -6593,7 +6593,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -6664,7 +6664,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -6736,7 +6736,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -6787,7 +6787,7 @@
 					<Obj>
 						<type>0</type>
 						<id>189</id>
-						<name>p_Result_21</name>
+						<name>p_Result_23</name>
 						<fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/utils/x_hls_utils.h</fileName>
 						<fileDirectory>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
 						<lineNumber>364</lineNumber>
@@ -6805,7 +6805,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -6876,7 +6876,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -6938,7 +6938,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -7007,7 +7007,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -7077,7 +7077,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -7123,7 +7123,7 @@
 					<Obj>
 						<type>0</type>
 						<id>194</id>
-						<name>tmp_115_i_i</name>
+						<name>tmp_93_i_i</name>
 						<fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h</fileName>
 						<fileDirectory>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
 						<lineNumber>371</lineNumber>
@@ -7141,7 +7141,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -7186,7 +7186,7 @@
 					<Obj>
 						<type>0</type>
 						<id>195</id>
-						<name>tmp_115_i_i_cast</name>
+						<name>tmp_93_i_i_cast</name>
 						<fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h</fileName>
 						<fileDirectory>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
 						<lineNumber>371</lineNumber>
@@ -7204,7 +7204,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -7266,7 +7266,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -7330,7 +7330,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -7392,7 +7392,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -7436,7 +7436,7 @@
 					<Obj>
 						<type>0</type>
 						<id>199</id>
-						<name>tmp_116_i_i</name>
+						<name>tmp_94_i_i</name>
 						<fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h</fileName>
 						<fileDirectory>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
 						<lineNumber>371</lineNumber>
@@ -7454,7 +7454,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -7498,7 +7498,7 @@
 					<Obj>
 						<type>0</type>
 						<id>200</id>
-						<name>tmp_117_i_i</name>
+						<name>tmp_95_i_i</name>
 						<fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h</fileName>
 						<fileDirectory>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
 						<lineNumber>371</lineNumber>
@@ -7516,7 +7516,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -7561,7 +7561,7 @@
 					<Obj>
 						<type>0</type>
 						<id>201</id>
-						<name>tmp_119_i_i</name>
+						<name>tmp_97_i_i</name>
 						<fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h</fileName>
 						<fileDirectory>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
 						<lineNumber>371</lineNumber>
@@ -7579,7 +7579,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -7624,7 +7624,7 @@
 					<Obj>
 						<type>0</type>
 						<id>202</id>
-						<name>tmp_37</name>
+						<name>tmp_41</name>
 						<fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h</fileName>
 						<fileDirectory>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
 						<lineNumber>374</lineNumber>
@@ -7642,7 +7642,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -7688,7 +7688,7 @@
 					<Obj>
 						<type>0</type>
 						<id>203</id>
-						<name>tmp_57</name>
+						<name>tmp_37</name>
 						<fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h</fileName>
 						<fileDirectory>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
 						<lineNumber>374</lineNumber>
@@ -7706,7 +7706,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -7750,7 +7750,7 @@
 					<Obj>
 						<type>0</type>
 						<id>204</id>
-						<name>tmp_58</name>
+						<name>tmp_39</name>
 						<fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h</fileName>
 						<fileDirectory>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
 						<lineNumber>374</lineNumber>
@@ -7768,7 +7768,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -7815,7 +7815,7 @@
 					<Obj>
 						<type>0</type>
 						<id>205</id>
-						<name>p_Val2_28</name>
+						<name>p_Val2_35</name>
 						<fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h</fileName>
 						<fileDirectory>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
 						<lineNumber>371</lineNumber>
@@ -7833,7 +7833,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -7897,7 +7897,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -7942,7 +7942,7 @@
 					<Obj>
 						<type>0</type>
 						<id>207</id>
-						<name>p_Val2_30</name>
+						<name>p_Val2_37</name>
 						<fileName>/wrk/2016.2/continuous/2016_06_02_1577090/src/products/hls/hls_lib/src/hls/hls_round.h</fileName>
 						<fileDirectory>/wrk/2016.2/continuous/2016_06_02_1577090/src/products</fileDirectory>
 						<lineNumber>383</lineNumber>
@@ -7960,7 +7960,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -8009,7 +8009,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>205</lineNumber>
+						<lineNumber>195</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -8024,7 +8024,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>205</second>
+										<second>195</second>
 									</item>
 								</second>
 							</item>
@@ -8048,341 +8048,6 @@
 					<Obj>
 						<type>0</type>
 						<id>209</id>
-						<name></name>
-						<fileName>mfcc.cpp</fileName>
-						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>206</lineNumber>
-						<contextFuncName>knn</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/drl224/ece5775/final/ecelinux</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>mfcc.cpp</first>
-											<second>knn</second>
-										</first>
-										<second>206</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>0</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>650</item>
-				</oprand_edges>
-				<opcode>br</opcode>
-			</item>
-			<item class_id_reference="9" object_id="_180">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>211</id>
-						<name></name>
-						<fileName>mfcc.cpp</fileName>
-						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>197</lineNumber>
-						<contextFuncName>knn</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/drl224/ece5775/final/ecelinux</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>mfcc.cpp</first>
-											<second>knn</second>
-										</first>
-										<second>197</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>0</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>651</item>
-				</oprand_edges>
-				<opcode>br</opcode>
-			</item>
-			<item class_id_reference="9" object_id="_181">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>213</id>
-						<name>group_load</name>
-						<fileName>mfcc.cpp</fileName>
-						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>208</lineNumber>
-						<contextFuncName>knn</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/drl224/ece5775/final/ecelinux</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>mfcc.cpp</first>
-											<second>knn</second>
-										</first>
-										<second>208</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>32</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>652</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-			</item>
-			<item class_id_reference="9" object_id="_182">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>214</id>
-						<name>tmp_48</name>
-						<fileName>mfcc.cpp</fileName>
-						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>208</lineNumber>
-						<contextFuncName>knn</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/drl224/ece5775/final/ecelinux</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>mfcc.cpp</first>
-											<second>knn</second>
-										</first>
-										<second>208</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>653</item>
-					<item>654</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-			</item>
-			<item class_id_reference="9" object_id="_183">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>215</id>
-						<name>group_zero</name>
-						<fileName>mfcc.cpp</fileName>
-						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>209</lineNumber>
-						<contextFuncName>knn</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/drl224/ece5775/final/ecelinux</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>mfcc.cpp</first>
-											<second>knn</second>
-										</first>
-										<second>209</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>group_zero</originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>32</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>655</item>
-					<item>656</item>
-				</oprand_edges>
-				<opcode>add</opcode>
-			</item>
-			<item class_id_reference="9" object_id="_184">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>216</id>
-						<name>group_one</name>
-						<fileName>mfcc.cpp</fileName>
-						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>211</lineNumber>
-						<contextFuncName>knn</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/drl224/ece5775/final/ecelinux</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>mfcc.cpp</first>
-											<second>knn</second>
-										</first>
-										<second>211</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>group_one</originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>32</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>657</item>
-					<item>658</item>
-				</oprand_edges>
-				<opcode>add</opcode>
-			</item>
-			<item class_id_reference="9" object_id="_185">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>217</id>
-						<name>group_zero_1</name>
-						<fileName>mfcc.cpp</fileName>
-						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>208</lineNumber>
-						<contextFuncName>knn</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/drl224/ece5775/final/ecelinux</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>mfcc.cpp</first>
-											<second>knn</second>
-										</first>
-										<second>208</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>group_zero</originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>32</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>659</item>
-					<item>660</item>
-					<item>661</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-			</item>
-			<item class_id_reference="9" object_id="_186">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>218</id>
-						<name>group_one_1</name>
-						<fileName>mfcc.cpp</fileName>
-						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>208</lineNumber>
-						<contextFuncName>knn</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/drl224/ece5775/final/ecelinux</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>mfcc.cpp</first>
-											<second>knn</second>
-										</first>
-										<second>208</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>group_one</originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>32</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>662</item>
-					<item>663</item>
-					<item>664</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-			</item>
-			<item class_id_reference="9" object_id="_187">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>219</id>
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
@@ -8415,19 +8080,19 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>665</item>
+					<item>650</item>
 				</oprand_edges>
 				<opcode>br</opcode>
 			</item>
-			<item class_id_reference="9" object_id="_188">
+			<item class_id_reference="9" object_id="_180">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>221</id>
-						<name>slt</name>
+						<id>211</id>
+						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>213</lineNumber>
+						<lineNumber>187</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -8442,7 +8107,342 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>213</second>
+										<second>187</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>0</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>651</item>
+				</oprand_edges>
+				<opcode>br</opcode>
+			</item>
+			<item class_id_reference="9" object_id="_181">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>213</id>
+						<name>group_load</name>
+						<fileName>mfcc.cpp</fileName>
+						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
+						<lineNumber>198</lineNumber>
+						<contextFuncName>knn</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/drl224/ece5775/final/ecelinux</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>mfcc.cpp</first>
+											<second>knn</second>
+										</first>
+										<second>198</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>32</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>652</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+			</item>
+			<item class_id_reference="9" object_id="_182">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>214</id>
+						<name>tmp_28</name>
+						<fileName>mfcc.cpp</fileName>
+						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
+						<lineNumber>198</lineNumber>
+						<contextFuncName>knn</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/drl224/ece5775/final/ecelinux</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>mfcc.cpp</first>
+											<second>knn</second>
+										</first>
+										<second>198</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>653</item>
+					<item>654</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+			</item>
+			<item class_id_reference="9" object_id="_183">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>215</id>
+						<name>group_zero</name>
+						<fileName>mfcc.cpp</fileName>
+						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
+						<lineNumber>199</lineNumber>
+						<contextFuncName>knn</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/drl224/ece5775/final/ecelinux</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>mfcc.cpp</first>
+											<second>knn</second>
+										</first>
+										<second>199</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>group_zero</originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>32</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>655</item>
+					<item>656</item>
+				</oprand_edges>
+				<opcode>add</opcode>
+			</item>
+			<item class_id_reference="9" object_id="_184">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>216</id>
+						<name>group_one</name>
+						<fileName>mfcc.cpp</fileName>
+						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
+						<lineNumber>201</lineNumber>
+						<contextFuncName>knn</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/drl224/ece5775/final/ecelinux</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>mfcc.cpp</first>
+											<second>knn</second>
+										</first>
+										<second>201</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>group_one</originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>32</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>657</item>
+					<item>658</item>
+				</oprand_edges>
+				<opcode>add</opcode>
+			</item>
+			<item class_id_reference="9" object_id="_185">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>217</id>
+						<name>group_zero_1</name>
+						<fileName>mfcc.cpp</fileName>
+						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
+						<lineNumber>198</lineNumber>
+						<contextFuncName>knn</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/drl224/ece5775/final/ecelinux</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>mfcc.cpp</first>
+											<second>knn</second>
+										</first>
+										<second>198</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>group_zero</originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>32</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>659</item>
+					<item>660</item>
+					<item>661</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+			</item>
+			<item class_id_reference="9" object_id="_186">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>218</id>
+						<name>group_one_1</name>
+						<fileName>mfcc.cpp</fileName>
+						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
+						<lineNumber>198</lineNumber>
+						<contextFuncName>knn</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/drl224/ece5775/final/ecelinux</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>mfcc.cpp</first>
+											<second>knn</second>
+										</first>
+										<second>198</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>group_one</originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>32</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>662</item>
+					<item>663</item>
+					<item>664</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+			</item>
+			<item class_id_reference="9" object_id="_187">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>219</id>
+						<name></name>
+						<fileName>mfcc.cpp</fileName>
+						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
+						<lineNumber>186</lineNumber>
+						<contextFuncName>knn</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/drl224/ece5775/final/ecelinux</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>mfcc.cpp</first>
+											<second>knn</second>
+										</first>
+										<second>186</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>0</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>665</item>
+				</oprand_edges>
+				<opcode>br</opcode>
+			</item>
+			<item class_id_reference="9" object_id="_188">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>221</id>
+						<name>slt</name>
+						<fileName>mfcc.cpp</fileName>
+						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
+						<lineNumber>203</lineNumber>
+						<contextFuncName>knn</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/drl224/ece5775/final/ecelinux</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>mfcc.cpp</first>
+											<second>knn</second>
+										</first>
+										<second>203</second>
 									</item>
 								</second>
 							</item>
@@ -8469,7 +8469,7 @@
 						<name>rev</name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>213</lineNumber>
+						<lineNumber>203</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -8484,7 +8484,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>213</second>
+										<second>203</second>
 									</item>
 								</second>
 							</item>
@@ -8511,7 +8511,7 @@
 						<name></name>
 						<fileName>mfcc.cpp</fileName>
 						<fileDirectory>/home/drl224/ece5775/final/ecelinux</fileDirectory>
-						<lineNumber>217</lineNumber>
+						<lineNumber>207</lineNumber>
 						<contextFuncName>knn</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -8526,7 +8526,7 @@
 											<first>mfcc.cpp</first>
 											<second>knn</second>
 										</first>
-										<second>217</second>
+										<second>207</second>
 									</item>
 								</second>
 							</item>

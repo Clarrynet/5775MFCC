@@ -1,6 +1,6 @@
 # This script segment is generated automatically by AutoPilot
 
-set id 13
+set id 15
 set name dut_fsub_32ns_32ns_32_5_full_dsp
 set corename simcore_fsub
 set op fsub
@@ -70,7 +70,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your p
 }
 
 
-set id 14
+set id 16
 set name dut_uitofp_32ns_32_6
 set corename simcore_uitofp
 set op uitofp
@@ -131,7 +131,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your p
 }
 
 
-set id 15
+set id 17
 set name dut_sitofp_32ns_32_6
 set corename simcore_sitofp
 set op sitofp
@@ -192,7 +192,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your p
 }
 
 
-set id 16
+set id 18
 set name dut_fcmp_32ns_32ns_1_1
 set corename simcore_fcmp
 set op fcmp
@@ -260,7 +260,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your p
 
 
 # Memory (RAM/ROM)  definition:
-set ID 17
+set ID 19
 set MemName dut_knn_training_data_V
 set CoreName ap_simcore_mem
 set PortList { 1 }
@@ -340,7 +340,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 18
+set ID 20
 set MemName dut_knn_training_data2
 set CoreName ap_simcore_mem
 set PortList { 2 3 }
@@ -422,7 +422,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_RAM] == "::AESL_LIB_VIRTEX::xil_gen_RA
 
 
 # Memory (RAM/ROM)  definition:
-set ID 19
+set ID 21
 set MemName dut_knn_training_instance
 set CoreName ap_simcore_mem
 set PortList { 2 3 }
@@ -504,7 +504,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_RAM] == "::AESL_LIB_VIRTEX::xil_gen_RA
 
 
 # Memory (RAM/ROM)  definition:
-set ID 20
+set ID 22
 set MemName dut_knn_min_distance
 set CoreName ap_simcore_mem
 set PortList { 2 3 }
@@ -586,7 +586,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_RAM] == "::AESL_LIB_VIRTEX::xil_gen_RA
 
 
 # Memory (RAM/ROM)  definition:
-set ID 21
+set ID 23
 set MemName dut_knn_distance
 set CoreName ap_simcore_mem
 set PortList { 2 3 }
@@ -678,7 +678,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 22 \
+    id 24 \
     name input_r \
     reset_level 1 \
     sync_rst true \

@@ -10,7 +10,7 @@
 
 module dut_flog_32ns_32ns_32_13_full_dsp
 #(parameter
-    ID         = 27,
+    ID         = 29,
     NUM_STAGE  = 13,
     din0_WIDTH = 32,
     din1_WIDTH = 32,

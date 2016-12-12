@@ -1,8 +1,8 @@
 //Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
-//Date        : Sun Dec 11 11:21:51 2016
-//Host        : en-ec-ecelinux-02.coecis.cornell.edu running 64-bit Red Hat Enterprise Linux Server release 7.2 (Maipo)
+//Date        : Sun Dec 11 13:44:56 2016
+//Host        : en-ec-ecelinux-04.coecis.cornell.edu running 64-bit Red Hat Enterprise Linux Server release 7.2 (Maipo)
 //Command     : generate_target vivado_system_wrapper.bd
 //Design      : vivado_system_wrapper
 //Purpose     : IP block netlist

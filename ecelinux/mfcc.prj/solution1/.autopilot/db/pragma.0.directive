@@ -166,38 +166,38 @@
 <option name="variable" positionalBoolean="4" value="xk"/>
 </pragma>
 </directive>
-<directive functionLabel="" functionName="mfcc" label="">
+<directive functionLabel="" functionName="mfcc_fft" label="">
 <pragma name="INTERFACE">
 <option name="ap_hs" positionalBoolean="mode" value=""/>
 <option name="port" positionalBoolean="4" value="direction"/>
 </pragma>
 </directive>
-<directive functionLabel="" functionName="mfcc" label="">
+<directive functionLabel="" functionName="mfcc_fft" label="">
 <pragma name="INTERFACE">
 <option name="ap_fifo" positionalBoolean="mode" value=""/>
 <option name="depth" value="1"/>
 <option name="port" positionalBoolean="4" value="ovflo"/>
 </pragma>
 </directive>
-<directive functionLabel="" functionName="mfcc" label="">
+<directive functionLabel="" functionName="mfcc_fft" label="">
 <pragma name="INTERFACE">
 <option name="ap_fifo" positionalBoolean="mode" value=""/>
 <option name="depth" value="FFT_LENGTH"/>
 <option name="port" positionalBoolean="4" value="xn,xk"/>
 </pragma>
 </directive>
-<directive functionLabel="" functionName="mfcc" label="">
+<directive functionLabel="" functionName="mfcc_fft" label="">
 <pragma name="INTERFACE">
 <option name="ap_fifo" positionalBoolean="mode" value=""/>
 <option name="port" positionalBoolean="4" value="fft_config"/>
 </pragma>
 </directive>
-<directive functionLabel="" functionName="mfcc" label="">
+<directive functionLabel="" functionName="mfcc_fft" label="">
 <pragma name="DATA_PACK">
 <option name="variable" positionalBoolean="4" value="xn"/>
 </pragma>
 </directive>
-<directive functionLabel="" functionName="mfcc" label="">
+<directive functionLabel="" functionName="mfcc_fft" label="">
 <pragma name="DATA_PACK">
 <option name="variable" positionalBoolean="4" value="xk"/>
 </pragma>

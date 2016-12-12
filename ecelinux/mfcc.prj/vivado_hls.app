@@ -9,5 +9,8 @@
     <solutions>
         <solution name="solution1" status=""/>
     </solutions>
+    <Simulation argv="">
+        <SimFlow name="csim" setup="false" optimizeCompile="false" clean="false" ldflags="" mflags=""/>
+    </Simulation>
 </AutoPilot:project>
 

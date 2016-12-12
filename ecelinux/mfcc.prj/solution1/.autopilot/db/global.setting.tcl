@@ -10,7 +10,7 @@ set DataflowTaskPipelineFlag  1
 set TrivialPipelineFlag 0
 set noPortSwitchingFlag 0
 set FloatingPointFlag 1
-set FftOrFirFlag 1
+set FftOrFirFlag 0
 set NbRWValue 0
 set intNbAccess 0
 set NewDSPMapping 1
@@ -42,7 +42,7 @@ set SCTraceFileFormat "vcd"
 set SCTraceOption "all"
 set TargetInfo "xc7z020:clg484:-1"
 set SourceFiles {sc {} c ../../mfcc.cpp}
-set SourceFlags {sc {} c {{}}}
+set SourceFlags {sc {} c {{ }}}
 set DirectiveFile {/home/drl224/ece5775/final/ecelinux/mfcc.prj/solution1/solution1.directive}
 set TBFiles {verilog {../../data ../../mfcc_test.cpp} bc {../../data ../../mfcc_test.cpp} sc {../../data ../../mfcc_test.cpp} vhdl {../../data ../../mfcc_test.cpp} c {} cas {../../data ../../mfcc_test.cpp}}
 set SpecLanguage "C"

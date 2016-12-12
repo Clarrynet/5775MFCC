@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'dut'" level="0">
-<item name = "Date">Sun Dec 11 11:07:50 2016
+<item name = "Date">Sun Dec 11 21:30:33 2016
 </item>
 <item name = "Version">2016.2 (Build 1577090 on Thu Jun 02 16:59:10 MDT 2016)</item>
 <item name = "Project">mfcc.prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00, 8.75, 1.25</column>
+<column name="ap_clk">10.00, 9.58, 1.25</column>
 </table>
 </item>
 </section>
@@ -24,19 +24,20 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">3979282, 4057962, 3979283, 4057963, none</column>
+<column name="">3852047, 3930727, 3852048, 3930728, none</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="7">Instance, Module, min, max, min, max, Type</keys>
-<column name="grp_dut_mfcc_fu_119">dut_mfcc, 3602959, 3681639, 3602959, 3681639, none</column>
+<column name="grp_dut_mel_into_dct_fu_119">dut_mel_into_dct, 3839304, 3917984, 3839304, 3917984, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- Loop 1">376320, 376320, 30, -, -, 12544, no</column>
+<column name="- Loop 1">12740, 12740, 260, -, -, 49, no</column>
+<column name=" + Loop 1.1">258, 258, 2, -, -, 129, no</column>
 </table>
 </item>
 </section>
@@ -49,24 +50,21 @@
 <item name = "Summary"><table name="" hasTotal="1">
 <keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
 <column name="DSP">-, -, -, -</column>
-<column name="Expression">-, -, 0, 20</column>
+<column name="Expression">-, -, 0, 49</column>
 <column name="FIFO">-, -, -, -</column>
-<column name="Instance">158, 53, 19778, 22777</column>
-<column name="Memory">32, -, 0, 0</column>
-<column name="Multiplexer">-, -, -, 123</column>
-<column name="Register">-, -, 254, -</column>
+<column name="Instance">82, 30, 5993, 11605</column>
+<column name="Memory">16, -, 0, 0</column>
+<column name="Multiplexer">-, -, -, 63</column>
+<column name="Register">-, -, 49, -</column>
 <specialColumn name="Available">280, 220, 106400, 53200</specialColumn>
-<specialColumn name="Utilization (%)">67, 24, 18, 43</specialColumn>
+<specialColumn name="Utilization (%)">35, 13, 5, 22</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
-<column name="dut_fadd_32ns_32ns_32_5_full_dsp_U37">dut_fadd_32ns_32ns_32_5_full_dsp, 0, 2, 205, 390</column>
-<column name="dut_fdiv_32ns_32ns_32_16_U38">dut_fdiv_32ns_32ns_32_16, 0, 0, 761, 994</column>
-<column name="grp_dut_mfcc_fu_119">dut_mfcc, 158, 51, 18472, 20839</column>
-<column name="dut_uitofp_64ns_32_6_U39">dut_uitofp_64ns_32_6, 0, 0, 340, 554</column>
+<column name="grp_dut_mel_into_dct_fu_119">dut_mel_into_dct, 82, 30, 5993, 11605</column>
 </table>
 </item>
 <item name = "DSP48"><table name="" hasTotal="0">
@@ -75,7 +73,7 @@
 </item>
 <item name = "Memory"><table name="" hasTotal="1">
 <keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
-<column name="sound_in_U">dut_mfcc_M, 32, 0, 0, 12544, 32, 1, 401408</column>
+<column name="stage1_U">dut_stage1, 16, 0, 0, 6321, 32, 1, 202272</column>
 </table>
 </item>
 <item name = "FIFO"><table name="" hasTotal="1">
@@ -84,17 +82,22 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="i_8_fu_159_p2">+, 0, 0, 14, 14, 1</column>
-<column name="ap_sig_103">and, 0, 0, 1, 1, 1</column>
-<column name="exitcond_fu_153_p2">icmp, 0, 0, 5, 14, 13</column>
+<column name="i_4_fu_142_p2">+, 0, 0, 6, 6, 1</column>
+<column name="j_5_fu_176_p2">+, 0, 0, 8, 8, 1</column>
+<column name="tmp_40_fu_191_p2">+, 0, 0, 14, 14, 14</column>
+<column name="tmp_s_fu_164_p2">+, 0, 0, 14, 14, 14</column>
+<column name="ap_sig_90">and, 0, 0, 1, 1, 1</column>
+<column name="exitcond5_fu_136_p2">icmp, 0, 0, 3, 6, 5</column>
+<column name="exitcond_fu_170_p2">icmp, 0, 0, 3, 8, 8</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
-<column name="ap_NS_fsm">60, 34, 1, 34</column>
-<column name="i_reg_107">14, 2, 14, 28</column>
-<column name="sound_in_address0">14, 3, 14, 42</column>
-<column name="sound_in_ce0">1, 3, 1, 3</column>
+<column name="ap_NS_fsm">1, 7, 1, 7</column>
+<column name="i_reg_97">6, 2, 6, 12</column>
+<column name="j_reg_108">8, 2, 8, 16</column>
+<column name="stage1_address0">13, 3, 13, 39</column>
+<column name="stage1_ce0">1, 3, 1, 3</column>
 <column name="strm_in_V_V_blk_n">1, 2, 1, 2</column>
 <column name="strm_out_V_V_blk_n">1, 2, 1, 2</column>
 <column name="strm_out_V_V_din">32, 3, 32, 96</column>
@@ -102,16 +105,13 @@
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="ap_CS_fsm">33, 0, 33, 0</column>
-<column name="ap_reg_grp_dut_mfcc_fu_119_ap_start">1, 0, 1, 0</column>
-<column name="i_8_reg_185">14, 0, 14, 0</column>
-<column name="i_reg_107">14, 0, 14, 0</column>
-<column name="tmp_61_reg_211">32, 0, 32, 0</column>
-<column name="tmp_62_reg_216">32, 0, 32, 0</column>
-<column name="tmp_V_1_reg_94">32, 0, 32, 0</column>
-<column name="tmp_V_2_reg_190">32, 0, 32, 0</column>
-<column name="tmp_V_3_reg_196">32, 0, 32, 0</column>
-<column name="tmp_s_reg_206">32, 0, 32, 0</column>
+<column name="ap_CS_fsm">6, 0, 6, 0</column>
+<column name="ap_reg_grp_dut_mel_into_dct_fu_119_ap_start">1, 0, 1, 0</column>
+<column name="i_4_reg_209">6, 0, 6, 0</column>
+<column name="i_reg_97">6, 0, 6, 0</column>
+<column name="j_5_reg_222">8, 0, 8, 0</column>
+<column name="j_reg_108">8, 0, 8, 0</column>
+<column name="tmp_s_reg_214">14, 0, 14, 0</column>
 </table>
 </item>
 </section>
