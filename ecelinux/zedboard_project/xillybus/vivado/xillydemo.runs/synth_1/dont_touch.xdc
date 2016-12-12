@@ -75,12 +75,6 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dut_ap_sitofp_4
 # IP: ip/dut_ap_uitofp_4_no_dsp_32/dut_ap_uitofp_4_no_dsp_32.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dut_ap_uitofp_4_no_dsp_32 || ORIG_REF_NAME==dut_ap_uitofp_4_no_dsp_32}]
 
-# IP: ip/dut_ap_uitofp_4_no_dsp_64/dut_ap_uitofp_4_no_dsp_64.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dut_ap_uitofp_4_no_dsp_64 || ORIG_REF_NAME==dut_ap_uitofp_4_no_dsp_64}]
-
-# IP: ip/fft_config1_s_core/fft_config1_s_core.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==fft_config1_s_core || ORIG_REF_NAME==fft_config1_s_core}]
-
 # XDC: /home/drl224/ece5775/final/ecelinux/zedboard_project/vivado-essentials/vivado_system/ip/vivado_system_processing_system7_0_0/vivado_system_processing_system7_0_0.xdc
 set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==vivado_system_processing_system7_0_0 || ORIG_REF_NAME==vivado_system_processing_system7_0_0}] {/inst }]/inst ]]
 

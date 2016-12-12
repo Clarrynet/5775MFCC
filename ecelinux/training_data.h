@@ -28,5 +28,7 @@ const float hamming[256] = {
 const float melfb[2580] = {
     #include "data/melfb.dat"
 };
-
+const float stage1_dat[6321] = {
+    #include "data/stage1.dat"
+};
 #endif

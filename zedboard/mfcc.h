@@ -12,7 +12,10 @@
 #include "typedefs.h"
 #include "training_data.h"
 
-
+typedef union {
+  int i;
+  float f;
+ }u;
 
 // The K_CONST value: number of nearest neighbors
 #ifndef K_CONST
@@ -20,12 +23,12 @@
 #endif
 
 // Top function for digit recognition
-int mfcc(  const float  sound_file[12544]);
-
-int mfcc_wrapper( );
+void mfcc_fft(  const float  sound_file[12544], float output[49][129]);
 
 int knn(float input[20][49]);
 
 void dut(    hls::stream<bit32_t> &strm_in,    hls::stream<bit32_t> &strm_out);
+
+int mel_into_dct(float z2[49][129]);
 
 #endif

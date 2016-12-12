@@ -10,7 +10,7 @@
 
 module dut_uitofp_32ns_32_6
 #(parameter
-    ID         = 14,
+    ID         = 16,
     NUM_STAGE  = 6,
     din0_WIDTH = 32,
     dout_WIDTH = 32

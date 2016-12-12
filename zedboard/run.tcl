@@ -26,13 +26,13 @@ set_part {xc7z020clg484-1}
 create_clock -period 10
 
 ### You can insert your own directives here ###
-set_directive_inline -off mfcc
+set_directive_inline -off mfcc_fft
 set_directive_inline -off knn
 config_dataflow -default_channel fifo -fifo_depth 1
 ############################################
 
 # Simulate the C++ design
-#csim_design
+csim_design
 # Synthesize the design
 csynth_design
 # Co-simulate the design

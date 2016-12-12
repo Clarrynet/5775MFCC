@@ -47,10 +47,14 @@ int main()
         
         float stage1[49][129];
         mfcc_fft(input_data, stage1);
+        //ofstream myfile;
+        //myfile.open ("stage1.dat");
         for(int i =0; i<49; i++){
-          for(int j =0; j<129; j++){ 
+          for(int j =0; j<129; j++){
+            //myfile << (stage1[i][j]);
+            //myfile << "\n";
             u dat;
-            dat.f = stage1[i][j];
+            dat.f = stage1_dat[129*i + j];
             inputs[i] = dat.i;     
             //write words to device 
             bit32_t input_lo = inputs[i].range(31,0);
@@ -59,6 +63,7 @@ int main()
             mfcc_in.write( input_hi);
           }
         }
+        myfile.close();
 
       
       // Call design under test (DUT)

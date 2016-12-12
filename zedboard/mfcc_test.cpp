@@ -2,7 +2,7 @@
 // testbench.cpp
 //=========================================================================
 // @brief: testbench for k-nearest-neighbor sound recongnition application
-
+#include <inttypes.h>
 #include <stdio.h>
 #include <iostream>
 #include <fstream>
@@ -10,6 +10,7 @@
 //#include "training_data.h"
 #include "mfcc.h"
 //using namespace std;
+
 
 int main() 
 {
@@ -28,6 +29,8 @@ int main()
   //Store input from sound file
   const int N = 12544;
   bit64_t inputs[N];
+  bit32_t hanging_2;
+  bit32_t hanging_3;
   
   if ( myfile.is_open() ) {
     int error = 0;
@@ -39,22 +42,36 @@ int main()
           strtoul( line.substr(0, line.find(",")).c_str(), NULL, 16);
       int input_value = 
           strtoul(line.substr(line.find(",") + 1,
-                              line.length()).c_str(), NULL, 10);
-      for (int i = 0; i<N; i++){
-        inputs[i] = input_data[i];
-        bit32_t input_lo = inputs[i].range(31,0);
-        bit32_t input_hi = inputs[i].range(63,32);
+                              line.length()).c_str(), NULL, 10);  
 
-        //write words to device
-        mfcc_in.write( input_lo);
-        mfcc_in.write( input_hi);
-      }
+        
+        float stage1[49][129];
+        mfcc_fft(input_data, stage1);
+        //ofstream myfile;
+        //myfile.open ("stage1.dat");
+        for(int i =0; i<49; i++){
+          for(int j =0; j<129; j++){
+            //myfile << (stage1[i][j]);
+            //myfile << "\n";
+            u dat;
+            dat.f = stage1_dat[129*i + j];
+            inputs[i] = dat.i;     
+            //write words to device 
+            bit32_t input_lo = inputs[i].range(31,0);
+            bit32_t input_hi = inputs[i].range(63,32);
+            mfcc_in.write( input_lo);
+            mfcc_in.write( input_hi);
+          }
+        }
+        myfile.close();
 
       
       // Call design under test (DUT)
       dut(mfcc_in, mfcc_out);
-
-      bit32_t interpreted_digit = mfcc_out.read();
+      bit32_t interpreted_digit =0;
+      interpreted_digit = mfcc_out.read();
+      hanging_2 = mfcc_out.read();
+     // hanging_3 = mfcc_out.read();
       
       // Print result messages to console
       num_test_insts++;
@@ -77,8 +94,8 @@ int main()
       
       std::cout << std::endl;
       outfile << std::endl;
-    }   
-    
+    }
+    std::cout << "Hanging 2 " << (double)hanging_2 << "\n";  
     // Report overall error out of all testing instances
     std::cout << "Overall Error Rate = " << std::setprecision(3)
               << ( (double)error / num_test_insts ) * 100

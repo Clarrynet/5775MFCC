@@ -36,8 +36,7 @@ void dut( hls::stream<bit32_t> &strm_in, hls::stream<bit32_t> &strm_out ){
 
 void mfcc_fft(const float sound_file[12544], float output[49][129]) 
 { 
-  //THIS IS THE FREQUENCY OF THE INPUT SAMPLE
-  //MAY HAVE TO SET THIS
+  //frequency of the input sample
   int fs = 11025;
   const int m = 100;
   const int n = 256;
@@ -143,7 +142,7 @@ int mel_into_dct(float z2[49][129]){
       X[k][frame] = s * sum;
     }
   }
-/*
+///*
 //Print the MFCC Coeffs
   for (int i = 0; i< 20; i++){
     for (int j = 0; j< 5; j++){
@@ -151,7 +150,7 @@ int mel_into_dct(float z2[49][129]){
     }
     printf("\n");   
   }
-*/
+//*/
   int output = knn(X);
   return(output);
 }
