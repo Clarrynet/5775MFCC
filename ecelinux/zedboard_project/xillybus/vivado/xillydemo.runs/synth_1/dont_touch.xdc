@@ -3,15 +3,6 @@
 
 # XDC: /home/drl224/ece5775/final/ecelinux/zedboard_project/vivado-essentials/xillydemo.xdc
 
-# IP: /home/drl224/ece5775/final/ecelinux/zedboard_project/vivado-essentials/vga_fifo/vga_fifo.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==vga_fifo || ORIG_REF_NAME==vga_fifo}]
-
-# IP: /home/drl224/ece5775/final/ecelinux/zedboard_project/vivado-essentials/fifo_8x2048/fifo_8x2048.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==fifo_8x2048 || ORIG_REF_NAME==fifo_8x2048}]
-
-# IP: /home/drl224/ece5775/final/ecelinux/zedboard_project/vivado-essentials/fifo_32x512/fifo_32x512.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==fifo_32x512 || ORIG_REF_NAME==fifo_32x512}]
-
 # Block Designs: /home/drl224/ece5775/final/ecelinux/zedboard_project/vivado-essentials/vivado_system/vivado_system.bd
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==vivado_system || ORIG_REF_NAME==vivado_system}]
 
@@ -56,9 +47,6 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dut_ap_fadd_3_f
 
 # IP: ip/dut_ap_fcmp_0_no_dsp_32/dut_ap_fcmp_0_no_dsp_32.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dut_ap_fcmp_0_no_dsp_32 || ORIG_REF_NAME==dut_ap_fcmp_0_no_dsp_32}]
-
-# IP: ip/dut_ap_fdiv_14_no_dsp_32/dut_ap_fdiv_14_no_dsp_32.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dut_ap_fdiv_14_no_dsp_32 || ORIG_REF_NAME==dut_ap_fdiv_14_no_dsp_32}]
 
 # IP: ip/dut_ap_flog_11_full_dsp_32/dut_ap_flog_11_full_dsp_32.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==dut_ap_flog_11_full_dsp_32 || ORIG_REF_NAME==dut_ap_flog_11_full_dsp_32}]

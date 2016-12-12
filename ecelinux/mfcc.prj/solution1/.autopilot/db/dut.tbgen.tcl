@@ -58,100 +58,52 @@ set RtlHierarchyInfo {[
 		{"Name" : "strm_out_V_V", "Type" : "Fifo", "Direction" : "O", "BlockSignal" : [
 			{"Name" : "strm_out_V_V_blk_n", "Type" : "RtlSignal"}], "SubConnect" : []}, 
 		{"Name" : "melfb", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : [
-			{"SubInst" : "grp_dut_mel_into_dct_fu_119", "Port" : "melfb"}]}, 
-		{"Name" : "hls_ref_4oPi_table_100_V", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : [
-			{"SubInst" : "grp_dut_mel_into_dct_fu_119", "Port" : "hls_ref_4oPi_table_100_V"}]}, 
-		{"Name" : "hls_sin_cos_K0_V", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : [
-			{"SubInst" : "grp_dut_mel_into_dct_fu_119", "Port" : "hls_sin_cos_K0_V"}]}, 
-		{"Name" : "hls_sin_cos_K1_V", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : [
-			{"SubInst" : "grp_dut_mel_into_dct_fu_119", "Port" : "hls_sin_cos_K1_V"}]}, 
-		{"Name" : "hls_sin_cos_K2_V", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : [
-			{"SubInst" : "grp_dut_mel_into_dct_fu_119", "Port" : "hls_sin_cos_K2_V"}]}, 
+			{"SubInst" : "grp_dut_mel_into_dct_fu_113", "Port" : "melfb"}]}, 
+		{"Name" : "dct_coeff", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : [
+			{"SubInst" : "grp_dut_mel_into_dct_fu_113", "Port" : "dct_coeff"}]}, 
 		{"Name" : "training_data_V", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : [
-			{"SubInst" : "grp_dut_mel_into_dct_fu_119", "Port" : "training_data_V"}]}],
+			{"SubInst" : "grp_dut_mel_into_dct_fu_113", "Port" : "training_data_V"}]}],
 		"WaitState" : [
-		{"State" : "ap_ST_st5_fsm_4", "FSM" : "ap_CS_fsm", "SubInst" : "grp_dut_mel_into_dct_fu_119"}],
+		{"State" : "ap_ST_st5_fsm_4", "FSM" : "ap_CS_fsm", "SubInst" : "grp_dut_mel_into_dct_fu_113"}],
 		"SubBlockPort" : []},
 	{"Level" : "1", "Path" : "`AUTOTB_DUT_INST.stage1_U", "Parent" : "0", "Child" : []},
-	{"Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119", "Parent" : "0", "Child" : ["3", "4", "5", "6", "19", "30", "31", "32", "33", "34"], "CDFG" : "dut_mel_into_dct", "VariableLatency" : "1", "AlignedPipeline" : "0", "UnalignedPipeline" : "0", "ProcessNetwork" : "0", "Combinational" : "0", "ControlExist" : "1",
+	{"Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113", "Parent" : "0", "Child" : ["3", "4", "5", "6", "7", "18", "19", "20"], "CDFG" : "dut_mel_into_dct", "VariableLatency" : "1", "AlignedPipeline" : "0", "UnalignedPipeline" : "0", "ProcessNetwork" : "0", "Combinational" : "0", "ControlExist" : "1",
 		"Port" : [
 		{"Name" : "z2", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : []}, 
 		{"Name" : "melfb", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : []}, 
-		{"Name" : "hls_ref_4oPi_table_100_V", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : [
-			{"SubInst" : "grp_dut_sinf_or_cosf_fu_249", "Port" : "hls_ref_4oPi_table_100_V"}]}, 
-		{"Name" : "hls_sin_cos_K0_V", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : [
-			{"SubInst" : "grp_dut_sinf_or_cosf_fu_249", "Port" : "hls_sin_cos_K0_V"}]}, 
-		{"Name" : "hls_sin_cos_K1_V", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : [
-			{"SubInst" : "grp_dut_sinf_or_cosf_fu_249", "Port" : "hls_sin_cos_K1_V"}]}, 
-		{"Name" : "hls_sin_cos_K2_V", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : [
-			{"SubInst" : "grp_dut_sinf_or_cosf_fu_249", "Port" : "hls_sin_cos_K2_V"}]}, 
+		{"Name" : "dct_coeff", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : []}, 
 		{"Name" : "training_data_V", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : [
-			{"SubInst" : "grp_dut_knn_fu_262", "Port" : "training_data_V"}]}],
+			{"SubInst" : "grp_dut_knn_fu_253", "Port" : "training_data_V"}]}],
 		"WaitState" : [
-		{"State" : "ap_ST_st73_fsm_72", "FSM" : "ap_CS_fsm", "SubInst" : "grp_dut_sinf_or_cosf_fu_249"},
-		{"State" : "ap_ST_st86_fsm_85", "FSM" : "ap_CS_fsm", "SubInst" : "grp_dut_knn_fu_262"}],
+		{"State" : "ap_ST_st41_fsm_40", "FSM" : "ap_CS_fsm", "SubInst" : "grp_dut_knn_fu_253"}],
 		"SubBlockPort" : []},
-	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.melfb_U", "Parent" : "2", "Child" : []},
-	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.z_U", "Parent" : "2", "Child" : []},
-	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.X_U", "Parent" : "2", "Child" : []},
-	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_sinf_or_cosf_fu_249", "Parent" : "2", "Child" : ["7", "8", "9", "10", "11", "15", "16", "17", "18"], "CDFG" : "dut_sinf_or_cosf", "VariableLatency" : "1", "AlignedPipeline" : "0", "UnalignedPipeline" : "0", "ProcessNetwork" : "0", "Combinational" : "0", "ControlExist" : "1",
-		"Port" : [
-		{"Name" : "t_in", "Type" : "None", "Direction" : "I", "BlockSignal" : [], "SubConnect" : []}, 
-		{"Name" : "hls_ref_4oPi_table_100_V", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : []}, 
-		{"Name" : "hls_sin_cos_K0_V", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : []}, 
-		{"Name" : "hls_sin_cos_K1_V", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : []}, 
-		{"Name" : "hls_sin_cos_K2_V", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : []}],
-		"WaitState" : [
-		{"State" : "ap_ST_st3_fsm_2", "FSM" : "ap_CS_fsm", "SubInst" : "grp_dut_big_mult_v3small_71_24_17_s_fu_309"},
-		{"State" : "ap_ST_st15_fsm_14", "FSM" : "ap_CS_fsm", "SubInst" : "grp_dut_my_to_float_31_1_s_fu_315"}],
-		"SubBlockPort" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_sinf_or_cosf_fu_249.hls_ref_4oPi_table_100_V_U", "Parent" : "6", "Child" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_sinf_or_cosf_fu_249.hls_sin_cos_K0_V_U", "Parent" : "6", "Child" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_sinf_or_cosf_fu_249.hls_sin_cos_K1_V_U", "Parent" : "6", "Child" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_sinf_or_cosf_fu_249.hls_sin_cos_K2_V_U", "Parent" : "6", "Child" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_sinf_or_cosf_fu_249.grp_dut_big_mult_v3small_71_24_17_s_fu_309", "Parent" : "6", "Child" : ["12", "13", "14"], "CDFG" : "dut_big_mult_v3small_71_24_17_s", "VariableLatency" : "1", "AlignedPipeline" : "0", "UnalignedPipeline" : "0", "ProcessNetwork" : "0", "Combinational" : "0", "ControlExist" : "1",
-		"Port" : [
-		{"Name" : "a_V", "Type" : "None", "Direction" : "I", "BlockSignal" : [], "SubConnect" : []}, 
-		{"Name" : "b_V", "Type" : "None", "Direction" : "I", "BlockSignal" : [], "SubConnect" : []}],
-		"WaitState" : [],
-		"SubBlockPort" : []},
-	{"Level" : "4", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_sinf_or_cosf_fu_249.grp_dut_big_mult_v3small_71_24_17_s_fu_309.pp_V_U", "Parent" : "11", "Child" : []},
-	{"Level" : "4", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_sinf_or_cosf_fu_249.grp_dut_big_mult_v3small_71_24_17_s_fu_309.pps_V_U", "Parent" : "11", "Child" : []},
-	{"Level" : "4", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_sinf_or_cosf_fu_249.grp_dut_big_mult_v3small_71_24_17_s_fu_309.dut_mul_41s_24ns_41_4_U1", "Parent" : "11", "Child" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_sinf_or_cosf_fu_249.grp_dut_my_to_float_31_1_s_fu_315", "Parent" : "6", "Child" : [], "CDFG" : "dut_my_to_float_31_1_s", "VariableLatency" : "1", "AlignedPipeline" : "0", "UnalignedPipeline" : "0", "ProcessNetwork" : "0", "Combinational" : "0", "ControlExist" : "1",
-		"Port" : [
-		{"Name" : "in_V", "Type" : "None", "Direction" : "I", "BlockSignal" : [], "SubConnect" : []}, 
-		{"Name" : "prescale", "Type" : "None", "Direction" : "I", "BlockSignal" : [], "SubConnect" : []}],
-		"WaitState" : [],
-		"SubBlockPort" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_sinf_or_cosf_fu_249.dut_mul_32s_31ns_62_6_U7", "Parent" : "6", "Child" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_sinf_or_cosf_fu_249.dut_mul_mul_17ns_15s_32_1_U8", "Parent" : "6", "Child" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_sinf_or_cosf_fu_249.dut_mul_mul_23s_17ns_40_1_U9", "Parent" : "6", "Child" : []},
-	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_knn_fu_262", "Parent" : "2", "Child" : ["20", "21", "22", "23", "24", "25", "26", "27", "28", "29"], "CDFG" : "dut_knn", "VariableLatency" : "1", "AlignedPipeline" : "0", "UnalignedPipeline" : "0", "ProcessNetwork" : "0", "Combinational" : "0", "ControlExist" : "1",
+	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.melfb_U", "Parent" : "2", "Child" : []},
+	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.dct_coeff_U", "Parent" : "2", "Child" : []},
+	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.z_U", "Parent" : "2", "Child" : []},
+	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.X_U", "Parent" : "2", "Child" : []},
+	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.grp_dut_knn_fu_253", "Parent" : "2", "Child" : ["8", "9", "10", "11", "12", "13", "14", "15", "16", "17"], "CDFG" : "dut_knn", "VariableLatency" : "1", "AlignedPipeline" : "0", "UnalignedPipeline" : "0", "ProcessNetwork" : "0", "Combinational" : "0", "ControlExist" : "1",
 		"Port" : [
 		{"Name" : "input_r", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : []}, 
 		{"Name" : "training_data_V", "Type" : "Memory", "Direction" : "I", "BlockSignal" : [], "SubConnect" : []}],
 		"WaitState" : [],
 		"SubBlockPort" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_knn_fu_262.training_data_V_U", "Parent" : "19", "Child" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_knn_fu_262.training_data2_U", "Parent" : "19", "Child" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_knn_fu_262.training_instance_U", "Parent" : "19", "Child" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_knn_fu_262.min_distance_U", "Parent" : "19", "Child" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_knn_fu_262.distance_U", "Parent" : "19", "Child" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_knn_fu_262.group_U", "Parent" : "19", "Child" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_knn_fu_262.dut_fsub_32ns_32ns_32_5_full_dsp_U15", "Parent" : "19", "Child" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_knn_fu_262.dut_uitofp_32ns_32_6_U16", "Parent" : "19", "Child" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_knn_fu_262.dut_sitofp_32ns_32_6_U17", "Parent" : "19", "Child" : []},
-	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.grp_dut_knn_fu_262.dut_fcmp_32ns_32ns_1_1_U18", "Parent" : "19", "Child" : []},
-	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.dut_fadd_32ns_32ns_32_5_full_dsp_U25", "Parent" : "2", "Child" : []},
-	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.dut_fmul_32ns_32ns_32_4_max_dsp_U26", "Parent" : "2", "Child" : []},
-	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.dut_fdiv_32ns_32ns_32_16_U27", "Parent" : "2", "Child" : []},
-	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.dut_sitofp_32ns_32_6_U28", "Parent" : "2", "Child" : []},
-	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_119.dut_flog_32ns_32ns_32_13_full_dsp_U29", "Parent" : "2", "Child" : []}]}
+	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.grp_dut_knn_fu_253.training_data_V_U", "Parent" : "7", "Child" : []},
+	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.grp_dut_knn_fu_253.training_data2_U", "Parent" : "7", "Child" : []},
+	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.grp_dut_knn_fu_253.training_instance_U", "Parent" : "7", "Child" : []},
+	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.grp_dut_knn_fu_253.min_distance_U", "Parent" : "7", "Child" : []},
+	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.grp_dut_knn_fu_253.group_U", "Parent" : "7", "Child" : []},
+	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.grp_dut_knn_fu_253.distance_U", "Parent" : "7", "Child" : []},
+	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.grp_dut_knn_fu_253.dut_fsub_32ns_32ns_32_5_full_dsp_U1", "Parent" : "7", "Child" : []},
+	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.grp_dut_knn_fu_253.dut_uitofp_32ns_32_6_U2", "Parent" : "7", "Child" : []},
+	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.grp_dut_knn_fu_253.dut_sitofp_32ns_32_6_U3", "Parent" : "7", "Child" : []},
+	{"Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.grp_dut_knn_fu_253.dut_fcmp_32ns_32ns_1_1_U4", "Parent" : "7", "Child" : []},
+	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.dut_fadd_32ns_32ns_32_5_full_dsp_U11", "Parent" : "2", "Child" : []},
+	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.dut_fmul_32ns_32ns_32_4_max_dsp_U12", "Parent" : "2", "Child" : []},
+	{"Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_dut_mel_into_dct_fu_113.dut_flog_32ns_32ns_32_13_full_dsp_U13", "Parent" : "2", "Child" : []}]}
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "3852047", "Max" : "3930727"}
-	, {"Name" : "Interval", "Min" : "3852048", "Max" : "3930728"}
+	{"Name" : "Latency", "Min" : "1769583", "Max" : "1769863"}
+	, {"Name" : "Interval", "Min" : "1769584", "Max" : "1769864"}
 ]}
 
 set Spec2ImplPortList { 

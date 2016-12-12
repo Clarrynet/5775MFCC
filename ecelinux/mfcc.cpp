@@ -5,6 +5,9 @@
 
 #include "mfcc.h"
 #include "fft_top.h"
+#include <hls_math.h>
+#include <cmath>
+ 
 
 //----------------------------------------------------------
 // Top function
@@ -101,7 +104,28 @@ void mfcc_fft(const float sound_file[12544], float output[49][129])
     }
   }
 }
+/*
+static inline float 
+fastlog2 (float x)
+{  
+  union { float f; uint32_t i; } vx = { x };
+  union { uint32_t i; float f; } mx = { (vx.i & 0x007FFFFF) | 0x3f000000 };
+  u dat;
+  dat.f = x;
+  float y = dat.i;
+  y *= 1.1920928955078125e-7f;
 
+  return y - 124.22551499f
+           - 1.498030302f * mx.f 
+           - 1.72587999f / (0.3520887068f + mx.f);
+}
+
+static inline float
+fastlog (float x)
+{
+  return 0.69314718f * fastlog2 (x);
+}
+*/
 
 int mel_into_dct(float z2[49][129]){ 
 
@@ -119,30 +143,32 @@ int mel_into_dct(float z2[49][129]){
   //X is the output (MFCC)
   float X[20][nbFrame];
 
-
+//using namespace hls;
   for (int frame =0; frame<nbFrame; frame++){ 
     for (int j = 0; j<melfb_h; j++){
       float sum = 0;
       for (int x = 0; x<melfb_w; x++){
          sum += melfb[x+ (j*melfb_w) ]*z2[frame][x];
       }
-      z[j][frame] = log(sum);  
-    }  
-  
+//using namespace hls;
+      z[j][frame] = hls::logf(sum);  
+    }
+//using namespace std;  
     //Discrete Cosine Transform
     for (int k = 0; k < melfb_h; ++k) {
       float sum = 0;
-      float s = sqrt(2.0f/20.0f);
+      float s = 0.316227766016838;
       if (k == 0){
-        s = sqrt(1.0f/20.0f);
+        s = 0.223606797749979;
       }
       for (int n = 0; n < 20; ++n) {
-        sum += z[n][frame] * cos(3.141592f * ((2.0f*(float)n)+1)*((float)k) /40.0f );
+        sum += z[n][frame] * dct_coeff[20*k +n];
       }
       X[k][frame] = s * sum;
     }
   }
-///*
+
+/*
 //Print the MFCC Coeffs
   for (int i = 0; i< 20; i++){
     for (int j = 0; j< 5; j++){
@@ -150,9 +176,13 @@ int mel_into_dct(float z2[49][129]){
     }
     printf("\n");   
   }
-//*/
+*/
+
   int output = knn(X);
+ // printf("\n");
+ // printf("%d ",  output);
   return(output);
+   
 }
 
 
@@ -161,12 +191,22 @@ int knn( float input[20][49] ){
   //#include "training_data.h"
   float training_data2[14][49*20+1];
   float training_instance[20][49*14];
-  float sigma=0.2f;
+  float sigma=0.9f;
   int min_distance[20];
-  int distance[14];
-  int group_final;
-  int group_one, group_zero;
   int group[20];
+  for (int i =0;i<20; i++){
+    min_distance[i] = 49;
+    group[i] = 0;
+  }
+  int distance[14];
+  for (int i =0;i<14; i++){
+    distance[i] = 0;
+  }
+  int group_final =2;
+  int group_one=0;
+  int group_zero=0;
+  
+
   for ( int j = 0; j < 14; j++ ){ 
     for ( int i = 0; i < 20; i++ ){
       for ( int k = 0; k < 49; k++ ){    
@@ -185,7 +225,7 @@ int knn( float input[20][49] ){
   for ( int i = 0; i < 20; i++ ){
     for ( int j = 0; j < 14; j++ ){
       for ( int k = 0; k < 49; k++ ){
-        if (abs(input[i][k]-training_instance[i][j*k])<sigma){
+        if (hls::fabs(input[i][k]-training_instance[i][j*k])<sigma){
           distance[j]++;
         }
       }
@@ -199,6 +239,12 @@ int knn( float input[20][49] ){
     else
       group_one++;
   }
+/*
+  printf("\n");
+  printf("%d ",  group_zero);
+  printf("%d ",  group_one);
+  printf("\n");
+*/
   if (group_zero>group_one)
     group_final=0;
   else

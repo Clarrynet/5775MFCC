@@ -1,2 +1,2 @@
-#1: 	TestInstance=0x3041060800 	Interpreted=0x0 	Expected=1 	[Mismatch!]
-Overall Error Rate = 100%
+#1: 	TestInstance=0x3041060800 	Interpreted=0x0 	Expected=0
+Overall Error Rate = 0%

@@ -12,7 +12,7 @@ VHLS_PATH := $(dir $(shell which vivado_hls))/..
 VHLS_INC ?= ${VHLS_PATH}/include
 
 # Specify compilation flags
-CFLAGS = -g -I${VHLS_INC} -DK_CONST=3 -L/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/tools/fft_v9_0 -lIp_xfft_v9_0_bitacc_cmodel -Wl,-rpath,/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/tools/fft_v9_0
+CFLAGS = -g -I${VHLS_INC} -DK_CONST=3 -L/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/tools/fft_v9_0 -lIp_xfft_v9_0_bitacc_cmodel -Wl,-rpath,/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/tools/fft_v9_0 -L/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/tools/fpo_v7_0 -lIp_floating_point_v7_0_bitacc_cmodel -Wl,-rpath,/opt/xilinx/xilinx_2016.2/Vivado_HLS/2016.2/lnx64/tools/fpo_v7_0
 
 # Compile & run mfcc implementation
 all: mfcc.cpp mfcc_test.cpp fft_top.cpp

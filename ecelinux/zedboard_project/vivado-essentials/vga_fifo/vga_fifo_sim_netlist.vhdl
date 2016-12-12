@@ -1,8 +1,8 @@
 -- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
--- Date        : Sat Dec 10 16:23:59 2016
--- Host        : en-ec-ph314-19.ece.cornell.edu running 64-bit Red Hat Enterprise Linux Server release 7.2 (Maipo)
+-- Date        : Mon Dec 12 15:11:46 2016
+-- Host        : en-ec-ph314-07.ece.cornell.edu running 64-bit Red Hat Enterprise Linux Server release 7.2 (Maipo)
 -- Command     : write_vhdl -force -mode funcsim
 --               /home/drl224/ece5775/final/ecelinux/zedboard_project/vivado-essentials/vga_fifo/vga_fifo_sim_netlist.vhdl
 -- Design      : vga_fifo

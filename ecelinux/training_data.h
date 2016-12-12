@@ -31,4 +31,7 @@ const float melfb[2580] = {
 const float stage1_dat[6321] = {
     #include "data/stage1.dat"
 };
+const float dct_coeff[400] = {
+    #include "data/dct_coeff.dat"
+};
 #endif

@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'dut_knn'
 ================================================================
-* Date:           Sun Dec 11 21:30:29 2016
+* Date:           Mon Dec 12 14:59:34 2016
 
 * Version:        2016.2 (Build 1577090 on Thu Jun 02 16:59:10 MDT 2016)
 * Project:        mfcc.prj
@@ -29,7 +29,7 @@
     |     Latency     |     Interval    | Pipeline|
     |   min  |   max  |   min  |   max  |   Type  |
     +--------+--------+--------+--------+---------+
-    |  276855|  277135|  276855|  277135|   none  |
+    |  276891|  277171|  276891|  277171|   none  |
     +--------+--------+--------+--------+---------+
 
     + Detail: 
@@ -41,15 +41,17 @@
         |                 |     Latency     |  Iteration  |  Initiation Interval  | Trip |          |
         |    Loop Name    |   min  |   max  |   Latency   |  achieved |   target  | Count| Pipelined|
         +-----------------+--------+--------+-------------+-----------+-----------+------+----------+
-        |- Loop 1         |  124152|  124152|         8868|          -|          -|    14|    no    |
-        | + Loop 1.1      |    8860|    8860|          443|          -|          -|    20|    no    |
-        |  ++ Loop 1.1.1  |     441|     441|            9|          -|          -|    49|    no    |
-        |- Loop 2         |   28040|   28040|         1402|          -|          -|    20|    no    |
-        | + Loop 2.1      |    1400|    1400|          100|          -|          -|    14|    no    |
-        |  ++ Loop 2.1.1  |      98|      98|            2|          -|          -|    49|    no    |
-        |- Loop 3         |  124660|  124940| 6233 ~ 6247 |          -|          -|    20|    no    |
-        | + Loop 3.1      |    6230|    6244|  445 ~ 446  |          -|          -|    14|    no    |
+        |- Loop 1         |      20|      20|            1|          -|          -|    20|    no    |
+        |- Loop 2         |      14|      14|            1|          -|          -|    14|    no    |
+        |- Loop 3         |  124152|  124152|         8868|          -|          -|    14|    no    |
+        | + Loop 3.1      |    8860|    8860|          443|          -|          -|    20|    no    |
         |  ++ Loop 3.1.1  |     441|     441|            9|          -|          -|    49|    no    |
+        |- Loop 4         |   28040|   28040|         1402|          -|          -|    20|    no    |
+        | + Loop 4.1      |    1400|    1400|          100|          -|          -|    14|    no    |
+        |  ++ Loop 4.1.1  |      98|      98|            2|          -|          -|    49|    no    |
+        |- Loop 5         |  124660|  124940| 6233 ~ 6247 |          -|          -|    20|    no    |
+        | + Loop 5.1      |    6230|    6244|  445 ~ 446  |          -|          -|    14|    no    |
+        |  ++ Loop 5.1.1  |     441|     441|            9|          -|          -|    49|    no    |
         +-----------------+--------+--------+-------------+-----------+-----------+------+----------+
 
 ============================================================
@@ -78,7 +80,7 @@ IsGatedGlobalClock: 0
 ============================================================
 + Verbose Summary: Schedule
 ============================================================
-* Number of FSM states: 37
+* Number of FSM states: 39
 * Pipeline: 0
 * Dataflow Pipeline: 0
 
@@ -86,18 +88,20 @@ IsGatedGlobalClock: 0
 1 --> 
 	2  / true
 2 --> 
-	19  / (exitcond1)
-	3  / (!exitcond1)
+	3  / (exitcond10)
+	2  / (!exitcond10)
 3 --> 
-	4  / (!exitcond9)
-	13  / (exitcond9)
+	4  / (exitcond9)
+	3  / (!exitcond9)
 4 --> 
-	3  / (exitcond8)
+	21  / (exitcond8)
 	5  / (!exitcond8)
 5 --> 
-	6  / true
+	6  / (!exitcond7)
+	15  / (exitcond7)
 6 --> 
-	7  / true
+	5  / (exitcond6)
+	7  / (!exitcond6)
 7 --> 
 	8  / true
 8 --> 
@@ -109,11 +113,11 @@ IsGatedGlobalClock: 0
 11 --> 
 	12  / true
 12 --> 
-	4  / true
+	13  / true
 13 --> 
 	14  / true
 14 --> 
-	15  / true
+	6  / true
 15 --> 
 	16  / true
 16 --> 
@@ -121,30 +125,30 @@ IsGatedGlobalClock: 0
 17 --> 
 	18  / true
 18 --> 
-	2  / true
+	19  / true
 19 --> 
-	20  / (!exitcond7)
-	23  / (exitcond7)
+	20  / true
 20 --> 
-	19  / (exitcond6)
-	21  / (!exitcond6)
+	4  / true
 21 --> 
-	20  / (exitcond5)
 	22  / (!exitcond5)
+	25  / (exitcond5)
 22 --> 
-	21  / true
+	21  / (exitcond4)
+	23  / (!exitcond4)
 23 --> 
-	24  / (!exitcond4)
+	22  / (exitcond3)
+	24  / (!exitcond3)
 24 --> 
-	37  / (exitcond3)
-	25  / (!exitcond3)
+	23  / true
 25 --> 
-	26  / (!exitcond)
-	34  / (exitcond)
+	26  / (!exitcond2)
 26 --> 
-	27  / true
+	39  / (exitcond1)
+	27  / (!exitcond1)
 27 --> 
-	28  / true
+	28  / (!exitcond)
+	36  / (exitcond)
 28 --> 
 	29  / true
 29 --> 
@@ -156,16 +160,20 @@ IsGatedGlobalClock: 0
 32 --> 
 	33  / true
 33 --> 
-	25  / true
+	34  / true
 34 --> 
-	35  / (tmp_32)
-	36  / (!tmp_32)
+	35  / true
 35 --> 
-	36  / true
+	27  / true
 36 --> 
-	24  / true
+	37  / (tmp_28)
+	38  / (!tmp_28)
 37 --> 
-	23  / true
+	38  / true
+38 --> 
+	26  / true
+39 --> 
+	25  / true
 * FSM state operations: 
 
  <State 1>: 1.57ns
@@ -178,730 +186,794 @@ ST_1: training_instance [1/1] 0.00ns
 ST_1: min_distance [1/1] 0.00ns
 :2  %min_distance = alloca [20 x i32], align 16
 
-ST_1: distance [1/1] 0.00ns
-:3  %distance = alloca [14 x i32], align 16
-
 ST_1: group [1/1] 0.00ns
-:4  %group = alloca [20 x i32], align 16
+:3  %group = alloca [20 x i32], align 16
 
-ST_1: stg_43 [1/1] 1.57ns
+ST_1: distance [1/1] 0.00ns
+:4  %distance = alloca [14 x i32], align 16
+
+ST_1: stg_45 [1/1] 1.57ns
 :5  br label %1
 
 
- <State 2>: 3.45ns
-ST_2: j [1/1] 0.00ns
-:0  %j = phi i4 [ 0, %0 ], [ %j_2, %3 ]
+ <State 2>: 3.48ns
+ST_2: i [1/1] 0.00ns
+:0  %i = phi i5 [ 0, %0 ], [ %i_1, %2 ]
 
-ST_2: phi_mul3 [1/1] 0.00ns
-:1  %phi_mul3 = phi i9 [ 0, %0 ], [ %next_mul4, %3 ]
-
-ST_2: phi_mul5 [1/1] 0.00ns
-:2  %phi_mul5 = phi i14 [ 0, %0 ], [ %next_mul6, %3 ]
-
-ST_2: phi_mul7 [1/1] 0.00ns
-:3  %phi_mul7 = phi i14 [ 0, %0 ], [ %next_mul8, %3 ]
-
-ST_2: next_mul8 [1/1] 1.96ns
-:4  %next_mul8 = add i14 %phi_mul7, 981
-
-ST_2: next_mul6 [1/1] 1.96ns
-:5  %next_mul6 = add i14 %phi_mul5, 1000
-
-ST_2: next_mul4 [1/1] 1.84ns
-:6  %next_mul4 = add i9 %phi_mul3, 19
-
-ST_2: exitcond1 [1/1] 1.88ns
-:7  %exitcond1 = icmp eq i4 %j, -2
+ST_2: exitcond10 [1/1] 1.91ns
+:1  %exitcond10 = icmp eq i5 %i, -12
 
 ST_2: empty [1/1] 0.00ns
-:8  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 14, i64 14, i64 14)
+:2  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 20, i64 20, i64 20)
 
-ST_2: j_2 [1/1] 0.80ns
-:9  %j_2 = add i4 %j, 1
+ST_2: i_1 [1/1] 1.72ns
+:3  %i_1 = add i5 %i, 1
 
-ST_2: stg_54 [1/1] 1.57ns
-:10  br i1 %exitcond1, label %.preheader15, label %.preheader17.preheader
+ST_2: stg_50 [1/1] 1.57ns
+:4  br i1 %exitcond10, label %.preheader19, label %2
 
-ST_2: tmp_s [1/1] 1.96ns
-.preheader17.preheader:0  %tmp_s = add i14 %phi_mul7, 980
+ST_2: tmp [1/1] 0.00ns
+:0  %tmp = zext i5 %i to i64
 
-ST_2: tmp_40_cast [1/1] 0.00ns
-.preheader17.preheader:1  %tmp_40_cast = zext i14 %tmp_s to i64
+ST_2: min_distance_addr [1/1] 0.00ns
+:1  %min_distance_addr = getelementptr inbounds [20 x i32]* %min_distance, i64 0, i64 %tmp
 
-ST_2: training_data2_addr [1/1] 0.00ns
-.preheader17.preheader:2  %training_data2_addr = getelementptr [13734 x float]* %training_data2, i64 0, i64 %tmp_40_cast
+ST_2: stg_53 [1/1] 2.39ns
+:2  store i32 49, i32* %min_distance_addr, align 4
 
-ST_2: stg_58 [1/1] 1.57ns
+ST_2: group_addr [1/1] 0.00ns
+:3  %group_addr = getelementptr inbounds [20 x i32]* %group, i64 0, i64 %tmp
+
+ST_2: stg_55 [1/1] 2.39ns
+:4  store i32 0, i32* %group_addr, align 4
+
+ST_2: stg_56 [1/1] 0.00ns
+:5  br label %1
+
+
+ <State 3>: 3.45ns
+ST_3: i1 [1/1] 0.00ns
+.preheader19:0  %i1 = phi i4 [ %i_2, %3 ], [ 0, %1 ]
+
+ST_3: exitcond9 [1/1] 1.88ns
+.preheader19:1  %exitcond9 = icmp eq i4 %i1, -2
+
+ST_3: empty_15 [1/1] 0.00ns
+.preheader19:2  %empty_15 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 14, i64 14, i64 14)
+
+ST_3: i_2 [1/1] 0.80ns
+.preheader19:3  %i_2 = add i4 %i1, 1
+
+ST_3: stg_61 [1/1] 1.57ns
+.preheader19:4  br i1 %exitcond9, label %.preheader18, label %3
+
+ST_3: tmp_s [1/1] 0.00ns
+:0  %tmp_s = zext i4 %i1 to i64
+
+ST_3: distance_addr [1/1] 0.00ns
+:1  %distance_addr = getelementptr inbounds [14 x i32]* %distance, i64 0, i64 %tmp_s
+
+ST_3: stg_64 [1/1] 2.39ns
+:2  store i32 0, i32* %distance_addr, align 4
+
+ST_3: stg_65 [1/1] 0.00ns
+:3  br label %.preheader19
+
+
+ <State 4>: 3.45ns
+ST_4: j [1/1] 0.00ns
+.preheader18:0  %j = phi i4 [ %j_2, %5 ], [ 0, %.preheader19 ]
+
+ST_4: phi_mul3 [1/1] 0.00ns
+.preheader18:1  %phi_mul3 = phi i9 [ %next_mul4, %5 ], [ 0, %.preheader19 ]
+
+ST_4: phi_mul5 [1/1] 0.00ns
+.preheader18:2  %phi_mul5 = phi i14 [ %next_mul6, %5 ], [ 0, %.preheader19 ]
+
+ST_4: phi_mul7 [1/1] 0.00ns
+.preheader18:3  %phi_mul7 = phi i14 [ %next_mul8, %5 ], [ 0, %.preheader19 ]
+
+ST_4: next_mul8 [1/1] 1.96ns
+.preheader18:4  %next_mul8 = add i14 %phi_mul7, 981
+
+ST_4: next_mul6 [1/1] 1.96ns
+.preheader18:5  %next_mul6 = add i14 %phi_mul5, 1000
+
+ST_4: next_mul4 [1/1] 1.84ns
+.preheader18:6  %next_mul4 = add i9 %phi_mul3, 19
+
+ST_4: exitcond8 [1/1] 1.88ns
+.preheader18:7  %exitcond8 = icmp eq i4 %j, -2
+
+ST_4: empty_16 [1/1] 0.00ns
+.preheader18:8  %empty_16 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 14, i64 14, i64 14)
+
+ST_4: j_2 [1/1] 0.80ns
+.preheader18:9  %j_2 = add i4 %j, 1
+
+ST_4: stg_76 [1/1] 1.57ns
+.preheader18:10  br i1 %exitcond8, label %.preheader15, label %.preheader17.preheader
+
+ST_4: tmp_14 [1/1] 1.96ns
+.preheader17.preheader:0  %tmp_14 = add i14 %phi_mul7, 980
+
+ST_4: tmp_38_cast [1/1] 0.00ns
+.preheader17.preheader:1  %tmp_38_cast = zext i14 %tmp_14 to i64
+
+ST_4: training_data2_addr [1/1] 0.00ns
+.preheader17.preheader:2  %training_data2_addr = getelementptr [13734 x float]* %training_data2, i64 0, i64 %tmp_38_cast
+
+ST_4: stg_80 [1/1] 1.57ns
 .preheader17.preheader:3  br label %.preheader17
 
 
- <State 3>: 6.41ns
-ST_3: i [1/1] 0.00ns
-.preheader17:0  %i = phi i5 [ 0, %.preheader17.preheader ], [ %i_2, %.preheader16 ]
+ <State 5>: 6.41ns
+ST_5: i2 [1/1] 0.00ns
+.preheader17:0  %i2 = phi i5 [ 0, %.preheader17.preheader ], [ %i_4, %.preheader16 ]
 
-ST_3: phi_mul1 [1/1] 0.00ns
+ST_5: phi_mul1 [1/1] 0.00ns
 .preheader17:1  %phi_mul1 = phi i10 [ 0, %.preheader17.preheader ], [ %next_mul2, %.preheader16 ]
 
-ST_3: next_mul2 [1/1] 1.84ns
+ST_5: next_mul2 [1/1] 1.84ns
 .preheader17:2  %next_mul2 = add i10 %phi_mul1, 50
 
-ST_3: i_cast_cast [1/1] 0.00ns
-.preheader17:3  %i_cast_cast = zext i5 %i to i10
+ST_5: i2_cast_cast [1/1] 0.00ns
+.preheader17:3  %i2_cast_cast = zext i5 %i2 to i10
 
-ST_3: exitcond9 [1/1] 1.91ns
-.preheader17:4  %exitcond9 = icmp eq i5 %i, -12
+ST_5: exitcond7 [1/1] 1.91ns
+.preheader17:4  %exitcond7 = icmp eq i5 %i2, -12
 
-ST_3: empty_52 [1/1] 0.00ns
-.preheader17:5  %empty_52 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 20, i64 20, i64 20)
+ST_5: empty_17 [1/1] 0.00ns
+.preheader17:5  %empty_17 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 20, i64 20, i64 20)
 
-ST_3: i_2 [1/1] 1.72ns
-.preheader17:6  %i_2 = add i5 %i, 1
+ST_5: i_4 [1/1] 1.72ns
+.preheader17:6  %i_4 = add i5 %i2, 1
 
-ST_3: stg_66 [1/1] 1.57ns
-.preheader17:7  br i1 %exitcond9, label %3, label %.preheader16
+ST_5: stg_88 [1/1] 1.57ns
+.preheader17:7  br i1 %exitcond7, label %5, label %.preheader16
 
-ST_3: tmp [1/1] 0.00ns
-:0  %tmp = call i2 @_ssdm_op_PartSelect.i2.i9.i32.i32(i9 %phi_mul3, i32 7, i32 8)
+ST_5: tmp_1 [1/1] 0.00ns
+:0  %tmp_1 = call i2 @_ssdm_op_PartSelect.i2.i9.i32.i32(i9 %phi_mul3, i32 7, i32 8)
 
-ST_3: tmp_18 [1/1] 0.00ns
-:1  %tmp_18 = zext i2 %tmp to i32
+ST_5: tmp_16 [1/1] 0.00ns
+:1  %tmp_16 = zext i2 %tmp_1 to i32
 
-ST_3: tmp_19 [6/6] 6.41ns
-:2  %tmp_19 = sitofp i32 %tmp_18 to float
+ST_5: tmp_17 [6/6] 6.41ns
+:2  %tmp_17 = sitofp i32 %tmp_16 to float
 
 
- <State 4>: 6.19ns
-ST_4: k [1/1] 0.00ns
-.preheader16:0  %k = phi i6 [ %k_2, %2 ], [ 0, %.preheader17 ]
+ <State 6>: 6.19ns
+ST_6: k [1/1] 0.00ns
+.preheader16:0  %k = phi i6 [ %k_2, %4 ], [ 0, %.preheader17 ]
 
-ST_4: phi_mul [1/1] 0.00ns
-.preheader16:1  %phi_mul = phi i10 [ %next_mul, %2 ], [ 0, %.preheader17 ]
+ST_6: phi_mul [1/1] 0.00ns
+.preheader16:1  %phi_mul = phi i10 [ %next_mul, %4 ], [ 0, %.preheader17 ]
 
-ST_4: k_cast1 [1/1] 0.00ns
+ST_6: k_cast1 [1/1] 0.00ns
 .preheader16:2  %k_cast1 = zext i6 %k to i10
 
-ST_4: exitcond8 [1/1] 1.94ns
-.preheader16:3  %exitcond8 = icmp eq i6 %k, -15
+ST_6: exitcond6 [1/1] 1.94ns
+.preheader16:3  %exitcond6 = icmp eq i6 %k, -15
 
-ST_4: empty_53 [1/1] 0.00ns
-.preheader16:4  %empty_53 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 49, i64 49, i64 49)
+ST_6: empty_18 [1/1] 0.00ns
+.preheader16:4  %empty_18 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 49, i64 49, i64 49)
 
-ST_4: k_2 [1/1] 1.72ns
+ST_6: k_2 [1/1] 1.72ns
 .preheader16:5  %k_2 = add i6 %k, 1
 
-ST_4: stg_76 [1/1] 0.00ns
-.preheader16:6  br i1 %exitcond8, label %.preheader17, label %2
+ST_6: stg_98 [1/1] 0.00ns
+.preheader16:6  br i1 %exitcond6, label %.preheader17, label %4
 
-ST_4: tmp1 [1/1] 1.84ns
+ST_6: tmp1 [1/1] 1.84ns
 :0  %tmp1 = add i10 %k_cast1, %phi_mul1
 
-ST_4: tmp1_cast [1/1] 0.00ns
+ST_6: tmp1_cast [1/1] 0.00ns
 :1  %tmp1_cast = zext i10 %tmp1 to i14
 
-ST_4: tmp_23 [1/1] 1.96ns
-:2  %tmp_23 = add i14 %phi_mul5, %tmp1_cast
+ST_6: tmp_20 [1/1] 1.96ns
+:2  %tmp_20 = add i14 %phi_mul5, %tmp1_cast
 
-ST_4: tmp_24 [1/1] 0.00ns
-:3  %tmp_24 = zext i14 %tmp_23 to i64
+ST_6: tmp_21 [1/1] 0.00ns
+:3  %tmp_21 = zext i14 %tmp_20 to i64
 
-ST_4: training_data_V_addr [1/1] 0.00ns
-:4  %training_data_V_addr = getelementptr [14000 x i6]* @training_data_V, i64 0, i64 %tmp_24
+ST_6: training_data_V_addr [1/1] 0.00ns
+:4  %training_data_V_addr = getelementptr [14000 x i6]* @training_data_V, i64 0, i64 %tmp_21
 
-ST_4: training_data_V_load [2/2] 2.39ns
+ST_6: training_data_V_load [2/2] 2.39ns
 :5  %training_data_V_load = load i6* %training_data_V_addr, align 1
 
-ST_4: next_mul [1/1] 1.84ns
-:8  %next_mul = add i10 %i_cast_cast, %phi_mul
+ST_6: next_mul [1/1] 1.84ns
+:8  %next_mul = add i10 %i2_cast_cast, %phi_mul
 
-ST_4: tmp_27_cast [1/1] 0.00ns
-:9  %tmp_27_cast = zext i10 %phi_mul to i14
+ST_6: tmp_25_cast [1/1] 0.00ns
+:9  %tmp_25_cast = zext i10 %phi_mul to i14
 
-ST_4: tmp_30 [1/1] 1.96ns
-:10  %tmp_30 = add i14 %phi_mul7, %tmp_27_cast
+ST_6: tmp_24 [1/1] 1.96ns
+:10  %tmp_24 = add i14 %phi_mul7, %tmp_25_cast
 
 
- <State 5>: 2.39ns
-ST_5: training_data_V_load [1/2] 2.39ns
+ <State 7>: 2.39ns
+ST_7: training_data_V_load [1/2] 2.39ns
 :5  %training_data_V_load = load i6* %training_data_V_addr, align 1
-
-
- <State 6>: 6.41ns
-ST_6: tmp_27 [1/1] 0.00ns
-:6  %tmp_27 = zext i6 %training_data_V_load to i32
-
-ST_6: tmp_25 [6/6] 6.41ns
-:7  %tmp_25 = uitofp i32 %tmp_27 to float
-
-
- <State 7>: 6.41ns
-ST_7: tmp_25 [5/6] 6.41ns
-:7  %tmp_25 = uitofp i32 %tmp_27 to float
 
 
  <State 8>: 6.41ns
-ST_8: tmp_25 [4/6] 6.41ns
-:7  %tmp_25 = uitofp i32 %tmp_27 to float
+ST_8: tmp_22 [1/1] 0.00ns
+:6  %tmp_22 = zext i6 %training_data_V_load to i32
+
+ST_8: tmp_23 [6/6] 6.41ns
+:7  %tmp_23 = uitofp i32 %tmp_22 to float
 
 
  <State 9>: 6.41ns
-ST_9: tmp_25 [3/6] 6.41ns
-:7  %tmp_25 = uitofp i32 %tmp_27 to float
+ST_9: tmp_23 [5/6] 6.41ns
+:7  %tmp_23 = uitofp i32 %tmp_22 to float
 
 
  <State 10>: 6.41ns
-ST_10: tmp_25 [2/6] 6.41ns
-:7  %tmp_25 = uitofp i32 %tmp_27 to float
+ST_10: tmp_23 [4/6] 6.41ns
+:7  %tmp_23 = uitofp i32 %tmp_22 to float
 
 
  <State 11>: 6.41ns
-ST_11: tmp_25 [1/6] 6.41ns
-:7  %tmp_25 = uitofp i32 %tmp_27 to float
+ST_11: tmp_23 [3/6] 6.41ns
+:7  %tmp_23 = uitofp i32 %tmp_22 to float
 
 
- <State 12>: 2.71ns
-ST_12: tmp_45_cast [1/1] 0.00ns
-:11  %tmp_45_cast = zext i14 %tmp_30 to i64
-
-ST_12: training_data2_addr_1 [1/1] 0.00ns
-:12  %training_data2_addr_1 = getelementptr [13734 x float]* %training_data2, i64 0, i64 %tmp_45_cast
-
-ST_12: stg_96 [1/1] 2.71ns
-:13  store float %tmp_25, float* %training_data2_addr_1, align 4
-
-ST_12: stg_97 [1/1] 0.00ns
-:14  br label %.preheader16
+ <State 12>: 6.41ns
+ST_12: tmp_23 [2/6] 6.41ns
+:7  %tmp_23 = uitofp i32 %tmp_22 to float
 
 
  <State 13>: 6.41ns
-ST_13: tmp_19 [5/6] 6.41ns
-:2  %tmp_19 = sitofp i32 %tmp_18 to float
+ST_13: tmp_23 [1/6] 6.41ns
+:7  %tmp_23 = uitofp i32 %tmp_22 to float
 
 
- <State 14>: 6.41ns
-ST_14: tmp_19 [4/6] 6.41ns
-:2  %tmp_19 = sitofp i32 %tmp_18 to float
+ <State 14>: 2.71ns
+ST_14: tmp_43_cast [1/1] 0.00ns
+:11  %tmp_43_cast = zext i14 %tmp_24 to i64
+
+ST_14: training_data2_addr_1 [1/1] 0.00ns
+:12  %training_data2_addr_1 = getelementptr [13734 x float]* %training_data2, i64 0, i64 %tmp_43_cast
+
+ST_14: stg_118 [1/1] 2.71ns
+:13  store float %tmp_23, float* %training_data2_addr_1, align 4
+
+ST_14: stg_119 [1/1] 0.00ns
+:14  br label %.preheader16
 
 
  <State 15>: 6.41ns
-ST_15: tmp_19 [3/6] 6.41ns
-:2  %tmp_19 = sitofp i32 %tmp_18 to float
+ST_15: tmp_17 [5/6] 6.41ns
+:2  %tmp_17 = sitofp i32 %tmp_16 to float
 
 
  <State 16>: 6.41ns
-ST_16: tmp_19 [2/6] 6.41ns
-:2  %tmp_19 = sitofp i32 %tmp_18 to float
+ST_16: tmp_17 [4/6] 6.41ns
+:2  %tmp_17 = sitofp i32 %tmp_16 to float
 
 
  <State 17>: 6.41ns
-ST_17: tmp_19 [1/6] 6.41ns
-:2  %tmp_19 = sitofp i32 %tmp_18 to float
+ST_17: tmp_17 [3/6] 6.41ns
+:2  %tmp_17 = sitofp i32 %tmp_16 to float
 
 
- <State 18>: 2.71ns
-ST_18: stg_103 [1/1] 2.71ns
-:3  store float %tmp_19, float* %training_data2_addr, align 4
-
-ST_18: stg_104 [1/1] 0.00ns
-:4  br label %1
+ <State 18>: 6.41ns
+ST_18: tmp_17 [2/6] 6.41ns
+:2  %tmp_17 = sitofp i32 %tmp_16 to float
 
 
- <State 19>: 3.48ns
-ST_19: i1 [1/1] 0.00ns
-.preheader15:0  %i1 = phi i5 [ 0, %1 ], [ %i_1, %.preheader14 ]
+ <State 19>: 6.41ns
+ST_19: tmp_17 [1/6] 6.41ns
+:2  %tmp_17 = sitofp i32 %tmp_16 to float
 
-ST_19: phi_mul2 [1/1] 0.00ns
-.preheader15:1  %phi_mul2 = phi i14 [ 0, %1 ], [ %next_mul1, %.preheader14 ]
 
-ST_19: next_mul1 [1/1] 1.96ns
+ <State 20>: 2.71ns
+ST_20: stg_125 [1/1] 2.71ns
+:3  store float %tmp_17, float* %training_data2_addr, align 4
+
+ST_20: stg_126 [1/1] 0.00ns
+:4  br label %.preheader18
+
+
+ <State 21>: 3.48ns
+ST_21: i3 [1/1] 0.00ns
+.preheader15:0  %i3 = phi i5 [ 0, %.preheader18 ], [ %i_3, %.preheader14 ]
+
+ST_21: phi_mul2 [1/1] 0.00ns
+.preheader15:1  %phi_mul2 = phi i14 [ 0, %.preheader18 ], [ %next_mul1, %.preheader14 ]
+
+ST_21: next_mul1 [1/1] 1.96ns
 .preheader15:2  %next_mul1 = add i14 %phi_mul2, 686
 
-ST_19: i1_cast_cast [1/1] 0.00ns
-.preheader15:3  %i1_cast_cast = zext i5 %i1 to i10
+ST_21: i3_cast_cast [1/1] 0.00ns
+.preheader15:3  %i3_cast_cast = zext i5 %i3 to i10
 
-ST_19: exitcond7 [1/1] 1.91ns
-.preheader15:4  %exitcond7 = icmp eq i5 %i1, -12
+ST_21: exitcond5 [1/1] 1.91ns
+.preheader15:4  %exitcond5 = icmp eq i5 %i3, -12
 
-ST_19: empty_54 [1/1] 0.00ns
-.preheader15:5  %empty_54 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 20, i64 20, i64 20)
+ST_21: empty_19 [1/1] 0.00ns
+.preheader15:5  %empty_19 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 20, i64 20, i64 20)
 
-ST_19: i_1 [1/1] 1.72ns
-.preheader15:6  %i_1 = add i5 %i1, 1
+ST_21: i_3 [1/1] 1.72ns
+.preheader15:6  %i_3 = add i5 %i3, 1
 
-ST_19: stg_112 [1/1] 1.57ns
-.preheader15:7  br i1 %exitcond7, label %.preheader12, label %.preheader14
+ST_21: stg_134 [1/1] 1.57ns
+.preheader15:7  br i1 %exitcond5, label %.preheader12, label %.preheader14
 
 
- <State 20>: 3.45ns
-ST_20: j2 [1/1] 0.00ns
-.preheader14:0  %j2 = phi i4 [ 0, %.preheader15 ], [ %j_3, %.preheader13 ]
+ <State 22>: 3.45ns
+ST_22: j4 [1/1] 0.00ns
+.preheader14:0  %j4 = phi i4 [ 0, %.preheader15 ], [ %j_3, %.preheader13 ]
 
-ST_20: phi_mul8 [1/1] 0.00ns
+ST_22: phi_mul8 [1/1] 0.00ns
 .preheader14:1  %phi_mul8 = phi i14 [ 0, %.preheader15 ], [ %next_mul7, %.preheader13 ]
 
-ST_20: next_mul7 [1/1] 1.96ns
+ST_22: next_mul7 [1/1] 1.96ns
 .preheader14:2  %next_mul7 = add i14 %phi_mul8, 981
 
-ST_20: j2_cast [1/1] 0.00ns
-.preheader14:3  %j2_cast = zext i4 %j2 to i10
+ST_22: j4_cast [1/1] 0.00ns
+.preheader14:3  %j4_cast = zext i4 %j4 to i10
 
-ST_20: exitcond6 [1/1] 1.88ns
-.preheader14:4  %exitcond6 = icmp eq i4 %j2, -2
+ST_22: exitcond4 [1/1] 1.88ns
+.preheader14:4  %exitcond4 = icmp eq i4 %j4, -2
 
-ST_20: empty_55 [1/1] 0.00ns
-.preheader14:5  %empty_55 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 14, i64 14, i64 14)
+ST_22: empty_20 [1/1] 0.00ns
+.preheader14:5  %empty_20 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 14, i64 14, i64 14)
 
-ST_20: j_3 [1/1] 0.80ns
-.preheader14:6  %j_3 = add i4 %j2, 1
+ST_22: j_3 [1/1] 0.80ns
+.preheader14:6  %j_3 = add i4 %j4, 1
 
-ST_20: stg_120 [1/1] 1.57ns
-.preheader14:7  br i1 %exitcond6, label %.preheader15, label %.preheader13
+ST_22: stg_142 [1/1] 1.57ns
+.preheader14:7  br i1 %exitcond4, label %.preheader15, label %.preheader13
 
 
- <State 21>: 4.67ns
-ST_21: k3 [1/1] 0.00ns
-.preheader13:0  %k3 = phi i6 [ %k_3, %4 ], [ 0, %.preheader14 ]
+ <State 23>: 4.67ns
+ST_23: k5 [1/1] 0.00ns
+.preheader13:0  %k5 = phi i6 [ %k_3, %6 ], [ 0, %.preheader14 ]
 
-ST_21: phi_mul9 [1/1] 0.00ns
-.preheader13:1  %phi_mul9 = phi i10 [ %next_mul10, %4 ], [ 0, %.preheader14 ]
+ST_23: phi_mul9 [1/1] 0.00ns
+.preheader13:1  %phi_mul9 = phi i10 [ %next_mul10, %6 ], [ 0, %.preheader14 ]
 
-ST_21: phi_mul10 [1/1] 0.00ns
-.preheader13:2  %phi_mul10 = phi i10 [ %next_mul11, %4 ], [ 0, %.preheader14 ]
+ST_23: phi_mul10 [1/1] 0.00ns
+.preheader13:2  %phi_mul10 = phi i10 [ %next_mul11, %6 ], [ 0, %.preheader14 ]
 
-ST_21: exitcond5 [1/1] 1.94ns
-.preheader13:3  %exitcond5 = icmp eq i6 %k3, -15
+ST_23: exitcond3 [1/1] 1.94ns
+.preheader13:3  %exitcond3 = icmp eq i6 %k5, -15
 
-ST_21: empty_56 [1/1] 0.00ns
-.preheader13:4  %empty_56 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 49, i64 49, i64 49)
+ST_23: empty_21 [1/1] 0.00ns
+.preheader13:4  %empty_21 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 49, i64 49, i64 49)
 
-ST_21: k_3 [1/1] 1.72ns
-.preheader13:5  %k_3 = add i6 %k3, 1
+ST_23: k_3 [1/1] 1.72ns
+.preheader13:5  %k_3 = add i6 %k5, 1
 
-ST_21: stg_127 [1/1] 0.00ns
-.preheader13:6  br i1 %exitcond5, label %.preheader14, label %4
+ST_23: stg_149 [1/1] 0.00ns
+.preheader13:6  br i1 %exitcond3, label %.preheader14, label %6
 
-ST_21: next_mul10 [1/1] 1.84ns
-:0  %next_mul10 = add i10 %i1_cast_cast, %phi_mul9
+ST_23: next_mul10 [1/1] 1.84ns
+:0  %next_mul10 = add i10 %i3_cast_cast, %phi_mul9
 
-ST_21: tmp_31_cast [1/1] 0.00ns
-:1  %tmp_31_cast = zext i10 %phi_mul9 to i14
+ST_23: tmp_29_cast [1/1] 0.00ns
+:1  %tmp_29_cast = zext i10 %phi_mul9 to i14
 
-ST_21: tmp_22 [1/1] 1.96ns
-:2  %tmp_22 = add i14 %phi_mul8, %tmp_31_cast
+ST_23: tmp_18 [1/1] 1.96ns
+:2  %tmp_18 = add i14 %phi_mul8, %tmp_29_cast
 
-ST_21: tmp_48_cast [1/1] 0.00ns
-:3  %tmp_48_cast = zext i14 %tmp_22 to i64
+ST_23: tmp_46_cast [1/1] 0.00ns
+:3  %tmp_46_cast = zext i14 %tmp_18 to i64
 
-ST_21: training_data2_addr_2 [1/1] 0.00ns
-:4  %training_data2_addr_2 = getelementptr [13734 x float]* %training_data2, i64 0, i64 %tmp_48_cast
+ST_23: training_data2_addr_2 [1/1] 0.00ns
+:4  %training_data2_addr_2 = getelementptr [13734 x float]* %training_data2, i64 0, i64 %tmp_46_cast
 
-ST_21: training_data2_load [2/2] 2.71ns
+ST_23: training_data2_load [2/2] 2.71ns
 :5  %training_data2_load = load float* %training_data2_addr_2, align 4
 
-ST_21: next_mul11 [1/1] 1.84ns
-:6  %next_mul11 = add i10 %j2_cast, %phi_mul10
+ST_23: next_mul11 [1/1] 1.84ns
+:6  %next_mul11 = add i10 %j4_cast, %phi_mul10
 
-ST_21: tmp_33_cast [1/1] 0.00ns
-:7  %tmp_33_cast = zext i10 %phi_mul10 to i14
+ST_23: tmp_31_cast [1/1] 0.00ns
+:7  %tmp_31_cast = zext i10 %phi_mul10 to i14
 
-ST_21: tmp_26 [1/1] 1.96ns
-:8  %tmp_26 = add i14 %phi_mul2, %tmp_33_cast
+ST_23: tmp_19 [1/1] 1.96ns
+:8  %tmp_19 = add i14 %phi_mul2, %tmp_31_cast
 
 
- <State 22>: 5.42ns
-ST_22: training_data2_load [1/2] 2.71ns
+ <State 24>: 5.42ns
+ST_24: training_data2_load [1/2] 2.71ns
 :5  %training_data2_load = load float* %training_data2_addr_2, align 4
 
-ST_22: tmp_49_cast [1/1] 0.00ns
-:9  %tmp_49_cast = zext i14 %tmp_26 to i64
+ST_24: tmp_47_cast [1/1] 0.00ns
+:9  %tmp_47_cast = zext i14 %tmp_19 to i64
 
-ST_22: training_instance_addr [1/1] 0.00ns
-:10  %training_instance_addr = getelementptr [13720 x float]* %training_instance, i64 0, i64 %tmp_49_cast
+ST_24: training_instance_addr [1/1] 0.00ns
+:10  %training_instance_addr = getelementptr [13720 x float]* %training_instance, i64 0, i64 %tmp_47_cast
 
-ST_22: stg_140 [1/1] 2.71ns
+ST_24: stg_162 [1/1] 2.71ns
 :11  store float %training_data2_load, float* %training_instance_addr, align 4
 
-ST_22: stg_141 [1/1] 0.00ns
+ST_24: stg_163 [1/1] 0.00ns
 :12  br label %.preheader13
 
 
- <State 23>: 3.89ns
-ST_23: group_zero_s [1/1] 0.00ns
-.preheader12:0  %group_zero_s = phi i32 [ %group_zero_1, %8 ], [ undef, %.preheader15 ]
+ <State 25>: 3.89ns
+ST_25: group_zero [1/1] 0.00ns
+.preheader12:0  %group_zero = phi i32 [ %group_zero_1, %10 ], [ 0, %.preheader15 ]
 
-ST_23: group_one_s [1/1] 0.00ns
-.preheader12:1  %group_one_s = phi i32 [ %group_one_1, %8 ], [ undef, %.preheader15 ]
+ST_25: group_one [1/1] 0.00ns
+.preheader12:1  %group_one = phi i32 [ %group_one_1, %10 ], [ 0, %.preheader15 ]
 
-ST_23: i4 [1/1] 0.00ns
-.preheader12:2  %i4 = phi i5 [ %i_3, %8 ], [ 0, %.preheader15 ]
+ST_25: i6 [1/1] 0.00ns
+.preheader12:2  %i6 = phi i5 [ %i_5, %10 ], [ 0, %.preheader15 ]
 
-ST_23: phi_mul4 [1/1] 0.00ns
-.preheader12:3  %phi_mul4 = phi i10 [ %next_mul5, %8 ], [ 0, %.preheader15 ]
+ST_25: phi_mul4 [1/1] 0.00ns
+.preheader12:3  %phi_mul4 = phi i10 [ %next_mul5, %10 ], [ 0, %.preheader15 ]
 
-ST_23: phi_mul6 [1/1] 0.00ns
-.preheader12:4  %phi_mul6 = phi i14 [ %next_mul3, %8 ], [ 0, %.preheader15 ]
+ST_25: phi_mul6 [1/1] 0.00ns
+.preheader12:4  %phi_mul6 = phi i14 [ %next_mul3, %10 ], [ 0, %.preheader15 ]
 
-ST_23: next_mul3 [1/1] 1.96ns
+ST_25: next_mul3 [1/1] 1.96ns
 .preheader12:5  %next_mul3 = add i14 %phi_mul6, 686
 
-ST_23: next_mul5 [1/1] 1.84ns
+ST_25: next_mul5 [1/1] 1.84ns
 .preheader12:6  %next_mul5 = add i10 %phi_mul4, 49
 
-ST_23: exitcond4 [1/1] 1.91ns
-.preheader12:7  %exitcond4 = icmp eq i5 %i4, -12
+ST_25: exitcond2 [1/1] 1.91ns
+.preheader12:7  %exitcond2 = icmp eq i5 %i6, -12
 
-ST_23: empty_57 [1/1] 0.00ns
-.preheader12:8  %empty_57 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 20, i64 20, i64 20)
+ST_25: empty_22 [1/1] 0.00ns
+.preheader12:8  %empty_22 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 20, i64 20, i64 20)
 
-ST_23: i_3 [1/1] 1.72ns
-.preheader12:9  %i_3 = add i5 %i4, 1
+ST_25: i_5 [1/1] 1.72ns
+.preheader12:9  %i_5 = add i5 %i6, 1
 
-ST_23: stg_152 [1/1] 0.00ns
-.preheader12:10  br i1 %exitcond4, label %9, label %.preheader11.preheader
+ST_25: stg_174 [1/1] 0.00ns
+.preheader12:10  br i1 %exitcond2, label %11, label %.preheader11.preheader
 
-ST_23: tmp_21 [1/1] 0.00ns
-.preheader11.preheader:0  %tmp_21 = zext i5 %i4 to i64
+ST_25: tmp_15 [1/1] 0.00ns
+.preheader11.preheader:0  %tmp_15 = zext i5 %i6 to i64
 
-ST_23: min_distance_addr [1/1] 0.00ns
-.preheader11.preheader:1  %min_distance_addr = getelementptr inbounds [20 x i32]* %min_distance, i64 0, i64 %tmp_21
+ST_25: min_distance_addr_1 [1/1] 0.00ns
+.preheader11.preheader:1  %min_distance_addr_1 = getelementptr inbounds [20 x i32]* %min_distance, i64 0, i64 %tmp_15
 
-ST_23: group_addr [1/1] 0.00ns
-.preheader11.preheader:2  %group_addr = getelementptr inbounds [20 x i32]* %group, i64 0, i64 %tmp_21
+ST_25: group_addr_1 [1/1] 0.00ns
+.preheader11.preheader:2  %group_addr_1 = getelementptr inbounds [20 x i32]* %group, i64 0, i64 %tmp_15
 
-ST_23: stg_156 [1/1] 1.57ns
+ST_25: stg_178 [1/1] 1.57ns
 .preheader11.preheader:3  br label %.preheader11
 
-ST_23: slt [1/1] 2.52ns
-:0  %slt = icmp slt i32 %group_one_s, %group_zero_s
+ST_25: slt [1/1] 2.52ns
+:0  %slt = icmp slt i32 %group_one, %group_zero
 
-ST_23: rev [1/1] 1.37ns
+ST_25: rev [1/1] 1.37ns
 :1  %rev = xor i1 %slt, true
 
-ST_23: stg_159 [1/1] 0.00ns
+ST_25: stg_181 [1/1] 0.00ns
 :2  ret i1 %rev
 
 
- <State 24>: 2.39ns
-ST_24: j5 [1/1] 0.00ns
-.preheader11:0  %j5 = phi i4 [ %j_4, %._crit_edge18 ], [ 0, %.preheader11.preheader ]
+ <State 26>: 2.39ns
+ST_26: j7 [1/1] 0.00ns
+.preheader11:0  %j7 = phi i4 [ %j_4, %._crit_edge20 ], [ 0, %.preheader11.preheader ]
 
-ST_24: phi_mul11 [1/1] 0.00ns
-.preheader11:1  %phi_mul11 = phi i14 [ %next_mul9, %._crit_edge18 ], [ 0, %.preheader11.preheader ]
+ST_26: phi_mul11 [1/1] 0.00ns
+.preheader11:1  %phi_mul11 = phi i14 [ %next_mul9, %._crit_edge20 ], [ 0, %.preheader11.preheader ]
 
-ST_24: next_mul9 [1/1] 1.96ns
+ST_26: next_mul9 [1/1] 1.96ns
 .preheader11:2  %next_mul9 = add i14 %phi_mul11, 981
 
-ST_24: j5_cast6 [1/1] 0.00ns
-.preheader11:3  %j5_cast6 = zext i4 %j5 to i10
+ST_26: j7_cast6 [1/1] 0.00ns
+.preheader11:3  %j7_cast6 = zext i4 %j7 to i10
 
-ST_24: exitcond3 [1/1] 1.88ns
-.preheader11:4  %exitcond3 = icmp eq i4 %j5, -2
+ST_26: exitcond1 [1/1] 1.88ns
+.preheader11:4  %exitcond1 = icmp eq i4 %j7, -2
 
-ST_24: empty_58 [1/1] 0.00ns
-.preheader11:5  %empty_58 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 14, i64 14, i64 14)
+ST_26: empty_23 [1/1] 0.00ns
+.preheader11:5  %empty_23 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 14, i64 14, i64 14)
 
-ST_24: j_4 [1/1] 0.80ns
-.preheader11:6  %j_4 = add i4 %j5, 1
+ST_26: j_4 [1/1] 0.80ns
+.preheader11:6  %j_4 = add i4 %j7, 1
 
-ST_24: stg_167 [1/1] 0.00ns
-.preheader11:7  br i1 %exitcond3, label %8, label %.preheader.preheader
+ST_26: stg_189 [1/1] 0.00ns
+.preheader11:7  br i1 %exitcond1, label %10, label %.preheader.preheader
 
-ST_24: tmp_29 [1/1] 0.00ns
-.preheader.preheader:0  %tmp_29 = zext i4 %j5 to i64
+ST_26: tmp_26 [1/1] 0.00ns
+.preheader.preheader:0  %tmp_26 = zext i4 %j7 to i64
 
-ST_24: tmp_31 [1/1] 1.96ns
-.preheader.preheader:1  %tmp_31 = add i14 %phi_mul11, 980
+ST_26: tmp_27 [1/1] 1.96ns
+.preheader.preheader:1  %tmp_27 = add i14 %phi_mul11, 980
 
-ST_24: tmp_47_cast [1/1] 0.00ns
-.preheader.preheader:2  %tmp_47_cast = zext i14 %tmp_31 to i64
+ST_26: tmp_45_cast [1/1] 0.00ns
+.preheader.preheader:2  %tmp_45_cast = zext i14 %tmp_27 to i64
 
-ST_24: training_data2_addr_3 [1/1] 0.00ns
-.preheader.preheader:3  %training_data2_addr_3 = getelementptr [13734 x float]* %training_data2, i64 0, i64 %tmp_47_cast
+ST_26: training_data2_addr_3 [1/1] 0.00ns
+.preheader.preheader:3  %training_data2_addr_3 = getelementptr [13734 x float]* %training_data2, i64 0, i64 %tmp_45_cast
 
-ST_24: distance_addr [1/1] 0.00ns
-.preheader.preheader:4  %distance_addr = getelementptr inbounds [14 x i32]* %distance, i64 0, i64 %tmp_29
+ST_26: distance_addr_1 [1/1] 0.00ns
+.preheader.preheader:4  %distance_addr_1 = getelementptr inbounds [14 x i32]* %distance, i64 0, i64 %tmp_26
 
-ST_24: stg_173 [1/1] 1.57ns
+ST_26: stg_195 [1/1] 1.57ns
 .preheader.preheader:5  br label %.preheader
 
-ST_24: group_load [2/2] 2.39ns
-:0  %group_load = load i32* %group_addr, align 4
+ST_26: group_load [2/2] 2.39ns
+:0  %group_load = load i32* %group_addr_1, align 4
 
 
- <State 25>: 4.67ns
-ST_25: k6 [1/1] 0.00ns
-.preheader:0  %k6 = phi i6 [ %k_4, %._crit_edge ], [ 0, %.preheader.preheader ]
+ <State 27>: 4.67ns
+ST_27: k8 [1/1] 0.00ns
+.preheader:0  %k8 = phi i6 [ %k_4, %._crit_edge ], [ 0, %.preheader.preheader ]
 
-ST_25: phi_mul12 [1/1] 0.00ns
+ST_27: phi_mul12 [1/1] 0.00ns
 .preheader:1  %phi_mul12 = phi i10 [ %next_mul12, %._crit_edge ], [ 0, %.preheader.preheader ]
 
-ST_25: exitcond [1/1] 1.94ns
-.preheader:2  %exitcond = icmp eq i6 %k6, -15
+ST_27: exitcond [1/1] 1.94ns
+.preheader:2  %exitcond = icmp eq i6 %k8, -15
 
-ST_25: empty_59 [1/1] 0.00ns
-.preheader:3  %empty_59 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 49, i64 49, i64 49)
+ST_27: empty_24 [1/1] 0.00ns
+.preheader:3  %empty_24 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 49, i64 49, i64 49)
 
-ST_25: k_4 [1/1] 1.72ns
-.preheader:4  %k_4 = add i6 %k6, 1
+ST_27: k_4 [1/1] 1.72ns
+.preheader:4  %k_4 = add i6 %k8, 1
 
-ST_25: stg_180 [1/1] 0.00ns
-.preheader:5  br i1 %exitcond, label %7, label %5
+ST_27: stg_202 [1/1] 0.00ns
+.preheader:5  br i1 %exitcond, label %9, label %7
 
-ST_25: tmp_35_cast [1/1] 0.00ns
-:0  %tmp_35_cast = zext i6 %k6 to i10
+ST_27: tmp_33_cast [1/1] 0.00ns
+:0  %tmp_33_cast = zext i6 %k8 to i10
 
-ST_25: tmp_33 [1/1] 1.84ns
-:1  %tmp_33 = add i10 %tmp_35_cast, %phi_mul4
+ST_27: tmp_29 [1/1] 1.84ns
+:1  %tmp_29 = add i10 %tmp_33_cast, %phi_mul4
 
-ST_25: tmp_50_cast [1/1] 0.00ns
-:2  %tmp_50_cast = zext i10 %tmp_33 to i64
+ST_27: tmp_48_cast [1/1] 0.00ns
+:2  %tmp_48_cast = zext i10 %tmp_29 to i64
 
-ST_25: input_addr [1/1] 0.00ns
-:3  %input_addr = getelementptr [980 x float]* %input_r, i64 0, i64 %tmp_50_cast
+ST_27: input_addr [1/1] 0.00ns
+:3  %input_addr = getelementptr [980 x float]* %input_r, i64 0, i64 %tmp_48_cast
 
-ST_25: input_load [2/2] 2.71ns
+ST_27: input_load [2/2] 2.71ns
 :4  %input_load = load float* %input_addr, align 4
 
-ST_25: next_mul12 [1/1] 1.84ns
-:5  %next_mul12 = add i10 %phi_mul12, %j5_cast6
+ST_27: next_mul12 [1/1] 1.84ns
+:5  %next_mul12 = add i10 %phi_mul12, %j7_cast6
 
-ST_25: tmp_37_cast [1/1] 0.00ns
-:6  %tmp_37_cast = zext i10 %phi_mul12 to i14
+ST_27: tmp_35_cast [1/1] 0.00ns
+:6  %tmp_35_cast = zext i10 %phi_mul12 to i14
 
-ST_25: tmp_34 [1/1] 1.96ns
-:7  %tmp_34 = add i14 %tmp_37_cast, %phi_mul6
+ST_27: tmp_30 [1/1] 1.96ns
+:7  %tmp_30 = add i14 %tmp_35_cast, %phi_mul6
 
-ST_25: tmp_51_cast [1/1] 0.00ns
-:8  %tmp_51_cast = zext i14 %tmp_34 to i64
+ST_27: tmp_49_cast [1/1] 0.00ns
+:8  %tmp_49_cast = zext i14 %tmp_30 to i64
 
-ST_25: training_instance_addr_1 [1/1] 0.00ns
-:9  %training_instance_addr_1 = getelementptr [13720 x float]* %training_instance, i64 0, i64 %tmp_51_cast
+ST_27: training_instance_addr_1 [1/1] 0.00ns
+:9  %training_instance_addr_1 = getelementptr [13720 x float]* %training_instance, i64 0, i64 %tmp_49_cast
 
-ST_25: training_instance_load [2/2] 2.71ns
+ST_27: training_instance_load [2/2] 2.71ns
 :10  %training_instance_load = load float* %training_instance_addr_1, align 4
 
-ST_25: distance_load [2/2] 2.39ns
-:0  %distance_load = load i32* %distance_addr, align 4
+ST_27: distance_load [2/2] 2.39ns
+:0  %distance_load = load i32* %distance_addr_1, align 4
 
-ST_25: min_distance_load [2/2] 2.39ns
-:1  %min_distance_load = load i32* %min_distance_addr, align 4
+ST_27: min_distance_load [2/2] 2.39ns
+:1  %min_distance_load = load i32* %min_distance_addr_1, align 4
 
 
- <State 26>: 2.71ns
-ST_26: input_load [1/2] 2.71ns
+ <State 28>: 2.71ns
+ST_28: input_load [1/2] 2.71ns
 :4  %input_load = load float* %input_addr, align 4
 
-ST_26: training_instance_load [1/2] 2.71ns
+ST_28: training_instance_load [1/2] 2.71ns
 :10  %training_instance_load = load float* %training_instance_addr_1, align 4
-
-
- <State 27>: 7.26ns
-ST_27: p_x_assign [5/5] 7.26ns
-:11  %p_x_assign = fsub float %input_load, %training_instance_load
-
-
- <State 28>: 7.26ns
-ST_28: p_x_assign [4/5] 7.26ns
-:11  %p_x_assign = fsub float %input_load, %training_instance_load
 
 
  <State 29>: 7.26ns
-ST_29: p_x_assign [3/5] 7.26ns
-:11  %p_x_assign = fsub float %input_load, %training_instance_load
+ST_29: x_assign [5/5] 7.26ns
+:11  %x_assign = fsub float %input_load, %training_instance_load
 
 
  <State 30>: 7.26ns
-ST_30: p_x_assign [2/5] 7.26ns
-:11  %p_x_assign = fsub float %input_load, %training_instance_load
+ST_30: x_assign [4/5] 7.26ns
+:11  %x_assign = fsub float %input_load, %training_instance_load
 
 
  <State 31>: 7.26ns
-ST_31: p_x_assign [1/5] 7.26ns
-:11  %p_x_assign = fsub float %input_load, %training_instance_load
+ST_31: x_assign [3/5] 7.26ns
+:11  %x_assign = fsub float %input_load, %training_instance_load
 
 
- <State 32>: 8.16ns
-ST_32: p_Val2_s [1/1] 0.00ns
-:12  %p_Val2_s = bitcast float %p_x_assign to i32
+ <State 32>: 7.26ns
+ST_32: x_assign [2/5] 7.26ns
+:11  %x_assign = fsub float %input_load, %training_instance_load
 
-ST_32: tmp_35 [1/1] 0.00ns
-:13  %tmp_35 = trunc i32 %p_Val2_s to i31
 
-ST_32: tmp_36 [1/1] 0.00ns
-:14  %tmp_36 = trunc i32 %p_Val2_s to i23
+ <State 33>: 7.26ns
+ST_33: x_assign [1/5] 7.26ns
+:11  %x_assign = fsub float %input_load, %training_instance_load
 
-ST_32: p_Result_s [1/1] 0.00ns
-:15  %p_Result_s = call i32 @_ssdm_op_BitConcatenate.i32.i1.i31(i1 false, i31 %tmp_35)
 
-ST_32: ret_i_i_i_i_i_i [1/1] 0.00ns
-:16  %ret_i_i_i_i_i_i = bitcast i32 %p_Result_s to float
+ <State 34>: 8.16ns
+ST_34: p_Val2_s [1/1] 0.00ns
+:12  %p_Val2_s = bitcast float %x_assign to i32
 
-ST_32: tmp_3 [1/1] 0.00ns
+ST_34: tmp_2 [1/1] 0.00ns
+:13  %tmp_2 = trunc i32 %p_Val2_s to i31
+
+ST_34: tmp_7 [1/1] 0.00ns
+:14  %tmp_7 = trunc i32 %p_Val2_s to i23
+
+ST_34: p_Result_s [1/1] 0.00ns
+:15  %p_Result_s = call i32 @_ssdm_op_BitConcatenate.i32.i1.i31(i1 false, i31 %tmp_2)
+
+ST_34: ret_i_i_i_i_i [1/1] 0.00ns
+:16  %ret_i_i_i_i_i = bitcast i32 %p_Result_s to float
+
+ST_34: tmp_3 [1/1] 0.00ns
 :17  %tmp_3 = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %p_Val2_s, i32 23, i32 30)
 
-ST_32: notlhs [1/1] 2.00ns
+ST_34: notlhs [1/1] 2.00ns
 :18  %notlhs = icmp ne i8 %tmp_3, -1
 
-ST_32: notrhs [1/1] 2.39ns
-:19  %notrhs = icmp eq i23 %tmp_36, 0
+ST_34: notrhs [1/1] 2.39ns
+:19  %notrhs = icmp eq i23 %tmp_7, 0
 
-ST_32: tmp_4 [1/1] 0.00ns (grouped into LUT with out node tmp_6)
+ST_34: tmp_4 [1/1] 0.00ns (grouped into LUT with out node tmp_6)
 :20  %tmp_4 = or i1 %notrhs, %notlhs
 
-ST_32: tmp_5 [1/1] 6.79ns
-:21  %tmp_5 = fcmp olt float %ret_i_i_i_i_i_i, 0x3FC99999A0000000
+ST_34: tmp_5 [1/1] 6.79ns
+:21  %tmp_5 = fcmp olt float %ret_i_i_i_i_i, 0x3FECCCCCC0000000
 
-ST_32: tmp_6 [1/1] 1.37ns (out node of the LUT)
+ST_34: tmp_6 [1/1] 1.37ns (out node of the LUT)
 :22  %tmp_6 = and i1 %tmp_4, %tmp_5
 
-ST_32: stg_212 [1/1] 0.00ns
-:23  br i1 %tmp_6, label %6, label %._crit_edge
+ST_34: stg_234 [1/1] 0.00ns
+:23  br i1 %tmp_6, label %8, label %._crit_edge
 
-ST_32: distance_load_1 [2/2] 2.39ns
-:0  %distance_load_1 = load i32* %distance_addr, align 4
+ST_34: distance_load_1 [2/2] 2.39ns
+:0  %distance_load_1 = load i32* %distance_addr_1, align 4
 
 
- <State 33>: 7.22ns
-ST_33: distance_load_1 [1/2] 2.39ns
-:0  %distance_load_1 = load i32* %distance_addr, align 4
+ <State 35>: 7.22ns
+ST_35: distance_load_1 [1/2] 2.39ns
+:0  %distance_load_1 = load i32* %distance_addr_1, align 4
 
-ST_33: tmp_38 [1/1] 2.44ns
-:1  %tmp_38 = add nsw i32 %distance_load_1, 1
+ST_35: tmp_33 [1/1] 2.44ns
+:1  %tmp_33 = add nsw i32 %distance_load_1, 1
 
-ST_33: stg_216 [1/1] 2.39ns
-:2  store i32 %tmp_38, i32* %distance_addr, align 4
+ST_35: stg_238 [1/1] 2.39ns
+:2  store i32 %tmp_33, i32* %distance_addr_1, align 4
 
-ST_33: stg_217 [1/1] 0.00ns
+ST_35: stg_239 [1/1] 0.00ns
 :3  br label %._crit_edge
 
-ST_33: stg_218 [1/1] 0.00ns
+ST_35: stg_240 [1/1] 0.00ns
 ._crit_edge:0  br label %.preheader
 
 
- <State 34>: 4.91ns
-ST_34: distance_load [1/2] 2.39ns
-:0  %distance_load = load i32* %distance_addr, align 4
+ <State 36>: 4.91ns
+ST_36: distance_load [1/2] 2.39ns
+:0  %distance_load = load i32* %distance_addr_1, align 4
 
-ST_34: min_distance_load [1/2] 2.39ns
-:1  %min_distance_load = load i32* %min_distance_addr, align 4
+ST_36: min_distance_load [1/2] 2.39ns
+:1  %min_distance_load = load i32* %min_distance_addr_1, align 4
 
-ST_34: tmp_32 [1/1] 2.52ns
-:2  %tmp_32 = icmp slt i32 %distance_load, %min_distance_load
+ST_36: tmp_28 [1/1] 2.52ns
+:2  %tmp_28 = icmp slt i32 %distance_load, %min_distance_load
 
-ST_34: stg_222 [1/1] 0.00ns
-:3  br i1 %tmp_32, label %_ifconv, label %._crit_edge18
+ST_36: stg_244 [1/1] 0.00ns
+:3  br i1 %tmp_28, label %_ifconv, label %._crit_edge20
 
-ST_34: stg_223 [1/1] 2.39ns
-_ifconv:0  store i32 %distance_load, i32* %min_distance_addr, align 4
+ST_36: stg_245 [1/1] 2.39ns
+_ifconv:0  store i32 %distance_load, i32* %min_distance_addr_1, align 4
 
-ST_34: training_data2_load_1 [2/2] 2.71ns
+ST_36: training_data2_load_1 [2/2] 2.71ns
 _ifconv:1  %training_data2_load_1 = load float* %training_data2_addr_3, align 4
 
 
- <State 35>: 8.58ns
-ST_35: training_data2_load_1 [1/2] 2.71ns
+ <State 37>: 8.58ns
+ST_37: training_data2_load_1 [1/2] 2.71ns
 _ifconv:1  %training_data2_load_1 = load float* %training_data2_addr_3, align 4
 
-ST_35: p_Val2_32 [1/1] 0.00ns
-_ifconv:2  %p_Val2_32 = bitcast float %training_data2_load_1 to i32
+ST_37: p_Val2_1 [1/1] 0.00ns
+_ifconv:2  %p_Val2_1 = bitcast float %training_data2_load_1 to i32
 
-ST_35: p_Result_22 [1/1] 0.00ns
-_ifconv:3  %p_Result_22 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %p_Val2_32, i32 31)
+ST_37: p_Result_1 [1/1] 0.00ns
+_ifconv:3  %p_Result_1 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %p_Val2_1, i32 31)
 
-ST_35: loc_V [1/1] 0.00ns
-_ifconv:4  %loc_V = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %p_Val2_32, i32 23, i32 30) nounwind
+ST_37: loc_V [1/1] 0.00ns
+_ifconv:4  %loc_V = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %p_Val2_1, i32 23, i32 30) nounwind
 
-ST_35: loc_V_2 [1/1] 0.00ns
-_ifconv:5  %loc_V_2 = trunc i32 %p_Val2_32 to i23
+ST_37: loc_V_1 [1/1] 0.00ns
+_ifconv:5  %loc_V_1 = trunc i32 %p_Val2_1 to i23
 
-ST_35: p_Result_23 [1/1] 0.00ns
-_ifconv:6  %p_Result_23 = call i24 @_ssdm_op_BitConcatenate.i24.i1.i23(i1 true, i23 %loc_V_2) nounwind
+ST_37: p_Result_2 [1/1] 0.00ns
+_ifconv:6  %p_Result_2 = call i24 @_ssdm_op_BitConcatenate.i24.i1.i23(i1 true, i23 %loc_V_1) nounwind
 
-ST_35: tmp_i_i [1/1] 0.00ns (grouped into LUT with out node p_Val2_35)
-_ifconv:7  %tmp_i_i = zext i24 %p_Result_23 to i78
+ST_37: tmp_i_i [1/1] 0.00ns (grouped into LUT with out node p_Val2_4)
+_ifconv:7  %tmp_i_i = zext i24 %p_Result_2 to i78
 
-ST_35: tmp_i_i_i_cast2 [1/1] 0.00ns
+ST_37: tmp_i_i_i_cast2 [1/1] 0.00ns
 _ifconv:8  %tmp_i_i_i_cast2 = zext i8 %loc_V to i9
 
-ST_35: sh_assign [1/1] 1.72ns
+ST_37: sh_assign [1/1] 1.72ns
 _ifconv:9  %sh_assign = add i9 -127, %tmp_i_i_i_cast2
 
-ST_35: isNeg [1/1] 0.00ns
+ST_37: isNeg [1/1] 0.00ns
 _ifconv:10  %isNeg = call i1 @_ssdm_op_BitSelect.i1.i9.i32(i9 %sh_assign, i32 8)
 
-ST_35: tmp_93_i_i [1/1] 1.72ns
-_ifconv:11  %tmp_93_i_i = sub i8 127, %loc_V
+ST_37: tmp_45_i_i [1/1] 1.72ns
+_ifconv:11  %tmp_45_i_i = sub i8 127, %loc_V
 
-ST_35: tmp_93_i_i_cast [1/1] 0.00ns
-_ifconv:12  %tmp_93_i_i_cast = sext i8 %tmp_93_i_i to i9
+ST_37: tmp_45_i_i_cast [1/1] 0.00ns
+_ifconv:12  %tmp_45_i_i_cast = sext i8 %tmp_45_i_i to i9
 
-ST_35: sh_assign_1 [1/1] 1.37ns
-_ifconv:13  %sh_assign_1 = select i1 %isNeg, i9 %tmp_93_i_i_cast, i9 %sh_assign
+ST_37: sh_assign_1 [1/1] 1.37ns
+_ifconv:13  %sh_assign_1 = select i1 %isNeg, i9 %tmp_45_i_i_cast, i9 %sh_assign
 
-ST_35: sh_assign_1_cast [1/1] 0.00ns (grouped into LUT with out node p_Val2_35)
+ST_37: sh_assign_1_cast [1/1] 0.00ns (grouped into LUT with out node p_Val2_4)
 _ifconv:14  %sh_assign_1_cast = sext i9 %sh_assign_1 to i32
 
-ST_35: sh_assign_1_cast_cast [1/1] 0.00ns (grouped into LUT with out node p_Val2_35)
+ST_37: sh_assign_1_cast_cast [1/1] 0.00ns (grouped into LUT with out node p_Val2_4)
 _ifconv:15  %sh_assign_1_cast_cast = sext i9 %sh_assign_1 to i24
 
-ST_35: tmp_94_i_i [1/1] 0.00ns (grouped into LUT with out node p_Val2_35)
-_ifconv:16  %tmp_94_i_i = zext i32 %sh_assign_1_cast to i78
+ST_37: tmp_46_i_i [1/1] 0.00ns (grouped into LUT with out node p_Val2_4)
+_ifconv:16  %tmp_46_i_i = zext i32 %sh_assign_1_cast to i78
 
-ST_35: tmp_95_i_i [1/1] 0.00ns (grouped into LUT with out node p_Val2_35)
-_ifconv:17  %tmp_95_i_i = lshr i24 %p_Result_23, %sh_assign_1_cast_cast
+ST_37: tmp_47_i_i [1/1] 0.00ns (grouped into LUT with out node p_Val2_4)
+_ifconv:17  %tmp_47_i_i = lshr i24 %p_Result_2, %sh_assign_1_cast_cast
 
-ST_35: tmp_97_i_i [1/1] 0.00ns (grouped into LUT with out node p_Val2_35)
-_ifconv:18  %tmp_97_i_i = shl i78 %tmp_i_i, %tmp_94_i_i
+ST_37: tmp_49_i_i [1/1] 0.00ns (grouped into LUT with out node p_Val2_4)
+_ifconv:18  %tmp_49_i_i = shl i78 %tmp_i_i, %tmp_46_i_i
 
-ST_35: tmp_41 [1/1] 0.00ns (grouped into LUT with out node p_Val2_35)
-_ifconv:19  %tmp_41 = call i1 @_ssdm_op_BitSelect.i1.i24.i32(i24 %tmp_95_i_i, i32 23)
+ST_37: tmp_11 [1/1] 0.00ns (grouped into LUT with out node p_Val2_4)
+_ifconv:19  %tmp_11 = call i1 @_ssdm_op_BitSelect.i1.i24.i32(i24 %tmp_47_i_i, i32 23)
 
-ST_35: tmp_37 [1/1] 0.00ns (grouped into LUT with out node p_Val2_35)
-_ifconv:20  %tmp_37 = zext i1 %tmp_41 to i32
+ST_37: tmp_31 [1/1] 0.00ns (grouped into LUT with out node p_Val2_4)
+_ifconv:20  %tmp_31 = zext i1 %tmp_11 to i32
 
-ST_35: tmp_39 [1/1] 0.00ns (grouped into LUT with out node p_Val2_35)
-_ifconv:21  %tmp_39 = call i32 @_ssdm_op_PartSelect.i32.i78.i32.i32(i78 %tmp_97_i_i, i32 23, i32 54)
+ST_37: tmp_32 [1/1] 0.00ns (grouped into LUT with out node p_Val2_4)
+_ifconv:21  %tmp_32 = call i32 @_ssdm_op_PartSelect.i32.i78.i32.i32(i78 %tmp_49_i_i, i32 23, i32 54)
 
-ST_35: p_Val2_35 [1/1] 2.78ns (out node of the LUT)
-_ifconv:22  %p_Val2_35 = select i1 %isNeg, i32 %tmp_37, i32 %tmp_39
-
-
- <State 36>: 6.20ns
-ST_36: p_Val2_i_i [1/1] 2.44ns
-_ifconv:23  %p_Val2_i_i = sub i32 0, %p_Val2_35
-
-ST_36: p_Val2_37 [1/1] 1.37ns
-_ifconv:24  %p_Val2_37 = select i1 %p_Result_22, i32 %p_Val2_i_i, i32 %p_Val2_35
-
-ST_36: stg_249 [1/1] 2.39ns
-_ifconv:25  store i32 %p_Val2_37, i32* %group_addr, align 4
-
-ST_36: stg_250 [1/1] 0.00ns
-_ifconv:26  br label %._crit_edge18
-
-ST_36: stg_251 [1/1] 0.00ns
-._crit_edge18:0  br label %.preheader11
+ST_37: p_Val2_4 [1/1] 2.78ns (out node of the LUT)
+_ifconv:22  %p_Val2_4 = select i1 %isNeg, i32 %tmp_31, i32 %tmp_32
 
 
- <State 37>: 6.28ns
-ST_37: group_load [1/2] 2.39ns
-:0  %group_load = load i32* %group_addr, align 4
+ <State 38>: 6.20ns
+ST_38: p_Val2_7_i_i [1/1] 2.44ns
+_ifconv:23  %p_Val2_7_i_i = sub i32 0, %p_Val2_4
 
-ST_37: tmp_28 [1/1] 2.52ns
-:1  %tmp_28 = icmp eq i32 %group_load, 0
+ST_38: p_Val2_6 [1/1] 1.37ns
+_ifconv:24  %p_Val2_6 = select i1 %p_Result_1, i32 %p_Val2_7_i_i, i32 %p_Val2_4
 
-ST_37: group_zero [1/1] 2.44ns
-:2  %group_zero = add nsw i32 %group_zero_s, 1
+ST_38: stg_271 [1/1] 2.39ns
+_ifconv:25  store i32 %p_Val2_6, i32* %group_addr_1, align 4
 
-ST_37: group_one [1/1] 2.44ns
-:3  %group_one = add nsw i32 %group_one_s, 1
+ST_38: stg_272 [1/1] 0.00ns
+_ifconv:26  br label %._crit_edge20
 
-ST_37: group_zero_1 [1/1] 1.37ns
-:4  %group_zero_1 = select i1 %tmp_28, i32 %group_zero, i32 %group_zero_s
+ST_38: stg_273 [1/1] 0.00ns
+._crit_edge20:0  br label %.preheader11
 
-ST_37: group_one_1 [1/1] 1.37ns
-:5  %group_one_1 = select i1 %tmp_28, i32 %group_one_s, i32 %group_one
 
-ST_37: stg_258 [1/1] 0.00ns
+ <State 39>: 6.28ns
+ST_39: group_load [1/2] 2.39ns
+:0  %group_load = load i32* %group_addr_1, align 4
+
+ST_39: tmp_25 [1/1] 2.52ns
+:1  %tmp_25 = icmp eq i32 %group_load, 0
+
+ST_39: group_zero_2 [1/1] 2.44ns
+:2  %group_zero_2 = add nsw i32 %group_zero, 1
+
+ST_39: group_one_2 [1/1] 2.44ns
+:3  %group_one_2 = add nsw i32 %group_one, 1
+
+ST_39: group_zero_1 [1/1] 1.37ns
+:4  %group_zero_1 = select i1 %tmp_25, i32 %group_zero_2, i32 %group_zero
+
+ST_39: group_one_1 [1/1] 1.37ns
+:5  %group_one_1 = select i1 %tmp_25, i32 %group_one, i32 %group_one_2
+
+ST_39: stg_280 [1/1] 0.00ns
 :6  br label %.preheader12
 
 
@@ -959,6 +1031,8 @@ N/A
 	State 35
 	State 36
 	State 37
+	State 38
+	State 39
 
 
 ============================================================

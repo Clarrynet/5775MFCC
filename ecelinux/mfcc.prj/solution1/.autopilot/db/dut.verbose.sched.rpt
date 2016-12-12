@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'dut'
 ================================================================
-* Date:           Sun Dec 11 21:30:30 2016
+* Date:           Mon Dec 12 14:59:35 2016
 
 * Version:        2016.2 (Build 1577090 on Thu Jun 02 16:59:10 MDT 2016)
 * Project:        mfcc.prj
@@ -20,7 +20,7 @@
     +--------+-------+----------+------------+
     |  Clock | Target| Estimated| Uncertainty|
     +--------+-------+----------+------------+
-    |ap_clk  |  10.00|      9.58|        1.25|
+    |ap_clk  |  10.00|      8.58|        1.25|
     +--------+-------+----------+------------+
 
 + Latency (clock cycles): 
@@ -29,7 +29,7 @@
     |      Latency      |      Interval     | Pipeline|
     |   min   |   max   |   min   |   max   |   Type  |
     +---------+---------+---------+---------+---------+
-    |  3852047|  3930727|  3852048|  3930728|   none  |
+    |  1769583|  1769863|  1769584|  1769864|   none  |
     +---------+---------+---------+---------+---------+
 
     + Detail: 
@@ -79,8 +79,8 @@ IsGatedGlobalClock: 0
 1 --> 
 	2  / true
 2 --> 
-	5  / (exitcond5)
-	3  / (!exitcond5)
+	5  / (exitcond11)
+	3  / (!exitcond11)
 3 --> 
 	2  / (exitcond)
 	4  / (!exitcond)
@@ -95,14 +95,14 @@ IsGatedGlobalClock: 0
 ST_1: empty [1/1] 0.00ns
 :0  %empty = call i32 (...)* @_ssdm_op_SpecInterface(i32* %strm_out_V_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
 
-ST_1: empty_60 [1/1] 0.00ns
-:1  %empty_60 = call i32 (...)* @_ssdm_op_SpecInterface(i32* %strm_in_V_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+ST_1: empty_25 [1/1] 0.00ns
+:1  %empty_25 = call i32 (...)* @_ssdm_op_SpecInterface(i32* %strm_in_V_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
 
 ST_1: stg_9 [1/1] 0.00ns
-:2  call void (...)* @_ssdm_op_SpecBitsMap(i32* %strm_in_V_V), !map !89
+:2  call void (...)* @_ssdm_op_SpecBitsMap(i32* %strm_in_V_V), !map !161
 
 ST_1: stg_10 [1/1] 0.00ns
-:3  call void (...)* @_ssdm_op_SpecBitsMap(i32* %strm_out_V_V), !map !95
+:3  call void (...)* @_ssdm_op_SpecBitsMap(i32* %strm_out_V_V), !map !167
 
 ST_1: stg_11 [1/1] 0.00ns
 :4  call void (...)* @_ssdm_op_SpecTopModule([4 x i8]* @dut_str) nounwind
@@ -116,19 +116,19 @@ ST_1: stg_13 [1/1] 1.57ns
 
  <State 2>: 1.96ns
 ST_2: i [1/1] 0.00ns
-.loopexit:0  %i = phi i6 [ 0, %0 ], [ %i_4, %.preheader ]
+.loopexit:0  %i = phi i6 [ 0, %0 ], [ %i_6, %.preheader ]
 
-ST_2: exitcond5 [1/1] 1.94ns
-.loopexit:1  %exitcond5 = icmp eq i6 %i, -15
+ST_2: exitcond11 [1/1] 1.94ns
+.loopexit:1  %exitcond11 = icmp eq i6 %i, -15
 
-ST_2: empty_61 [1/1] 0.00ns
-.loopexit:2  %empty_61 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 49, i64 49, i64 49)
+ST_2: empty_26 [1/1] 0.00ns
+.loopexit:2  %empty_26 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 49, i64 49, i64 49)
 
-ST_2: i_4 [1/1] 1.72ns
-.loopexit:3  %i_4 = add i6 %i, 1
+ST_2: i_6 [1/1] 1.72ns
+.loopexit:3  %i_6 = add i6 %i, 1
 
 ST_2: stg_18 [1/1] 0.00ns
-.loopexit:4  br i1 %exitcond5, label %2, label %.preheader.preheader
+.loopexit:4  br i1 %exitcond11, label %2, label %.preheader.preheader
 
 ST_2: tmp_cast [1/1] 0.00ns
 .preheader.preheader:0  %tmp_cast = zext i6 %i to i14
@@ -156,8 +156,8 @@ ST_3: j [1/1] 0.00ns
 ST_3: exitcond [1/1] 2.00ns
 .preheader:1  %exitcond = icmp eq i8 %j, -127
 
-ST_3: empty_62 [1/1] 0.00ns
-.preheader:2  %empty_62 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 129, i64 129, i64 129)
+ST_3: empty_27 [1/1] 0.00ns
+.preheader:2  %empty_27 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 129, i64 129, i64 129)
 
 ST_3: j_5 [1/1] 1.72ns
 .preheader:3  %j_5 = add i8 %j, 1
@@ -168,23 +168,23 @@ ST_3: stg_29 [1/1] 0.00ns
 ST_3: tmp_V_1 [1/1] 4.38ns
 :0  %tmp_V_1 = call i32 @_ssdm_op_Read.ap_fifo.volatile.i32P(i32* %strm_in_V_V)
 
-ST_3: tmp_39 [1/1] 0.00ns
-:2  %tmp_39 = bitcast i32 %tmp_V_1 to float
+ST_3: tmp_34 [1/1] 0.00ns
+:2  %tmp_34 = bitcast i32 %tmp_V_1 to float
 
-ST_3: tmp_40_cast [1/1] 0.00ns
-:3  %tmp_40_cast = zext i8 %j to i14
+ST_3: tmp_38_cast [1/1] 0.00ns
+:3  %tmp_38_cast = zext i8 %j to i14
 
-ST_3: tmp_40 [1/1] 1.96ns
-:4  %tmp_40 = add i14 %tmp_s, %tmp_40_cast
+ST_3: tmp_35 [1/1] 1.96ns
+:4  %tmp_35 = add i14 %tmp_s, %tmp_38_cast
 
-ST_3: tmp_57_cast [1/1] 0.00ns
-:5  %tmp_57_cast = zext i14 %tmp_40 to i64
+ST_3: tmp_55_cast [1/1] 0.00ns
+:5  %tmp_55_cast = zext i14 %tmp_35 to i64
 
 ST_3: stage1_addr [1/1] 0.00ns
-:6  %stage1_addr = getelementptr [6321 x float]* %stage1, i64 0, i64 %tmp_57_cast
+:6  %stage1_addr = getelementptr [6321 x float]* %stage1, i64 0, i64 %tmp_55_cast
 
 ST_3: stg_36 [1/1] 2.71ns
-:7  store float %tmp_39, float* %stage1_addr, align 4
+:7  store float %tmp_34, float* %stage1_addr, align 4
 
 
  <State 4>: 4.38ns

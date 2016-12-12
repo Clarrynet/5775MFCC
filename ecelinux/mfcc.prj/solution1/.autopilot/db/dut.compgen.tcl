@@ -1,7 +1,7 @@
 # This script segment is generated automatically by AutoPilot
 
 # Memory (RAM/ROM)  definition:
-set ID 33
+set ID 18
 set MemName dut_stage1
 set CoreName ap_simcore_mem
 set PortList { 2 3 }
@@ -92,7 +92,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 34 \
+    id 19 \
     name strm_in_V_V \
     type fifo \
     dir I \
@@ -107,7 +107,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 35 \
+    id 20 \
     name strm_out_V_V \
     type fifo \
     dir O \
