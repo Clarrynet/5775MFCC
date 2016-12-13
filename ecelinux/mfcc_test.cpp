@@ -9,6 +9,7 @@
 #include <string>
 //#include "training_data.h"
 #include "mfcc.h"
+#include "timer.h"
 //using namespace std;
 
 
@@ -26,6 +27,9 @@ int main()
   hls::stream<bit32_t> mfcc_in;
   hls::stream<bit32_t> mfcc_out;
 
+  // Timer
+  Timer timer("mfcc FPGA");
+
   //Store input from sound file
   const int N = 12544;
   bit64_t inputs[N];
@@ -36,19 +40,20 @@ int main()
     int error = 0;
     int num_test_insts = 0;
     
-    while ( std::getline( myfile, line) ) {
-      // Read handwritten digit input and expected digit    
+    while ( std::getline( myfile, line) ) {    
       digit input_digit =
           strtoul( line.substr(0, line.find(",")).c_str(), NULL, 16);
       int input_value = 
           strtoul(line.substr(line.find(",") + 1,
                               line.length()).c_str(), NULL, 10);  
 
-        
+    timer.start();    
         float stage1[49][129];
         mfcc_fft(input_data, stage1);
         //ofstream myfile;
         //myfile.open ("stage1.dat");
+      //Stop timer here for software-into hardware timing
+      //timer.stop();
         for(int i =0; i<49; i++){
           for(int j =0; j<129; j++){
             //myfile << (stage1[i][j]);
@@ -65,14 +70,14 @@ int main()
         }
         myfile.close();
 
-      
       // Call design under test (DUT)
       dut(mfcc_in, mfcc_out);
       bit32_t interpreted_digit =0;
       interpreted_digit = mfcc_out.read();
       hanging_2 = mfcc_out.read();
      // hanging_3 = mfcc_out.read();
-      
+      //Stop timer here for software-only timing
+      timer.stop();     
       // Print result messages to console
       num_test_insts++;
       std::cout << "#" << std::dec << num_test_insts;
