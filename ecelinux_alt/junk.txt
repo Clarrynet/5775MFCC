@@ -1,0 +1,12 @@
+
+ Running ECE 4750 setup script
+  - Determine init commands version number: 1
+  - Determine platform: x86_64-rhel7
+  - Setting up global package install paths
+  - Setting up local package install paths
+  - Setting up ssh permissions
+  - Setting up global Python virtualenv [PyPy-5.4.1]
+  - Setting the default editor to nano
+  - Setting up the texlive-2016 LaTeX distribution
+  - Setting up global Ruby RVM environment
+
